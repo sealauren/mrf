@@ -1,0 +1,35 @@
+55 Cnc e
+CoRoT-5 b
+CoRoT-7 b
+CoRoT-8 b
+GJ 1214 b
+GJ 436 b
+HAT-P-11 b
+HAT-P-12 b
+HAT-P-18 b
+HAT-P-19 b
+HAT-P-26 b
+HD 149026 b
+Kepler-10 b
+Kepler-11 b
+Kepler-11 c
+Kepler-11 d
+Kepler-11 e
+Kepler-11 f
+Kepler-12 b
+Kepler-16 b
+Kepler-18 b
+Kepler-18 c                                                                  
+Kepler-18 d
+Kepler-20 b
+Kepler-20 c
+Kepler-20 d
+Kepler-4 b
+Kepler-7 b
+WASP-21 b
+WASP-29 b
+WASP-39 b
+KOI-94 b
+KOI-94 c
+KOI-94 d
+KOI-94 e

@@ -1,0 +1,2883 @@
+%\documentclass[12pt,preprint]{aastex}
+%\documentclass[preprint2]{aastex}
+\documentclass{emulateapj}
+\usepackage{epsfig,natbib}   %if eps files do not work, then make sure typset is set to "Tex and DVI" 
+\usepackage{graphicx}
+\usepackage{verbatim}  %Allows for block commenting
+\citestyle{aa}
+
+%% read tex files
+\input{newcommand_gen.tex} % general commands for abbreviations such as M_star, etc
+%\input{planetinfo_97658.tex} % parameter values for HD 97658 b
+%\input{planetinfo_192310.tex} % parameter values for Gl 785 b
+
+%show path to where graphics are stored
+\graphicspath{ {lightcurves/} }
+
+
+%HTI: Consider writing a program that creates planetinfo*tex files for each KOI
+
+\shortauthors{Marcy {et~al.}}
+\shorttitle{Kepler Planet Masses}
+%\submitted{Submitted to ApJ}
+\begin{document}
+%\onecolumn
+\pagenumbering{arabic}
+%\thispagestyle{empty}
+
+%\vfill
+
+\title{Masses, Radii, and Densities of 42 Planets from {\it Kepler} \altaffilmark{$\dagger$}}
+
+\author{
+Geoffrey~W.~Marcy\altaffilmark{1},  % Berkeley, gmarcy@berkeley.edu
+Howard~Isaacson\altaffilmark{1},  % Berkeley, hisaacson@berkeley.edu
+Jason~F.~Rowe\altaffilmark{2}, % Ames, jasonfrowe@gmail.com
+Jon~M.~Jenkins\altaffilmark{3}, % SETI Inst, jon.m.jenkins@nasa.gov
+Stephen~T.~Bryson\altaffilmark{2}, % Ames, Steve.Bryson@nasa.gov
+Steve~B.~Howell\altaffilmark{2}, % Ames,  steve.b.howell@nasa.gov
+Natalie~M.~Batalha\altaffilmark{2}, % Ames natalie.m.batalha@nasa.gov
+David~W.~Latham\altaffilmark{8}, % Harvard, dlatham@cfa.harvard.edu
+Leslie~Rogers\altaffilmark{22}, % Caltech larogers@caltech.edu
+Thomas~N.~Gautier III\altaffilmark{6}, % JPL, thomas.n.gautier@jpl.nasa.gov
+David~Ciardi\altaffilmark{14}, % NExScI, ciardi@ipac.caltech.edu
+Debra~A.~Fischer\altaffilmark{19}, % Yale, debra.fischer@gmail.com
+Ronald~L.~Gilliland\altaffilmark{10}, % Penn State
+Hans~Kjeldsen\altaffilmark{12}, % Aarhus, hans@phys.au.dk
+J{\o}rgen~Christensen-Dalsgaard\altaffilmark{12,13}, % Aarhus and HAO, jcd@phys.au.dk
+Daniel~Huber\altaffilmark{2},  % Ames, daniel.huber@nasa.gov
+Bill Chaplin\altaffilmark{41} % Birmingham wjc@bison.ph.bham.ac.uk
+Sarbani Basu\altaffilmark{19} % sarbani.basu@yale.edu
+Lars~A.~Buchhave\altaffilmark{11}, % Copenhagen, buchhave@astro.ku.dk
+Samuel~N.~Quinn\altaffilmark{8}, % Harvard, squinn@cfa.harvard.edu
+William~J.~Borucki\altaffilmark{2}, % Ames, william.j.borucki@nasa.gov
+David~G.~Koch\altaffilmark{2}, % Ames, D.Koch@nasa.gov
+Roger~Hunter\altaffilmark{2}, % Ames, roger.c.hunter@nasa.gov
+Douglas~A.~Caldwell\altaffilmark{3}, % SETI Inst, douglas.a.caldwell@nasa.gov
+Jeffrey~Van Cleve\altaffilmark{3}, % SETI Inst, jeffrey.vancleve@nasa.gov
+Andrew~W.~Howard\altaffilmark{29},  % Hawaii, howard@ifa.hawaii.edu
+Rea~Kolbl\altaffilmark{1},  % Berkeley r.kolbl@berkeley.edu
+Lauren~M.~Weiss\altaffilmark{1},  % Berkeley lweiss@berkeley.edu
+Sara~Seager\altaffilmark{16}, % MIT, seager@mit.edu
+Timothy~Morton\altaffilmark{22}, % Caltech, dm@astro.caltech.edu
+John~Asher~Johnson\altaffilmark{22}, % Caltech, johnjohn@astro.caltech.edu
+Sarah~Ballard\altaffilmark{29},  %University of Washington sarahba@uw.edu
+Chris~Burke\altaffilmark{3},   %SETI,  christophjburke@gmail.com
+William~D.~Cochran\altaffilmark{7}, % Texas, wdc@astro.as.utexas.edu
+Michael Endl \altaffilmark{7}, % Texas, wdc@astro.as.utexas.edu
+Mark~E.~Everett\altaffilmark{35}, % NOAO everett@noao.edu
+Jack~J.~Lissauer\altaffilmark{2}, %Ames, Jack.J.Lissauer@nasa.gov
+Eric~B.~Ford\altaffilmark{20}, % Florida, eford@astro.ufl.edu
+Guillermo~Torres\altaffilmark{8}, % Harvard, gtorres@cfa.harvard.edu
+Francois~Fressin\altaffilmark{8}, % Harvard, ffressin@cfa.harvard.edu
+Timothy~M.~Brown\altaffilmark{9}, %LCOGT, tbrown@lcogt.net
+Jason~H.~Steffen\altaffilmark{17}, %Northwestern jsteffen@fnal.gov
+David~Charbonneau\altaffilmark{8}, % Harvard, dcharbonneau@cfa.harvard.edu
+Gibor~S.~Basri\altaffilmark{1}, % UCB, basri@berkeley.edu
+Dimitar~D.~Sasselov\altaffilmark{8}, % Harvard, dsasselov@cfa.harvard.edu
+Joshua Winn\altaffilmark{16} % MIT, jwinn@mit.edu
+Jessie~Christiansen\altaffilmark{2}, % Ames, jessie.l.christiansen@nasa.gov
+Elizabeth~Adams\altaffilmark{8}, % Harvard, eadams@cfa.harvard.edu
+Andrea~Dupree\altaffilmark{8}, % Harvard, Dupree@cfa.harvard.edu
+Daniel~C.~Fabrycky\altaffilmark{18}, % UCSC, dfabrycky@cfa.harvard.edu
+Jonathan~J.~Fortney\altaffilmark{18}, % UCSC, jfortney@ucolick.org
+Jill~Tarter\altaffilmark{3}, % SETI Inst, tarter@seti.org
+Matthew~J.~Holman\altaffilmark{8}, % Harvard, mholman@cfa.harvard.edu
+Peter~Tenenbaum\altaffilmark{3}, % SETI, Peter.Tenenbaum@nasa.gov
+Avi~Shporer\altaffilmark{9,23}, % Las Cumbres, ashporer@lcogt.net
+Philip~W.~Lucas\altaffilmark{24}, % Hertfordshire, pwl@star.herts.ac.uk
+William~F.~Welsh\altaffilmark{25}, % SDSU, wfw@sciences.sdsu.edu
+Jerome~A.~Orosz\altaffilmark{25}, % San Diego State 
+Alan~Boss\altaffilmark{26}, % Carnegie, boss@dtm.ciw.edu
+Edna~Devore\altaffilmark{3}, % SETI Inst, edevore@seti.org
+Alan~Gould\altaffilmark{27}, % Lawrence Hall of Science, agould@berkeley.edu
+Andrej~Prsa\altaffilmark{28}, % Villanova, andrej.prsa@villanova.edu
+Eric~Agol\altaffilmark{29},  %University of Washington
+Thomas~Barclay\altaffilmark{31},  %Bay Area Science Environmental Research
+Jeff Coughlin\altaffilmark{31},   %Bay Area Science Env Research,jeffrey.l.coughlin@nasa.gov
+Erik~Brugamyer\altaffilmark{33}, %McDonald Obs
+Christopher~Henze\altaffilmark{2},  % Ames christopher.e.henze@nasa.gov>
+Fergal~Mullally\altaffilmark{3}, % SETI Inst, fergal.mullally@nasa.gov
+Elisa~V.~Quintana\altaffilmark{3},   %SETI quintana.elisa@gmail.com
+Avi~Shporer\altaffilmark{22,39},   %LCOGT ashporer@lcogt.net
+Martin~Still\altaffilmark{31},      % Bay Area Science Environmental Research
+Susan~E.~Thompson\altaffilmark{3},   %SETI susan.e.thompson@nasa.gov
+David~Morrison\altaffilmark{2}, % Ames, DMorrison@mail.arc.nasa.gov
+Joseph~D.~Twicken\altaffilmark{3}, % SETI, joseph.d.twicken@nasa.gov
+Jean-Michel~D\'esert\altaffilmark{8}, % Caltech desert@caltech.edu
+Josh~Carter\altaffilmark{20}, %Florida josh.a.carter@gmail.com
+Justin~R.~Crepp\altaffilmark{34}, % Notre Dame, jcrepp@nd.edu
+Guillaume~H\'{e}brard\altaffilmark{42,43}, %Institut d'Astrophysique de Paris,
+Alexandre~Santerne\altaffilmark{44,45}, %Aix Marseille Université, CNRS, LAM
+Claire~Moutou\altaffilmark{44},  %Aix Marseille Université, CNRS, LAM
+Charlie~Sobeck\altaffilmark{2}, % Ames, csobeck@mail.arc.nasa.gov
+Douglas~Hudgins\altaffilmark{46}, % douglas.m.hudgins@nasa.gov
+Michael~R.~Haas\altaffilmark{2}, % Ames, michael.r.haas@nasa.gov
+}   % no extra lines allowed between } and last aughor
+
+\altaffiltext{1}{University of California, Berkeley, CA 94720}  
+\altaffiltext{2}{NASA Ames Research Center, Moffett Field, CA 94035}
+\altaffiltext{3}{SETI Institute/NASA Ames Research Center, Moffett Field, CA 94035}
+\altaffiltext{4}{San Jose State University, San Jose, CA 95192}
+\altaffiltext{5}{Lowell Observatory, Flagstaff, AZ 86001}
+\altaffiltext{6}{Jet Propulsion Laboratory/Caltech, Pasadena, CA 91109}
+\altaffiltext{7}{University of Texas, Austin, TX 78712}
+\altaffiltext{8}{Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138}
+\altaffiltext{9}{Las Cumbres Observatory Global Telescope, Goleta, CA 93117}
+\altaffiltext{10}{Center for Exoplanets and Habitable Worlds, The Pennsylvania State University, University Park, 16802}
+\altaffiltext{11}{Niels Bohr Institute, Copenhagen University, Denmark}
+\altaffiltext{12}{Aarhus University, DK-8000 Aarhus C, Denmark}
+\altaffiltext{13}{High Altitude Observatory, National Center for Atmospheric Research, Boulder, CO 80307}
+\altaffiltext{14}{NASA Exoplanet Science Institute/Caltech, Pasadena, CA 91125}
+\altaffiltext{15}{National Optical Astronomy Observatory, Tucson, AZ 85719}
+\altaffiltext{16}{Massachusetts Institute of Technology, Cambridge, MA, 02139}
+\altaffiltext{17}{Northwestern University, Evanston, IL, 60208, USA}
+\altaffiltext{18}{University of California, Santa Cruz, CA 95064}
+\altaffiltext{19}{Yale University, New Haven, CT 06510}
+\altaffiltext{20}{University of Florida, Gainesville, FL 32611}
+\altaffiltext{21}{Orbital Sciences Corp., NASA Ames Research Center, Moffett Field, CA 94035}
+\altaffiltext{22}{California Institute of Technology, Pasadena, CA 91109}
+\altaffiltext{23}{Department of Physics, Broida Hall, University of California, Santa Barbara, CA 93106}
+\altaffiltext{24}{Centre for Astrophysics Research, University of Hertfordshire, College Lane, Hatfield, AL10 9AB, England}
+\altaffiltext{25}{San Diego State University, San Diego, CA 92182}
+\altaffiltext{26}{Carnegie Institution of Washington, Dept.\ of Terrestrial Magnetism, Washington, DC 20015}
+\altaffiltext{27}{Lawrence Hall of Science, Berkeley, CA 94720}
+\altaffiltext{28}{Villanova University, Dept. of Astronomy and Astrophysics, 800 E Lancaster Ave, Villanova, PA 19085}
+\altaffiltext{29}{University of  Hawaii, Honolulu, HI}
+\altaffiltext{30}{Department of Astronomy, Box 351580, University of Washington, Seattle, WA 98195, USA}
+\altaffiltext{31}{Bay Area Environmental Research Institute/ Moffett Field, CA 94035, USA}
+\altaffiltext{32}{Vanderbilt University, Nashville, TN 37235, USA}
+\altaffiltext{33}{McDonald Observatory, University of Texas at Austin, Austin, TX, 78712, USA}
+\altaffiltext{34}{University of Notre Dame, Notre Dame, Indiana 46556}
+\altaffiltext{35}{NOAO, Tucson, AZ 85719 USA}
+\altaffiltext{36}{Southern Connecticut State University, New Haven, CT 06515 USA}
+\altaffiltext{37}{MSFC, Huntsville, AL 35805 USA}
+\altaffiltext{39}{Las Cumbres Observatory Global Telescope, Goleta, CA 93117, USA}
+\altaffiltext{40}{Max Planck Institute of Astronomy, Koenigstuhl 17, 69115 Heidelberg, Germany}
+\altaffiltext{41}{School of Physics and Astronomy, University of Birmingham, Birmingham B15 2TT, UK}
+\altaffiltext{42}{Institut d'Astrophysique de Paris, UMR7095 CNRS,
+ Universit\'{e} Pierre \& Marie Curie, 98bis boulevard Arago, 75014 Paris, France}
+\altaffiltext{43}{Observatoire de Haute Provence, CNRS/OAMP,04870
+Saint-Michel-l'Observatoire, France}
+\altaffiltext{44}{Aix Marseille Universit\'{e}, CNRS, LAM UMR 7326, 13388,
+ Marseille, France}
+\altaffiltext{45}{Centro de Astrofisica, Universidade do Porto, Rua das Estrelas, 4150-762 Porto, Portugal}
+\altaffiltext{46}{NASA Headquarters, Washginton DC}
+\altaffiltext{$\dagger$}{Based in part on observations obtained at the W.~M.~Keck Observatory, which is operated by the University of California and the California Institute of Technology.}
+
+\begin{abstract}
+
+We report multiple Doppler shift measurements, spanning four years, of
+22 \ek Objects of Interest (KOIs) that host 42 candidate
+planets, most being smaller than 4$\times$ the size of Earth.  We
+combine the Doppler measurements with the \ek brightness measurements of
+the host stars during planet transits to constrain the masses, radii,
+and orbits of the 42 planets. High resolution optical spectroscopy of the 22 host stars,
+combined with seismology analysis for 11 of them, yield accurate
+stellar and hence planet properties. For the 11 stars with no seismology
+signal we use standard (SME) analysis of the spectra, combined with
+models of the stellar interiors, to determine the masses, radii,
+and ages of the host stars.  Among the 42 \ek transiting planet
+candidates, eight are identified here for the first time.  For 14
+KOIs, the Doppler measurements exhibit unambiguous periodicities with the same
+period and orbital phase as revealed by the planet-transit light
+curve, providing both support for the existence of the planet and a
+measurement of the planet's mass.  For the remaining planets we
+provide either marginal mass measurements or upper limits to their masses and densities, often ruling out
+or permitting a solid rock interior.  We assess the probability of
+false positives by a variety of diagnostics including a spectroscopic
+search for neighboring stars, adaptive optics, speckle interferometry,
+light curve analysis, astrometry (centroids), and a statistical model of the Milky Way Galaxy
+including binary star occurrence.  The resulting probability of a
+false positive is less than 1\% for all but three of the planets
+(all under 10\%) rendering
+all 42 candidate planets likely real planets.  For the
+multi-planet systems, false positives are even less likely, due to the
+improbable alignment of a star having a transiting planet with a
+fake-planet scenario.  The masses, radii, and incident stellar fluxes
+of the planets are tightly correlated.
+None of the planets above 2.5 Earth-radii have high enough
+densities to have purely solid interiors.  The rocky planets are all
+smaller than 2.5 Earth-radii, but many planets smaller than 2
+Earth-radii also have low densities under 5 \gcc, implying significant
+amounts of low density material,
+presumably hydrogen, helium, and/or water.   The relationship
+between masses and radii imply increasing fractional amounts of
+low density material (H/He or water) with increasing planet radius.
+\end{abstract}
+\keywords{planetary systems --- stars: individual (Kepler) --- techniques: photometry, radial velocity}
+
+\section{Introduction}
+\label{sec:intro}
+Our Solar System contains no planets with sizes between 1.0 and 3.8
+\rearthe, bracketed by Earth and Uranus, a size gap that offers a clue
+about the conditions and processes of planet formation. Even Uranus
+and Neptune with sizes 3.8-4.0 \rearth seem fortuitously tuned in
+hydrogen and helium content relative to the gas-poor terrestrial
+planets and the two jovian planets that experienced run-away gas
+accretion \citep{Goldreich2004, Morbidelli2013}.  Thus it was
+surprising to discover that the most numerous planets around other
+stars have radii 1-4 \rearth \citep{Borucki2010, Borucki2011,
+  Batalha2013}, a size domain expected to be nearly deserted
+\citep{Ida_Lin2010, Mordasini2012a}.
+
+The great population of sub-Neptune size exoplanets had been revealed
+first by precise Doppler surveys of solar-mass stars within 50 pc that
+discovered an increasing number of planets with smaller masses, from
+1000 \mearth down to $\sim$5 \mearth \citep{Howard2011d, Mayor2011}.
+Independently, the NASA \ek telescope finds that 85\% of its
+transiting planet ``candidates'' have radii less than 4 \rearth
+\citep{Batalha2013}.  Over 80\% of these small planet candidates are
+actually planets \citep{Morton_Johnson2011, Fressin2013} securing the
+reality of this large population (but see \cite{Santerne2012} for
+Jupiter-size planets).  No detection bias favors the discovery of
+small planets over large ones, reinforcing the reality of this
+numerous population of 1-4 \rearth planets that greatly outnumbers the
+larger planets.  Thus, an overwhelming majority of planets orbiting
+within 1 AU of solar-type stars are smaller than 4 \rearth (the size
+of Uranus and Neptune), both in the vicinity of the Sun and in the \ek
+field of view located slightly above the plane of the Milky Way
+Galaxy.
+
+Measuring the occurrence of planets as a function of planet radius and
+orbital period requires a correction of the \ek data for detection
+biases including those due to photometric noise, orbital inclination,
+and the completeness of the detection pipeline of the \ek planet
+search.  Three such efforts show that the number of planets orbiting
+within 0.25 AU of solar type stars rises rapidly with decreasing
+planet radius from 15 \rearth to 2 \rearth \citep{Howard2012,
+  Fressin2013, Petigura2013}.  Further corrections for photometric SNR
+and software completeness shows that the occurrence of planets remains
+at a (high) constant level for sizes of 2 to 1 \rearthe, with
+$\sim$15\% of FGK stars having a planet of 1-3 \rearth within 0.25 AU
+\citep{Fressin2013, Petigura2013}.
+
+This prominent population of 1-4 \rearth planets raises profound
+questions about their chemical composition, interior structure,
+formation processes, and their gravitational interactions with other
+planets \citep{Seager2007, Fortney07, Zeng_Seager08, Rogers2011,
+  Zeng_Sasselov2013, Lissauer2012, Fabrycky2012}.  The relative
+amounts of rock, water, and H/He gas remain poorly known, and there
+are likely to be different admixtures of those three ingredients both
+as a function of planet mass and from planet to planet at a given
+mass.
+
+These 1-4 \rearth planets pose a great a challenge for the theory of
+planet formation as do Venus/Earth and Uranus/Neptune, with ratios of
+rock to light material not close to the cosmic abundances.  However
+new ideas are emerging about the formation of such neptune-mass
+planets and sub-neptunes involving variations on the theme of
+core-accretion theory \citep{Chiang_Laughlin2013, Mordasini2012a}.
+Particularly intriguing is the notion that the hundreds of exoplanet
+candidates identified by \ek offer, as an ensemble, a measure of the
+mass densities of protoplanetary disks during planet formation, as
+revealed by the distribution of the planet-candidates themselves, 
+leading to a theory of {\it in-situ}
+formation of sub-neptunes within 0.5 AU of the host star
+\citep{Chiang_Laughlin2013}.  Support for these models comes from the
+observed low densities of small exoplanets that agree with the
+gas-to-rock predictions, and from the relations of incident flux to
+gas content both predicted and observed \citep{Lopez2012, Weiss2013}.
+These models and associated predictions of {\it in situ} formation of
+mini-neptunes and "super-Earths" can be tested with accurate
+measurements of planet masses and radii.
+
+Measurements of planet masses for transiting planets that already have
+measured radii can constrain the mean molecular weight, internal
+chemical composition, and hence formation mechanisms for 1-4 \rearth
+planets \citep{Seager2007, Zeng_Seager08, Zeng_Sasselov2013,
+  Rogers2011, Chiang_Laughlin2013}.  Mass measurements have been made
+for only a handful of small planets.  Two linchpins are GJ 436 b and
+GJ 1214 b \citep{Maness07, Gillon2007, Torres2008, Charbonneau2009}
+with radii of 4.21 and 2.68 \rearthe, respectively, masses of 23.2 and
+6.55 \mearthe, respectively, and resulting bulk densities of 1.69 and
+1.87 \gcc, respectively.  Their densities are slightly higher than
+those of Uranus and Neptune (1.266 and 1.631 \gcc), but well below
+that of Earth at 5.5 \gcc, indicating that the two exoplanets are
+composed of silicates, iron/nickel, and significant amounts of
+material less dense than rock, presumably H, He, and water
+\citep{Figueira2009, Rogers_Seager2010a}.  Somewhat larger is
+Kepler-18 c with a radius of 5.5 \rearth and a mass of only 17.3
+\mearthe, implying quite low density \citep{Cochran2011}. Similarly,
+HAT-P26 of 6.3 \rearth has low density \citep{Hartman2011}.  One
+wonders if these securely measured low (sub-rock) densities are
+representative of planets of size 2.0-4.5 \rearth in general, and
+hence representative of the chemical composition of such planets.
+
+Secure masses and radii have been measured for several other 2-4
+\rearth exoplanets, including the five planets around Kepler 11, GJ
+3470 b, 55 Cnc e, and Kepler-68 b \citep{Lissauer2013, Bonfils2012,
+  Demory2013, Demory2011, Gilliland2013}. All of these planets have
+densities less than 5 \gcc and some under 1 \gcc, indicating a
+significant amounts of light material (H/He, water) mixed with some
+rock/Fe.  (The uncertainties for 55 Cnc e admit the possibility this
+2.1 \rearth planet could be pure rock.)  In contrast, the two planets
+with radii less 2 \rearthe, namely CoRoT 7b and Kepler-10b, both have
+measured densities of 6-10 \gcc \citep{Queloz2009, Batalha2011}.
+Thus, below 2 \rearth some planets have densities consistent with
+solid rock and iron-nickel.
+
+To quantify this transition to rocky planets, one may use the extant
+empirical relation between density and planet mass that has been
+discovered for the planets smaller than 5 \rearthe: $\rho = 1.3
+Mp^{-0.60} F^{-0.09}$, where $\rho$ is in \gcc, $M_p$ is in \mearth,
+and $F$ is the incident stellar flux on the planet in erg s$-1$
+cm${-2}$ \citep{Weiss2013}.  The Weiss et al. relation shows that
+planets with masses over $\sim$2 \mearth, (equivalently with radii
+over 1.5 \rearthe) have typical densities less than 5.5 \gcc and hence
+typically contain significant amounts of light material (H/He, water).
+{\it Thus, the transition from planets containing significant light
+  material to those that are rocky occurs at planet radii near 1.5
+  \rearthe, i.e. masses near 2 \mearth}, based on the current handful
+of planets in that size domain.  The transition depends slightly on
+incident stellar flux.  This appearance of rocky planets below masses
+of 2 \mearth is a major result from current \ek exoplanet observations
+\citep{Weiss2013}.  However, this Weiss et al. relation, and the
+predicted discontinuity to rocky planets at 1.5 \rearthe, is based on
+the measured masses and radii of only a handful of planets.  It surely
+requires both confirmation and quantification, by measuring the masses
+and radii of more small exoplanets.  Models of planet formation would
+be greatly informed by correlations found between the rocky and volatile
+nature of the planets and the masses and metallicities of their host
+stars \citep{Buchhave2012, Latham2012, Johnson2007}.
+
+Here we report measured masses, radii, and densities (and upper
+limits) for 42 planet candidates contained within 22 bright \ek
+Objects of Interest (KOIs) from \cite{Batalha2013}.  We carried out
+multiple Doppler-shift measurements of the presumed host stars using
+the Keck 1 telescope.  From the spectroscopy, and Doppler
+measurements, we compute self-consistent measurements of stellar and
+planet radii, employing either stellar structure models or
+asteroseismology measurements from the \ek photometry.  We also search
+for (and report) non-transiting planets revealed by the precise radial
+velocities
+
+
+% New section : selection of target KOIs sent from Geoff: 7 apr 2013
+
+\section{Vetting and Selection of 22 Target KOIs}
+\label{sec:vetting}
+
+This paper contains the results of extensive precise RV measurements
+of KOIs made by the \ek team during the nominal NASA mission from
+launch 2009 March to 2012 November, with a few RVs obtained the next
+spring.  During that time the \ek team carried out an extensive and
+iterative program to identify planet candidates.  Initial
+identification of the KOIs from the photometry has been extensively
+described elsewhere, notably by \cite{Caldwell2010, Jenkins2010a,
+Jenkins2010b,
+  VanCleve2009, Argabright2008}, with summaries in
+\cite{Borucki2010}.  The KOIs identified in these searches are most 
+recently captured in \cite{Batalha2013}.
+
+We carried out a follow-up observing program ("FOP") and a vetting,
+certification program ("TCERT") designed to both distinguish planet
+candidates from false positives and to measure properties of the
+planets and their host stars.  Detailed descriptions of the components
+of these programs can be found in \citep{Gautier2010, Borucki2011,
+  Batalha2013} In brief, KOIs were included as planet candidates based
+on simple (often eye-ball) diagnostics involving inspection of \ek
+light curves, approximate position stability in and out of transit
+(within $\sim$ 1 arcsec), and lack of obvious eclipsing binary
+signatures such as secondary eclipses, including "odd-even" occurrence
+of transit depths.  No non-\ek observations were included in this
+initial identification of the KOIs.
+
+The \ek team's TCERT and FOP committees identified KOIs worthy of
+follow-up observations designed both to weed out false positives and
+to better measure the planet properties through superior knowledge of
+host star properties, notably radii.  Various types of follow-up
+observations of some, but not all, of the $\sim$2300 KOIs had been
+carried out by the time of their publication \citep{Borucki2011,
+  Batalha2013}.  The 22 KOIs reported here were selected by the TCERT
+committee for intense RV follow-up after extensive follow-up
+observations, described below.
+
+KOIs were systematically observed with a variety of ground-based
+observations, and they had their \ek light curves and astrometric
+integrity scrutinized, by a variety of techniques to vet them for
+planet status and to measure their radii more precisely.  Here we
+summarize the key reconnaissance efforts that were carried out on over
+1000 KOIs from which the 22 KOIs presented here were selected.
+
+In brief, each KOI had its light curve scrutinized and position
+measured (Section ~\ref{sec:dv}) to alert us to angularly nearby stars (within 2
+arcsec) in the photometric aperture. We carried out adaptive optics
+(AO) imaging and speckle interferometry (Section~\ref{sec:ao} and
+Section~\ref{sec:speckle}) to hunt for neighboring stars.  Upon
+passing those gates, we carried out high-resolution, low SNR echelle
+spectroscopy to measure atmospheric stellar parameters, magnetic
+activity, and rotational Doppler broadening to detect binaries and
+assess suitability for precise RV measurements.  As described below,
+these follow-up observations revealed no evidence of a nearby
+eclipsing binary for any of the 42 candidate transiting planets
+described here.  Below is a summary of the nature of these vetting
+actions performed on all 22 KOIs.
+
+
+\subsection{Data Validation}
+\label{sec:dv}
+
+Photometric signals that mimic planet transits are identified by the
+\ek Transit Planet Search (TPS) in the long cadence photometry.  All
+"threshold crossing events" (TCEs) are judged regarding plausible
+planet origin by the quality of the fit of the predicted light curve
+from the transit-planet model to the observed photometry, and by a
+search for astrometric displacements of the photocenter between times
+in and out of transit.  Actual transiting planets should exhibit
+photometry that is well fit, within errors, by a transiting planet
+model and they should show insignificant astrometric displacement
+during transit.  Such "Data Validation" (DV) techniques are described
+in \cite{Batalha_fp, Batalha2011, Bryson2013}.  These DV tests have
+undergone improvements and automation during the past three years
+\cite{dv, Bryson2013}. All 22 KOIs in this work passed their DV tests,
+conferring KOI status on them as continued planet candidates.  Details
+on the nature of DV criteria for each KOI are given below in
+Section~\ref{sec:obs}.
+
+
+\subsection{Follow-Up Reconnaissance Spectroscopy}
+\label{sec:recon}
+
+We carried out ``reconnaissance'' high resolution spectroscopy, with R
+$\sim$50000 and SNR = 20 - 100 per pixel for each of the 22 target
+KOIs, with two primary goals, searching for false positives and
+refining the stellar parameters.  For all 22 KOIs, we obtained one or
+two such reconnaissance spectra using one of four facilities: the
+McDonald Observatory 2.7m, the Lick Observatory 3m, the Tillinghast
+1.5m on Mt. Hopkins, and the 2.6m Nordic Optical Telescope.
+ 
+Of foremost importance was to detect angularly nearby stars that,
+themselves, might be eclipsed or transited by a companion star or
+planet, the light from which would be diluted by the primary star
+mimicking a transiting planet around it.  With a typical spectrometer
+slit width of 1 arcsec, stellar companions within 0.5 arcsec would
+send light into the slit, allowing detection.  A cross correlation of
+the spectrum was performed, usually with a solar template, to detect
+stellar companions separated by more than $\sim$10 \kms in radial
+velocity and brighter than $\sim$5\% of the primary in optical flux.  Also, a second
+reconnaissance spectrum was obtained to detect radial velocity
+variation above a threshold of $\sim$0.5 \kms, indicating the presence of
+an eclipsing binary.  None of the 22 KOIs in this paper showed any
+sign of any neighboring star within the limit specified above.  This
+absence of a secondary spectrum and of RV variations (confirmed by the
+precise RVs with 2 \ms precision) for all 22 KOIs rules out a large
+portion of parameter space for possible false positives in the form of
+a nearby star that itself dims periodically.  As described in Section {\ref:fpp1}, a
+further analysis of the Keck-HIRES  spectra taken later with {\it
+  high SNR} further ruled out stellar companions within 0.5 arcsec
+down to optical flux levels of 1\% of the primary star.
+  
+The reconnaissance spectra were also analyzed to measure the
+properties of the host star more precisely than was available in the
+\ek Input Catalog (KIC).  The spectra were analyzed by comparing each
+one to a library of theoretical stellar spectra, e.g.,
+\cite{Buchhave2012}.  This "recon" analysis was done with a step size
+between individual library spectra of 250 K for \teff, 0.5 dex for \logg, 
+ 1 \kms for \vsini, and 0.5 dex in metallicity([m/H]). 
+This process yielded approximate values of \teff (within 200K), \logg
+(within 0.10 dex), and \vsini (within 2 \kms), for the primary star of
+the KOI, all being valuable for deciding whether the KOI was suitable
+for follow-up precise RV observations.  Only stars cooler than 6100K
+on the main sequence with \vsini $<$ 5 \kms are suitable for RV
+measurements with precision of $\sim$ 2 \ms.  All relevant details
+about the reconnaissance spectroscopy for each KOI are given in
+Section~\ref{sec:obs}. %HTI double checked the values in this paragraph with Buchhave2012
+
+
+\subsubsection{Speckle Imaging}
+\label{sec:speckle}
+
+Speckle imaging of each of the 22 KOIs was obtained using the
+two-color DSSI speckle camera at the WIYN 3.5-m telescope on Kitt
+Peak, with technical details given in \citet{Howell2011,
+  Horch2009}. The speckle camera simultaneously obtained 3000 images
+of 40 msec duration in two filters: $V$ (5620/400\AA) and $R$
+(6920/400\AA). These data yielded a final speckle image for each
+filter. Section~\ref{sec:obs} describes the results of the speckle
+observation for each KOI noting if any other sources appeared.
+
+The speckle data for each star allowed detection of a companion star
+within the $2.76 \times 2.76$ arcsec field of view centered on the
+target.  The speckle observations could detect, or rule out,
+companions between 0.05 arcsec and 1.5 arcsec from each KOI. The
+speckle images were all obtained with the WIYN telescope during seeing
+of 0.6 - 1.0 arcsec.  The threshold for detection of companion stars
+was a delta magnitude of 3.8 mag in the R band and 4.1 mag in V band,
+relative to the brightness of the KOI target star. For KOI-292 the
+detection threshold was somewhat compromised by a stellar companion
+0.36" away from the primary and 2.7mags fainter.  These speckle
+observations showed that none of the other 22 KOIs in this work had a
+detected companion by speckle, thus ruling out a major domain of
+parameter space for possible false positives (stars with transiting
+companions).
+
+\subsubsection{AO Imaging}
+\label{sec:ao}
+
+Near-infrared adaptive optics imaging was obtained for all 22 KOIs to
+detect stellar companions that might be the source of the periodic
+dimming (a false positive).  Seeing-limited imaging, obtained with
+various telescopes at both optical and IR wavelengths, informed us of
+companions located more than 2 arcsec from the primary KOI star.
+Seeing-limited J-band Images from UKIRT were particularly useful
+\citep{Lawrence2007}.  In addition we examined optical seeing-limited
+images from the Keck-HIRES guide camera for each of the 22 KOIs, and
+we provide those images herein, below.  The strength of AO imaging is
+detection of companions located between 0.2 - 2.0 arcsec of the KOI
+primary star.  The goal was to detect nearby stars that might
+potentially have an eclipsing companion or a transiting planet that
+might mimic a transiting planet around the primary star, i.e. a false
+positive.
+
+Three AO instruments were used in the near IR on three different
+telescopes, namely the MMT telescope on Mt. Hopkins (ARIES), the 5m
+telescope on Mt. Palomar (PHARO), and the 3m telescope at Lick
+Observatory (IRCAL), each described briefly below \citep{Hayward2001, Troy2003, Adams2012}.  The
+Lick IRCAL AO system, built by Claire Max and James R. Graham, is
+described in detail at 
+\begin{verbatim}astro.berkeley.edu/~jrg/ircal/spie/ircal.html \end{verbatim}
+
+ The MMT ARIES camera achieves near diffraction-limited imaging, with
+ typical PSF FWHM of 0".25 in the J-band and 0".14" in the Ks band,
+ yieldling Strehl ratios of 0.3 in Ks and 0.05 in J
+ band\citep{Adams2012}.  While guiding on the primary star, a set of
+ 16 images, on a four-point dither pattern was acquired for each
+ KOI. Full details and a description of calibration and reduction of
+ the images is described by \cite{Adams2012}
+  
+Some of the KOIs were observed with the Palomar 5m PHARO camera
+observed KOIs in both the Ks and J infrared bands using a 5-point
+dither pattern with integration times between 1.4 and 70 seconds,
+depending on the target brightness. The AO system used the primary
+star itself, not a laser, to guide and correct the images, achieving a
+best resolution of 0".05 at J and 0".09 in the Ks band, with Strehl
+ratios of 0.10-0.15 in J and 0.35-0.5 in Ks.  Typical detection
+thresholds were 7 mag at a separation of 0.5 arcsec and 9.3 mag at 1.0
+arcsec (3-sigma upper limits in flux).
+  
+The remaining KOIs were observed with the Lick Observatory 3-m
+ telescope and high resolution camera, "IRCAL".  Observaitons
+ were made in Natural Guide Star(NGS) mode, allowing the AO
+ system to guide on the target star. This mode of observing allows
+ stars as faint as KepMag = 13.5 to be observed. Typical Strehl ratios
+ of ??? were achieved under average seeing of ??".??. Exclusion
+ limits down to a delta magnitude of ?? are typically achieved. 
+Background sky emission in the J-band is typically 16.0 magnitudes
+per square arcsecond. The  K-band background sky emission
+is 10.3 magnitudes per square arcsecond, making K-band 
+observing difficult. Typically only J-band images were taken.
+% http://mtham.ucolick.org/techdocs/instruments/ircal/ircal_summary.html
+ [David Ciardi can potentially fill in the blanks here].
+
+ Details of companions found within 6" of each of the 22 KOIs are
+ given in Section~\ref{sec:obs} and also in \citep{Adams2012}. Those
+ KOIs exhibiting a companion star were KOIs: 108, 122, 123,
+ 148, 153, 261,  283, and 292. The following KOIs have no stellar
+ companions within 6 arcsec: 41, 69, 82, 104, 116, 244, 245, 246.
+ KOIs 299, 305, 321, 1442, and 1925 were not listed in
+ \cite{Adams2012}.
+  
+For each KOI, we describe in Section~\ref{sec:obs} the specific AO
+observation obtained.  Any KOI with a neighboring star located within
+2 arcsec that had more than 1\% the flux of the primary star at
+optical wavelengths was rejected as a suitable candidate for precise
+RV measurements due to the contamination of light from that nearby
+star and due to the possible false positive.  The 21 of the 22 KOIs in this
+paper were devoid of such bright, troublesome companions. KOI-292
+was dropped from our target list when the nearby companion
+was identified.
+
+
+\subsection{Selecting the 22 KOIs}
+\label{sec:choose22}
+
+The selection criteria adopted by the \ek Project TCERT committee for
+precise RV follow-up observations changed during the first three years
+of the mission.  Initial criteria emphasized the desire to verify the
+planet-nature of the KOIs. This effort favored large planets with
+sizes above 4 \rearth and short-period orbits that might yield a
+detectable RV variation in the host star to check the existence of \ek
+transiting planets.  RV detections of large planets around Kepler 4,
+5, 6, 7, and 8 followed from this prioritization. After the successes
+of the first six months of the \ek mission, the criteria shifted
+toward verifying and measuring the masses of the smaller planets, 2-5
+\rearth, and multiple planets, if they were likely to be detected with
+RVs.  Resulting RV detections included Kepler 10, 11, 18, 20, 22, 25,
+and 68 yielding constraints on the masses of planets.
+
+During the second and third years of the nominal \ek mission,
+i.e. 2010 and 2011, the TCERT prioritization shifted toward a desire
+to verify and measure masses of KOIs having even smaller radii, below
+3 \rearth and down to 1.0 \rearth. Obviously such small planets are
+expected to have low masses, inducing small RV amplitudes in their
+host star.  We carried out careful, optimized selection of these
+suitable KOIs for RV work.
+
+Among the selection criteria was a brightness limit, Kepmag $<$ 13.5,
+ to permit Poisson-limited signal-to-noise ratios near 100 per pixel
+ within a 45 minute exposure with the Keck-HIRES spectrometer.  Such
+ exposures gave a photon-limited Doppler precision of 2 \ms.  Another
+ selection criteria included \teff~ $<$ 6100K (based on reconnaissance
+ spectra) to promote numerous, narrow spectral lines.  Another criterion was
+ rotational \vsini~$<$ 5 \kms (also based on reconnaissance spectra)
+ to limit rotational Doppler broadening of the lines that otherwise
+ would degrade Doppler precision.  The \ek TCERT committee further
+ selected KOIs for which the planet radius, coupled with a rough
+ estimate of planet density for that radius, yielded a predicted
+ planet mass that would induce an RV amplitude greater than 1.0 \ms,
+ making an RV detection plausible in the face of pervasive
+ astrophysical "jitter" of 1 \ms for G and K dwarfs
+ \citep{Isaacson2010}.  The density assumptions were simplistically
+ based on the planets in our solar system along with the few known
+ small exoplanets, notably GJ436b, GJ1214b, and Kepler-10b.  We simply
+ assumed a rocky constitution and density of $\sim$5.5 \gcc for
+ planets smaller than 2 \rearth.  We assumed densities of 2 \gcc for
+ planets of 2-5 \rearth, and we assumed densities of 1 \gcc for
+ planets larger than 5 \rearth.  These density assumptions allowed the
+ \ek TCERT to choose KOIs whose planets might meet the detection
+ criteria noted above, including a prospective RV amplitude above 1
+ \ms.  The selection process was imperfect and biased as the assumed
+ stellar parameters and planet densities were only approximately known
+ and the target KOIs were tuned to domains of planet radius and
+ detectability.
+
+This paper contains a report on the 22 KOIs selected by the process
+ described above.  These 22 KOIs were selected for precise RV
+ follow-up observations during the nominal \ek mission and have not
+ been published to date, except for Kepler-68 (KOI-246) for which we
+ provide an update to its interesting long-period, non-transiting
+ planet.  This sample of 22 KOIs contains neither a random selection
+ of KOIs nor a defined distribution of any parameters.  They were
+ selected during three years of ever-evolving criteria, as described
+ above.  The planet masses were unknown at the time of target
+ selection, except for estimates based on measured planet radii and
+ guesses of density.  {\it However, for each KOI the measured planet
+ mass provides an unbiased sampling of planet mass for a particular
+ planet radius.}  We could not have selected KOIs biased toward high
+ or low planet masses for a given planet radius, as we had no such
+ mass indicator.  Thus, the RVs for each KOI provide one unbiased
+ sampling of the distribution of planet masses for its specific planet
+ radius.
+
+In general, the distribution of planet masses for a given planet
+radius is likely to be a function of orbital period and the type of
+star.  The distribution of planet masses surely depends on planet
+radius, stellar mass, orbital semi-major axis and eccentricity, and on the
+chemical and thermodynamic properties of the protoplanetary region
+where they form.  Thus, the measured planet masses and radii here inform
+only one plane of a multi-dimensional space that characterizes planet
+properties.  Interestingly, the typical planet density may decrease
+dramatically with increasing planet radius due to an increasing
+admixture of light building material (H, He, water) \citep{Weiss2013}.
+Average planet masses may {\it decrease} with increasing planet radii
+(even discontinuously) within some domains of planet size, especially
+at the transition from rocky to volatile-rich planets near 2 \rearth.
+For example, planets of 1.8 \rearth may typically be less massive than
+those of 1.5 \rearth if typical densities decrease with increasing
+radius, a possibility we hope to test with this present work.
+
+\section{Stellar Characterization}
+\label{sec:starchar}
+For each of the 22 KOIs, we obtained an optical "template" spectrum
+ using the Keck telescope and its HIRES echelle spectrometer with no
+ iodine gas in the light path.  Each spectrum spanned wavelengths from
+ 3600-8000 \AA, with a spectral resolution of $R$=60000 and typical
+ SNR per pixel of $\sim$200.  These template spectra were analyzed
+ with the standard LTE spectrum synthesis code, SME \citep{Valenti96,
+ Valenti2005, Fischer2005} to yield values of \teff, \logg, and \feh~ 
+ accurate to 50K, 0.1 dex, and 0.05 dex, respectively, with slight
+ differences in precision due to SNR and spectral type.  Values of
+\logg~ are somewhat more uncertain for \teff~ $>$ 6100K where the
+magnesium b triplet lines become increasingly less sensitive to
+stellar surface gravity.
+
+ For 11 KOIs an asteroseismic signal was detected in the \ek
+ photometry, namely for KOIs 41, 69, 108, 122, 123, 244, 245, 246,
+ 321, 1612 and 1925. For those 11 KOIs the output stellar parameters
+ from the SME analysis, namely \teff, \logg, and \feh, were fed into
+ the asteroseismology analysis as priors, which, along with stellar
+ evolution models, yielded a more precise measure of stellar radius
+ and mass, and hence of surface gravity.  This more accurate surface
+ gravity was frozen and fed back into an SME analysis of the spectrum,
+ allowing a redetermination of \teff~ and \feh~ without the usual
+ covariances with \logg.  The resulting values of \teff~ and \feh~
+ were then fed back to an asteroseismology analysis as before,
+ achieving an iterative convergence quickly \citep{Huber2013,
+ Gilliland2013}.  The resulting uncertainties in stellar radius are
+ between 2 and 4\% \citep{Huber2013}.  Stellar parameters for these 11
+ KOIs with asteroseismology are reported in Table ~\ref{tab:stellar_pars_tbl}.
+
+For the remaining 11 KOIs that offered no asteroseismology signal, we
+ determined the stellar mass and radius from the SME spectrum analysis
+ combined with the Yonsei-Yale stellar structure models \citep{Yi2001,
+ Demarque04}. The SME output values of \teff, \logg, and \feh~map to
+ a unique stellar mass and radius for stars on the main sequence and
+ subgiant branch where all 22 KOIs reside. The best-fit Yonsei-Yale
+ stellar structure model was identified by incrementally varying the
+ mass, age, and metallicity of the assumed star and noting the
+ difference between the associated values of \teff, \logg, and \feh~
+ and those found from the SME analysis, minimizing the chi-square
+ statistic, and producing a posterior distribution of stellar radius, mass,
+ \feh, luminosity, age, and mean stellar density. See
+ \cite{Borucki2013} for details.  For the mild subgiants, the output
+ SME stellar parameters may correspond to regions of the HR diagram
+ where some convergence of the evolutionary tracks occurs, leaving
+ greater uncertainties in the resulting stellar mass and radius, e.g.,
+ \citep{Batalha2011}.  Any such uncertainties are duly noted and
+ included in the subsequent analysis of the properties of the planets.
+
+The resulting determinations of stellar masses and radii for the 22
+ KOIs (with or without asteroseismology) are employed as priors in a
+ self-consistent Markov-Chain Monte Carlo (MCMC) analysis of the \ek
+ transit light curves and Keck RVs.  Final stellar parameters are
+ determined by self-consistent fits of the \ek light curve and RVs to a
+ model of a planet transiting its host star (see below).  The MCMC analysis
+ employs the input stellar parameters from above as priors.  The \ek
+ transit light curve shape and orbital period (notably transit
+ duration) implicitly further constrain the stellar density and hence
+ further constrain stellar radius and mass.  By solving for all
+ stellar (and planet) parameters simultaneously, and by constraining
+ the fit with priors on \teff, \logg, and metallicity, along with
+ Yonsei-Yale stellar isochrones, we obtain final values of stellar
+ radius and mass, along with planet parameters.  Excellent discussions
+ of the iterative convergence of spectroscopic and asteroseismology
+ results, along with self-consistent light curve analysis is provided
+ by \cite{Torres2012, Gilliland2013, Borucki2013}.   The final values
+of all stellar parameters are listed in Table~\ref{tab:stellar_pars_tbl}. 
+In the following
+sections, these stellar parameters are used, along with the \ek
+photometry, RVs, and stellar structure models, to derive the
+properties of the 42 planet candidates, listed in Table~\ref{tab:orbital_pars_tbl}
+and the false positive probabilities(FPP) list in Table~\ref{tab:fpp_tbl}
+and discussed in Section 6.
+
+
+\section{Keck-HIRES Precise Velocity Measurements}
+\label{sec:preciseRVs}
+  We observed the 22 KOIs with the HIRES spectrometer at the Keck
+ Observatory from 2009 July to 2013 May, obtaining 20-50 RV
+ measurements for each of them during that time span.  The setup used
+ for the RV observations was the same as used by the California Planet
+ Search (CPS) \citep{Marcy_Butler92, Marcy08} in which RVs were
+ measured for over 2000 nearby FGKM stars, V$<$10 mag, demonstrating a
+ typical RV precision of 1.5 \ms (RMS) on all time scales, from
+ minutes to years \citep{Howard2010b}.  For those bright stars, the
+ photon-limited RV precision and the typical RV fluctuations (jitter)
+ from complex gas flows in the photosphere were matched at $\sim$1.5
+ \ms.  For the Doppler measurements of the KOIs our setup of the
+ Keck-HIRES spectrometer was nearly the same, including a slit width of
+ 0.87 arcsec, yielding a resolving power of $R \approx 60,000$ between
+ wavelengths 3600 and 8000 \AA. The typical exposure times were 10 and
+ 45 minutes (for Kepmag = 10-13), resulting in a signal to noise (SNR)
+ ratio between 70 and 200 per pixel, depending on the brightness of
+ the target.  As a benchmark, at Kepmag=13.0, the typical exposure was
+ 45 minutes, giving SNR=75 per pixel, and each pixel spanned $\sim$1.3
+ \kms.  With such exposures, photon statistics of the observed
+ spectrum, along with the comparable SNR of the comparison template
+ spectrum, limited the RV precision to $\sim$2 \ms, slightly greater
+ than typical jitter and systematic errors of $\sim$1 \ms from both.
+  Indeed, KOIs yielding non-detections typically have an RMS of the RVs
+ of $\sim$ 3 \ms, as showin in Tables ~\ref{tab:rvs_k00041} - \ref{tab:rvs_k01925}.  
+ We note that at SNR=70 uncertainties in wavelength scale are estimated to be less than 0.5
+ \ms due to the wavelength information contained in thousands of
+ iodine lines, making wavelength errors a minor source of
+ error compared to the astrophysical jitter of 1.5 \ms.
+
+The raw reduction of the CCD images followed the standard pipeline of
+ the CPS group, but with the addition of sky subtraction made possible
+ by the use of a 14 arcsec long slit.  The spectra were obtained with
+ the iodine absorption cell in front of the entrance slit of the
+ spectrometer, superimposing iodine lines directly on the stellar
+ absorption line spectrum, providing both the observatory-frame
+ wavelength scale and the instrumental profile of the HIRES
+ spectrometer at each wavelength \citep{Marcy92}.  The Doppler
+ analysis was the same as that used by the CPS group
+ \citep{Johnson2010}. "Template" spectra obtained without iodine gas
+ in the beam were used in the forward modeling of spectra taken
+ through iodine to solve simultaneously for the wavelength scale, the
+ instrumental profile, and the RV in each of 718 segments of length 80
+ pixels corresponding to $\sim$2.0 \AA \ depending on position along
+ each spectral order. The internal uncertainty in the final RV
+ measurement for each exposure is the weighted uncertainty in the mean
+ RV of those 718 segments, the weights of which are determined
+ dynamically by the RV scatter of each segment relative to the mean RV
+ of the other segments.  The resulting weights reflect the actual RV
+ performance quality of each spectrum segment.  The template spectra
+ are also used in spectroscopic analysis to determine stellar
+ parameters, as described above.
+
+  The typical long exposures of 10-45 minutes and modest SNR of the
+ stellar spectra imply that night sky emission lines and scattered
+ moonlight may significantly contaminate the spectra.  To measure and
+ remove the contaminating light we use the C2 decker on HIRES which
+ projects to 0".87$\times$14".0 on the sky. The C2 decker collects
+ both the stellar light and night-sky light simultaneously. The star
+ was guided at the center of the slit while the sky light passes
+ through the entire 14 arcsec length of the slit.  The sky
+ contamination is thus simultaneously recorded with the stellar
+ spectrum at each wavelength in the regions above and below each
+ spectral order, beyond the wings of the PSF of the star image
+ projected onto the CCD detector.  The "sky pixels" located above and
+ below each spectral order provide a direct measure of the spectrum of
+ the sky and we subtracted that sky light on a column by column basis
+ (wavelength by wavelength). When the seeing is greater than 1".5
+ (which occurs less than 10\% of the time at Mauna Kea), we do not use
+ the C2 decker but instead use a slit of dimensions 0".87 x 3".5 (B5
+ decker) and we observe only bright stars, Kepmag $<$ 11, with
+ exposure times of $\sim$10 min to avoid sky contamination.
+
+Observations of KOIs acquired in 2009 did not employ the C2 decker
+ leaving no ability to perform sky subtraction, resulting in
+ additional RV errors from scattered moonlight.  We quantified these
+ RV errors by studying the contamination seen in long-slit spectra and
+ by comparing the scatter in the RVs during 2009 (no sky subtraction)
+ to the RVs obtained in later years (with sky subtraction), permitting
+ us to compute the additional RV errors incurred in 2009.  In typical
+ gibbous moon conditions with light clouds, the moon light contributed
+ 1-2\% of the light of a Kepmag=13 star (depending on wavelength due
+ to Rayleigh scattering) within a projected $\sim$4 arcsec extraction
+ width of each spectral order.  Under such gibbous conditions, the
+ moonlit sky at Mauna Kea is apparently 19th mag per square arcsec in
+ V band.  Increasing amounts of cirrus clouds will scatter more moon
+ light into the slit but will transmit less star light, thereby
+ increasing the relative amount of contamination of the stellar
+ spectrum.  We found that RV errors of up to 10 \ms occurred during
+ 2009, depending on the amount of contamination and the relative
+ radial velocity of the stellar spectrum and the scattered solar
+ spectrum from the moon.  Employing sky subtraction with the C2 decker yielded RV
+ precision as if no sky contamination occurred, as the observed RV
+ scatter does not depend on the phase or presence of the moon.  For
+ stars brighter than Kepmag=11 the sky subtraction made no difference
+ in RV precision as moon light was apparently negligible.
+
+The measured RVs for each of the 22 KOIs are listed in Tables 
+\ref{tab:rvs_k00041} - \ref{tab:rvs_k01925},
+and plots of the RVs for each of the 42 planet candidates, phased to
+the final orbit (see next section), are shown in Figures \ref{fig:koi41_gi}d - \ref{fig:koi1925_gui}d %koi1925 does not have a guider image yet.
+In the Tables ~\ref{tab:rvs_k00041} - \ref{tab:rvs_k01925} 
+holidng the RVs, the first column contains the julian date when the star light
+ arrived at the solar system barycenter (BJD) based on the measured
+ photon-weighted mid-time of the exposure.  The second column contains
+ the relative RV (with no defined RV zero point) in the frame of the
+ barycenter of the solar system.  Only the changes with time in the
+ RVs are physically meaningful for a given star, not the individual RV
+ values.  The absolute radial velocities can easily be determined
+ relative to the solar system barycenter, but only with an accuracy of
+ $\sim$50 \ms \citep{Chubak2012}. The third column contains the RV
+ uncertainty, which includes both the internal uncertainty (from the
+ uncertainty in the mean Doppler shift of 718 spectral segments) and
+ an approximate jitter of 2 \ms (from photospheric and instrumental
+ sources) based on hundreds of stars of similar FGK spectral type
+ \citep{Isaacson2010}.  The actual jitter may have values between 1-3
+ \ms for individual stars, but the actual photospheric fluid flows for
+ any particular star and the detailed systematic RV errors are both
+ difficult to estimate with any accuracy better than 1 \ms. The jitter
+ is added in quadrature to the internal uncertainty for each RV
+ measurement. The actual uncertainties are surely non-Gaussian from
+ both the photospheric hydrodynamics and from systematic errors in the
+ Doppler analysis, and they are likely to be temporally coherent with
+ separate power spectra.  Such error distributions are difficult to
+ characterize precisely.
+
+\section{Planet Characterization}
+\label{sec:planetchar}
+
+We determine the physical and orbital properties of all 42 planet
+ candidates around the 22 KOIs by simultaneously fitting
+ \ek\ photometry and Keck RVs with an analytical model of a transiting
+ planet \citep{Mandel2002}.  In these models, we adopted the mass,
+ radius, and the mean density of the host star as determined by either
+ the SME analysis of the high resolution spectrum from the Keck
+ Observatory or from an accompanying asteroseismology analysis, both
+ methods described above in \S 3.  The models assume Keplerian orbits
+ with no gravitational interactions between the planets of the
+ multiple-planet systems.  This non-interaction assumption is adequate
+ to yield parameters as accurate as the limited time series permits,
+ as any precession or secular resonances will create detectable
+ effects only after a decade at least.  The parameters in the model
+ include the stellar density (frozen from the SME or asteroseismology
+ analysis), a mean photometric flux, an RV zero-point, the time of one
+ transit ($T0$), orbital period ($P$), impact parameter ($b$), the
+ scaled planet radius ($R_{\rm P}/R_*$), and RV amplitude ($K$).
+
+We use the fourth-order non-linear parameterization of limb-darkening
+ also described by \cite{Mandel2002} with coefficients ($c_1=1.086,
+ c_2=-1.366, c_3=1.823, c_4=-0.672$) calculated by
+ \cite{limbdarkening} for the \ek\ bandpass.  We simultaneously fit
+ all measurements with a model using a Markov-Chain-Monte-Carlo (MCMC)
+ routine that fixes the values of the periods of the transiting
+ planets, along with their transit times, for each KOI.  The quoted
+ values of the planet parameters in Table ~\ref{tab:orbital_pars_tbl} 
+ are the values at which
+ the posterior distribution is a maximum, often termed the "mode" of
+ the distribution.  For several planets, a non-zero eccentricity is
+ clearly needed to produce an acceptable fit in which cases we also
+ include as parameters the eccentricity and longitude of periapse as,
+ $e\cos(\omega)$ and $e\sin(\omega)$.  When the eccentricity value is
+ allowed to float for {\koionezerofour}, we find a superior fit over the
+ circular model.  (See appendix for results from allowing eccentricity to float.)
+
+In all models, we allowed the value of the RV amplitude to be negative
+ as well as positive, corresponding to both negative and positive
+ values of planet mass.  Obviously negative mass is not physically
+ allowed.  But fluctuations in the RV measurements due to errors may
+ result in RVs that are anti-correlated with the ephemeris of the
+ planet as dictated by the photometric light curve.  Fluctuations can
+ spuriously cause the RVs to be slightly high when they were expected
+ to be low, and vice versa.  In such cases, the derived negative mass,
+ and the posterior distribution of masses, is a statistically useful
+ measure of the possible masses of the planet, especially useful when
+ included with the ensemble of masses of other planets and their
+ posterior mass distributions.  By allowing planet mass to be
+ negative, we account for the natural fluctuations in planet mass from
+ RV errors.  For the planet candidates that yielded less than 2-sigma
+ detections of the RV signal ($K$ is less than 2-sigma from zero) we
+ also compute the positive definite mass for that planet by adopting
+ the median of posterior distribution of masses that are greater than
+ zero.  This median of the positive values serves as a useful metric
+ of an "upper limit" to the planet mass.  It is unlikely to be more
+ massive than twice this value, but the mass could be as low as zero
+ in principle.  We quote both values of planet mass for these
+ non-detections, namely the one that can be negative, useful for
+ planet-ensemble uses, and the one that is positive definite, useful
+ for considering the mass, density, and possible chemical compositions
+ of the individual planet.
+
+In summary, we fit the photometry and RVs with a \cite{Mandel2002}
+ model by adopting the star's mass and radius based on spectroscopy
+ (SME) and if available on asteroseismology. Model parameters are
+ determined by chi-squared minimization, and we compute posterior
+ distributions using an MCMC parameter search.  We derive planet
+ radius, mass, orbital period, ephemeris, and the mean stellar density
+ in the final solution. The final stellar parameters for each star are
+ in Table~\ref{tab:stellar_pars_tbl}.  The final planetary parameters
+ are listed in Table~\ref{tab:orbital_pars_tbl}, including stellar
+ density from the model.  The associated 1-sigma uncertainty for each
+ parameter is computed by integrating the posterior distribution to
+ 34\% of its area on either side of the parameter at the peak, and is
+ listed in Table~\ref{tab:orbital_pars_tbl}.
+
+
+\section{False Positive Assessments}
+\label{sec:fpp1}
+
+As has been well documented \citep{Torres2011}, a series of periodic
+ photometric dimmings consistent with a transiting planet may actually
+ be the result of various astrophysical phenomena that involve no
+ planet at all.  Such "false positive" scenarios involve the light
+ from some angularly nearby star located within the ($\sim$10 arcsec
+ diameter) \ek software aperture that dims with a duration and
+ periodicity consistent with an orbiting object passing in front of
+ the target star.  The light from that nearby star may be located
+ within the software aperture of the target star or located just
+ outside that aperture so that the wings of its PSF encroach into the
+ aperture, polluting the brightness measurements.  The amount of
+ pollution may vary with quarterly roll of the spacecraft, as the
+ relative positions of stars (and their differential aberration) and
+ aperture shift slightly.  The angularly nearby star may be physically
+ unrelated to the target star (in the background or foreground) or it
+ may be gravitationally bound, and the cause of its dimming could be a
+ transiting planet or star.
+
+By considering all astrophysical false-positive scenarios in the
+ direction of the \ek field of view, the probability that a planet
+ candidate is a false positive is calculated to be only $\sim$5-10\%
+ \citep{Morton_Johnson2011, Fressin2013} for sub-Jupiter-size planets,
+ representative of most of the candidates considered in this paper.
+  For Jupiter-size planet candidates the false positive rate is
+ higher, $\sim$35\% \citep{Santerne2012, Fressin2013} because both
+ brown dwarfs and M dwarfs are roughly the size of Jupiter, allowing
+ them to masquerade as giant planets.  The detailed assessment of the
+ false-positive probability (FPP) for any individual planet candidate
+ requires careful analysis.  This "planet-validation" process can be
+ aided by the corroborating detection of the planet with some other
+ technique such as with RVs or transit-timing measurements. Validation
+ may also be accomplished by estimating the probability that the
+ planet is real (from measured occurrence rates) and comparing it to
+ the sum of the probabilities of all false-positive scenarios that are
+ consistent with the observations.
+
+\subsection{Computing the False Positive Probability}
+\label{sec:fpp2}
+
+For each planet candidate in the sample presented in this paper, we
+ calculate the relative probabilities for the signal to be caused by a
+ real transiting planet compared to all false positive scenarios.  We
+ employ the procedure described in detail in \cite{Morton2012}.  This
+ analysis combines a priori astrophysical information about the
+ population of stars in the direction of the target star, including
+ the occurrence and properties of the binary stars and planets.  The
+ analysis characterizes each the phase-folded dimming profiles with
+ three parameters, its duration, depth, and "ingress and egress"
+ durations, using the geometrical approximation of a trapezoid.  The
+ distribution of properties of the stars and their companions (stellar
+ or planetary) toward the target star within the Milky Way Galaxy
+ inform the probabilities of the false-positive scenarios and their
+ corresponding light curves reduced to a trapezoidal characterization
+ (depth, duration, shape).  
+ 
+ All calculations of the false-positive probabilities for background stars (that are eclipsed or transited) assume an exclusion radius of 2 arcsec beyond the target star for its location.  Stars more distant the 2 arcsec would likely exhibit an astrometric shift in centroid position between times "in-transit" and "out-of-transit" as the neighboring star alternately dims and brightens.  The \ek data validation (DV) process routinely checks for such displacements, ruling them false positives.  While this 2 arcsec exclusion limit varies considerably from target to target, it provides an estimate accurate to roughly a factor of 2 with which to estimate the probability of background stars.   Detailed DV reports usually offer exclusion limits considerable smaller than 1 arcsec, making the formal FP estimates here upper bounds on the true false positive probability.
+
+Those false-positive scenarios yielding a
+ predicted light curve consistent with that of the \ek target star
+ contribute to the cumulative probability that one of those false
+ positive scenarios might have produced the observed dimming for that
+ KOI \cite{Morton2012}.  Additional constraints from follow-up
+ observations, such as from adaptive optics imaging and the
+ spectroscopic search for secondary lines, are not applied at this
+ stage (but see the next subsection).  Light curves in the infrared
+ may also be used to inform false positive probabilities
+ \citep{Desert2012, Cochran2011, Ballard2013}, but we did not use them
+ here, deferring such analysis for later papers (Sarah Ballard,
+ personal communication). These additional constraints that often rule
+ out some false-positive scenarios serve to reduce the false positive
+ probability below that computed here.
+
+Table~\ref{tab:fpp_tbl} presents the results of these false-positive
+ calculations.  The first column gives the name of the planet
+ candidates (KOI) and the second column gives the probability that the
+ target might itself be an eclipsing binary.  These probabilities are
+ all less than 0.001 because it is so unlikely that a companion star
+ would eclipse the primary star yielding the short transit duration
+ and small transit depth accomplished by a planet that is so much
+ smaller than the host star.  Columns three, four, and five give the
+ probabilities that the observed light curve is produced by a
+ gravitationally bound (Hierarchical) eclipsing binary (HEB), a
+ background eclipsing binary (BGEB), and a background star orbited by
+ a planet (BGPL), respectively.  Column 6 gives the estimated prior
+ probability for such a planet, within a 30\% range in period and
+ size.  Column 7 gives the sum of the false-positive probabilities (in
+ columns 2-5), constituting the final false-positive probability
+ (FPP).  More precisely, the FPP is the sum of probabilities in
+ columns 2-5 divided by the sum of those columns plus the probability
+ that it's a planet, which is 1-FPP$\approx$1.
+
+In our calculation of the FPP we do not deem as false positives
+scenarios involving a gravitationally bound companion star transited
+by a planet.  In such systems a real planet exists, albeit orbiting an
+unresolved bound companion star.  We have considered carefully whether
+to deem such planets as "real" or "false positives".  We find no easy
+answer.  One useful thought experiment involves a bound companion star
+that is the nearly the same brightness as the primary star.  It makes
+no sense to deem a planet a "false positive" simply because it orbits
+the slightly fainter companion star.  Indeed, that star may be the
+"secondary star" only in some bandpasses, thus rendering the planet
+"real" depending on which bandpass one considers, which is clearly
+absurd.  Continuing the thought experiment to companion stars that are
+progressively fainter than the primary leads to no "break point" at
+which the planet around that companion should be suddenly deemed a
+"false positive".  Therefore, we choose here to deem all planet-candidates
+orbiting any (unknown) bound star in the system to be a "planet".
+However, if a planet does orbit a cooler secondary star,
+it must be larger than was inferred from a model of the planet
+orbiting the hotter primary star, to yield a final transit depth as
+observed.  Planet occurrence decreases toward larger sizes
+\citep{Howard2012}, and the contribution of light from any
+secondary star is diluted by that of the primary star.  Therefore, the probability
+that the transit light curve is caused by a larger planet transiting a
+fainter secondary star can be estimated.  Roughly 40\% of FGK stars
+have a companion star beyond 5 AU (remaining undetected) and among
+those binaries, there is roughly 50\% probability that the transiting
+planet orbits the secondary star.  Thus the probably of a transiting
+planet around a secondary star is 0.4$\times$0.5 = 0.2.  But, as
+mentioned, the required larger planet and the dilution from the
+primary star make it less likely that the observed dimming is actually
+from the secondary star.  {\it Thus the probability that a given  
+planet candidate is actually orbiting a secondary star is well under 20\%.}
+Nonetheless, in those cases the planet is larger than given here in
+Table 2.
+
+The formal false-positive probabilities (FPPs) are less than 2\% for
+ all transiting planet candidates, except for KOI-82.04, KOI-82.05,
+ KOI-104.01, and KOI-1612.0, which have FP probabilities of 0.025,
+ 0.043, 0.11, and 0.39, respectively (see Table~\ref{tab:fpp_tbl}).
+  The formal FPP are 1-2\% for KOI-108.02 and KOI-244.01.  We discuss
+ each of these possible false positive cases in Section~\ref{sec:fpp2}
+ below.
+ 
+ \subsection{Improved False Positive Probabilities from Follow-up Observations}
+ \label{sec:fpp2}
+ 
+ To tighten the estimates of the false-positive probabilities for the
+ 42 planet candidates in this paper, we performed a wide variety of
+ follow-up observations, described in Section~\ref{sec:vetting} and
+ its subsections.  The follow-up observations include high resolution
+ spectroscopy, adaptive optics imaging (AO), and speckle
+ interferometry, all capable of detecting angularly nearby stars that
+ might be the source of the dimming that mimics a transiting planet
+ around the target star.  The AO and speckle techniques detect
+ companions beyond a few tenths of an arcsec while the spectroscopy
+ detects stars located within a few tenths of an arcsec.  Thus these
+ three techniques are useful to detect stellar companions located
+ anywhere within a few arcsec of the target star, albeit with varying
+ sensitivity.  Below we describe the details showing that {\em none of
+ the 22 KOIs shows a companion star located within 4 arcsec and within
+ 3 mag of the primary star.  Thus the probability of both a background
+ eclipsing binary and a background star with a transiting planet are
+ significantly reduced for all of them, as described below.}
+
+We analyzed the high resolution (R=60,000), high signal-to-noise
+ (SNR$\approx$150) optical spectra of all 22 KOIs for the presence of
+ absorption lines from any second star besides the identified \ek
+ target star, as described and tested in detail in \cite{Kolbl2013}.
+  In brief, the entrance slit of the Keck-HIRES spectrometer had a
+ width of 0.87 arcsec, allowing the light from any neighboring stars
+ located within 0.4 arcsec to enter the slit.  This offers a
+ detectability of companion stars not afforded by adaptive optics or
+ speckle interferometery (see below).  The algorithm fits the observed
+ spectrum of the host star of the multi with the closest-matching
+ member (in a chi-square sense) of our library of 800 AFGKM-type
+ spectra stored on disk, spanning a wide range of \teff, \logg, and
+ metallicities.  After proper Doppler shifting, artificial rotational
+ broadening, and continuum normalization, and also flux dilution (due
+ to a possible secondary star), that best-fitting primary star is
+ subtracted from the observed spectrum.
+
+The code then takes the residuals to that spectral fit and performs
+ the same chi-square search for a "second" spectrum that best fits
+ those residuals.  This approach stems from an Occam's razor
+ perspective, rather than immediately doing a self-consistent
+ two-spectrum fit.  The notion is that if one spectrum adequately fits
+ the spectrum, without "need" to invoke a second spectrum, then the
+ spectrum can only be deemed single.  A low value of chi-square for
+ the fit of any library spectrum (actually a representative subset of
+ them) to the residuals serves to indicate the presence of a second
+ spectrum.  We establish a detection threshold by injecting fake
+ spectra into the observed spectrum and executing the algorithm above
+ to determine the value of chi-square for any relative Doppler shift,
+ $\Delta RV$ between the companion star and the primary star that is
+ approximately a 3-sigma detection of the secondary star.  Figures
+\ref{fig:koi41_ssep}- \ref{fig:koi1925_ssep} show the resulting plot of 
+chi-square vs $\Delta RV$ is search
+ of a clear minimum that would signify a second spectrum.  The blue
+ and red lines show how low chi-square would be for a companion having
+ 0.3\% and 1.0\%, respectively, of the optical flux of the primary,
+ based on the injection of fake secondary spectra.  None of the 22
+ KOIs shows evidence of a second star within 0.4 arcsec, at flux
+ thresholds of $\sim$0.3\% of the flux of the primary star.  There is
+ a severe blind spot for $\Delta RV < 10 \kms$ for which the
+ absorption lines overlap, preventing effective detection of any
+ companion stars.  Thus, companion stars orbiting inward of $\sim$ 5
+ AU are detectable by this technique, but companions farther out will
+ have too small a $\Delta RV$ to be seen.
+ 
+For all 22 KOIs in this paper, we have obtained adaptive optics
+ imaging and speckle interferometry.  Figures \ref{fig:koi41_gi}b-
+ \ref{fig:koi1925_gi}b show the
+ detectability thresholds for companion stars to all 22 KOIs from
+ these two techniques.  None of the 22 KOIs shows a companion star
+ located within 4 arcsec and within 3 mag of the primary star.  Thus
+ the probability of a background eclipsing binary is significantly
+ reduced for all of them, as any such a binary must reside within the
+ inner working angle of those techniques, typically a few tenths of an
+ arcsec, depending on wavelength and technique (see Figures \ref{fig:koi41_gi}b-
+ \ref{fig:koi1925_gi}b).  %no guider image for 1925 yet.
+  The spectroscopic technique, described above, becomes effective
+ inward of $\sim$0.4 arcsec, just where AO and speckle leave off.
+  Thus this suite of techniques offers good coverage of companion
+ stars at nearly all angular separations, except for bound stellar
+ companions orbiting between 5-100 AU within which all of these
+ techniques are poor.
+
+\subsection{Cases of False Positive Probability Greater than 2\%}
+ \label{sec:fpp3}
+
+The four KOIs with FPP$>$0.02 (see Section~\ref{sec:fpp1}) are worthy
+ of comment regarding both the astrophysical reason for their high FPP
+ and for the additional observations that bear on (reduce) that
+ probability of a false positive.  For KOI-104.01, the formal FPP is 11\% due
+ largely to its relatively V-Shaped light curve (see Fig 26).  Such a
+ light curve allows a greater number of plausible eclipsing binaries
+ to reproduce its shape.  However the nominal FPP of 11\% for
+ KOI-104.01 may be reduced based on restrictions placed on the eclipsing binary based on follow-up observations.  
+
+The RVs for KOI-104 phase well with the ephemeris of the \ek transiting planet (see Figure~\ref{fig:koi104_gi}d, at lower right).  Moreover the implied planet mass of 10.8 \mearth is not inconsistent with the measured planet radius of 3.5 \rearth.  The phased RVs and the mutually consistent mass and radius for KOI-104.01 immediately rules out all eclipsing binary scenarios that fail to insidiously mimic the signal of the expected planet candidate.  We are not prepared to calculation the factor by which eclipsing binaries are less likely as a result of this RV agreement with the \ek transiting planet candidate, but it seems likely that the FPP must be reduced well below the nominal 11\%.  
+The RV phasing and mass agreement suggests (but does not prove) that the planet model is highly favored.
+
+Further, the RVs reveal an outer companion (non-transiting) having $P$ = 822 d and $M\sin$(i)
+ = 9.2 \mjup, implying a substellar mass, with an orbital eccentricity
+ of $e$=0.35.  Such a companion cannot itself be the cause of the
+ repeated dimming (i.e. if it had a transiting planet) as it doesn't
+ contribute enough light to the total system.  More importantly, this
+ orbiting companion around KOI-104 is apparently in a stable,
+ eccentric orbit which surely reduces the probability that a stellar
+ companion resides anywhere within orbital periods up to three times
+ greater, i.e. out to periods of $\sim$5 yr.  Indeed, our spectra
+ reveal no evidence of secondary lines (see section below).
+  Therefore, all scenarios for a false positive that involve a
+ companion star within 5 AU and a transiting object are ruled out,
+ lowering the FPP below 9\%, but not much as we find 85\% of the false
+ positive scenarios for KOI-104 involve a bound companion orbiting
+ beyond 5 AU.
+
+In addition, KOI-104 has adaptive optics (AO) images and speckle
+ interferometry, neither of which shows evidence of a stellar
+ companion, restricting further the possibility of a background
+ eclipsing binary.  Figure~\ref{fig:koi104_gi}b shows the domain of angular distance and
+ relative brightness of any companion that is ruled out. The IR AO
+ images of KOI-104 eliminate the possibility of any neighboring star
+ brighter than 1\% the brightness of the primary star beyond 1 arcsec,
+ and eliminate neighboring stars brighter in Ks-band (2.2$\mu$) than
+ 1\% of the primary.  The speckle observations eliminate companions
+ beyond 0.2 arcsec brighter than 2.5\% of the primary.  These high
+ contrast imaging efforts are much more restrictive than the 2 arcsec
+ radius blind spot for companion stars assumed by the formal FPP
+ calculation in Section 6.1.  These high contrast non-detections of
+ second stars reduces the probability of a background star (with
+ either a transiting planet or eclipsing star) by a factor of at least
+ 10 (ratio of areas).  However, as Table~\ref{tab:fpp_tbl} shows, the
+ dominant false positive scenario for KOI-104 is by a hierarchical
+ (bound) stellar companion that are not effectively ruled out by the
+ high contrast imaging.  Thus, the FPP for KOI-104 remains 10\%, even
+ after including the imaging and centroid analysis.
+
+For KOI-1612.01 the formal FPP is 39\% due almost entirely to the
+ chance of a background eclipsing binary (see
+ Table~\ref{tab:fpp_tbl}).  The main reason for this high FPP is that
+ the signal duration is only $\sim$1.4 hours, even though the orbital
+ period is 2.4 d orbit around a star of radius 1.23 \rsun.  This
+ observed transit duration is shorter than expected for such a transit
+ and star, unless the impact parameter is near unity which is
+ unlikely.  The star field is indeed crowded, and the astrometric
+ centroid diagnostics are understandably ambiguous.  This light curve
+ of such short duration could instead be caused by a eclipsing binary
+ around a smaller star in the background. Moreover, the transit light
+ curve for KOI-1612 is shallow, with a fractional depth of only
+ 0.00003 (see Figure \ref{fig:koi1612_gi}e), leaving fractional noise high enough to allow a
+ wide variety of false-positive scenarios.  We consider KOI-1612.01 to
+ be as likely a false positive as a planet.  Statistically, we expect
+ a false-positive frequency of $\sim$5-10\% in our sample of 22 KOIs
+ \citep{Morton_Johnson2011, Morton2012, Fressin2013}.  Therefore it is
+ not surprising that one member of this sample, KOI-1612, has a 40\%
+ probability of being a false positive, as one was expected a priori.
+
+The remaining KOIs with FPPs significantly above 1\% are KOI-82.04
+ (2.5\%), KOI-82.05 (4.3\%), and KOI-108.02 (2.0\%).  KOI-82.05 is
+ shallow, with resulting photometric noise that allows a wide range of
+ false-positive scenarios, including background eclipsing binaries.
+  Also, KOI-82.05 has a small planet radius of 0.47 \rearth for which
+ we have only poor knowledge of the true occurrence rate that serves
+ as the planet-reality prior.  We have likely underestimated the
+ occurrence of such planets due to their difficulty of detection by
+ \ek so far.  The formal FPPs for KOI-82.04 and 82.05 should both be
+ reduced by factors of roughly 10 due to their occurrence in a system
+ of five planet candidates.  It is easy to show that the probability
+ of a background eclipsing binary that happen to be positioned, by
+ chance, within a 2 arcsec radius of a star that already has 4
+ transiting planets is extremely low, less than 10$^{-4}$
+ \citep{Lissauer2012, Lissauer2013}.  The 2 arcsec-radius cones toward
+ the $\sim$10 target stars that harbor four transiting planets occupy
+ such a tiny total solid angle that virtually no background eclipsing
+ binaries are expected to exist behind any of them within the \ek
+ field.  Thus, the multi-planet nature of KOI-82 provides a strong
+ argument that both KOI-84.04 and KOI-84.05 are real planets rather
+ than background eclipsing binaries, the dominant FP channel 
+ (Table \ref{tab:fpp_tbl}).  These two planets are thus elevated to false positive
+ probabilities well under 1\%, i.e. formally validated.
+
+For KOI-108.02, the dominant false positive scenario is an eclipsing
+ binary gravitationally bound to the \ek target star.  We can rule out
+ such eclipsing binaries within 5 AU, from both the absence of a trend
+ in the RVs during three years above $\sim$ 5 \ms (Figure~\ref{fig:koi108_gi}c) and from
+ the absence of absorption lines from a secondary star above the 0.3\%
+ relative flux level (Figure~\ref{fig:koi108_ssep}).  Any bound eclipsing binaries
+ masquerading as transiting planets around KOI-108 must be farther
+ than 5 AU, a constraint that diminishes the FPP below the nominal
+ 2.0\% level.  Interestingly, KOI-108 is a candidate multi-planet
+ system.  As argued for KOI-82 above, \ek target stars harboring one
+ transiting planet subtend a very small solid angle of the entire \ek
+ field of view, making it statistically unlikely that a background
+ eclipsing binary is the culprit that explains the transit signal.
+  However, the dominant channel of false positives for KOI-108.02 is a
+ gravitationally bound eclipsing binary for which the argument against
+ a background eclipsing binary has little effect.  Thus KOI-82.02 has
+ FPP less than 2\%, making it likely a planet, but does not benefit
+ from the multi-transiting-planet boost.
+
+
+%Begin sections for each individual KOI.
+%See version 8 of the paper for more detailed, (but less concise notes on each KOI.
+
+
+\section{ Summaries of Follow-up Observations and Planet Masses}
+\label{sec:obs}
+
+We summarize the ground based follow-up observations made by the KFOP/CFOP
+ \citep{Gautier2010} in the 2009 to 2012 observing seasons. The
+ details of which telescopes and instruments were used to collect
+ high resolution reconnaissance spectra and high resolution imaging
+ are detailed in Section \ref{sec:vetting}. Here we summarize which
+ instruments were used on each KOI and the results of each finding. These
+ observations have been used to further characterize the host stars,
+ rule out false positive scenarios such as nearby stars that could be
+ blended with the primary star, and find background eclipsing
+ binaries. The methods used to analyze the data are summarized for
+ recon spectroscopy in \citep{Buchhave2012}, for high resolution
+ imaging with speckle\citep{Howell2011} and AO \cite{Adams2012}).
+ The method used to determine the final
+ stellar parameters, either asteroseismology \citep{Huber2013} or
+ SME/YY isochrones(See Section 3) is specified for each KOI.  
+ The spectra acquired for these KOIs are used to determine to the final stellar parameters, found
+ in Table ~\ref{tab:stellar_pars_tbl}. The planet and orbital properties
+  are reported in this section for individual KOIs and compiled in Table
+ ~\ref{tab:orbital_pars_tbl}.
+
+Care was taken in this section to encompass the knowledge collected
+ from 2009 to 2012 by the Kepler Follow-up Observing Program members,
+ and in some cases, public contributions to the Community Follow-up
+ Program website. These summaries are intended to be a snapshot
+ of the observing notes available on the CFOP in May of 2013.
+
+%This will be a summary of the the KFOP summaries. Be sure to cite:
+% Batalha 2012 or Burke2013 as having the most up to date
+ %ephemeris. Adams2012 as the source for the AO analysis. Do not cite
+ %Borucki2011 since Bataltha 2012 is more up to date. The KFOP
+ %paper(Gautier) should be cited. The Huber2013 paper should be cited
+ %for asteroseismology results.  Site the \citep{Huber2013} paper as
+ %where all of the astero anlysis comes from, excluding 321.  sumarzie
+ %speckle and ao images once again, specifically depth limits and
+ %radius All non-transiting planets were found with RVs.
+
+\subsection{\koifourone} %koi-41
+\label{sec:k41}
+
+
+Three transiting planets have been detected by \ek around
+ \koifourone. They have orbital periods of 6.9(41.02), 12.8(41.01), and 35.3(41.03) days,
+ with planet radii of 1.3, 2.2, and 1.6\rearthe, respectively. After detection of the
+ transiting planets, a recon spectrum was taken at the McDonald 2.7m
+ telescope in June 2009.  A second spectrum was taken at Tillinghast
+ 1.5m late in June 2009 and both were analyzed with SPC. The \teff~ and \logg~
+ were consistent with the KIC values, no large RV variations were
+ found and the \vsini~ was shown to be less than 4 \kms.   The Keck-HIRES 
+ template spectrum, taken without iodine, was analyzed
+ with SME and the inputs were used to seed the asteroseismology
+ analysis. The final stellar parameters are  \teff~= 5825 +- 75K, \logg~ = 4.13 +- 0.03, 
+ \vsini~ = 3.7 +-1.0 \kms and \feh~ = 0.02 +- 0.10. 
+ The complete list of final stellar parameters, are found in Table ~\ref{tab:stellar_pars_tbl}.
+ 
+ High resolution imaging was acquired in May 2010 with ARIES under seeing of 0.1" in
+ the Ks band and 0.2" in the J-band.  Speckle imaging was taken at the
+ WIYN telescope in June 2010.  Neither imaging technique found any nearby companion
+ stars within 6" of the primary. Figure ~\ref{fig:koi41_gi}a shows a seeing limited image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi41_gi}b shows the limiting magnitudes achieved with each high resolution imaging method.  
+
+
+Slow  rotation and  lack of nearby stellar companions make 
+this a high quality  target for precise radial velocity 
+measurements with Keck-HIRES which were 
+started on July 29th 2009 and span 1221 days(Figure ~\ref{fig:koi41_gi}c).
+ Forty-four precise RVs from Keck-HIRES were taken from July 2009 to
+ October 2012. The RVs show a weak
+ correlation with the 6.9d planet, limiting the planet mass to be less
+ than 9.6 \mearth at the one sigma level. This mass corresponds to a bulk
+ density of the planet equal to 20.5\gcc. Since this density is greater than any
+ known materal, the limit is not physicaly meaningful. Additional observations
+ could push this limit lower.   The 12.8 day planet does
+ not strongly correlate  with the RVs, but the
+ upper limits to the planet mass are physically meaningful. The one sigma upper
+ limit to the mass is 4.8 \mearth, which corresponds to a bulk density
+ of 2.0 \gcc. If this planet consists of large amounts of dense
+ material, such as iron, the RV signal would have been much larger,
+ and we would have detected it. Instead, this planet must consist of a large portion
+ of volatile materials.  These measurements are consistent
+ with the trend of planet radii greater than 2.0 \rearth having low
+ density($<$ 3.0\gcc).  The RVs do not correlate with the 35 day planet. The peak
+ value in the posterior distribution of the planet mass is below zero,
+ meaning that the measured mass is consistent with zero. The one sigma
+ upper limit on the planet mass is 1.7 \mearth and 1.9 \gcc. 
+ Figure ~\ref{fig:koi41_gi}d shows the phased RVs for each planet. 
+
+ The full set of RVs are plotted in  Figure ~\ref{fig:koi41_gi}c 
+ and listed, along with their \rphk simultaneously measured 
+ chromospheric activity values in Table ~\ref{tab:rvs_k00041}.
+
+
+%Figure 1a shows the taret star as seen in the Keck-HIRES field of view.
+%Figure 1b shows the exclusion plot that was created using the high resolution imaging. 
+%Figure 1c shows the RVs as a function of time.
+%Figure 1d shows the phase folded RVs for each planet. 
+%Figure 1e shows the phase folded lightcurve for each transiting planet.
+%combined graphic label: Figure ~\ref{fig:koi41_gi}
+
+% Rstar was 1.66Rsun at one point, and 1.25Rsun before that
+
+%   HELPER SECTION TO IDENTIFY GRAPHIC REFERENCES
+%
+%RV table label: Table: ~\ref{tab:rvs_k00041} 
+%
+%stellar parameters table reference: Table ~\ref{tab:stellar_pars_tbl}
+%
+%orbital parameters table:  Table ~\ref{tab:orbital_pars_tbl}
+
+
+\subsection{\koisixnine}  %koi-69
+%\label{sec:k69}
+{\koisixnine} has one transiting planet with a period of 4.7 days 
+and a radius of 1.5 \rearthe.  A linear trend of 10m/s/year is seen 
+in the RVs and over the course of 3 years shows no departure 
+from a straight line. Follow up observing commenced in August 2009
+at McDonald 2.7m and the 2.6m Nordic Optical telescope.
+Moderate signal to noise spectra were acquired, yielding 
+spectral parameters found with SPC consistent with the KIC values. The 
+ \vsini  is measured to be $<$ 2\kms, consistant with a slowly rotating main sequence star,
+ and no RV variation was seen between the two spectra  at the $~$500\ms.
+SME analysis on the Keck-HIRES template spectrum showed the star to be slightly cooler
+than the KIC and Recon determined parameters.  Final stellar parameters
+ including stellar mass and radius were calculated using asteroseismology
+ with SME values used as input parameters. The final stellar parameters are
+ \teff~ = 5669K, \logg~ = 4.47 and \feh~ = 0.02.   Table ~\ref{tab:stellar_pars_tbl} 
+ holds the final stellar parameters including stellar mass and radius.
+ 
+ Speckle imaging was first obtained in October 2009 and a binary companion 
+ was detected 0.05" away with a delta magnitude of 
+ 1.4. Two additional speckle images were taken and the secondary
+ star could  NOT be confirmed.  Warning of this companion appears in 
+Table 3 of \cite{Borucki2011} and should be disregarded.  Adaptive optics imaging in May 2010
+at ARIES confirmed no secondary stars were present from 
+1" to 6" of the primary, but the potential 0.05" companion would have
+fallen within the inner working angle of ARIES.  The field of view near this KOI
+is shown in a Keck-HIRES guide camera, seeing limited, image  shown in 
+Figure  ~\ref{fig:koi69_gi}a. Limits on companions from the high resolution
+imaging are displayed in  Figure  ~\ref{fig:koi69_gi}b.
+
+Keck-HIRES precise RVs span 1132 days, from July 2009 
+to September 2012(Figure ~\ref{fig:koi69_gi}c). The most 
+prominent feature in the RVs is the 10m/s/year linear trend.  
+Since we see no curvature, we can declare that the orbital 
+period of the companion causing the linear trend is longer 
+than te time baseline of nearly four years. The most likely orbital companion is an 
+M-dwarf orbiting beyond 5 AU.  The non-transiting planet has a designation of 69.10
+and we place upper limits to the mass and period in Table ~\ref{tab:stellar_pars_tbl}. 
+
+We place upper limits on the mass of the transiting planet of 4.4 \mearth, which corresponds
+to a bulk density of 7.2 \gcc. This is only an upper limit
+because the median value is near zero, and the value, within errors, in consistant
+with zero at the two sigma level. 
+The phase folded RV curve shows the K-amplitude of 1.05+-0.8\ms
+(Figure ~\ref{fig:koi69_gi}d).  The full set of RVs are plotted versus time 
+in  Figure ~\ref{fig:koi69_gi}c  and listed, along with the \rphk~ activity 
+value for each observation in Table ~\ref{tab:rvs_k00069}.
+
+
+%Jason's fit uses a long period planet to model the trend. The period and phase is allowed to vary for the NT planet. Once found, a zero point correction is allowed to move once the MCMC analysis is run, but the period is no longer allowed to vary.
+
+% Potential stellar companion is ~30 years. After three years of data, there are still no
+% Jupiter: 13m/s, a star is 100x Mj  -> 1000km/s, but further out in separation:
+
+%summary:
+%The RVs show a marginal detection of .01. Report no mass for .10, and point reader to specific section, away from table ie: "linear Trend, see notes for details.
+
+%   HELPER SECTION TO IDENTIFY GRAPHIC REFERENCES
+%guider image label: Figure ~\ref{fig:koi69_gi}
+%
+%Rea plot:     Figure ~\ref{fig:koi69_ssep}   %secondary spectrum exclusion plot
+
+%RV table label: Table: ~\ref{tab:rvs_k00069} 
+
+%stellar parameters table reference: Table ~\ref{tab:stellar_pars_tbl}
+
+%orbital parameters table:  Table ~\ref{tab:orbital_pars_tbl}
+
+\subsection{\koieighttwo}  %koi-82
+
+%KFOP summary:
+The five planets in this  system have  periods of  5.2(82.05), 7.1(82.04), 10.3(82.02), 16.1(82.01) and 27.5(82.03) days and  corresponding radii of 0.5, 0.6, 1.0, 2.2 and 0.9 \rearth. Due to their very small transit depths of only 41 and 65 parts ppm, 82.05 and 82.04 were detected last. Their numbering reflects their order of discovery, not their orbital period.
+
+ Recon  spectroscopy was first acquired with the Lick 3m telescope in August 2009. 
+ Two spectra taken four days apart that agreed with  the KIC value of \teff~ 
+ but the value of \logg~ = 5.0 conflicted with the KIC \logg~ value of 4.0. The final 
+stellar parameters, determined with SME analysis, combined
+ with stellar isochrones are  \teff~ = 4903 +- 44K ,  \logg~ = 4.61 +-0 03 and \feh~ = 0.02 +- 0.10. 
+ The final \logg~ value changed the initial KIC value of stellar 
+ radius from 1.8 \rsun to 0.73 \rsune.  The initial values of planet radii were
+likewise reduced by a factor of 2.5.
+
+Due to the intense interest in the system of five small planets, and the Recon derived
+stellar parameters that differed greatly from the KIC values, high resolution 
+spectra were taken at Keck/HIRES as well as FIES to confirm the stellar properties. 
+Several trials of SME analysis and SPC analysis were made to robustly confirm 
+the \teff, \logg, and \feh. In the end all analyses agreed within one sigma error 
+bars. 
+
+ Standard  follow-up continued with  speckle imaging in June 2010 and ARIES AO observations in 
+ September 2010 and found no stellar companions, within their observing limits, providing strong
+ evidence that the transits occur on the primary star. Figure ~\ref{fig:koi82_gi}a shows a seeing limited
+ image of the field of view from the Keck-HIRES guider image.   Figure  ~\ref{fig:koi82_gi}b shows the 
+ limiting magnitudes achieved with each imaging method.  
+
+--
+
+With five transiting planets in orbits less than 25d and planet radii less 
+than 2.5 \rearth, {\koieighttwo} is a densely packed, rich  system of small planets. 
+The RV time baseline of nearly 900 days shows only a 4.3 \ms scatter prior to 
+fitting(Figure ~\ref{fig:koi82_gi}c), covering many orbits of even the longest 
+period planet in the system. We fit all five planets simultaneously and find the 16 day planet shows the strongest coherence
+ with the RVs and we measure  the planet mass at 8.9 +- 2.0 \mearth and a density of 
+ 4.7 +- 1 \gcc. The K-amplitude is 2.8+- 0.6\ms, the largest for any planet in the system.
+ The four remaining planets in the system are below the current 
+ RV detection threshold, and  we report one sigma upper limits to their masses in 
+ Table ~\ref{tab:orbital_pars_tbl}. With the three year time baseline, we  constrain the presence of non-transiting planets out to 5AU with masses down to one Jupiter mass. No detectable periodic signals are
+ seen in the residuals to the five planet fit.
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00082}.
+
+
+
+
+
+ %The RVs for the 27 day planet do not span  the full  phase of the radial velocity curve, making the limits quite weak. The 2-sigma upper limit is 52gcc. The 7day planet with a radius of only 0.7 times that of the Earth is undetected with a 2-sigma upper limit on the density off 35gcc. The 5d planet is only 0.6 times the size of the earth is also undetected, and has a density of 100gcc  at the two sigma limit.
+
+
+%82.01 is a detection
+%82.02 is a marginal/ non-detection, zero is acceptable when looking at the mcmc distribution. The fit is being driven by the two points that are slightly above the fit. 
+
+%82.03 at best, this is a one sigma detection. The scatter around phase of .04 is similar to the scatter near phase of .8, displaying the weakness of the result.  Switching from the median to the mode, may make this an an even weaker detection.
+
+%82.04: switchin to the mode, will make this a K=0 value.
+
+%82.05 Non detection: use mode and 34\% toward the positive of mode for one sigma.
+
+%As an aside on the posterior distribution, we will choose to report the mode as the best value, even when the mode is zero. The one sigma limits will be 34\% of the way away from the mode. These will be the two main values reported in the table.
+
+
+\subsection{\koionezerofour}  %koi-104   %KFOP summary:
+
+The single transiting planet orbiting {\koionezerofour} has a period of 2.5 days and radius of 3.5 \rearth, resides in a multiple system, as precise RVs reveal the presence of a non-transiting planet(104.10) with a period of 821+-3 days and \msini~ of 10.2 +-0.6\mjup. Before the non-transiting planet was detected, we acquired the usual suite of follow up observations. Recon spectroscopy was first done with the 2.6m Nordic Optical Telescope in August 2009.  The three spectra that were acquired showed no radial velocity variation above the errors of ~200\ms, and confirmed the status of this slowly rotating cool dwarf. Initial photometric analysis showed a star and planet radius smaller by 20\% than the final planet radius. The slowly rotating K-type host star is ideal for precise RV analysis.    SME analysis of the HIRES template spectrum and comparison to Yonsei-Yale stellar isochonres  refined the stellar properties to be \teff~ = 4781 +- 78K, \logg~ = 4.59+- 0.04 and \feh~ = 0.34+-0.04, confirming the stellar parameters determined from the Recon analysis. The final planet radius, after adjustment of the stellar radius using the final \logg~ value is 3.5\rearthe.  This KOI was analyzed by \citep{Muirhead2012b}, but the parameters were found to be very uncertain with this method, which is best for mid to late M dwarfs, with Teff $<$ 4000K.  The final stellar parameters can be found in Table ~\ref{tab:stellar_pars_tbl}.
+
+
+The initial status of "V-shaped light curve"  lead the KFOP to use caution when interpreting this as a planet. The Kepler photometry diagnostics suggested a chance that this was a blend of multiple stars. Speckle imaging revealed no companions within its limits. Subsequent AO observations taken at Palomar further limited the presence of stellar companions to within 1.0" away from the primary.  The concerns regarding the V-shaped transit and possible blend of other stars cause the false positive probability to be ~10\%, but the RV detection of the 2.5d planet is consistent with a transiting planet. For a detailed description of the FPP for this KOI, see Section 6.3.  A seeing limited image of the field of view from the Keck-HIRES guider is found in  Figure ~\ref{fig:koi104_gi} while  Figure ~\ref{fig:koi104_gi}b shows the limiting magnitudes achieved with each high resolution imaging method.  
+
+The first Keck-HIRES RV was acquired on 30 June 2010. The long baseline of the RVs, spanning 800 days(Figure ~\ref{fig:koi41_gi}c), is critical for mapping out the orbit of the non-transiting planet.  The precise RVs are in phase with  the transiting planet in a circular orbit, and we measure the planet mass to be 10.8 +- 1.4 \mearth.  The transiting planet mass, combined with the planet radius measurement from Kepler yields a bulk density of 1.45 +- 0.3\gcc, which is consistent with \cite{Lopez2012}, and suggests a low density planet with a large fraction of volatiles by volume. While the value quoted above is for a circular orbit, the transiting planet appears to be in a non-circular orbit, despite its short period. It is one of the few cases in which the eccentric orbit allows a better fit to the RV data, than the circular orbit(See Appendix). The higher  RV signal is due to the non-transiting planet, and we measure \msini of the planet to be  10.2+- 0.6 \mjup. This planet also has a non-circular orbit and we measure the eccentricity to be 0.38. The phase folded RV curves are shown in Figure ~\ref{fig:koi104_gi}d.
+
+The eccentricity of the short period planet is unusual. Perhaps the non-transiting planet is pumping the eccentricity of the transiting planet. It is worth noting that there is only one transiting planet, perhaps because the non-transiting planet has scattered any other planets out of the system.  The most likely mass of the non-transiting planet is between 10 and 20 \mjup, which is likely higher because we only know \msini, and not the true mass. 
+
+The full set of RVs are listed, along with their \rphk~ chromospheric activity values in Table ~\ref{tab:rvs_k00104}.
+
+
+%Check the TTVs, Jason pointed out a TTV signal in the photometry. Follow this up.
+
+\subsection{\koionezeroeight} %108
+
+The two planets around {\koionezeroeight} have periods of 16.0(108.01) and 180(108.02) days with planet radii of 3.4 and 5.1 \rearth, respectively. Follow-up observing at the McDonald 2.7m in August 2009 were found to be in marginal agreement with the  KIC estimates of \teff~ and \logg.  SME analysis was conducted on a Keck-HIRES template spectrum. The results were used as initial conditions in the asteroseismology analysis, which determined the final stellar parameters, most notably increasing the stellar radius by  25\% from from the KIC radius to 1.43 \rsune.  The derived stellar parameters are \teff~ = 5845+-88, \logg~ = 4.16+-0.04, and \feh~ = 0.07+-0.1.  The small number of RV measurements in  2012 is due to the refined stellar parameters, which increased the planet radii to $>$ 3.0 \rearthe, above our target range of planet radii. 
+
+Adaptive optics imaging was acquired in the J-band at Palomar Observatory and two nearby stars were found 2.44" and 4.87" from the primary, both are 7.2 magnitudes fainter than the primary. No companion stars were found within the limits of speckle imaging, taken in June 2010, which probes from 0.05" to 1.4" from the primary.  During Keck-HIRES observations, the 4.87"  stellar companion was purposely kept out of the HIRES slit, however the 2.76" companion was not visible on the HIRES guider and may have inadvertently fallen into the slit of the spectrometer.  The HIRES slit is only 0.87" wide, so for most orientations of the rotating HIRES field of view(due to use of the image rotator) the star would not fall in the slit. If it did, then the flux would be$>$ 1/700 the brightness of the primary.  Figure ~\ref{fig:koi108_gi}a shows a seeing limited
+ image of the field of view of the HIRES guider camera.  Figure ~\ref{fig:koi108_gi}b shows the limiting magnitudes achieved with each high resolution imaging method.  
+
+The second transit of the 180d planet was found only after a full year of Kepler data was analyzed. Upon discovery of the first transit event of the 180d planet, centroid analysis was conducted and found the flux weighted centroid shift offset from the primary star by 0.7" at the two sigma level. After more Kepler photometry was processed and analyzed, the offset was not confirmed, and the centroid anlaysis was found to be consistent with a transit on the target star.
+
+The time baseline for the RVs spans 735 days(Figure ~\ref{fig:koi108_gi}c). The RV signal correlates with the orbital period of 16 days for the inner planet. The nominal mass of the 15 day planet is measured to be 18.7 +- 4.6 \mearthe, corresponding to a bulk density of 2.2 +- 0.6 \gcc when combined with the planet radius of 3.4 \rearth. The RV signal has a semi-amplitude of 3.7+- 0.9\ms, a strong detection by our standards in this paper . Since RV measurements are planned to occur at the predicted times of quadrature, the phase coverage of the RVs is poor, and the eccentricity is not well constrained, leading us to conduct these fits using circular orbits.  The peak of the posterior distribution of the 180 day planet is  negative, and the interpretation is that the results are consistent with zero, and the upper limits on this non-detection are not physically meaningful(a planet cannot have negative mass). Poor phase coverage of the RVs for this long period planet make upper mass limits even less robust. 
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00108}.
+
+
+
+%Both planets show TTV signals. 
+
+%One RV was taken in 2012, but the addition of the one more point resulted in chi^2 values for all observations greater than 1.5, resulting in dismissal of the final point, and reliance on the 2011  VST structure.
+
+%SME was used to analyze a HIRES template spectrum and found \teff = 5975K, \logg = 4.3 and \feh = +0.17
+
+\subsection{\koioneonesix}  %116
+
+With four transiting planets with very small transit signals, {\koioneonesix}, \ek was slow to discover the full quartet of planets. The final makeup of the system is four planets with periods of 6.2(116.03), 13.6(116.01), 24.0(116.04) and 43.8(116.02) days and planet radii equal to 0.8, 2.5, 0.95 and 2.6 \rearthe, respectively. The first two planets were discovered with three months of Kepler data, the third required quarters 1-6 of Kepler data, and the fourth was discovered with quarters 1-8 of Kepler data. The longer time baselines of the \ek photometry are required to find such small signals.  Ground based follow-up observing started with acquisition of Recon spectra with the 2.6m Nordic Optical Telescope in August 2009 and the  McDonald 2.7m in September 2009. These spectra agreed with the \teff~ from the KIC, but modified the \logg~ from 4.0 to 4.5, placing this star on main sequence, not slightly evolved. The main affect of this change in gravity is the decrease of the stellar radius by 50\% compared to the KIC value to 1.04\rsun. The planet radii were likewise decreased from $~5$\rearth, to their final values stated above and in Table ~\ref{tab:orbital_pars_tbl}.   SME analysis on a HIRES template spectrum  was used in combination with Yonsei-Yale stellar isochrones to determine the final stellar parameters of \teff~ = 5858+-98K, \logg~ = 4.407  +- 0.14, and \feh~ = -0.12+-0.1. (Table ~\ref{tab:stellar_pars_tbl}).
+
+To complete the suite of follow-up observing, speckle imaging at WIYN taken in June 2010 and AO observation taken at ARIES in Ks band in late 2010, both showed no companion stars within their detection limits. Figure ~\ref{fig:koi116_gi}a shows a seeing limited  image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi116_gi}b shows the limiting magnitudes achieved with each high resolution imaging method.  
+
+While precise RV monitoring started in 2010, the discovery of the fourth planet, and the adjustment of all four planet radii to values below 2.5 \rearth lead to increased cadence in the 2012 observing season. The RV baseline of 1073 (Figure ~\ref{fig:koi116_gi}c) reveals no non-transiting planet signals or linear trends.
+The 6d(.03) and 24d(.04) planets have RV signatures below the detection threshhold of the RVs, the K-amplitude values from the 4 planet fit is consistent with zero and the upper limits are quite weak. The 13 day planet, with radius of 2.5 \rearthe, shows a modest correlation with the RVs that allows us to determine a mass value  of planet mass = 10.4 +- 3 \mearthe, corresponding to a 3.3 +- 1.6 \gcc. The 43 day planet, with a radius of 2.6 \rearthe, shows a weaker correlation with the RVs, and we are able to measure the mass of 11.2 +- 6 \mearthe, density = 3.1 +- 2.1 \gcc.  The 13 day planet has a slightly better than  2-sigma detection, while the 43 day planet is slightly less than a 2-sigma detection. While we cannot place strong upper limits on the mass of the two sub-earth radii planets, the RVs are completely consistent with the four planet system. The phase folded RV curves for each planet are shown in Figure~\ref{fig:koi116_gi}d.
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00116}.
+
+
+%116.01 good detection
+%116.02 good detection
+%116.03 non detection ,but consistent
+%116.03 non detection ,but consistent
+
+%.01, .02 in Borucki II
+%.03  found in q1-q6 data, Batalha 013  %Batalha2013 is published as Batalha 2013 
+ %.04 after q1-q8 search.
+% 1.9\rsun is the KIC value
+
+\subsection{\koionetwotwo} %122
+
+{\koionetwotwo} is a single planet system, in which the sole planet orbits its host star in 11.5 days and has a radius of 3.4 \rearthe. The first follow-up observations were two spectra taken in August of 2009 at the McDonald 2.7m. Compared to the KIC values, the \teff measurement agrees with the KIC value, but the \logg~ value differs significantly. The final stellar radius of 1.41 \rsun is 75\% larger than the KIC value.  SME performed on a Keck-HIRES spectrum, combined with asteroseismology \citep{Huber2013} provides the final \logg~ has a value of 4.17 +- 0.04,  \teff~ = 5858+-98 and \feh~ = -0.12+-0.1.  The corresponding adjustment to the planet radius(originally 1.9 \rearthe), moved this KOI out of our target range of planet radii, which is focused on planets smaller than 2.5 \rearthe. Precise determination of the stellar radius is critical  to the final planet mass and density determination. For example, by combining the planet radius from 2009  with the current mass measurement leads to a planet of density = 24\gcc, while the asteroseismically determined value of planet radius, combined with the RV mass measurement shows this planet to be low density($<2.0\ms$).
+
+Follow-up imaging with the WIYN telescope in August 2009 found no stellar companions, but AO imaging at Palomar in June 2010 revealed a single companion star 4.1" from the primary that is 6.5 magnitudes fainter in the J-band. Centroid analysis of this target rules out the possibility of the transit occurring on the companion star. Figure ~\ref{fig:koi122_gi}a shows a seeing limited image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi122_gi}b shows the limiting magnitudes achieved with each high resolution imaging method.  
+
+The precise RV baseline from Keck-HIRES spans 1078 days has an RMS of 5.1\ms(Figure~\ref{fig:koi122_gi}c). After fitting the single planet, of radius = 3.4 \rearthe, to the RVs we strongly detect the mass  to be13.0+-2.9 \mearth with a corresponding density of 1.7 +- 0.4 \gcc .  The density determination is consistent with that found in Table 4 of \cite{Lopez2012}. The RV detection is significant, and the low density requires the planet to consist of a large fraction of volatiles by volume.
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00122}.
+
+
+%Nice detection. Check eccentricity with asteroseismology.(do for all AS targets). 
+
+\subsection{\koionetwothree} %123
+
+The {\koionetwothree} planetary system consists of two transiting planets with orbital periods of 6.5(123.01) and 21(123.02) days and radii of 2.4 and 2.5 \rearthe, respectively. Two spectra were acquired at the McDonald 2.7m in August 2009.  No RV variation of order ~500\ms was seen over the 18 days between the two observations, and the \teff~ and \logg~ values agree, within errors, with the KIC values. The rotational velocity of 4 \kms showed this to be a good target to follow-up with precise RVs. The template spectrum from Keck-HIRES was used to determine the stellar parameters with SME, which are used as inputs to the asteroseismology analysis. The final stellar parameters are \teff~ = 5952+-75, \logg~ = 4.21+-0.04, and \feh~= -0.08+-0.1 The stellar parameters from the KIC, recon spectra, and SME/asteroseismology are all in agreement, and no large modifications to the stellar radius, and subsequently, the planet radii, were needed.
+
+In September 2009 AO imaging at Mt. Palomar detected two stellar companion in the J-band, located 2.03" and 5.27" away from, with delta magnitudes of 7.4 and 8.1. Speckle imaging was acquired in June 2010, and no additional companions were found. The two companions found with AO are beyond the detection limits of speckle. Centroid analysis of the \ek photometry  excludes the possibility that the transits fall on either of the known companion stars. Figure ~\ref{fig:koi123_gi}a shows a seeing limited
+ image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi123_gi}b shows the limiting magnitudes achieved with each high resolution imaging method.  
+
+The \~1100 day precise RV baseline shows a 7.1 \ms RMS(Figure ~\ref{fig:koi123_gi}c), and the RVs do not correlate in phase with either planet(Figure ~\ref{fig:koi123_gi}d). We provide mass measurements, which serve more as mass limits, for each planet. The nominal planet masses are 1.3 +- 5.4 \mearth and 2.2 +- 7.8 \mearth for the inner and outer planets respectively. The correspondingly low density limits of 0.3 +- 2 \gcc and 0.6 +- 2.3 \gcc are consistent with zero, however the upper mass limits for the 21 day planet suggest  a composition of mostly rocky material is very unlikely. Such a planet would have a mass that is easily within the detectability of the  measurements in hand. The density determinations are not inconsistent with the \cite{Lopez2012} results, but with the current uncertainties, a proper comparison must wait.
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00123}.
+
+ % NOTES: 
+% Are we seeing this star pole on?  Vsini = 2.7
+
+\subsection{\koionefoureight} %148, Kepler-48
+
+This  four planet system, has three transiting planets with orbital periods of 4.8(148.01), 9.7(148.02) and 43(148.03) days with radii equal to 1.9, 2.7 and 2.0 \rearth, respectively and one non-transiting planet with an orbital  period of  972 days(148.10) and minimum mass of \msini = 2.1 +-0.08\mjupe. Follow-up observations of this system began with the acquisition of three recon spectra from the Lick 3m and McDonald 2.7m. The spectral analysis of the recon spectra conducted with SPC found this star to be a slowly rotating main sequence K0 star, confirming the KIC parameters and adding the knowledge of \vsini $<$ 2 \kms. When we started collecting precise RVS  with Keck-HIRES, SME analysis was conducted on the template spectrum. When combined with Yonsei Yale stellar isochrones, SME found \teff~ = 5194 +- 43, \logg~ = 4.49+-0.05 and \feh~ = 0.17+-0.04. Final stellar parameters are  listed in Table ~\ref{tab:orbital_pars_tbl}. 
+
+High resolution imaging at WIYN using the speckle camera found no stellar companions. Adaptive optics imaging at Mt. Palomar probed the field of view beyond the speckle imaging revealing four companions within 6" of the primary. They are as follows: 2.44" away and delta magnitude of 4.9,  4.32" away and delta magnitude of 3.3, 4.39" and delta magnitude 7.3, and 5.89" away delta magnitude of 7.0. These observations were conducted in the J-band and probe down to a Kepler Magnitude of 20.7\citep{Adams2012}.  All of these companion stars are identifiable in the Keck guide camera and care was taken keep these stars from entering the slit during precise radial velocity observations, however line bisector variations of a few observations suggest that the nearest companion could have lied along the slit on three occasions [ Geoff, Do we need to consider this further?]. Centroid analysis of the Kepler photometry definitively shows that the transits occurred on the primary star, and not on any of the companion stars. Figure~\ref{fig:koi148_gi}a shows a seeing limited image of the field of view from the Keck guide camera. Figure~\ref{fig:koi148_gi}b shows the exclusion limits from the high resolution imaging analysis.
+
+
+This three transiting planet system was observed with Keck/HIRES starting in August 2009(Figure ~\ref{fig:koi148_gi}c). The initial epochs in summer 2009 would prove vital for detecting the non-transiting planet in a nearly 3-year orbit. Further radial velocity measurements will more tightly constrain the orbital parameters of the non-transiting planet, which will likewise improve the transiting planet masses.  
+
+The 4.7 and 9.7d planets have been shown to be gravitationally interacting, in a 2:1 mean motion resonance, as measuring by their TTVs \citep {Steffen2013_kepler_vii, Wu2012}. \cite{Steffen2013_kepler_vii} performs a stability analysis to calculate the possibility of these two inner planets as false positives, leading to a FPP of  less than 10e-3. This agrees with the \cite{Morton2012} analysis listed in Section \ref{sec:choose22} and Table~\ref{tab:fpp_tbl}. The planet in the 43d period does not gravitationally interact with the inner planets in a way that leads to a detectable signal. The masses of the two interacting planets have been measured with TTVs, but with a different stellar parameters and different planet radii, making a direct comparison here difficult. 
+
+The maximum mass for KOI-148.01 and KOI-148.02, as allowed by the stability analysis are several jupiter masses each.  These mass values are further constrained with a TTV analysis which results in maximum masses of 17.2+-3.9  and 10.1+-3.5 \mearthe, for 148 .01 and 148.02, respectively.  Radial velocity measurements currently find the masse of 3.9+- 1.9 \mearth and  14.9+-2.9 \mearthe. Phase folded RV curves for each planet are shown in Figure ~\ref{fig:koi148_gi}d. Radial velocities constrain the mass of .01 more tightly than TTV analysis. The mass determined for KOI-148.02 is consistent between the two methods within errors.  A joint analysis using both TTVs and radial velocities would likely constrain the masses even more. 
+ 
+ After the second observing season,  a linear trend in the RVs was detected. After the third year of observing the RV trend turned over and the period of the non-transiting planet was known to within a factor of two. Only after the fourth year of observations and a full orbit of the non-transiting planet had occurred, was the period known to better than 10\%. The existing 10\% uncertainty in the non-transiting planet makes it more difficult to precisely fit  the transiting planets. As the orbital parameters, especially eccentricity, of the non-transiting planet are further constrained with more observations, the masses of the inner planets will be more tightly constrained.
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00148}.
+
+%[Have the AO observations been included in the dilution of the primary star?]
+%stability analysis mass limits: 5.9 \mjup (1960 \mearth) and 11.6 \mjup(3830\mearth)
+
+%Notes:  
+% TTV masses(Stffen):  .01: 17.2 +- 3.9     .02:  10.1 +- 3.5
+%$TTV masses (wu):  .01: (7.98\gcc  (2.14Re ^{3} )) / 5 \gcc  = 15.64 \mearth, .02:  (1.62\gcc * 3.14Re^{3} )= 10.03 \mearth$  
+%$TTV masses (wu) eccentricty bias:  .01:  (2.2\gcc * 2.14\rearth^{3}) /5 =  4.31\mearth,    .02:  (0.9 * 3.14^{3}) / 5 = 5.57\mearth $
+% RV masses :   .01: 3.9 \mearth +-1.9    .02: 14.9 +- 2.5      
+
+%Formula for converting rho_p to M_p :      Mp(in Me) = rho_p( in gcc) * Rp(in Re)^3 / 5.
+
+
+%NOTES:
+%Stellar mass and radius agree with Steffen within 1\%,   Steffen uses 2.14 and 3.14 \rearth. We use 1.88 and 2.71 \rearth for the planet radii.  The ratio of the planet radii is 0.69 for our radii and 0.68 for Steffen's. However, the Wu analysis is calculating density based on different radii than we use. This makes it difficult to compare. Are simple ratios sufficient to properly account for the different radii used? The radii used by Wu and Steffen are 14 and 16\% larger than we use, for .01 and .02 respectively.
+%
+
+%Would benefit from another RV Get one in May. NT planet is not well constrained in terms of eccentricity
+
+
+\subsection{\koionefivethree}  %KOI-153.
+
+This three planet system has two transiting planets with orbital periods of 8.9(153.01) and 4.7(153.02) days with radii equal to 2.2 and 1.8 \rearth and a non-transiting planet detected with RVs with a period of 16.4+-0.8[double check period] days and \msini = 30 +- 4 \mearth[double check mass].  Recon spectra of this system were taken at the 2.6m Nordic Optical Telescope  and McDonald 2.7m in August and September 2009. Using SPC, stellar parameters of \teff and \logg were confirmed to be within the errors of the KIC values, and no large RV scatter was found. This star was confirmed to be a slowly rotating K3V star, making it a good for precise RVs with Keck-HIRES. The main drawback of this KOI is its faintness of Kepmag = 13.5. The final stellar parameters, determined with SME and reference to Yonsei-Yale isochrones determined the stellar radius to be 30\% less than the KIC value, with an equal decrease in the determination of the planet radii.  The final stellar parameters are \teff~ = 4725 +- 44K, \logg~ = 4.64+-0.03 and \feh~ = 0,05 +-0.04. 
+
+Speckle imaging at the WIYN in June 2010 found no companions within its limits. Adaptive optics imaging taken with AIRES in the 2011 observing season found one companion within 6.0". It was found in both the Ks and J bands at 5.14" from the primary with delta magnitudes of 8.1 and 8.3 respectively. Seeing on the night of this observation was only 0.3", slightly greater than the 0.1" observing conditions for most KOIs observed with AIRES. Figure ~\ref{fig:koi153_gi}a shows a seeing limited  image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi153_gi}b shows the limiting magnitudes achieved with each high resolution
+ imaging method.  
+
+We detect the 4.7 day transiting planet and the non-transiting planet with precise RVs that span a baseline of 832 days(Figure ~\ref{fig:koi153_gi}c). The 8.9 day transiting planet is not detected and we provide an upper limit to its mass. We find the mass of the 4.7d planet to be 7.1 +- 3.3 \mearthe, and 6.6 +- 3\gcc. The upper limit to the 8.9d planet is difficult to interpret because the peak in the posterior distribution is -2.7\ms. If the posterior distribution peaks near zero for K-amplitude or mass, then upper limits are calculated as the one sigma away from the mean in the positive direction. When the peak in the posterior distribution of K-amplitude is negative, the interpretation is difficult because a value that is one-sigma from the median can still be negative. The reader should keep this in mind when interpreting the mass limit of the 89d planet.  In determining the properties for the non-transiting planet, we searched for periodicities in the RVs that correspond the five highest peaks in the periodogram. The best fit period for a non-transiting planet is 16.4 days, with an uncertainty of only 0.02 days. The small uncertainty is a tribute to the long time baseline of the RVs. The best fit minimum mass of the 16.4 day planet is \msini = 30.0 +- 4  \mearthe. Inclusion of the non-transiting planet in the RV fit reduces the RMS to fit by a non-negligible amount, showing that the fit is better with the non-transiting planet included.[more needs to be said about the eccentricity limits on the .10 planet]
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00153}.
+%No  rush, but do get one more RV in 2013, but not more.
+
+
+\subsection{\koitwofourfour} %KOI-244, Kepler-25
+This three planet system has two transiting planets with orbital periods of 12.7(244.01) and 6.2(244.02) days with planet radii equal to 5.2 and 2.7 \rearth and a non-transiting planet in a period of 123 +-2 days and minimum mass of \msini =  90+- 14 \mearthe.  Follow-up observations were begun with the acquisition of two recon spectra at the McDonald 2.7m and one at FLOW, all in March 2010. The stellar parameters determined from these spectra agree, within errors, with the KIC values. This is a non-typical RV target in the sense that with a \vsini = 10 \kms, and \teff~ = 6270K. It is rotating faster and has a higher temperature than we normally choose to observe. Brightness(KepMag = 10.7)  plays a role in choosing to observe this star, and its fast rotation increases the chance of measuring a Rossiter-McLaughlin signal. The final stellar parameters, which basically agreed with the KIC values, were obtained using SME conucted on a Keck-HIRES spectrum. SME results were combined with asteroseismology analysis and the detection of solar like oscillations were used to determine the stellar properties \citep{Huber2013}. The final stellar parameters are \teff~ = 4725+-44K, \logg~ = 4.64 +- 0.03, and \feh~ = 0.05+-0.04, which are listed in full,  in Table ~\ref{tab:stellar_pars_tbl}.
+
+Follow-up imaging conducted at the WIYN and Mt. Palomar found no companions, within limits, from 1" to 6" from the target.  While there was once discussion on the CFOP regarding a false positive due to centroid motion for this KOI, further analysis ruled this out to within 2.0" or half a Kepler pixel. The confusion was due to this being a saturated target  on the Kepler Field of View. Figure ~\ref{fig:koi244_gi}a shows a seeing limited  image of the field of view of the HIRES guide camera.  Figure  ~\ref{fig:koi244_gi}b shows the limiting magnitudes achieved with each high resolution imaging method.  
+
+
+Gravitational interactions between the two inner planets has been evidenced by TTVs and documented by \cite{Steffen2012_keplerIII} and \cite{Wu2012}.  In his analysis, \cite{Steffen2012_keplerIII} performs a stability analysis of the orbits and uses stability as a proxy for false positive assessment. The false positive probability from the stability analysis is  $10^{-3}$, compared to 1\% and 0.001 from the \cite{Morton2012} method discussed in Section 6, and found in Table \ref{tab:fpp_tbl}. The masses are also constrained by TTVs, but the RVs presented here constrain the mass by a factor of 100 better than the TTVs. 
+
+Extensive precise RV follow-up was carried out at Keck-HIRES from 2009 to 2012(Figure  ~\ref{fig:koi244_gi}c), including two separate measurements of the Rossiter-McLaughlin(RM) affect, in which RVs are collected continuously while a planet is simultaneously transiting its host star. The RM results are summarized in \citep{Albrecht2013}  showing the stellar spin axis to be well aligned with the orbital axis. \cite{Albrecht2013} find lambda, the angle between the orbital plane of the transiting planet to the stellar rotation axis to be 2 +- 5 degrees. The RVs taken while the planet was transiting were removed for the RV analysis presented here.
+
+The two transiting planets in the system have been confirmed with TTVs, but the upper limits on the planet masses are not meaningful. With RVs, we can show that both transiting planets are definitively low density. For KOI-244.01 we find a mass = 24.6 +-6 \mearthe, with a corresponding density of 0.0+-0.2\gcc. 
+for KOI-244.02 we find a planet mass of 9.6 +- 4.2 and a density of 2.5 +- 1.1\gcc. An additional signal in the radial velocities shows a signal of period 123 days corresponding to a mass of 89+- 14 \mearthe. The orbit of the non-transiting planet is slightly eccentric(ecc = 0.12).  We have strongly constrained the masses and densities of the transiting planets to be low density, requiring them to consist of large amounts of volatiles.
+
+The full set of RVs, minus the RVs used to measure the Rossiter-McLaughlin effect, are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00244}.
+
+%{\citep{Steffen2013_kepler_vii}
+%$cite: Wu2012, rho_6d = 2.02 +- 0.73,  rho_12d = 0.55+-0.11$, Although they use slight different stellar parameters, and slightly different planet radii.
+
+%Two nice detections, and another NT planet.  KOI-244.02 is a two sigma detection
+
+%KIC Rstar = 1.14Rsun, final: 1.30Rsun. 
+%Kic TEff: 6104K, Final Teff: 6270K
+%KIc logg: 4.37, final logg: 4.27.
+
+
+\subsection{\koitwofourfive}  %Kepler-37, KOI-245
+
+This three planet system whose planets have orbital periods of 13(244.03),  21(244.02),  and 40(245.01)  days have corresponding planet radii of 0.303, 0.742 and  1.99 \rearthe, respectively. A detailed analysis of the Kepler light curve, blend scenarios, and  asteroseismic analysis of this exceptionally bright  (KepMag = 9.7) KOI with a sub-Mercury sized planet can be found in \cite{Barclay2013}. We summarize the follow-up observations here and place limits on the planet masses determined from the precise RV observations.
+
+Recon spectra from the McDonald 2.7m and the Tillinghast 1.5m were taken in March and April 2010, respectively. These spectra confirmed the stellar parameters from the KIC, and showed the \vsini is less than 2.0km/s. SME analysis taken from a Keck-HIRES spectrum also agreed with the KIC parameters, and  the final stellar parameters were determined via asteroseismology, with SME \teff and \logg used as inputs. This KOI is the most dense star yet to reveal asteroseismic oscillations, made possible largely by its brightness, and the final stellar parameters are \teff~ = 5417+- 75K, \logg~ = 4.57 +- 0.05, and \feh~ = -0.32.
+
+ Speckle imaging was acquired at the WIYN telescope and also at the Gemini Telescope. Adaptive optics imaging was taken with ARIES and all three imaging techniques found no stellar companions. Extensive AO observations were also taken with the updated AO system on Mt. Palomar in the K band (actually br-gamma filter). A more thorough analysis that given here is found in  \citep{Barclay2013} where the probability of background stars falling, undetected, into the Kepler aperture, is discussed. We present a seeing limited image of the field of view in Figure ~\ref{fig:koi245_gi}a and magnitude limiting plots from the high resolution imaging in Figure ~\ref{fig:koi245_gi}b.
+ 
+ --
+ The precise RVs from Keck-HIRES are unable to determine the planet masses, because they are below the current detection limits. We constrain the mass of the 40, 21, and 13 day planets to be less than 1.3 +- 1.2 ,4.2 +- 2.7, and 1.3 +- 1.1 \mearthe. The mass for the 40d planet corresponds to a physically meaningful density of 1.0 +- 0.9 \gcc, meaning the one sigma upper limit on density is 1.9 \gcc. The 21 and 13 day planets have unphysical densities. The 862 day baseline for the RV measurements finds no significant periods above the noise, indicating no non-transiting planets are detected.
+ 
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00245}.
+
+
+
+\subsection{\koitwofoursix}   %KOI-246, Kepler-68
+
+ This three planet system has two transiting planets with orbital periods of 5.4 and 9.6 days and  planet radii equal to 2.3 and 0.95 \rearthe. The non-transiting planet has an orbital period of 579+-17 days and mass of 283 +- 11 \mearthe. The non-transiting planet orbital parameters are refined over \cite{Gilliland2013} with one additional RV taken in 2013.  For a detailed summary of the light curve analysis, asteroseismic analysis, RV analysis, and discussion of false positive scenarios with BLENDER, see \cite{Gilliland2013}
+Recon spectra were taken at the McDonald 2.7m  on 25th March 2010 and 28th March 2010. A spectrum was acquired at Tillinghast 1.5m on 25th March 2010. The near solar values of temperature, log g and \vsini listed in the KIC were confirmed by these recon spectra. SME combined with asteroseismology analysis was also used to confirm the near solar values of stellar mass and stellar radius.  The final stellar parameters are \teff~ = 5793 +- 100, \logg~ = 4.28 + 0.02, and \feh~ = 0.12 +- 0.04.
+
+Speckle imaging at WIYN taken in June 2010 and adaptive optics imaging taken at ARIES, taken in summer 2010 found no companion stars that could cause confusion in the light curve analysis. Figure ~\ref{fig:koi246_gi}a shows a seeing limited  image of the field of view of the HIRES guide camera.  Figure  ~\ref{fig:koi246_gi}b shows the limiting magnitudes achieved with each high resolution imaging method.  
+
+ The precise RVS collected from 2009 to 2013(Figure  ~\ref{fig:koi246_gi}c) constrain the density of the inner most transiting planet quite well, and provide upper limits to the second transiting planet. The strongest periodic signal in the RVs is caused by a non-transiting planet in 1.6  year orbit, with a minimum mass(\msini) of 0.89+- 0.03\mjupe. During publication of the KOI-246/Kepler-68 results, the period of the non-transiting planet had an alias, as noted by the referee. The single additional RV made in 2013 has shown the true period to be that quoted here and in the \cite{Gilliland2013} results, not the alias. The inner planet has a mass of 7.9 +- 2.4 \mearth and a density of 3.0+- 0.9\gcc, placing this KOI in a density region that is sparely populated. 
+ \cite{Lopez2012} lists this star as having a minimum mass of  6.5\mearth and minumum density of  2.2\gcc, values consistent with those found in this work. The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00246}.
+  
+%UCLA grad student, ian crossfield, requested one more data point to remove alias.
+
+% Use a line like this to discuss the centroid motion.
+%Kepler astrometry in and out of transit showed:  at the one-sigma limit.
+
+%\citep{Lopez2012} ;table 4
+
+\subsection{\koitwosixone}  %KOI-261
+
+The single planet in this system has a period of 16.2 days and a radius equal to 2.7 \rearthe.  Three recon spectra were taken at the McDonald 2.7m and FLOW in March and April of 2010. Stellar parameters determined from these spectra with SPC agreed in \teff, but the \logg~ value was off by 0.4 dex from the KIC value. When the \logg~ was confirmed with SME analysis done with a Keck-HIRES template spectrum, Yonsei-Yale isochrones were used to adjust the stellar radius  from its KIC value of 1.9 to 1.0 \rsun. The planet  radius decreased from 6.2 to 2.7 \rearthe. Further evidence that the stellar radius is near solar, and not near 1.9 \rsun is the non-detection of stellar oscillations in the asteroseismic analysis. A typical 1.9\rsun star would have a detectable asteroseismic signal, which was searched for and not detected. The final stellar parameters are \teff~ = 5690 +- 43, \logg~ = 4.42+-0.08, and \feh = 0.04 +-0.04.
+
+High resolution imaging with the WIYN speckle camera in September 2010 detected no stellar companions, but ARIES observations in summer 2010 detected one nearby companion. Near infrared images show a companion 5.4" from the primary at a PA=65.2 and delta magnitude of 7.1 in J-band, and 6.8 in Ks band. The estimated Kepler magnitude of the companion is 18.1. Figure ~\ref{fig:koi261_gi}a shows a seeing limited  image of the field of view of the HIRES guide camera. Figure ~\ref{fig:koi261_gi}b shows the limiting magnitudes achieved with each high resolution imaging method. 
+
+--
+Precise RV follow-up was initiated in July 2010 and  25 RVs have been acquired for a time baseline of 772 days(Figure ~\ref{fig:koi261_gi}c). The RV detection for this KOI is not significant, and we constrain the K-amplitude to be less than 2.0 \ms. The mass limit, however, is significant, in that we can constrain the mass to less than 10.6 \mearth and 2.9 \gcc at the one sigma level. Such a low density requires some contribution from low density materials such as water, hydrogen or helium, contributing to the planet mass - radius diagram. The RVs show signs of possible non-transiting planet with a poorly defined orbital period.  One possible period of the non-transiting planet is $~$8 days, but at low confidence To find a non-transiting planet interior to a transiting planet would be remarkable, and requires additional data in order to be confirmed. With only 25 RVs, the liklihood that the 8d period is an alias of a true period is quite high, and we withhold announcement of a non-transiting planet until the orbital period can be confirmed.
+
+
+
+% Potential non-transiting planet with a period of 7.9 or 8.0 days. The RMS to the fit is reduced form 4.3m/s to 3.1m/s when adding the second planet.
+
+
+This one planet system is a another good point on the M-R diagram. The mass is 7+- 4 earth masses with a radius of 2.65 \rearthe. The density is 2.1 +- 1.2 gcc, making the planet definitively gaseous.
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00261}.
+
+
+
+\subsection{\koitwoeightthree} %283
+
+The two planets in this system have orbital periods of 16.0 and 25.5 days with radii 2.4 and 0.8 \rearthe. The two recon spectra taken McDonald 2.7m and FLOW are good agreement with each other and with the final \teff, and \logg. The KIC \teff agrees with the follow-up observations, but the \logg~ found with spectroscopy is 0.5 dex  larger than the KIC value, resulting in a decrease in stellar radius of 40\%. The final \teff~ and \logg~ were determined from SME and the stellar mass and radius were determined using the SME results combined with Yonsei-Yale stellar isochrones, leading to \teff~ = 5685 +- 44K, \logg~ = 4.42 +- 0.08 and \feh~ = 0.12 +- 0.04.
+
+Speckle imaging from the WIYN  found no stellar companions and  the lone stellar companion detected with adaptive optics imaging from Mt. Palomar is six arc seconds away and 8 magnitudes fainter in J-band and Ks-band. Such a companion does not affect the transit signal, as a transit on such a companion would be easily detected with centroid motion analysis of the Kepler photometry. Figure ~\ref{fig:koi283_gi}a shows a seeing limited  image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi283_gi}b shows the limiting magnitudes achieved with each high resolution imaging method. 
+
+--
+
+The RV signal spanning 741 dats (Figure ~\ref{fig:koi283_gi}c) for \koitwoeightthree provides both conclusions and puzzles. The conclusions consist of a marginal detection of the 16d planet at  16.1 +- 3.5  \mearthe, with a density of 6.0+- 2. \gcc.  This planet has a density similar to Earth, although not with high confidence.  We find similar results when we fit this planet by itself, or if we fit the second planet simultaneously. However, when we fit both planets together, we find a moderate detection of the second planet, corresponding to a planet mass of 17.8 +- 5 \mearthe. With a planet this massive, and a radius of only 0.8 \rearthe, the density is 157 \gcc, a non-physical value. No known material has a density this high. Several explanations may explain this result. 1) The 25 day planet is aliasing with the 16d planet and the resulting RV signals cannot be pulled apart.  2) A bound binary star system with the secondary star of lower mass, orbits the primary at 20-25AU. Such a companion would be undetectable with AO(too near the primary), speckle(too faint), or as secondary lines in the  HIRES spectrum(inadequate RV difference to distinguish from the primary lines). In this scenario both the transit light curve and Doppler shift come from the planet orbiting the secondary star, with both observables being diluted by the light of the primary star. Such a planet would be much larger than 0.8 \rearthe. 3)  The transit durations suggest that the inner planet orbits the secondary star while the outer planet orbits the primary star.[unfinished].
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00283}.
+
+
+%We fit only the inner planet, and find a density of ~6gcc. Allowing eccentricity to float changes
+%the density from 5.8 to 6.0gcc.
+
+%email from geoff: 
+%The planet 283.02 has an apparent radius  = 0.9 Re, mass = 17 Me, yielding a density, rho = 160 gcc, which is unphysical.
+
+%One explanation is a bound binary star system with the secondary star of lower mass, orbiting at 20-50 AU.   In that case AO, speckle, and ReaMatch would fail to detect the secondary star (too close for AO and speckle, and too far for adequate RV separation of abs. lines from the primary).
+
+%In this scenario, both the transit light curve and Doppler shift come from the planet orbiting the secondary star, with both observables being diluted by the light of the primary star. So the planet is actually larger.
+
+%However, the transit durations suggest the opposite host stars, i.e. 283.01 orbits the secondary and 282.02 orbits the primary.
+
+
+\subsection{\koitwoninetwo} %292
+
+The single transiting planet in this system has 2.6d orbital period, and radius of 1.5 \rearthe. Follow-up on this KOI began with Recon spectra being taken in March and April 2010 at the McDonald 2.7m telescope. SPC analysis found this star to be a slowly rotating main sequence star, an ideal target for Keck-HIRES. The \teff~ found with recon was $~$ 400K hotter than the final \teff~ determined by SME combined with Yonsei-Yale isochrones. The final stellar radius is 30\% smaller than that found by the KIC.  The final stellar parameters are \teff~ = 5779 +- 44K, \logg~ = 4.42 +- 0.08, and \feh~ = -0.20 +- 0.04, sub-solar metallicity.
+
+Adaptive optics imaging at Palomar shows a companion star with a separation of 0.36" from the primary at a PA = 121.8. The companion was measured to be 2.7 and 2.8 magnitudes fainter than the primary, in the J-band and Ks-band respectively. Speckle imaging revealed no companions down to a delta magnitude of 3 and  4 in the R-band and  V-band, respectively. The non-detection with speckle is likely due to the companion being brighter in the infrared than in the visible, relative to the primary. The companion is listed in \cite{Adams2012}, and makes this a less than ideal target for precise RVs due to the contamination of the companion in the spectrum of the primary.  Figure ~\ref{fig:koi292_gi}a shows a seeing limited image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi292_gi}b shows the limiting magnitudes achieved with each high resolution imaging method.  %[Is the linear trend consistent with a companion at 0.3"???]
+
+This system has an RV trend of 5m/s/year over three years, and after 789 days of RV baseline(Figure ~\ref{fig:koi292_gi}c), it shows no deviations from a straight line. The companion causing the linear trend likely has a an orbital period longer than  the baseline, making the lower limit of the orbital period of the companion $~3$  years. The RVs are potentially due to the companion found with the AO imaging[Is this true???]  Aside from the linear trend, the  RVs are consistent with, but not strongly correlated with the transiting planet. We place one-sigma upper limits on the mass of the transiting planet to be 3.5 +- 1.9 \mearthe, corresponding to a density of 5.4 +- 3 \gcc. The two sigma lower limits are consistent with zero mass, meaning a non-detection at the two-sigma level. The phase folded RV curves are shown in Figure ~\ref{fig:koi292_gi}d.
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00283}.
+
+
+\subsection{\koitwoninenine} %299
+
+The transiting planet in two planet system has an orbital period of 1.5 days and a radius of 2.0 \rearthe. We also detect a non-transiting planet with an orbital period of 22.09+-0.04 days and \msini = 32.5 +- 5 \mearthe. Before precise RVs were acquired, recon spectra were taken with the McDonald 2.7m in March 2010 and the Tillinghast
+ 1.5m  in June 2010. The stellar temperatures found by using SPC to analyze  the recon spectra were in agreement with KIC values, but the difference in \logg~  values  resulted in a 40\% decrease of the stellar radius, compared to the final stellar radius value. The final stellar  parameters of \teff~ = 5589 +- 43K, \logg~ = 4.34 +- 0.10 and \feh~ = 0.18 +- 0.04 were found using a Keck-HIRES spectrum, with SME analysis and matching of spectral parameters to Yonsei-Yale isochrones. 
+
+Speckle imaging at the WIYN conducted in September 2010 detected no companions within its limits, but no adaptive optics images were taken to rule out even fainter companions. The Keck guider image (Figure \ref{fig:koi299_gi}a) shows no companions from 1.0" to 6" from the primary, down to a delta magnitude of seven. The exclusion limits on companion stars is shown in \ref{fig:koi299_gi}b. The Keck guider image was not used in this exclusion plot.
+
+The radial velocities, which cover a basline of  show a marginal detection of the transiting planet (\ref{fig:koi299_gi}c),  and a much stronger detection of a non-transiting planet with a period of 22.1 days. We fin d the mass of the transiting planet to be 3.5 +- 1.6 \mearth with a density of 2.2 +- 1.2\gcc. Despite the weak detection of the transiting planet, the limits placed on the mass, and hence density of the planet show that the planet must have a large percentage of light weight, volatile material. The one sigma upper limit on the mass is 4.0 \mearthe, corresponding to limit of 3.3 \gcc on the density. Having 21 RVs with a baseline of 804 days constrains the period of the non-transiting planet quite well, but more measurements are needed to more precisely precisely determine its eccentricity.
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00299}.
+
+
+\subsection{\koithreezerofive}  %305
+
+The single transiting planet in this system with an orbital period of 4.6 days and a radius of 1.5 \rearth shows a strong correlation with precise RVs from Keck-HIRES. Recon spectroscopy of target was initiated in March of 2010 at the McDonald 2.7m. In May 2010, a second recon spectrum was taken at the Tillinghast 1.5m. Both spectra were used to determine \teff~ and \logg. The results from each spectra were consistent with each other, and were in agreement with the KIC values in \teff, and are in marginal agreement with the KIC in  \logg. No large RV variation was seen, within errors, and the low rotational velocity of the star lead to collection of precise RVS. Once a Keck-HIRES template was taken, SME was used with Yonsie-Yale isochrones to determine the final stellar parameters of \teff~ = 4782 +- 115K, \logg~ = 4.61+- 0.05, and \feh~ = 0.18 +- 0.04.  The final stellar radius is 30\% smaller than the KIC values. 
+
+Speckle imaging taken at the WIYN telescope found no companions within its limits and no further imaging is available. When observing with Keck-HIRES, a guider image was taken. No companions were detected from 2.0" out to 4.0" within seven magnitudes fainter than the primary, in the R-band. Figure ~\ref{fig:koi305_gi}a shows a seeing limited image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi305_gi}b shows the limiting magnitudes achieved with Speckle imaging.
+
+
+The RV basline of 791 days(Figure ~\ref{fig:koi305_gi}c) shows no linear trends or periodicities aside from the transiting planet. This single, 1.5\rearth  planet has a mass determined from RVs of 6.2 +- 1.3\mearthe.  The planet density is 10.8+-2.8 \gcc, suggesting the planet is similar in density to Kepler-10b, but at a lower significance. The phase folded RV curve is shown in Figure ~\ref{fig:koi305_gi}d. [add more discussion]
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00305}.
+
+
+\subsection{\koithreetwoone}  %321
+
+The two transiting planets in this three planet system have periods of 2.4 and 4.6 days with radii equal to 1.4 and 0.8 \rearthe, respectively. A third, non-transiting planet has a period of 28.1 +- 0.07days and a mass of 21.8 +- 4.4 \mearthe. Before the non-transiting planet was detected, and the inner planet's mass was measured, recon spectroscopy was taken at  the Tillinghast 1.5m, where the temperature was confirmed to be near the KIC value. The slow rotation of the star was identified and the RV variation was seen to be below 500m/s.  The \logg~ value found by recon, and later refined with SME and asteroseismology analysis, to be larger than the KIC by a significant amount. The discrepancy in \logg~ from the KIC to the final value resulted in an increase in the stellar, and planet radii, of 30\%. The final stellar parameters, although not published in \citep{Huber2013} were found using similar methods. The SME served as the starting point of the asteroseismology analysis that lead to \teff~ = 5538 +- 44K, 4.41 +- 0.02, and \feh~ = 0.18 +- 0.04.
+
+Imaging including Speckle imaging with WIYN in September 2010 and adaptive optics imaging taken with the Lick 3m in September 2011, found no companions nearby that are contaminating the light curve. Figure ~\ref{fig:koi321_gi}a shows a seeing limited image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi321_gi}b shows the limiting magnitudes achieved with Speckle imaging and the Lick 3m. 
+
+ 
+ Precise RVs taken over 800 days, beginning in July 2010 show two strong signals(Figure ~\ref{fig:koi321_gi}c). The first has the period of the inner transiting planet. We find a the 1.4 \rearth planet to have a mass of 6.4 +- 1.4 \mearth with a corresponding density of 11.8 +- 2.7 \gcc. Such high density requires a large amount of rocky material. The outer transiting planet is shows no signal in the RVs, so we report an upper limit of no more than 5 \mearth, at the one sigma level . The second signal seen in the RVs has a period of 28 days and corresponds to a non-transiting planet with a minimum mass, \msini = 21.4 +-4 \mearthe. [details on eccentricity are needed]
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k00321}.
+
+
+
+\subsection{\koionefourfourtwo} %1442
+
+With a period of 0.67 days and a radius  of 1.1 \rearth, {\koionefourfourtwo} has similar orbital period to the planet Kepler-10b. However, the RVs provide only upper limits to the transiting planet's mass, and a partial orbit of a non-transiting planet. Follow-up observing began in March 2011 when recon spectra were collected at the McDonald 2.7m. SPC analysis of the spectrum confirmed the \teff~ and \logg~ from the KIC. After acquisition of the Keck-HIRES template spectrum, SME analysis was run, and the final stellar parameters were calculated by combining the SME result with Yonsie-Yale isochrones. The final stellar parameters are \teff~ =  5476 +- 46K, \logg~ = 4.43 +- 0.06 and \feh~ = 0.04 +- 0.003. 
+
+Speckle observing at WIYN in September 2010 did not identify any companion stars within the limits. There is one companion identified in UKIRT images that is outside of the field of view of speckle. The companion star is 2.1" to the NE of  the primary and roughly 5.3 magnitudes fainter in the Kepler Bandpass. Centroid analysis of the pixel level data constrains the centroid of the planet transit to be within 0.44" of the primary, ruling out the possibility that the transits are actually occurring on a nearby star. Figure ~\ref{fig:koi1442_gi}a shows a seeing limited image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi1442_gi}b shows the limiting magnitudes achieved with speckle imaging.
+
+ The most prominent signal in the RVs  is a decrease of 200m/s over the 475d baseline(Figure ~\ref{fig:koi1442_gi}c). A slight curvature in the RVs is indicative of a massive body in a orbit of roughly four years, with a mass, \msini$~$5\mjupe. With only one quarter of this potential four year orbit observed, the outer body remains poorly constrained in both orbital period and \msini.  The transiting planet and the non-transiting planet are fit simultaneously, and the poor constraints on the outer body leave the RV signature of the inner planet undetectable. The one sigma upper limit on the mass of the transiting planet is 1.7 \mearthe. The phase folded RV curves are shown in Figure ~\ref{fig:koi1442_gi}d.
+
+The full set of RVs are listed, along with their \rphk~ activity values in Table ~\ref{tab:rvs_k01442}.
+
+[Why are cf3.mdchi values so high for this one?  median value = 1.27, Is stellar companion in the slit?]
+
+\subsection{\koionesixonetwo} %1612
+
+The single planet in this system has a period of 2.5d and a radius of 0.82 \rearthe. This F-type star was first followed up from the ground at the Tillinghast 1.5m where two spectra were taken. SPC determined the stellar parameters to be consistent with the KIC and showed no dramatic RV variation.  Before the asteroseismology analysis was conducted in \cite{Huber2013},  \cite{Bruntt2012} identified this bright star as having detectable asteroseismic oscillations.  We use the SME-asteroseismology values in this work. The \teff~ = 6104 +- 74, \logg~ = 4.29 +- 0.03, and \feh~ = -0.20 +- 0.10.
+
+ Speckle imaging taken at the WIYN in July 2011 found no companion stars  within the limits. No adaptive optics imaging was acquired for this star[Double check data from David Ciardi]. Figure ~\ref{fig:koi1612_gi}a shows a seeing limited image of the field of view of the HIRES guide camera.  Figure ~\ref{fig:koi1612_gi}b [no guider image yet] shows the limiting magnitudes achieved with speckle imaging.
+
+ The first precise RVs were obtained shortly after the recon spectra were taken in May 2011, resulting in an RV baseline of 477 days(Figure ~\ref{fig:koi1612_gi}d). The brightness of the star allowed us to obtain high signal to noise observations($SNR=200$), similar to those obtained for the standard CPS planet search stars. While we have not directly detected the planet, we place a one sigma upper limit on the mass of the planet equal to 4.3\mearthe, but the limit on density is too uncertain to provide insight into composition. There are no radial velocity signatures or periodicities that suggest the presence of a non-transiting planet in the system that would predict an RV amplitude greater than $~$ 4\ms. A longer time baseline of observations will further constrain non-transiting planets. The posterior distribution of expected mass values is well behaved, and peaks near zero, as expected for RVs with well understood, photon limited uncertainties that provide only upper limits on the planet mass. The phase folded RV curve is shown in Figure ~\ref{fig:koi1612_gi}d.
+
+The full set of RVs are plotted in  Figure ~\ref{fig:koi1612_rvt}  and listed, along with their \rphk~ activity values, in Table ~\ref{tab:rvs_k01612}.
+
+\subsection{\koioneninetwofive} %1925
+
+This KOI with a radius of 1.2 \rearth and period of 69 days was first followed up in the 2012 observing season. \koioneninetwofive is one of Kepler's brightest KOIs(Kepmag = 9.44) with a near earth sized planet. It has well determined parameters from asteroseismology\citep{Bruntt2012,Huber2013}. This analysis determined that the final value of \logg~ differed from the KIC value and therefore the stellar radius was adjusted to only 40\% of the KIC value.  Recon Spectra from the Tillinghast 1.5m were taken and broadly confirmed the analysis of asteroseismology. The final stellar parameters are \teff~ = 5460+- 75K, \logg~ = 4.50 +- 0.03 and \feh~ = 0.08 +- 0.10.
+
+No high resolution of this KOI is available due to its discovery late in the 2012 observing season.  [ change if David Ciardi is able analyze the data.] %Speckle has been requested.
+
+
+ Keck-HIRES RVs taken over 174 days in summer 2012(Figure ~\ref{fig:koi1925_gi}c) all have high signal to noise ratios of 200. This SNR is similar to the typical planet search stars, acquired in roughly ten minute exposures.   The planet's expected radial velocity amplitude, assuming some mass-radius relationship, is below our detection threshold. None-the-less, we limit the planet's mass to be less than 8.5\mearth at the one sigma level. Such limits are insufficient to make conclusions about planet composition.  With 25 RVs, showing an RMS of only 3.2 \ms we place upper limits on the mass of the transiting planet, and rule any massive (msini $>$ 30\mearthe, expected K amplitude = 4.5\ms) planets in orbits interior to the transiting planet.
+
+The full set of RVs are plotted in  Figure ~\ref{fig:koi1925_rvt}  and listed, along with their \rphk~ activity values in  Table ~\ref{tab:rvs_k01925}.
+
+
+\section{Discussion}           %  DISCUSSION
+\label{sec:discussion}
+
+The mass and radii of the planet studied here were selected for study based on their measured radii alone.  The RV measured were continued regardless of the RV signal that emerged.   To be sure, the KOIs with clear RV detections attracted more RV measurements to constrain further the measured mass.  But the selection of planets, and their appearance among the 22 KOIs here, was made without regard to their mass.  Thus the resulting planet masses within a certain range of a priori planet radii represent those of the population of planets in the \ek field. Figure \ref{fig:rp_hist} shows a distribution of planet radii in our sample.
+
+As the KOI selection was unbiased with regard to planet mass (we had no prior indicators of mass), this offers an opportunity to measure the average planet mass at a given planet radius, the distribution of planet masses, and the relationship between planet radius and mass with minimal concern about a bias in mass.  Figure \ref{fig:mp_hist}  shows the distribution of planet masses found here.  The masses span the range from consistent with zero to M2.  Figure \ref{fig:rhop_hist} shows the distribution of planet densities.
+
+We specifically allowed our MCMC analysis to include negative planet masses.   Such unphysical masses are a normal product of fluctuations in the RV measurements and their uncertainties.  As the each planet's orbital ephemeris was known from the transit light curve, the RVs are expected to be higher than average during specific orbital phases and lower than average during the remaining half.  The transit ephemeris leaves little flexibility in expected RV variation as a function of phase, except for the unknown orbital eccentricities, which are probably typically less than 0.3 based on the small exoplanets for which eccentricities have been measured.  Thus the ephemeris provides a clear prediction about when in phase the RVs are expected to be higher and lower than average.  Any agreement between observed and predicted RV variation leads to a measurement of a positive planet mass.  
+
+However, the RVs have uncertainties of several \mse.  If the true RV semi-amplitude, $K$, of the RVs is smaller than several \mse (due to small planet mass), fluctuations may result in the measured RVs being high when predicted to be low and vice-versa, simply due to errors.  Indeed, for the low density planets, such non-detections of planet mass are expected, in which case RV errors will yield anti-correlated RV with phase and hence apparent negative value of RV semi-amplitude, $K$, which translates to a negative planet mass.  Statistically, as planet masses are certainly positive, even the RV non-detections will systematically yield slightly positive values of $K$ and mass, if only at levels barely significant given the RV noise.  Thus, the observed distribution of implied planet masses from RVs, for a give planet radius, are expected to span a range in general from positive values to negative values, the latter stemming from RV noise.  The average planet mass and is distribution (including negative values) is needed to capture the true underlying distribution and average planet mass for a given planet radius.  Thus, we report in Table 2 the planet mass corresponding to the peak in the MCMC posterior distribution and the values of mass corresponding to 34\% of the integrated area of the distribution on either side representing the "1-sigma" departures from the peak value of planet mass.
+
+
+Several of the planets studied here have densities above 5.5 \gcc, greater than that of Earth, making them plausibly rocky.  Detailed models of planet interiors, including possible chemical compositions, stratified differentiation, and equations of state are needed to predict the plausible bulk densities associated with planets with a given certain mass.   Recent work on the interiors of rocky planets have been carried out by \cite{Rogers_Seager2010a, Rogers_Seager2010b, Rogers2011, Zeng_Sasselov2013, Rogers2013}.  Several of the planets studied here have densities above 8 \gcc, suggesting the possibility of chemical compositions enriched in iron and nickel relative to that of the interior of the Earth.  Indeed exoplanets such as CoRoT 7b and Kepler-10b have densities near 8 \gcc suggesting the need for such iron/nickel enrichment relative to Earth.   Discussions have ensued about whether iron-rich planets might result, a la Mercury, from giant collisions that strip the silicate and volatile envelopes or instead whether such compositional oddities might result from processes intrinsic to planet formation.  Recent work by \cite{Wurm2013} provides an interesting mechanism of  photoporetic separation of metals from silicates to form iron-rich planets such as Mercury, CoRoT-7B, Kepler-10b, and the densest planets found at the 2-sigma level here including seven planets, KOI-41.02, KOI-82.02, KOI-82.03, KOI-283.01, KOI-283.02, KOI-305.01, and KOI-321.01.
+
+
+
+\section{Summary}           %  Summary
+\label{sec:summary}
+
+
+
+
+\acknowledgments{
+Kepler was competitively selected as the tenth NASA Discovery
+mission. Funding for this mission is provided by NASA’s Science
+Mission Directorate. Some of the data presented herein were obtained
+at the W. M. Keck Observatory, which is operated as a scientific
+partnership among the California Institute of Technology, the
+University of California, and the National Aeronautics and Space
+Administration. The Keck Observatory was made possible by the generous
+financial support of the W. M. Keck Foundation. 
+Some of the asteroseismology analysis was performed by 
+the Stellar Astrophysics Centre which is funded by the Danish National
+Research Foundation. The research is supported by the ASTERISK project
+(ASTERoseismic Investigations with SONG and Kepler) funded by the
+European Research Council (Grant 267864). W. F. Welsh and J. A. Orosz
+acknowledge support from NASA through the Kepler Participating
+Scientist Program and from the NSF via grant AST-1109928. D. Fischer
+acknowledges support from NASA ADAP12-0172. O. R. Sanchis-Ojeda \&
+J. N. Winn are supported by the Kepler Participating Scientist Program
+(PSP) through grant NNX12AC76G. E. Ford is partially supported by NASA
+PSP grants NNX08AR04G \& NNX12AF73G. Eric Agol acknowledges NSF Career
+grant AST-0645416.  We would also like to thank the Spitzer staff at IPAC
+and in particular; Nancy Silbermann for checking and scheduling the
+Spitzer observations. The Spitzer Space Telescope is operated by the
+Jet Propulsion Laboratory, California Institute of Technology under a
+contract with NASA. The authors would like to thank the many people
+who gave so generously of their time to make this Mission a success.
+All \ek data products are available to the public at the Mikulski Archive
+for Space Telescopes \begin{verbatim} http://stdatu.stsci.edu/kepler/ \end{verbatim} and 
+the spectra and their products are made available at the NExSci
+Exoplanet Archive and its CFOP website: \begin{verbatim}
+http://exoplanetarchive.ipac.caltech.edu/ \end{verbatim}
+We thank the many observers who contributed to the measurements reported here.  
+We gratefully acknowledge the efforts and dedication of the Keck Observatory staff, 
+especially Scott Dahm, Hien Tran, and Grant Hill for support of HIRES 
+and Greg Wirth for support of remote observing.  
+
+This work made use of the SIMBAD database (operated at CDS, Strasbourg, France) and
+NASA's Astrophysics Data System Bibliographic Services.
+This research has made use of the NASA Exoplanet Archive, which is operated by the California Institute of Technology, under contract with the National Aeronautics and Space Administration under the Exoplanet Exploration Program.
+Finally, the authors wish to extend special thanks to those of Hawai`ian ancestry 
+on whose sacred mountain of Mauna Kea we are privileged to be guests.  
+Without their generous hospitality, the Keck observations presented herein
+would not have been possible.}
+
+
+\clearpage
+
+
+%%%%%%%%% TABLES & FIGURES %%%%%%%%%
+
+
+
+%----------------------------------------------------------------------------------------------------
+%  -------------------------Secondary Spectrum Exclusion Plots-------------------------
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00041_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, Version 1, KOI41}
+\label{fig:koi41_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00069_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 69}
+\label{fig:koi69_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00082_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 82}
+\label{fig:koi82_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00104_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 104}
+\label{fig:koi104_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00108_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 108}
+\label{fig:koi108_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00116_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 116}
+\label{fig:koi116_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00122_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 122}
+\label{fig:koi122_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00123_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 123}
+\label{fig:koi123_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00148_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 148}
+\label{fig:koi148_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00153_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 153}
+\label{fig:koi153_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00244_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 244}
+\label{fig:koi244_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00245_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 245}
+\label{fig:koi245_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00246_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 246}
+\label{fig:koi246_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00261_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 261}
+\label{fig:koi261_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00283_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 283}
+\label{fig:koi283_ssep}
+\end{figure}
+%\clearpage  %help with the too many unprocessed floats error
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00292_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 292}
+\label{fig:koi292_ssep}
+\end{figure}
+
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00299_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 299}
+\label{fig:koi299_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00305_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 305}
+\label{fig:koi305_ssep}
+\end{figure}
+\clearpage  %help with the too many unprocessed floats error
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K00321_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 321}
+\label{fig:koi321_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K01442_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 1442}
+\label{fig:koi1442_ssep}
+\end{figure}
+%\clearpage  %help with the too many unprocessed floats error
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K01612_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 1612}
+\label{fig:koi1612_ssep}
+\end{figure}
+
+\begin{figure}
+\epsscale{1.2}
+\plotone{ssep/K01925_rea_plots_2panels.eps}
+\caption{Secondary Spectrum Exclusion plot, 1925}
+\label{fig:koi1925_ssep}
+\end{figure}
+\clearpage  %help with the too many unprocessed floats error
+
+
+
+
+
+%\clearpage
+
+%\caption{HIRES guider image of KOI- 41, AO Exclusion plot, RV vs Time,Phased lightcurves and phased RV curves}
+
+%					KOI-41 GRAPHICS BEGIN
+\begin{figure*}    % Use figure* 
+\epsscale{1.1}
+\plotone{guider_images/K00041_guider_v2.eps}%  guider image/ exclusion plot, KOI-41
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets. }
+\label{fig:koi41_gi}
+\end{figure*}
+
+%\ref{fig:koi41_gui}
+
+
+%					KOI-69 GRAPHICS BEGIN
+
+
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00069_guider_v2.eps}%  guider image, KOI-69
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planet, and for non-transiting planets, the light curve phase folded to the non-transiting planet period, showing lack of a transit.}
+\label{fig:koi69_gi}
+\end{figure*}
+
+
+
+%					KOI-82 GRAPHICS BEGIN
+
+
+
+\begin{figure*}%     GUIDER IMAGE AND 
+\epsscale{1.1}
+\plotone{guider_images/K00082_guider_v2.eps}%  guider image, KOI-82
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets.}
+\label{fig:koi82_gi}
+\end{figure*}
+
+
+%   BEGIN KOI-104 GRAPHICS
+
+\begin{figure*}   % needs to be processed
+\epsscale{1.0}
+\plotone{guider_images/K00104_guider_v2.eps}%  guider image, KOI-104
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planet, and for non-transiting planets, the light curve phase folded to the non-transiting planet period, showing lack of a transit.}
+\label{fig:koi104_gi}
+\end{figure*}
+
+
+
+%   BEGIN KOI-108 GRAPHICS
+
+\begin{figure*}   % needs to be processed
+\epsscale{1.1}
+\plotone{guider_images/K00108_guider_v2.eps}%  guider image, KOI-108
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets.}
+\label{fig:koi108_gi}
+\end{figure*}
+
+
+
+% BEGIN GRAPHICS FOR KOI-116
+
+
+\begin{figure*}    % None
+\epsscale{1.1}
+\plotone{guider_images/K00116_guider_v2.eps}%  guider image, KOI-116
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets.}
+\label{fig:koi116_gi}
+\end{figure*}
+
+
+% BEGIN KOI-122 GRAPHICS
+
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00122_guider_v2.eps}%  guider image, KOI-122
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planet.}
+\label{fig:koi122_gi}
+\end{figure*}
+
+
+%--------------------BEGIN KOI  123   GRAPHICS
+
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00123_guider_v2.eps}%  guider image, KOI-123
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets.}
+\label{fig:koi123_gi}
+\end{figure*}
+
+
+%--------------------BEGIN KOI  148  GRAPHICS 
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00148_guider_v2.eps}%  guider image, KOI-148
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets, and for the non-transiting planet, the light curve phase folded to the non-transiting planet period, showing lack of a transit.}
+\label{fig:koi148_gi}
+\end{figure*}
+
+
+
+
+%--------------------BEGIN KOI  153   GRAPHICS
+
+\begin{figure*}    % needs to be processed
+\epsscale{1.1}
+\plotone{guider_images/K00153_guider_v2.eps}%  guider image, KOI-153
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets, and for the non-transiting planet, the light curve phase folded to the non-transiting planet period, showing lack of a transit.}
+\label{fig:koi153_gi}
+\end{figure*}
+
+
+%--------------------BEGIN KOI  244  GRAPHICS
+
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00244_guider_v2.eps}%  guider image, KOI-244
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets, and for the non-transiting planet, the light curve phase folded to the non-transiting planet period, showing lack of a transit.    The RVs in red are from  SOPHIE }
+\label{fig:koi244_gi}
+\end{figure*}
+
+%add caption telling that brightest star is the KOI.
+% Make french RV points with a different symbol
+% add text to KOI summary about these points.
+
+%--------------------BEGIN KOI  245 GRAPHICS
+
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00245_guider_v2.eps}%  guider image, KOI-245
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets.}
+\label{fig:koi245_gi}
+\end{figure*}
+
+
+%--------------------BEGIN KOI  246   GRAPHICS
+
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00246_guider_v2.eps}%  guider image, KOI-246
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets, and for the non-transiting planet, the light curve phase folded to the non-transiting planet period, showing lack of a transit.}
+\label{fig:koi246_gi}
+\end{figure*}
+
+%--------------------BEGIN KOI 261   GRAPHICS
+
+
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00261_guider_v2.eps}%  guider image, KOI-261
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planet.}
+\label{fig:koi261_gi}
+\end{figure*}
+
+\clearpage
+
+
+%--------------------BEGIN KOI  283  GRAPHICS
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00283_guider_v2.eps}%  guider image, KOI-283
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets.}
+\label{fig:koi283_gi}
+\end{figure*}
+
+
+
+
+%--------------------BEGIN KOI  292  GRAPHICS
+\begin{figure*}  % None
+\epsscale{1.1}
+\plotone{guider_images/K00292_guider_v2.eps}%  guider image, KOI-292
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planet, and for the non-transiting planet, the light curve phase folded to the non-transiting planet period, showing lack of a transit.}
+\label{fig:koi292_gi}
+\end{figure*}
+
+
+
+
+%--------------------BEGIN KOI  299  GRAPHICS
+\begin{figure*}  %  NOne
+\epsscale{1.1}
+\plotone{guider_images/K00299_guider_v2.eps}%  guider image, KOI-299
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planet, and for the non-transiting planet, the light curve phase folded to the non-transiting planet period, showing lack of a transit.}
+\label{fig:koi299_gi}
+\end{figure*}
+
+
+%--------------------BEGIN KOI  305   GRAPHICS
+
+\begin{figure*}   % needs to be processed
+\epsscale{1.1}
+\plotone{guider_images/K00305_guider_v2.eps}%  guider image, KOI-305
+\caption{a) Keck-HIRES guider image. The southern of the two brightest stars is the KOI.  b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets.}
+\label{fig:koi305_gi}
+\end{figure*}
+
+
+%--------------------BEGIN KOI  321  GRAPHICS
+
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K00321_guider_v2.eps}%  guider image, KOI-321
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets, and for the non-transiting planet, the light curve phase folded to the non-transiting planet period, showing lack of a transit.}
+\label{fig:koi321_gi}
+\end{figure*}
+
+
+%--------------------BEGIN KOI  1442  GRAPHICS
+\begin{figure*}
+\epsscale{1.1}
+\plotone{guider_images/K01442_guider_v2.eps}%  guider image, KOI-1442
+\caption{a) Keck-HIRES guider image. b) Companion star exclusion plot, c) RV time series, d) Phase folded RV curves for each planet e) Phase folded light curve for the transiting planets, and for the non-transiting planet, the light curve phase folded to the non-transiting planet period, showing lack of a transit.}
+\label{fig:koi1442_gi}
+\end{figure*}
+
+
+%--------------------BEGIN KOI  1612  GRAPHICS
+
+%\begin{figure}  % None
+%\epsscale{2.}
+%\plotone{guider_images/CK01612_snap_20110613.eps}%  guider image, KOI-1612
+%\caption{HIRES guider image of KOI- 1612}
+%\label{fig:koi1612_gi}
+%\end{figure}
+
+
+\begin{figure}
+\epsscale{1.1}
+\plotone{rv_figures/k01612_rv_time.eps}%RV vs Time, KOI-1612
+\caption{RVs vs Time}
+\label{fig:koi1612_rvt}
+\end{figure}
+
+\begin{figure}
+\epsscale{0.8}
+\plotone{ao/koi1612_ao_lim.eps}
+%\caption{Exclusion plot from High Resolution Imaging, 1612}
+\label{fig:koi1612_ao}
+\end{figure}
+
+
+\begin{figure}  %1612     %  PHASED LIGHTCURVE
+\epsscale{1.}
+\plotone{lightcurves/koi1612.ph.20130212.eps}
+\caption{A phase folded lightcurve of Kepler Data, 1612}
+\label{fig:koi1612_lc}
+\end{figure}
+
+\begin{figure}  %1612
+\epsscale{1.2}
+\plotone{rv_figures/koi1612.rve0.20130212.eps}   %RV PHASED
+\caption{A phase folded lightcurve of Kepler Data, 1612}
+\label{fig:koi1612_phrv}
+\end{figure}
+
+
+%--------------------BEGIN KOI  1925   GRAPHICS
+%\begin{figure}
+%\epsscale{2.}
+%\plotone{guider_images/CK00069_snap_20110613.eps}%  guider image, KOI-1925
+%\caption{HIRES guider image of KOI- 1925}
+%\label{fig:koi1925_gi}
+%\end{figure}
+
+
+\begin{figure}
+\epsscale{1.1}
+\plotone{rv_figures/k01925_rv_time.eps} %RV vs Time, KOI-1925
+\caption{RVs vs Time}
+\label{fig:koi1925_rvt}
+\end{figure}
+
+
+\begin{figure}  %1925    %  PHASED LIGHTCURVE
+\epsscale{1.}
+\plotone{lightcurves/koi1925.ph.20130212.eps}
+\caption{A phase folded lightcurve of Kepler Data, 1925}
+\label{fig:koi1925_lc}
+\end{figure}
+ 
+ 
+\begin{figure}  %1925
+\epsscale{1.2}
+\plotone{rv_figures/koi1925.rve0.20130212.eps}   %RV PHASED
+\caption{A phase folded lightcurve of Kepler Data, 1925}
+\label{fig:koi1925_phrv}
+\end{figure}
+ 
+
+\clearpage  %help with the too many unprocessed floats error
+
+
+
+\begin{figure}  			% Planet Radius histogram
+\epsscale{1.2}
+\plotone{star_prop_tables/rp_hist.eps}  
+\caption{A histogram of Planet Radii}
+\label{fig:rp_hist}
+\end{figure}
+ 
+ 
+\begin{figure}  			% Planet Mass histogram
+\epsscale{1.2}
+\plotone{star_prop_tables/mp_hist.eps}  
+\caption{A histogram of Planet Masses}
+\label{fig:mp_hist}
+\end{figure}
+
+\begin{figure}  			% Planet Density histogram
+\epsscale{1.2}
+\plotone{star_prop_tables/rhop_hist.eps}  
+\caption{A histogram of Planet Densities}
+\label{fig:rhop_hist}
+\end{figure}
+ 
+
+\clearpage
+
+
+%  BISECTOR PLOTS, KEEP FIRST PHASED PLOT, REMOVE OLD RV VS TIME
+%  VERSION 9 HAS ALL OF THE LINES FOR THESE PLOTS IF YOU WANT THEM BACK
+% REMOVED THE REST OF THE BISECTOR PLOTS, THEY ARE IN VERSION 26 IF YOU WANT THEM BACK
+
+
+ %\LongTables  %emulateapj.cls says that \LongTables must be used at end of paper
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTE: remember to put in the most recent velocities
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%% TABLES & FIGURES %%%%%%%%%
+
+
+\LongTables  %emulateapj.cls says that \LongTables must be used at end of paper
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTE: remember to put in the most recent velocities
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%BEGIN stellar properties data         TABLE 1
+\begin{deluxetable}{llll llll llll l}% cccccc ccl}
+\tabletypesize{\footnotesize}
+\tablecaption{Stellar Parameters
+\label{tab:stellar_pars_tbl}}
+\tablewidth{0pt}
+%\tablewidth{20cm} %doesn't change anything
+\tablehead{
+\colhead{KOI}    & \colhead{KIC } & \colhead{RA} & \colhead{Dec} &  
+  \colhead{Teff}   & \colhead{Stellar}      & \colhead{\feh} & 
+ \colhead{Mstar} & \colhead{Rstar}   & \colhead{\vsini} &  \colhead{Kepler}   & 
+ \colhead{Age} & \colhead{Source}  \\
+%Second header
+\colhead{} & \colhead{} &  \colhead{} &  \colhead{} & 
+  \colhead{(K)} & \colhead{\logg} &  \colhead{} &
+  \colhead{(\msun)} &  \colhead{(\rsun)} &  \colhead{(\kms)} &  \colhead{Mag} &  
+  \colhead{(Gyr)} &  \colhead{}   
+ %   & \colhead{Stellar Radius} & \colhead{R_star err}     & \colhead{S-value}   & \colhead{R'hk} 
+}
+\tabcolsep=0.001cm  %removes space between columns
+\startdata
+\input{star_prop_tables/h22_star_prop_tbl.tex}
+\hline
+\enddata
+%\tablenotemark{AS: Asterseismology result, using input \teff and \logg from SME.  SME: SME finds the \teff, \logg and \fe, and the results are iterated with Yonsei-Yale isochrones.}
+\end{deluxetable}
+
+\clearpage  %help with the too many unprocessed floats error
+
+
+
+
+% Begin Planet Properties table.    We want this to be table 2
+\begin{deluxetable}{cllcc ccccc}         
+\tabletypesize{\footnotesize}
+%\tabletypesize{scriptsize}
+\tablecaption{Planet Properties and Orbital Parameters 
+\label{tab:orbital_pars_tbl}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{KOI}     & \colhead{Period}   & \colhead{Radius} &  \colhead{Mass}   & \colhead{Planet Density} &  \colhead{K} & \colhead{Stellar density} & \colhead{Impact} & \colhead{a/Rstar} & \colhead{Epoch (BJD-} \\
+\colhead{} & \colhead{(days)} & \colhead{(\rearth)} & \colhead{(\mearth)} & \colhead{(\gcc)}  & \colhead{(\ms)} & \colhead{(\gcc)} & \colhead{Parameter} & \colhead{ }  & \colhead{2454900)} \\
+}
+%\tabcolsep=0.11cm  %removes space between columns
+\startdata
+\input{star_prop_tables/h22_orbital_pars.tex}
+\enddata
+\end{deluxetable}
+% END orbital  par table
+
+
+\clearpage 
+
+% Begin False Positive Table. 
+\begin{deluxetable}{lllllll}         
+\tabletypesize{\footnotesize}
+%\tabletypesize{scriptsize}
+\tablecaption{False Positive Probabilities 
+\label{tab:fpp_tbl}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{KOI}     & \colhead{P$_{\rm EB}$}   & \colhead{P$_{\rm HEB}$} &  \colhead{P$_{\rm BGEB}$}   & \colhead{P$_{\rm BGPL}$} & \colhead{P$_{\rm PL}$}  &  \colhead{FPP} \\
+}
+%\tabcolsep=0.11cm  %removes space between columns
+\startdata
+\input{fpp.tex}
+\enddata
+\end{deluxetable}
+% END FPP table
+
+%                  BEGIN RV TABLES     %
+
+
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+ % \tablecaption{Radial Velocities and $S_{\mathrm{HK}}$ values for HD\,97658
+%\label{tab:keck_vels_hd97658}}
+\tablecaption{Radial Velocities for K00041
+\label{tab:rvs_k00041}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00041.tex}
+\enddata
+\end{deluxetable}
+
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koisixnine
+\label{tab:rvs_k00069}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00069.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koieighttwo
+\label{tab:rvs_k00082}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00082.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koionezerofour
+\label{tab:rvs_k00104}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00104.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koionezeroeight
+\label{tab:rvs_k00108}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00108.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koioneonesix
+\label{tab:rvs_k00116}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00116.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koionetwotwo
+\label{tab:rvs_k00122}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00122.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koionetwothree
+\label{tab:rvs_k00123}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00123.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koionefoureight
+\label{tab:rvs_k00148}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00148.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koionefivethree
+\label{tab:rvs_k00153}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00153.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koitwofourfour
+\label{tab:rvs_k00244}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00244.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koitwofourfive
+\label{tab:rvs_k00245}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00245.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koitwofoursix
+\label{tab:rvs_k00246}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00246.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koitwosixone
+\label{tab:rvs_k00261}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00261.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koitwoeightthree
+\label{tab:rvs_k00283}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00283.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koitwoninetwo
+\label{tab:rvs_k00292}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00292.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koitwoninenine
+\label{tab:rvs_k00299}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00299.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koithreezerofive
+\label{tab:rvs_k00305}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00305.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koithreetwoone
+\label{tab:rvs_k00321}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k00321.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koionefourfourtwo
+\label{tab:rvs_k01442}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k01442.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koionesixonetwo
+\label{tab:rvs_k01612}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k01612.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+%BEGIN TABLE
+\begin{deluxetable}{ccccc}
+\tabletypesize{\footnotesize}
+\tablecaption{Radial Velocities for \koioneninetwofive
+\label{tab:rvs_k01925}}
+\tablewidth{0pt}
+\tablehead{
+\colhead{}         & \colhead{Radial Velocity}     & \colhead{Uncertainty}  & \colhead{\rphk}  \\
+\colhead{BJD -- 2450000}   & \colhead{(\mse)}  & \colhead{(\mse)} & \colhead{} 
+}
+\startdata
+\input{rv_tables/rvs_k01925.tex}
+\enddata
+\end{deluxetable}
+% End TABLE
+
+\clearpage
+
+
+
+
+
+
+
+\bibliographystyle{apj}
+\bibliography{h22} % % bib file
+
+\enddocument
+
+

@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: small_mr_relation_v4.aux
+The style file: apj.bst
+Database file #1: exoplanet_papers.bib
+Repeated entry---line 4757 of file exoplanet_papers.bib
+ : @article{Batalha2013
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4924 of file exoplanet_papers.bib
+ : @article{Carter2012
+ :                    ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 27 entries,
+            3010 wiz_defined-function locations,
+            820 strings with 22275 characters,
+and the built_in function-call counts, 20672 in all, are:
+= -- 1034
+> -- 2822
+< -- 3
++ -- 933
+- -- 975
+* -- 2366
+:= -- 4313
+add.period$ -- 27
+call.type$ -- 27
+change.case$ -- 160
+chr.to.int$ -- 27
+cite$ -- 27
+duplicate$ -- 508
+empty$ -- 699
+format.name$ -- 1005
+if$ -- 3698
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 25
+newline$ -- 85
+num.names$ -- 108
+pop$ -- 173
+preamble$ -- 1
+purify$ -- 158
+quote$ -- 0
+skip$ -- 395
+stack$ -- 0
+substring$ -- 501
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 243
+warning$ -- 0
+while$ -- 87
+width$ -- 0
+write$ -- 270
+(There were 2 error messages)

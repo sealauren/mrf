@@ -1,0 +1,7 @@
+mearth = 5.9721986E27 #grams
+rearth = 6.3675E8 #centimeters
+msun = 1.988435E33 #grams
+rsun = 6.955E10 #centimeters
+cmperau=1.496E13
+lsun = 3.846E33 #ergs per second
+tsun = 5780 #kelvins

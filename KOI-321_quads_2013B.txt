@@ -1,0 +1,35 @@
+# 2013B Keck Proposal
+# Nighttime Quadrature Times for KOI-321 (assuming circular orbit)
+# Times are in Hawaii Local Time (UTC - 10)
+# Quadrature Phases are indicated:
+# "+" = "up" (before transit), "-" = "down" (after transit)
+# LMW 2013 03 06
+#		Year	Month	Date	Hour	Quad. Phase
+        2013           8           2           1+
+        2013           8           6          21+
+        2013           8           8           2-
+        2013           8          12          23-
+        2013           8          14           4+
+        2013           8          19           0+
+        2013           8          23          21+
+        2013           8          25           2-
+        2013           8          29          22-
+        2013           8          31           3+
+        2013           9           5           0+
+        2013           9           9          20+
+        2013           9          11           1-
+        2013           9          15          22-
+        2013           9          17           3+
+        2013           9          21          23+
+        2013           9          26          20+
+        2013           9          28           1-
+        2013          10           2          21-
+        2013          10           4           3+
+        2013          10           8          23+
+        2013          10          10           4-
+        2013          10          15           1-
+        2013          10          19          21-
+        2013          10          21           2+
+        2013          10          25          23+
+        2013          10          27           4-
+        2013          11           1           0-

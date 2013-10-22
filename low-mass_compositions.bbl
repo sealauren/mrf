@@ -1,0 +1,1180 @@
+\begin{thebibliography}{151}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Aigrain} {et~al.}(2008){Aigrain}, {Collier Cameron}, {Ollivier},
+  {Pont}, {Jorda}, {Almenara}, {Alonso}, {Barge}, {Bord{\'e}}, {Bouchy},
+  {Deeg}, {de La Reza}, {Deleuil}, {Dvorak}, {Erikson}, {Fridlund}, {Gondoin},
+  {Gillon}, {Guillot}, {Hatzes}, {Lammer}, {Lanza}, {L{\'e}ger}, {Llebaria},
+  {Magain}, {Mazeh}, {Moutou}, {Paetzold}, {Pinte}, {Queloz}, {Rauer}, {Rouan},
+  {Schneider}, {Wuchter}, \& {Zucker}}]{Aigrain2008}
+{Aigrain}, S., {Collier Cameron}, A., {Ollivier}, M., {et~al.} 2008, \aap, 488,
+  L43
+
+\bibitem[{{Alonso} {et~al.}(2004){Alonso}, {Brown}, {Torres}, {Latham},
+  {Sozzetti}, {Mandushev}, {Belmonte}, {Charbonneau}, {Deeg}, {Dunham},
+  {O'Donovan}, \& {Stefanik}}]{Alonso2004}
+{Alonso}, R., {Brown}, T.~M., {Torres}, G., {et~al.} 2004, \apjl, 613, L153
+
+\bibitem[{{Alonso} {et~al.}(2008){Alonso}, {Auvergne}, {Baglin}, {Ollivier},
+  {Moutou}, {Rouan}, {Deeg}, {Aigrain}, {Almenara}, {Barbieri}, {Barge},
+  {Benz}, {Bord{\'e}}, {Bouchy}, {de La Reza}, {Deleuil}, {Dvorak}, {Erikson},
+  {Fridlund}, {Gillon}, {Gondoin}, {Guillot}, {Hatzes}, {H{\'e}brard},
+  {Kabath}, {Jorda}, {Lammer}, {L{\'e}ger}, {Llebaria}, {Loeillet}, {Magain},
+  {Mayor}, {Mazeh}, {P{\"a}tzold}, {Pepe}, {Pont}, {Queloz}, {Rauer},
+  {Shporer}, {Schneider}, {Stecklum}, {Udry}, \& {Wuchterl}}]{Alonso2008}
+{Alonso}, R., {Auvergne}, M., {Baglin}, A., {et~al.} 2008, \aap, 482, L21
+
+\bibitem[{{Alsubai} {et~al.}(2011){Alsubai}, {Parley}, {Bramich}, {West},
+  {Sorensen}, {Collier Cameron}, {Latham}, {Horne}, {Anderson}, {Bakos},
+  {Brown}, {Buchhave}, {Esquerdo}, {Everett}, {F{\.z}r{\'e}sz}, {Hartman},
+  {Hellier}, {Miller}, {Pollacco}, {Quinn}, {Smith}, {Stefanik}, \&
+  {Szentgyorgyi}}]{Alsubai2011}
+{Alsubai}, K.~A., {Parley}, N.~R., {Bramich}, D.~M., {et~al.} 2011, \mnras,
+  417, 709
+
+\bibitem[{{Anderson} {et~al.}(2008){Anderson}, {Gillon}, {Hellier}, {Maxted},
+  {Pepe}, {Queloz}, {Wilson}, {Collier Cameron}, {Smalley}, {Lister},
+  {Bentley}, {Blecha}, {Christian}, {Enoch}, {Hebb}, {Horne}, {Irwin}, {Joshi},
+  {Kane}, {Marmier}, {Mayor}, {Parley}, {Pollacco}, {Pont}, {Ryans},
+  {S{\'e}gransan}, {Skillen}, {Street}, {Udry}, {West}, \&
+  {Wheatley}}]{Anderson2008}
+{Anderson}, D.~R., {Gillon}, M., {Hellier}, C., {et~al.} 2008, \mnras, 387, L4
+
+\bibitem[{{Anderson} {et~al.}(2010){Anderson}, {Hellier}, {Gillon}, {Triaud},
+  {Smalley}, {Hebb}, {Collier Cameron}, {Maxted}, {Queloz}, {West}, {Bentley},
+  {Enoch}, {Horne}, {Lister}, {Mayor}, {Parley}, {Pepe}, {Pollacco},
+  {S{\'e}gransan}, {Udry}, \& {Wilson}}]{Anderson2010}
+{Anderson}, D.~R., {Hellier}, C., {Gillon}, M., {et~al.} 2010, \apj, 709, 159
+
+\bibitem[{{Anderson} {et~al.}(2011{\natexlab{a}}){Anderson}, {Collier Cameron},
+  {Hellier}, {Lendl}, {Lister}, {Maxted}, {Queloz}, {Smalley}, {Smith},
+  {Triaud}, {West}, {Brown}, {Gillon}, {Pepe}, {Pollacco}, {S{\'e}gransan},
+  {Street}, \& {Udry}}]{Anderson2011b}
+{Anderson}, D.~R., {Collier Cameron}, A., {Hellier}, C., {et~al.}
+  2011{\natexlab{a}}, \aap, 531, A60
+
+\bibitem[{{Anderson} {et~al.}(2011{\natexlab{b}}){Anderson}, {Barros},
+  {Boisse}, {Bouchy}, {Collier Cameron}, {Faedi}, {Hebrard}, {Hellier},
+  {Lendl}, {Moutou}, {Pollacco}, {Santerne}, {Smalley}, {Smith}, {Todd},
+  {Triaud}, {West}, {Wheatley}, {Bento}, {Enoch}, {Gillon}, {Maxted},
+  {McCormac}, {Queloz}, {Simpson}, \& {Skillen}}]{Anderson2011a}
+{Anderson}, D.~R., {Barros}, S.~C.~C., {Boisse}, I., {et~al.}
+  2011{\natexlab{b}}, \pasp, 123, 555
+
+\bibitem[{{Bakos} {et~al.}(2007{\natexlab{a}}){Bakos}, {Noyes}, {Kov{\'a}cs},
+  {Latham}, {Sasselov}, {Torres}, {Fischer}, {Stefanik}, {Sato}, {Johnson},
+  {P{\'a}l}, {Marcy}, {Butler}, {Esquerdo}, {Stanek}, {L{\'a}z{\'a}r}, {Papp},
+  {S{\'a}ri}, \& {Sip{\H o}cz}}]{Bakos2007a}
+{Bakos}, G.~{\'A}., {Noyes}, R.~W., {Kov{\'a}cs}, G., {et~al.}
+  2007{\natexlab{a}}, \apj, 656, 552
+
+\bibitem[{{Bakos} {et~al.}(2007{\natexlab{b}}){Bakos}, {Shporer}, {P{\'a}l},
+  {Torres}, {Kov{\'a}cs}, {Latham}, {Mazeh}, {Ofir}, {Noyes}, {Sasselov},
+  {Bouchy}, {Pont}, {Queloz}, {Udry}, {Esquerdo}, {Sip{\H o}cz}, {Kov{\'a}cs},
+  {Stefanik}, {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Bakos2007c}
+{Bakos}, G.~{\'A}., {Shporer}, A., {P{\'a}l}, A., {et~al.} 2007{\natexlab{b}},
+  \apjl, 671, L173
+
+\bibitem[{{Bakos} {et~al.}(2007{\natexlab{c}}){Bakos}, {Kov{\'a}cs}, {Torres},
+  {Fischer}, {Latham}, {Noyes}, {Sasselov}, {Mazeh}, {Shporer}, {Butler},
+  {Stefanik}, {Fern{\'a}ndez}, {Sozzetti}, {P{\'a}l}, {Johnson}, {Marcy},
+  {Winn}, {Sip{\H o}cz}, {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Bakos2007b}
+{Bakos}, G.~{\'A}., {Kov{\'a}cs}, G., {Torres}, G., {et~al.}
+  2007{\natexlab{c}}, \apj, 670, 826
+
+\bibitem[{{Bakos} {et~al.}(2009{\natexlab{a}}){Bakos}, {P{\'a}l}, {Torres},
+  {Sip{\H o}cz}, {Latham}, {Noyes}, {Kov{\'a}cs}, {Hartman}, {Esquerdo},
+  {Fischer}, {Johnson}, {Marcy}, {Butler}, {Howard}, {Sasselov}, {Kov{\'a}cs},
+  {Stefanik}, {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Bakos2009b}
+{Bakos}, G.~{\'A}., {P{\'a}l}, A., {Torres}, G., {et~al.} 2009{\natexlab{a}},
+  \apj, 696, 1950
+
+\bibitem[{{Bakos} {et~al.}(2009{\natexlab{b}}){Bakos}, {Howard}, {Noyes},
+  {Hartman}, {Torres}, {Kov{\'a}cs}, {Fischer}, {Latham}, {Johnson}, {Marcy},
+  {Sasselov}, {Stefanik}, {Sip{\H o}cz}, {Kov{\'a}cs}, {Esquerdo}, {P{\'a}l},
+  {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Bakos2009a}
+{Bakos}, G.~{\'A}., {Howard}, A.~W., {Noyes}, R.~W., {et~al.}
+  2009{\natexlab{b}}, \apj, 707, 446
+
+\bibitem[{{Bakos} {et~al.}(2010){Bakos}, {Torres}, {P{\'a}l}, {Hartman},
+  {Kov{\'a}cs}, {Noyes}, {Latham}, {Sasselov}, {Sip{\H o}cz}, {Esquerdo},
+  {Fischer}, {Johnson}, {Marcy}, {Butler}, {Isaacson}, {Howard}, {Vogt},
+  {Kov{\'a}cs}, {Fernandez}, {Mo{\'o}r}, {Stefanik}, {L{\'a}z{\'a}r}, {Papp},
+  \& {S{\'a}ri}}]{Bakos2010}
+{Bakos}, G.~{\'A}., {Torres}, G., {P{\'a}l}, A., {et~al.} 2010, \apj, 710, 1724
+
+\bibitem[{{Bakos} {et~al.}(2011){Bakos}, {Hartman}, {Torres}, {Latham},
+  {Kov{\'a}cs}, {Noyes}, {Fischer}, {Johnson}, {Marcy}, {Howard}, {Kipping},
+  {Esquerdo}, {Shporer}, {B{\'e}ky}, {Buchhave}, {Perumpilly}, {Everett},
+  {Sasselov}, {Stefanik}, {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Bakos2011}
+{Bakos}, G.~{\'A}., {Hartman}, J., {Torres}, G., {et~al.} 2011, \apj, 742, 116
+
+\bibitem[{{Bakos} {et~al.}(2012){Bakos}, {Hartman}, {Torres}, {B{\'e}ky},
+  {Latham}, {Buchhave}, {Csubry}, {Kov{\'a}cs}, {Bieryla}, {Quinn},
+  {Szklen{\'a}r}, {Esquerdo}, {Shporer}, {Noyes}, {Fischer}, {Johnson},
+  {Howard}, {Marcy}, {Sato}, {Penev}, {Everett}, {Sasselov}, {F{\H u}r{\'e}sz},
+  {Stefanik}, {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Bakos2012}
+{Bakos}, G.~{\'A}., {Hartman}, J.~D., {Torres}, G., {et~al.} 2012, \aj, 144, 19
+
+\bibitem[{{Barbieri} {et~al.}(2009){Barbieri}, {Alonso}, {Desidera},
+  {Sozzetti}, {Martinez Fiorenzano}, {Almenara}, {Cecconi}, {Claudi},
+  {Charbonneau}, {Endl}, {Granata}, {Gratton}, {Laughlin}, {Loeillet}, \&
+  {EXOPLANET Amateur Consortium}}]{Barbieri2009}
+{Barbieri}, M., {Alonso}, R., {Desidera}, S., {et~al.} 2009, \aap, 503, 601
+
+\bibitem[{{Barge} {et~al.}(2008){Barge}, {Baglin}, {Auvergne}, {Rauer},
+  {L{\'e}ger}, {Schneider}, {Pont}, {Aigrain}, {Almenara}, {Alonso},
+  {Barbieri}, {Bord{\'e}}, {Bouchy}, {Deeg}, {La Reza}, {Deleuil}, {Dvorak},
+  {Erikson}, {Fridlund}, {Gillon}, {Gondoin}, {Guillot}, {Hatzes}, {Hebrard},
+  {Jorda}, {Kabath}, {Lammer}, {Llebaria}, {Loeillet}, {Magain}, {Mazeh},
+  {Moutou}, {Ollivier}, {P{\"a}tzold}, {Queloz}, {Rouan}, {Shporer}, \&
+  {Wuchterl}}]{Barge2008}
+{Barge}, P., {Baglin}, A., {Auvergne}, M., {et~al.} 2008, \aap, 482, L17
+
+\bibitem[{{Barros} {et~al.}(2011){Barros}, {Faedi}, {Collier Cameron},
+  {Lister}, {McCormac}, {Pollacco}, {Simpson}, {Smalley}, {Street}, {Todd},
+  {Triaud}, {Boisse}, {Bouchy}, {H{\'e}brard}, {Moutou}, {Pepe}, {Queloz},
+  {Santerne}, {Segransan}, {Udry}, {Bento}, {Butters}, {Enoch}, {Haswell},
+  {Hellier}, {Keenan}, {Miller}, {Moulds}, {Norton}, {Parley}, {Skillen},
+  {Watson}, {West}, \& {Wheatley}}]{Barros2011}
+{Barros}, S.~C.~C., {Faedi}, F., {Collier Cameron}, A., {et~al.} 2011, \aap,
+  525, A54
+
+\bibitem[{{Batalha} {et~al.}(2011){Batalha}, {Borucki}, {Bryson}, {Buchhave},
+  {Caldwell}, {Christensen-Dalsgaard}, {Ciardi}, {Dunham}, {Fressin},
+  {Gautier}, {Gilliland}, {Haas}, {Howell}, {Jenkins}, {Kjeldsen}, {Koch},
+  {Latham}, {Lissauer}, {Marcy}, {Rowe}, {Sasselov}, {Seager}, {Steffen},
+  {Torres}, {Basri}, {Brown}, {Charbonneau}, {Christiansen}, {Clarke},
+  {Cochran}, {Dupree}, {Fabrycky}, {Fischer}, {Ford}, {Fortney}, {Girouard},
+  {Holman}, {Johnson}, {Isaacson}, {Klaus}, {Machalek}, {Moorehead},
+  {Morehead}, {Ragozzine}, {Tenenbaum}, {Twicken}, {Quinn}, {VanCleve},
+  {Walkowicz}, {Welsh}, {Devore}, \& {Gould}}]{Batalha2011}
+{Batalha}, N.~M., {Borucki}, W.~J., {Bryson}, S.~T., {et~al.} 2011, \apj, 729,
+  27
+
+\bibitem[{{Batalha} {et~al.}(2013){Batalha}, {Rowe}, {Bryson}, {Barclay},
+  {Burke}, {Caldwell}, {Christiansen}, {Mullally}, {Thompson}, {Brown},
+  {Dupree}, {Fabrycky}, {Ford}, {Fortney}, {Gilliland}, {Isaacson}, {Latham},
+  {Marcy}, {Quinn}, {Ragozzine}, {Shporer}, {Borucki}, {Ciardi}, {Gautier},
+  {Haas}, {Jenkins}, {Koch}, {Lissauer}, {Rapin}, {Basri}, {Boss}, {Buchhave},
+  {Carter}, {Charbonneau}, {Christensen-Dalsgaard}, {Clarke}, {Cochran},
+  {Demory}, {Desert}, {Devore}, {Doyle}, {Esquerdo}, {Everett}, {Fressin},
+  {Geary}, {Girouard}, {Gould}, {Hall}, {Holman}, {Howard}, {Howell},
+  {Ibrahim}, {Kinemuchi}, {Kjeldsen}, {Klaus}, {Li}, {Lucas}, {Meibom},
+  {Morris}, {Pr{\v s}a}, {Quintana}, {Sanderfer}, {Sasselov}, {Seader},
+  {Smith}, {Steffen}, {Still}, {Stumpe}, {Tarter}, {Tenenbaum}, {Torres},
+  {Twicken}, {Uddin}, {Van Cleve}, {Walkowicz}, \& {Welsh}}]{Batalha2013}
+{Batalha}, N.~M., {Rowe}, J.~F., {Bryson}, S.~T., {et~al.} 2013, \apjs, 204, 24
+
+\bibitem[{{Beatty} {et~al.}(2012){Beatty}, {Pepper}, {Siverd}, {Eastman},
+  {Bieryla}, {Latham}, {Buchhave}, {Jensen}, {Manner}, {Stassun}, {Gaudi},
+  {Berlind}, {Calkins}, {Collins}, {DePoy}, {Esquerdo}, {Fulton}, {F{\H
+  u}r{\'e}sz}, {Geary}, {Gould}, {Hebb}, {Kielkopf}, {Marshall}, {Pogge},
+  {Stanek}, {Stefanik}, {Street}, {Szentgyorgyi}, {Trueblood}, {Trueblood}, \&
+  {Stutz}}]{Beatty2012}
+{Beatty}, T.~G., {Pepper}, J., {Siverd}, R.~J., {et~al.} 2012, \apjl, 756, L39
+
+\bibitem[{{Bonfils} {et~al.}(2012){Bonfils}, {Gillon}, {Udry}, {Armstrong},
+  {Bouchy}, {Delfosse}, {Forveille}, {Fumel}, {Jehin}, {Lendl}, {Lovis},
+  {Mayor}, {McCormac}, {Neves}, {Pepe}, {Perrier}, {Pollaco}, {Queloz}, \&
+  {Santos}}]{Bonfils2012}
+{Bonfils}, X., {Gillon}, M., {Udry}, S., {et~al.} 2012, \aap, 546, A27
+
+\bibitem[{{Bonomo} {et~al.}(2010){Bonomo}, {Santerne}, {Alonso}, {Gazzano},
+  {Havel}, {Aigrain}, {Auvergne}, {Baglin}, {Barbieri}, {Barge}, {Benz},
+  {Bord{\'e}}, {Bouchy}, {Bruntt}, {Cabrera}, {Collier Cameron}, {Carone},
+  {Carpano}, {Csizmadia}, {Deleuil}, {Deeg}, {Dvorak}, {Erikson},
+  {Ferraz-Mello}, {Fridlund}, {Gandolfi}, {Gillon}, {Guenther}, {Guillot},
+  {Hatzes}, {H{\'e}brard}, {Jorda}, {Lammer}, {Lanza}, {L{\'e}ger}, {Llebaria},
+  {Mayor}, {Mazeh}, {Moutou}, {Ollivier}, {P{\"a}tzold}, {Pepe}, {Queloz},
+  {Rauer}, {Rouan}, {Samuel}, {Schneider}, {Tingley}, {Udry}, \&
+  {Wuchterl}}]{Bonomo2010}
+{Bonomo}, A.~S., {Santerne}, A., {Alonso}, R., {et~al.} 2010, \aap, 520, A65
+
+\bibitem[{{Bonomo} {et~al.}(2012){Bonomo}, {H{\'e}brard}, {Santerne}, {Santos},
+  {Deleuil}, {Almenara}, {Bouchy}, {D{\'{\i}}az}, {Moutou}, \&
+  {Vanhuysse}}]{Bonomo2012}
+{Bonomo}, A.~S., {H{\'e}brard}, G., {Santerne}, A., {et~al.} 2012, \aap, 538,
+  A96
+
+\bibitem[{{Bord{\'e}} {et~al.}(2010){Bord{\'e}}, {Bouchy}, {Deleuil},
+  {Cabrera}, {Jorda}, {Lovis}, {Csizmadia}, {Aigrain}, {Almenara}, {Alonso},
+  {Auvergne}, {Baglin}, {Barge}, {Benz}, {Bonomo}, {Bruntt}, {Carone},
+  {Carpano}, {Deeg}, {Dvorak}, {Erikson}, {Ferraz-Mello}, {Fridlund},
+  {Gandolfi}, {Gazzano}, {Gillon}, {Guenther}, {Guillot}, {Guterman}, {Hatzes},
+  {Havel}, {H{\'e}brard}, {Lammer}, {L{\'e}ger}, {Mayor}, {Mazeh}, {Moutou},
+  {P{\"a}tzold}, {Pepe}, {Ollivier}, {Queloz}, {Rauer}, {Rouan}, {Samuel},
+  {Santerne}, {Schneider}, {Tingley}, {Udry}, {Weingrill}, \&
+  {Wuchterl}}]{Borde2010}
+{Bord{\'e}}, P., {Bouchy}, F., {Deleuil}, M., {et~al.} 2010, \aap, 520, A66
+
+\bibitem[{{Borucki} {et~al.}(2010){Borucki}, {Koch}, {Brown}, {Basri},
+  {Batalha}, {Caldwell}, {Cochran}, {Dunham}, {Gautier}, {Geary}, {Gilliland},
+  {Howell}, {Jenkins}, {Latham}, {Lissauer}, {Marcy}, {Monet}, {Rowe}, \&
+  {Sasselov}}]{Borucki2010}
+{Borucki}, W.~J., {Koch}, D.~G., {Brown}, T.~M., {et~al.} 2010, \apjl, 713,
+  L126
+
+\bibitem[{{Borucki} {et~al.}(2011){Borucki}, {Koch}, {Basri}, {Batalha},
+  {Brown}, {Bryson}, {Caldwell}, {Christensen-Dalsgaard}, {Cochran}, {DeVore},
+  {Dunham}, {Gautier}, {Geary}, {Gilliland}, {Gould}, {Howell}, {Jenkins},
+  {Latham}, {Lissauer}, {Marcy}, {Rowe}, {Sasselov}, {Boss}, {Charbonneau},
+  {Ciardi}, {Doyle}, {Dupree}, {Ford}, {Fortney}, {Holman}, {Seager},
+  {Steffen}, {Tarter}, {Welsh}, {Allen}, {Buchhave}, {Christiansen}, {Clarke},
+  {Das}, {D{\'e}sert}, {Endl}, {Fabrycky}, {Fressin}, {Haas}, {Horch},
+  {Howard}, {Isaacson}, {Kjeldsen}, {Kolodziejczak}, {Kulesa}, {Li}, {Lucas},
+  {Machalek}, {McCarthy}, {MacQueen}, {Meibom}, {Miquel}, {Prsa}, {Quinn},
+  {Quintana}, {Ragozzine}, {Sherry}, {Shporer}, {Tenenbaum}, {Torres},
+  {Twicken}, {Van Cleve}, {Walkowicz}, {Witteborn}, \& {Still}}]{Borucki2011}
+{Borucki}, W.~J., {Koch}, D.~G., {Basri}, G., {et~al.} 2011, \apj, 736, 19
+
+\bibitem[{{Bouchy} {et~al.}(2005){Bouchy}, {Udry}, {Mayor}, {Moutou}, {Pont},
+  {Iribarne}, {da Silva}, {Ilovaisky}, {Queloz}, {Santos}, {S{\'e}gransan}, \&
+  {Zucker}}]{Bouchy2005}
+{Bouchy}, F., {Udry}, S., {Mayor}, M., {et~al.} 2005, \aap, 444, L15
+
+\bibitem[{{Bouchy} {et~al.}(2010){Bouchy}, {Hebb}, {Skillen}, {Collier
+  Cameron}, {Smalley}, {Udry}, {Anderson}, {Boisse}, {Enoch}, {Haswell},
+  {H{\'e}brard}, {Hellier}, {Joshi}, {Kane}, {Maxted}, {Mayor}, {Moutou},
+  {Pepe}, {Pollacco}, {Queloz}, {S{\'e}gransan}, {Simpson}, {Smith},
+  {Stempels}, {Street}, {Triaud}, {West}, \& {Wheatley}}]{Bouchy2010}
+{Bouchy}, F., {Hebb}, L., {Skillen}, I., {et~al.} 2010, \aap, 519, A98
+
+\bibitem[{{Bouchy} {et~al.}(2011){Bouchy}, {Bonomo}, {Santerne}, {Moutou},
+  {Deleuil}, {D{\'{\i}}az}, {Eggenberger}, {Ehrenreich}, {Gry}, {Guillot},
+  {Havel}, {H{\'e}brard}, \& {Udry}}]{Bouchy2011}
+{Bouchy}, F., {Bonomo}, A.~S., {Santerne}, A., {et~al.} 2011, \aap, 533, A83
+
+\bibitem[{{Bryan} {et~al.}(2012){Bryan}, {Alsubai}, {Latham}, {Parley},
+  {Collier Cameron}, {Quinn}, {Carter}, {Fulton}, {Berlind}, {Brown},
+  {Buchhave}, {Calkins}, {Esquerdo}, {F{\H u}r{\'e}sz}, {Gr{\aa}e
+  J{\o}rgensen}, {Horne}, {Stefanik}, {Street}, {Torres}, {West}, {Dominik},
+  {Harps{\o}e}, {Liebig}, {Calchi Novati}, {Ricci}, \& {Skottfelt}}]{Bryan2012}
+{Bryan}, M.~L., {Alsubai}, K.~A., {Latham}, D.~W., {et~al.} 2012, \apj, 750, 84
+
+\bibitem[{{Buchhave} {et~al.}(2010){Buchhave}, {Bakos}, {Hartman}, {Torres},
+  {Kov{\'a}cs}, {Latham}, {Noyes}, {Esquerdo}, {Everett}, {Howard}, {Marcy},
+  {Fischer}, {Johnson}, {Andersen}, {F{\H u}r{\'e}sz}, {Perumpilly},
+  {Sasselov}, {Stefanik}, {B{\'e}ky}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Buchhave2010}
+{Buchhave}, L.~A., {Bakos}, G.~{\'A}., {Hartman}, J.~D., {et~al.} 2010, \apj,
+  720, 1118
+
+\bibitem[{{Buchhave} {et~al.}(2011{\natexlab{a}}){Buchhave}, {Bakos},
+  {Hartman}, {Torres}, {Latham}, {Andersen}, {Kov{\'a}cs}, {Noyes}, {Shporer},
+  {Esquerdo}, {Fischer}, {Johnson}, {Marcy}, {Howard}, {B{\'e}ky}, {Sasselov},
+  {F{\H u}r{\'e}sz}, {Quinn}, {Stefanik}, {Szklen{\'a}r}, {Berlind}, {Calkins},
+  {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Buchhave2011a}
+---. 2011{\natexlab{a}}, \apj, 733, 116
+
+\bibitem[{{Buchhave} {et~al.}(2011{\natexlab{b}}){Buchhave}, {Latham},
+  {Carter}, {D{\'e}sert}, {Torres}, {Adams}, {Bryson}, {Charbonneau}, {Ciardi},
+  {Kulesa}, {Dupree}, {Fischer}, {Fressin}, {Gautier}, {Gilliland}, {Howell},
+  {Isaacson}, {Jenkins}, {Marcy}, {McCarthy}, {Rowe}, {Batalha}, {Borucki},
+  {Brown}, {Caldwell}, {Christiansen}, {Cochran}, {Deming}, {Dunham},
+  {Everett}, {Ford}, {Fortney}, {Geary}, {Girouard}, {Haas}, {Holman}, {Horch},
+  {Klaus}, {Knutson}, {Koch}, {Kolodziejczak}, {Lissauer}, {Machalek},
+  {Mullally}, {Still}, {Quinn}, {Seager}, {Thompson}, \& {Van
+  Cleve}}]{Buchhave2011}
+{Buchhave}, L.~A., {Latham}, D.~W., {Carter}, J.~A., {et~al.}
+  2011{\natexlab{b}}, \apjs, 197, 3
+
+\bibitem[{{Burke} {et~al.}(2007){Burke}, {McCullough}, {Valenti},
+  {Johns-Krull}, {Janes}, {Heasley}, {Summers}, {Stys}, {Bissinger}, {Fleenor},
+  {Foote}, {Garc{\'{\i}}a-Melendo}, {Gary}, {Howell}, {Mallia}, {Masi},
+  {Taylor}, \& {Vanmunster}}]{Burke2007}
+{Burke}, C.~J., {McCullough}, P.~R., {Valenti}, J.~A., {et~al.} 2007, \apj,
+  671, 2115
+
+\bibitem[{{Burke} {et~al.}(2008){Burke}, {McCullough}, {Valenti}, {Long},
+  {Johns-Krull}, {Machalek}, {Janes}, {Taylor}, {Fleenor}, {Foote}, {Gary},
+  {Garc{\'{\i}}a-Melendo}, {Gregorio}, \& {Vanmunster}}]{Burke2008}
+---. 2008, \apj, 686, 1331
+
+\bibitem[{{Butler} {et~al.}(2004){Butler}, {Vogt}, {Marcy}, {Fischer},
+  {Wright}, {Henry}, {Laughlin}, \& {Lissauer}}]{Butler2004}
+{Butler}, R.~P., {Vogt}, S.~S., {Marcy}, G.~W., {et~al.} 2004, \apj, 617, 580
+
+\bibitem[{{Cabrera} {et~al.}(2010){Cabrera}, {Bruntt}, {Ollivier},
+  {D{\'{\i}}az}, {Csizmadia}, {Aigrain}, {Alonso}, {Almenara}, {Auvergne},
+  {Baglin}, {Barge}, {Bonomo}, {Bord{\'e}}, {Bouchy}, {Carone}, {Carpano},
+  {Deleuil}, {Deeg}, {Dvorak}, {Erikson}, {Ferraz-Mello}, {Fridlund},
+  {Gandolfi}, {Gazzano}, {Gillon}, {Guenther}, {Guillot}, {Hatzes}, {Havel},
+  {H{\'e}brard}, {Jorda}, {L{\'e}ger}, {Llebaria}, {Lammer}, {Lovis}, {Mazeh},
+  {Moutou}, {Ofir}, {von Paris}, {P{\"a}tzold}, {Queloz}, {Rauer}, {Rouan},
+  {Santerne}, {Schneider}, {Tingley}, {Titz-Weider}, \&
+  {Wuchterl}}]{Cabrera2010}
+{Cabrera}, J., {Bruntt}, H., {Ollivier}, M., {et~al.} 2010, \aap, 522, A110
+
+\bibitem[{{Carter} {et~al.}(2009){Carter}, {Winn}, {Gilliland}, \&
+  {Holman}}]{Carter2009}
+{Carter}, J.~A., {Winn}, J.~N., {Gilliland}, R., \& {Holman}, M.~J. 2009, \apj,
+  696, 241
+
+\bibitem[{{Carter} {et~al.}(2011){Carter}, {Winn}, {Holman}, {Fabrycky},
+  {Berta}, {Burke}, \& {Nutzman}}]{Carter2011}
+{Carter}, J.~A., {Winn}, J.~N., {Holman}, M.~J., {et~al.} 2011, \apj, 730, 82
+
+\bibitem[{{Carter} {et~al.}(2012){Carter}, {Agol}, {Chaplin}, {Basu},
+  {Bedding}, {Buchhave}, {Christensen-Dalsgaard}, {Deck}, {Elsworth},
+  {Fabrycky}, {Ford}, {Fortney}, {Hale}, {Handberg}, {Hekker}, {Holman},
+  {Huber}, {Karoff}, {Kawaler}, {Kjeldsen}, {Lissauer}, {Lopez}, {Lund},
+  {Lundkvist}, {Metcalfe}, {Miglio}, {Rogers}, {Stello}, {Borucki}, {Bryson},
+  {Christiansen}, {Cochran}, {Geary}, {Gilliland}, {Haas}, {Hall}, {Howard},
+  {Jenkins}, {Klaus}, {Koch}, {Latham}, {MacQueen}, {Sasselov}, {Steffen},
+  {Twicken}, \& {Winn}}]{Carter2012}
+{Carter}, J.~A., {Agol}, E., {Chaplin}, W.~J., {et~al.} 2012, Science, 337, 556
+
+\bibitem[{{Charbonneau} {et~al.}(2000){Charbonneau}, {Brown}, {Latham}, \&
+  {Mayor}}]{Charbonneau2000}
+{Charbonneau}, D., {Brown}, T.~M., {Latham}, D.~W., \& {Mayor}, M. 2000, \apjl,
+  529, L45
+
+\bibitem[{{Charbonneau} {et~al.}(2007){Charbonneau}, {Winn}, {Everett},
+  {Latham}, {Holman}, {Esquerdo}, \& {O'Donovan}}]{Charbonneau2007}
+{Charbonneau}, D., {Winn}, J.~N., {Everett}, M.~E., {et~al.} 2007, \apj, 658,
+  1322
+
+\bibitem[{{Charbonneau} {et~al.}(2009){Charbonneau}, {Berta}, {Irwin}, {Burke},
+  {Nutzman}, {Buchhave}, {Lovis}, {Bonfils}, {Latham}, {Udry}, {Murray-Clay},
+  {Holman}, {Falco}, {Winn}, {Queloz}, {Pepe}, {Mayor}, {Delfosse}, \&
+  {Forveille}}]{Charbonneau2009}
+{Charbonneau}, D., {Berta}, Z.~K., {Irwin}, J., {et~al.} 2009, \nat, 462, 891
+
+\bibitem[{{Christian} {et~al.}(2009){Christian}, {Gibson}, {Simpson}, {Street},
+  {Skillen}, {Pollacco}, {Collier Cameron}, {Joshi}, {Keenan}, {Stempels},
+  {Haswell}, {Horne}, {Anderson}, {Bentley}, {Bouchy}, {Clarkson}, {Enoch},
+  {Hebb}, {H{\'e}brard}, {Hellier}, {Irwin}, {Kane}, {Lister}, {Loeillet},
+  {Maxted}, {Mayor}, {McDonald}, {Moutou}, {Norton}, {Parley}, {Pont},
+  {Queloz}, {Ryans}, {Smalley}, {Smith}, {Todd}, {Udry}, {West}, {Wheatley}, \&
+  {Wilson}}]{Christian2009}
+{Christian}, D.~J., {Gibson}, N.~P., {Simpson}, E.~K., {et~al.} 2009, \mnras,
+  392, 1585
+
+\bibitem[{{Cochran} {et~al.}(2011){Cochran}, {Fabrycky}, {Torres}, {Fressin},
+  {D{\'e}sert}, {Ragozzine}, {Sasselov}, {Fortney}, {Rowe}, {Brugamyer},
+  {Bryson}, {Carter}, {Ciardi}, {Howell}, {Steffen}, {Borucki}, {Koch}, {Winn},
+  {Welsh}, {Uddin}, {Tenenbaum}, {Still}, {Seager}, {Quinn}, {Mullally},
+  {Miller}, {Marcy}, {MacQueen}, {Lucas}, {Lissauer}, {Latham}, {Knutson},
+  {Kinemuchi}, {Johnson}, {Jenkins}, {Isaacson}, {Howard}, {Horch}, {Holman},
+  {Henze}, {Haas}, {Gilliland}, {Gautier}, {Ford}, {Fischer}, {Everett},
+  {Endl}, {Demory}, {Deming}, {Charbonneau}, {Caldwell}, {Buchhave}, {Brown},
+  \& {Batalha}}]{Cochran2011}
+{Cochran}, W.~D., {Fabrycky}, D.~C., {Torres}, G., {et~al.} 2011, \apjs, 197, 7
+
+\bibitem[{{Collier Cameron} {et~al.}(2007){Collier Cameron}, {Bouchy},
+  {H{\'e}brard}, {Maxted}, {Pollacco}, {Pont}, {Skillen}, {Smalley}, {Street},
+  {West}, {Wilson}, {Aigrain}, {Christian}, {Clarkson}, {Enoch}, {Evans},
+  {Fitzsimmons}, {Fleenor}, {Gillon}, {Haswell}, {Hebb}, {Hellier}, {Hodgkin},
+  {Horne}, {Irwin}, {Kane}, {Keenan}, {Loeillet}, {Lister}, {Mayor}, {Moutou},
+  {Norton}, {Osborne}, {Parley}, {Queloz}, {Ryans}, {Triaud}, {Udry}, \&
+  {Wheatley}}]{CollierCameron2007}
+{Collier Cameron}, A., {Bouchy}, F., {H{\'e}brard}, G., {et~al.} 2007, \mnras,
+  375, 951
+
+\bibitem[{{Csizmadia} {et~al.}(2011){Csizmadia}, {Moutou}, {Deleuil},
+  {Cabrera}, {Fridlund}, {Gandolfi}, {Aigrain}, {Alonso}, {Almenara},
+  {Auvergne}, {Baglin}, {Barge}, {Bonomo}, {Bord{\'e}}, {Bouchy}, {Bruntt},
+  {Carone}, {Carpano}, {Cavarroc}, {Cochran}, {Deeg}, {D{\'{\i}}az}, {Dvorak},
+  {Endl}, {Erikson}, {Ferraz-Mello}, {Fruth}, {Gazzano}, {Gillon}, {Guenther},
+  {Guillot}, {Hatzes}, {Havel}, {H{\'e}brard}, {Jehin}, {Jorda}, {L{\'e}ger},
+  {Llebaria}, {Lammer}, {Lovis}, {MacQueen}, {Mazeh}, {Ollivier},
+  {P{\"a}tzold}, {Queloz}, {Rauer}, {Rouan}, {Santerne}, {Schneider},
+  {Tingley}, {Titz-Weider}, \& {Wuchterl}}]{Csizmadia2011}
+{Csizmadia}, S., {Moutou}, C., {Deleuil}, M., {et~al.} 2011, \aap, 531, A41
+
+\bibitem[{{Deeg} {et~al.}(2010){Deeg}, {Moutou}, {Erikson}, {Csizmadia},
+  {Tingley}, {Barge}, {Bruntt}, {Havel}, {Aigrain}, {Almenara}, {Alonso},
+  {Auvergne}, {Baglin}, {Barbieri}, {Benz}, {Bonomo}, {Bord{\'e}}, {Bouchy},
+  {Cabrera}, {Carone}, {Carpano}, {Ciardi}, {Deleuil}, {Dvorak},
+  {Ferraz-Mello}, {Fridlund}, {Gandolfi}, {Gazzano}, {Gillon}, {Gondoin},
+  {Guenther}, {Guillot}, {Hartog}, {Hatzes}, {Hidas}, {H{\'e}brard}, {Jorda},
+  {Kabath}, {Lammer}, {L{\'e}ger}, {Lister}, {Llebaria}, {Lovis}, {Mayor},
+  {Mazeh}, {Ollivier}, {P{\"a}tzold}, {Pepe}, {Pont}, {Queloz}, {Rabus},
+  {Rauer}, {Rouan}, {Samuel}, {Schneider}, {Shporer}, {Stecklum}, {Street},
+  {Udry}, {Weingrill}, \& {Wuchterl}}]{Deeg2010}
+{Deeg}, H.~J., {Moutou}, C., {Erikson}, A., {et~al.} 2010, \nat, 464, 384
+
+\bibitem[{{Deleuil} {et~al.}(2008){Deleuil}, {Deeg}, {Alonso}, {Bouchy},
+  {Rouan}, {Auvergne}, {Baglin}, {Aigrain}, {Almenara}, {Barbieri}, {Barge},
+  {Bruntt}, {Bord{\'e}}, {Collier Cameron}, {Csizmadia}, {de La Reza},
+  {Dvorak}, {Erikson}, {Fridlund}, {Gandolfi}, {Gillon}, {Guenther}, {Guillot},
+  {Hatzes}, {H{\'e}brard}, {Jorda}, {Lammer}, {L{\'e}ger}, {Llebaria},
+  {Loeillet}, {Mayor}, {Mazeh}, {Moutou}, {Ollivier}, {P{\"a}tzold}, {Pont},
+  {Queloz}, {Rauer}, {Schneider}, {Shporer}, {Wuchterl}, \&
+  {Zucker}}]{Deleuil2008}
+{Deleuil}, M., {Deeg}, H.~J., {Alonso}, R., {et~al.} 2008, \aap, 491, 889
+
+\bibitem[{{D{\'e}sert} {et~al.}(2011){D{\'e}sert}, {Charbonneau}, {Demory},
+  {Ballard}, {Carter}, {Fortney}, {Cochran}, {Endl}, {Quinn}, {Isaacson},
+  {Fressin}, {Buchhave}, {Latham}, {Knutson}, {Bryson}, {Torres}, {Rowe},
+  {Batalha}, {Borucki}, {Brown}, {Caldwell}, {Christiansen}, {Deming},
+  {Fabrycky}, {Ford}, {Gilliland}, {Gillon}, {Haas}, {Jenkins}, {Kinemuchi},
+  {Koch}, {Lissauer}, {Lucas}, {Mullally}, {MacQueen}, {Marcy}, {Sasselov},
+  {Seager}, {Still}, {Tenenbaum}, {Uddin}, \& {Winn}}]{Desert2011}
+{D{\'e}sert}, J.-M., {Charbonneau}, D., {Demory}, B.-O., {et~al.} 2011, \apjs,
+  197, 14
+
+\bibitem[{{Doyle} {et~al.}(2011){Doyle}, {Carter}, {Fabrycky}, {Slawson},
+  {Howell}, {Winn}, {Orosz}, {Prsa}, {Welsh}, {Quinn}, {Latham}, {Torres},
+  {Buchhave}, {Marcy}, {Fortney}, {Shporer}, {Ford}, {Lissauer}, {Ragozzine},
+  {Rucker}, {Batalha}, {Jenkins}, {Borucki}, {Koch}, {Middour}, {Hall},
+  {McCauliff}, {Fanelli}, {Quintana}, {Holman}, {Caldwell}, {Still},
+  {Stefanik}, {Brown}, {Esquerdo}, {Tang}, {Furesz}, {Geary}, {Berlind},
+  {Calkins}, {Short}, {Steffen}, {Sasselov}, {Dunham}, {Cochran}, {Boss},
+  {Haas}, {Buzasi}, \& {Fischer}}]{Doyle2011}
+{Doyle}, L.~R., {Carter}, J.~A., {Fabrycky}, D.~C., {et~al.} 2011, Science,
+  333, 1602
+
+\bibitem[{{Dunham} {et~al.}(2010){Dunham}, {Borucki}, {Koch}, {Batalha},
+  {Buchhave}, {Brown}, {Caldwell}, {Cochran}, {Endl}, {Fischer}, {F{\H
+  u}r{\'e}sz}, {Gautier}, {Geary}, {Gilliland}, {Gould}, {Howell}, {Jenkins},
+  {Kjeldsen}, {Latham}, {Lissauer}, {Marcy}, {Meibom}, {Monet}, {Rowe}, \&
+  {Sasselov}}]{Dunham2010}
+{Dunham}, E.~W., {Borucki}, W.~J., {Koch}, D.~G., {et~al.} 2010, \apjl, 713,
+  L136
+
+\bibitem[{{Endl} {et~al.}(2011){Endl}, {MacQueen}, {Cochran}, {Brugamyer},
+  {Buchhave}, {Rowe}, {Lucas}, {Isaacson}, {Bryson}, {Howell}, {Fortney},
+  {Hansen}, {Borucki}, {Caldwell}, {Christiansen}, {Ciardi}, {Demory},
+  {Everett}, {Ford}, {Haas}, {Holman}, {Horch}, {Jenkins}, {Koch}, {Lissauer},
+  {Machalek}, {Still}, {Welsh}, {Sanderfer}, {Seader}, {Smith}, {Thompson}, \&
+  {Twicken}}]{Endl2011}
+{Endl}, M., {MacQueen}, P.~J., {Cochran}, W.~D., {et~al.} 2011, \apjs, 197, 13
+
+\bibitem[{{Endl} {et~al.}(2012){Endl}, {Robertson}, {Cochran}, {MacQueen},
+  {Brugamyer}, {Caldwell}, {Wittenmyer}, {Barnes}, \& {Gullikson}}]{Endl2012}
+{Endl}, M., {Robertson}, P., {Cochran}, W.~D., {et~al.} 2012, \apj, 759, 19
+
+\bibitem[{{Enoch} {et~al.}(2011){Enoch}, {Cameron}, {Anderson}, {Lister},
+  {Hellier}, {Maxted}, {Queloz}, {Smalley}, {Triaud}, {West}, {Brown},
+  {Gillon}, {Hebb}, {Lendl}, {Parley}, {Pepe}, {Pollacco}, {Segransan},
+  {Simpson}, {Street}, \& {Udry}}]{Enoch2011}
+{Enoch}, B., {Cameron}, A.~C., {Anderson}, D.~R., {et~al.} 2011, \mnras, 410,
+  1631
+
+\bibitem[{{Faedi} {et~al.}(2011){Faedi}, {Barros}, {Anderson}, {Brown},
+  {Collier Cameron}, {Pollacco}, {Boisse}, {H{\'e}brard}, {Lendl}, {Lister},
+  {Smalley}, {Street}, {Triaud}, {Bento}, {Bouchy}, {Butters}, {Enoch},
+  {Haswell}, {Hellier}, {Keenan}, {Miller}, {Moulds}, {Moutou}, {Norton},
+  {Queloz}, {Santerne}, {Simpson}, {Skillen}, {Smith}, {Udry}, {Watson},
+  {West}, \& {Wheatley}}]{Faedi2011}
+{Faedi}, F., {Barros}, S.~C.~C., {Anderson}, D.~R., {et~al.} 2011, \aap, 531,
+  A40
+
+\bibitem[{{Fischer} {et~al.}(2007){Fischer}, {Vogt}, {Marcy}, {Butler}, {Sato},
+  {Henry}, {Robinson}, {Laughlin}, {Ida}, {Toyota}, {Omiya}, {Driscoll},
+  {Takeda}, {Wright}, \& {Johnson}}]{Fischer2007}
+{Fischer}, D.~A., {Vogt}, S.~S., {Marcy}, G.~W., {et~al.} 2007, \apj, 669, 1336
+
+\bibitem[{{Fortney} {et~al.}(2011){Fortney}, {Demory}, {D{\'e}sert}, {Rowe},
+  {Marcy}, {Isaacson}, {Buchhave}, {Ciardi}, {Gautier}, {Batalha}, {Caldwell},
+  {Bryson}, {Nutzman}, {Jenkins}, {Howard}, {Charbonneau}, {Knutson}, {Howell},
+  {Everett}, {Fressin}, {Deming}, {Borucki}, {Brown}, {Ford}, {Gilliland},
+  {Latham}, {Miller}, {Seager}, {Fischer}, {Koch}, {Lissauer}, {Haas}, {Still},
+  {Lucas}, {Gillon}, {Christiansen}, \& {Geary}}]{Fortney2011}
+{Fortney}, J.~J., {Demory}, B.-O., {D{\'e}sert}, J.-M., {et~al.} 2011, \apjs,
+  197, 9
+
+\bibitem[{{Fridlund} {et~al.}(2010){Fridlund}, {H{\'e}brard}, {Alonso},
+  {Deleuil}, {Gandolfi}, {Gillon}, {Bruntt}, {Alapini}, {Csizmadia}, {Guillot},
+  {Lammer}, {Aigrain}, {Almenara}, {Auvergne}, {Baglin}, {Barge}, {Bord{\'e}},
+  {Bouchy}, {Cabrera}, {Carone}, {Carpano}, {Deeg}, {de La Reza}, {Dvorak},
+  {Erikson}, {Ferraz-Mello}, {Guenther}, {Gondoin}, {den Hartog}, {Hatzes},
+  {Jorda}, {L{\'e}ger}, {Llebaria}, {Magain}, {Mazeh}, {Moutou}, {Ollivier},
+  {P{\"a}tzold}, {Queloz}, {Rauer}, {Rouan}, {Samuel}, {Schneider}, {Shporer},
+  {Stecklum}, {Tingley}, {Weingrill}, \& {Wuchterl}}]{Fridlund2010}
+{Fridlund}, M., {H{\'e}brard}, G., {Alonso}, R., {et~al.} 2010, \aap, 512, A14
+
+\bibitem[{{Gandolfi} {et~al.}(2010){Gandolfi}, {H{\'e}brard}, {Alonso},
+  {Deleuil}, {Guenther}, {Fridlund}, {Endl}, {Eigm{\"u}ller}, {Csizmadia},
+  {Havel}, {Aigrain}, {Auvergne}, {Baglin}, {Barge}, {Bonomo}, {Bord{\'e}},
+  {Bouchy}, {Bruntt}, {Cabrera}, {Carpano}, {Carone}, {Cochran}, {Deeg},
+  {Dvorak}, {Eisl{\"o}ffel}, {Erikson}, {Ferraz-Mello}, {Gazzano}, {Gibson},
+  {Gillon}, {Gondoin}, {Guillot}, {Hartmann}, {Hatzes}, {Jorda}, {Kabath},
+  {L{\'e}ger}, {Llebaria}, {Lammer}, {MacQueen}, {Mayor}, {Mazeh}, {Moutou},
+  {Ollivier}, {P{\"a}tzold}, {Pepe}, {Queloz}, {Rauer}, {Rouan}, {Samuel},
+  {Schneider}, {Stecklum}, {Tingley}, {Udry}, \& {Wuchterl}}]{Gandolfi2010}
+{Gandolfi}, D., {H{\'e}brard}, G., {Alonso}, R., {et~al.} 2010, \aap, 524, A55
+
+\bibitem[{{Gautier} {et~al.}(2012){Gautier}, {Charbonneau}, {Rowe}, {Marcy},
+  {Isaacson}, {Torres}, {Fressin}, {Rogers}, {D{\'e}sert}, {Buchhave},
+  {Latham}, {Quinn}, {Ciardi}, {Fabrycky}, {Ford}, {Gilliland}, {Walkowicz},
+  {Bryson}, {Cochran}, {Endl}, {Fischer}, {Howell}, {Horch}, {Barclay},
+  {Batalha}, {Borucki}, {Christiansen}, {Geary}, {Henze}, {Holman}, {Ibrahim},
+  {Jenkins}, {Kinemuchi}, {Koch}, {Lissauer}, {Sanderfer}, {Sasselov},
+  {Seager}, {Silverio}, {Smith}, {Still}, {Stumpe}, {Tenenbaum}, \& {Van
+  Cleve}}]{Gautier2012}
+{Gautier}, III, T.~N., {Charbonneau}, D., {Rowe}, J.~F., {et~al.} 2012, \apj,
+  749, 15
+
+\bibitem[{{Gilliland} {et~al.}(2013){Gilliland}, {Marcy}, {Rowe}, {Rogers},
+  {Torres}, {Fressin}, {Lopez}, {Buchhave}, {Christensen-Dalsgaard},
+  {D{\'e}sert}, {Henze}, {Isaacson}, {Jenkins}, {Lissauer}, {Chaplin}, {Basu},
+  {Metcalfe}, {Elsworth}, {Handberg}, {Hekker}, {Huber}, {Karoff}, {Kjeldsen},
+  {Lund}, {Lundkvist}, {Miglio}, {Charbonneau}, {Ford}, {Fortney}, {Haas},
+  {Howard}, {Howell}, {Ragozzine}, \& {Thompson}}]{Gilliland2013}
+{Gilliland}, R.~L., {Marcy}, G.~W., {Rowe}, J.~F., {et~al.} 2013, \apj, 766, 40
+
+\bibitem[{{Gillon} {et~al.}(2009){Gillon}, {Anderson}, {Triaud}, {Hellier},
+  {Maxted}, {Pollaco}, {Queloz}, {Smalley}, {West}, {Wilson}, {Bentley},
+  {Collier Cameron}, {Enoch}, {Hebb}, {Horne}, {Irwin}, {Joshi}, {Lister},
+  {Mayor}, {Pepe}, {Parley}, {Segransan}, {Udry}, \& {Wheatley}}]{Gillon2009}
+{Gillon}, M., {Anderson}, D.~R., {Triaud}, A.~H.~M.~J., {et~al.} 2009, \aap,
+  501, 785
+
+\bibitem[{{Gillon} {et~al.}(2010){Gillon}, {Hatzes}, {Csizmadia}, {Fridlund},
+  {Deleuil}, {Aigrain}, {Alonso}, {Auvergne}, {Baglin}, {Barge}, {Barnes},
+  {Bonomo}, {Bord{\'e}}, {Bouchy}, {Bruntt}, {Cabrera}, {Carone}, {Carpano},
+  {Cochran}, {Deeg}, {Dvorak}, {Endl}, {Erikson}, {Ferraz-Mello}, {Gandolfi},
+  {Gazzano}, {Guenther}, {Guillot}, {Havel}, {H{\'e}brard}, {Jorda},
+  {L{\'e}ger}, {Llebaria}, {Lammer}, {Lovis}, {Mayor}, {Mazeh},
+  {Montalb{\'a}n}, {Moutou}, {Ofir}, {Ollivier}, {P{\"a}tzold}, {Pepe},
+  {Queloz}, {Rauer}, {Rouan}, {Samuel}, {Santerne}, {Schneider}, {Tingley},
+  {Udry}, {Weingrill}, \& {Wuchterl}}]{Gillon2010}
+{Gillon}, M., {Hatzes}, A., {Csizmadia}, S., {et~al.} 2010, \aap, 520, A97
+
+\bibitem[{{Gillon} {et~al.}(2011){Gillon}, {Doyle}, {Lendl}, {Maxted},
+  {Triaud}, {Anderson}, {Barros}, {Bento}, {Collier-Cameron}, {Enoch}, {Faedi},
+  {Hellier}, {Jehin}, {Magain}, {Montalb{\'a}n}, {Pepe}, {Pollacco}, {Queloz},
+  {Smalley}, {Segransan}, {Smith}, {Southworth}, {Udry}, {West}, \&
+  {Wheatley}}]{Gillon2011}
+{Gillon}, M., {Doyle}, A.~P., {Lendl}, M., {et~al.} 2011, \aap, 533, A88
+
+\bibitem[{{Guenther} {et~al.}(2012){Guenther}, {D{\'{\i}}az}, {Gazzano},
+  {Mazeh}, {Rouan}, {Gibson}, {Csizmadia}, {Aigrain}, {Alonso}, {Almenara},
+  {Auvergne}, {Baglin}, {Barge}, {Bonomo}, {Bord{\'e}}, {Bouchy}, {Bruntt},
+  {Cabrera}, {Carone}, {Carpano}, {Cavarroc}, {Deeg}, {Deleuil}, {Dreizler},
+  {Dvorak}, {Erikson}, {Ferraz-Mello}, {Fridlund}, {Gandolfi}, {Gillon},
+  {Guillot}, {Hatzes}, {Havel}, {H{\'e}brard}, {Jehin}, {Jorda}, {Lammer},
+  {L{\'e}ger}, {Moutou}, {Nortmann}, {Ollivier}, {Ofir}, {Pasternacki},
+  {P{\"a}tzold}, {Parviainen}, {Queloz}, {Rauer}, {Samuel}, {Santerne},
+  {Schneider}, {Tal-Or}, {Tingley}, {Weingrill}, \& {Wuchterl}}]{Guenther2012}
+{Guenther}, E.~W., {D{\'{\i}}az}, R.~F., {Gazzano}, J.-C., {et~al.} 2012, \aap,
+  537, A136
+
+\bibitem[{{Hartman} {et~al.}(2009){Hartman}, {Bakos}, {Torres}, {Kov{\'a}cs},
+  {Noyes}, {P{\'a}l}, {Latham}, {Sip{\H o}cz}, {Fischer}, {Johnson}, {Marcy},
+  {Butler}, {Howard}, {Esquerdo}, {Sasselov}, {Kov{\'a}cs}, {Stefanik},
+  {Fernandez}, {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Hartman2009}
+{Hartman}, J.~D., {Bakos}, G.~{\'A}., {Torres}, G., {et~al.} 2009, \apj, 706,
+  785
+
+\bibitem[{{Hartman} {et~al.}(2011{\natexlab{a}}){Hartman}, {Bakos}, {Sato},
+  {Torres}, {Noyes}, {Latham}, {Kov{\'a}cs}, {Fischer}, {Howard}, {Johnson},
+  {Marcy}, {Buchhave}, {F{\"u}resz}, {Perumpilly}, {B{\'e}ky}, {Stefanik},
+  {Sasselov}, {Esquerdo}, {Everett}, {Csubry}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Hartman2011a}
+{Hartman}, J.~D., {Bakos}, G.~{\'A}., {Sato}, B., {et~al.} 2011{\natexlab{a}},
+  \apj, 726, 52
+
+\bibitem[{{Hartman} {et~al.}(2011{\natexlab{b}}){Hartman}, {Bakos}, {Kipping},
+  {Torres}, {Kov{\'a}cs}, {Noyes}, {Latham}, {Howard}, {Fischer}, {Johnson},
+  {Marcy}, {Isaacson}, {Quinn}, {Buchhave}, {B{\'e}ky}, {Sasselov}, {Stefanik},
+  {Esquerdo}, {Everett}, {Perumpilly}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Hartman2011b}
+{Hartman}, J.~D., {Bakos}, G.~{\'A}., {Kipping}, D.~M., {et~al.}
+  2011{\natexlab{b}}, \apj, 728, 138
+
+\bibitem[{{Hartman} {et~al.}(2011{\natexlab{c}}){Hartman}, {Bakos}, {Torres},
+  {Latham}, {Kov{\'a}cs}, {B{\'e}ky}, {Quinn}, {Mazeh}, {Shporer}, {Marcy},
+  {Howard}, {Fischer}, {Johnson}, {Esquerdo}, {Noyes}, {Sasselov}, {Stefanik},
+  {Fernandez}, {Szklen{\'a}r}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Hartman2011c}
+{Hartman}, J.~D., {Bakos}, G.~{\'A}., {Torres}, G., {et~al.}
+  2011{\natexlab{c}}, \apj, 742, 59
+
+\bibitem[{{Hartman} {et~al.}(2012){Hartman}, {Bakos}, {B{\'e}ky}, {Torres},
+  {Latham}, {Csubry}, {Penev}, {Shporer}, {Fulton}, {Buchhave}, {Johnson},
+  {Howard}, {Marcy}, {Fischer}, {Kov{\'a}cs}, {Noyes}, {Esquerdo}, {Everett},
+  {Szklen{\'a}r}, {Quinn}, {Bieryla}, {Knox}, {Hinz}, {Sasselov}, {F{\H
+  u}r{\'e}sz}, {Stefanik}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Hartman2012}
+{Hartman}, J.~D., {Bakos}, G.~{\'A}., {B{\'e}ky}, B., {et~al.} 2012, \aj, 144,
+  139
+
+\bibitem[{{Hebb} {et~al.}(2009){Hebb}, {Collier-Cameron}, {Loeillet},
+  {Pollacco}, {H{\'e}brard}, {Street}, {Bouchy}, {Stempels}, {Moutou},
+  {Simpson}, {Udry}, {Joshi}, {West}, {Skillen}, {Wilson}, {McDonald},
+  {Gibson}, {Aigrain}, {Anderson}, {Benn}, {Christian}, {Enoch}, {Haswell},
+  {Hellier}, {Horne}, {Irwin}, {Lister}, {Maxted}, {Mayor}, {Norton}, {Parley},
+  {Pont}, {Queloz}, {Smalley}, \& {Wheatley}}]{Hebb2009}
+{Hebb}, L., {Collier-Cameron}, A., {Loeillet}, B., {et~al.} 2009, \apj, 693,
+  1920
+
+\bibitem[{{Hebb} {et~al.}(2010){Hebb}, {Collier-Cameron}, {Triaud}, {Lister},
+  {Smalley}, {Maxted}, {Hellier}, {Anderson}, {Pollacco}, {Gillon}, {Queloz},
+  {West}, {Bentley}, {Enoch}, {Haswell}, {Horne}, {Mayor}, {Pepe}, {Segransan},
+  {Skillen}, {Udry}, \& {Wheatley}}]{Hebb2010}
+{Hebb}, L., {Collier-Cameron}, A., {Triaud}, A.~H.~M.~J., {et~al.} 2010, \apj,
+  708, 224
+
+\bibitem[{{H{\'e}brard} {et~al.}(2011){H{\'e}brard}, {Evans}, {Alonso},
+  {Fridlund}, {Ofir}, {Aigrain}, {Guillot}, {Almenara}, {Auvergne}, {Baglin},
+  {Barge}, {Bonomo}, {Bord{\'e}}, {Bouchy}, {Cabrera}, {Carone}, {Carpano},
+  {Cavarroc}, {Csizmadia}, {Deeg}, {Deleuil}, {D{\'{\i}}az}, {Dvorak},
+  {Erikson}, {Ferraz-Mello}, {Gandolfi}, {Gibson}, {Gillon}, {Guenther},
+  {Hatzes}, {Havel}, {Jorda}, {Lammer}, {L{\'e}ger}, {Llebaria}, {Mazeh},
+  {Moutou}, {Ollivier}, {Parviainen}, {P{\"a}tzold}, {Queloz}, {Rauer},
+  {Rouan}, {Santerne}, {Schneider}, {Tingley}, \& {Wuchterl}}]{Hebrard2011}
+{H{\'e}brard}, G., {Evans}, T.~M., {Alonso}, R., {et~al.} 2011, \aap, 533, A130
+
+\bibitem[{{H{\'e}brard} {et~al.}(2013){H{\'e}brard}, {Collier Cameron},
+  {Brown}, {D{\'{\i}}az}, {Faedi}, {Smalley}, {Anderson}, {Armstrong},
+  {Barros}, {Bento}, {Bouchy}, {Doyle}, {Enoch}, {G{\'o}mez Maqueo Chew},
+  {H{\'e}brard}, {Hellier}, {Lendl}, {Lister}, {Maxted}, {McCormac}, {Moutou},
+  {Pollacco}, {Queloz}, {Santerne}, {Skillen}, {Southworth}, {Tregloan-Reed},
+  {Triaud}, {Udry}, {Vanhuysse}, {Watson}, {West}, \& {Wheatley}}]{Hebrard2013}
+{H{\'e}brard}, G., {Collier Cameron}, A., {Brown}, D.~J.~A., {et~al.} 2013,
+  \aap, 549, A134
+
+\bibitem[{{Hellier} {et~al.}(2009{\natexlab{a}}){Hellier}, {Anderson}, {Collier
+  Cameron}, {Gillon}, {Hebb}, {Maxted}, {Queloz}, {Smalley}, {Triaud}, {West},
+  {Wilson}, {Bentley}, {Enoch}, {Horne}, {Irwin}, {Lister}, {Mayor}, {Parley},
+  {Pepe}, {Pollacco}, {Segransan}, {Udry}, \& {Wheatley}}]{Hellier2009b}
+{Hellier}, C., {Anderson}, D.~R., {Collier Cameron}, A., {et~al.}
+  2009{\natexlab{a}}, \nat, 460, 1098
+
+\bibitem[{{Hellier} {et~al.}(2009{\natexlab{b}}){Hellier}, {Anderson},
+  {Gillon}, {Lister}, {Maxted}, {Queloz}, {Smalley}, {Triaud}, {West},
+  {Wilson}, {Alsubai}, {Bentley}, {Collier Cameron}, {Hebb}, {Horne}, {Irwin},
+  {Kane}, {Mayor}, {Pepe}, {Pollacco}, {Skillen}, {Udry}, {Wheatley},
+  {Christian}, {Enoch}, {Haswell}, {Joshi}, {Norton}, {Parley}, {Ryans},
+  {Street}, \& {Todd}}]{Hellier2009a}
+{Hellier}, C., {Anderson}, D.~R., {Gillon}, M., {et~al.} 2009{\natexlab{b}},
+  \apjl, 690, L89
+
+\bibitem[{{Hellier} {et~al.}(2010){Hellier}, {Anderson}, {Collier Cameron},
+  {Gillon}, {Lendl}, {Maxted}, {Queloz}, {Smalley}, {Triaud}, {West}, {Brown},
+  {Enoch}, {Lister}, {Pepe}, {Pollacco}, {S{\'e}gransan}, \&
+  {Udry}}]{Hellier2010}
+{Hellier}, C., {Anderson}, D.~R., {Collier Cameron}, A., {et~al.} 2010, \apjl,
+  723, L60
+
+\bibitem[{{Hellier} {et~al.}(2011){Hellier}, {Anderson}, {Collier Cameron},
+  {Gillon}, {Jehin}, {Lendl}, {Maxted}, {Pepe}, {Pollacco}, {Queloz},
+  {S{\'e}gransan}, {Smalley}, {Smith}, {Southworth}, {Triaud}, {Udry}, \&
+  {West}}]{Hellier2011}
+---. 2011, \aap, 535, L7
+
+\bibitem[{{Hellier} {et~al.}(2012){Hellier}, {Anderson}, {Collier Cameron},
+  {Doyle}, {Fumel}, {Gillon}, {Jehin}, {Lendl}, {Maxted}, {Pepe}, {Pollacco},
+  {Queloz}, {S{\'e}gransan}, {Smalley}, {Smith}, {Southworth}, {Triaud},
+  {Udry}, \& {West}}]{Hellier2012}
+---. 2012, \mnras, 426, 739
+
+\bibitem[{{Henry} {et~al.}(2000){Henry}, {Marcy}, {Butler}, \&
+  {Vogt}}]{Henry2000}
+{Henry}, G.~W., {Marcy}, G.~W., {Butler}, R.~P., \& {Vogt}, S.~S. 2000, \apjl,
+  529, L41
+
+\bibitem[{{Howard} {et~al.}(2012){Howard}, {Marcy}, {Bryson}, {Jenkins},
+  {Rowe}, {Batalha}, {Borucki}, {Koch}, {Dunham}, {Gautier}, {Van Cleve},
+  {Cochran}, {Latham}, {Lissauer}, {Torres}, {Brown}, {Gilliland}, {Buchhave},
+  {Caldwell}, {Christensen-Dalsgaard}, {Ciardi}, {Fressin}, {Haas}, {Howell},
+  {Kjeldsen}, {Seager}, {Rogers}, {Sasselov}, {Steffen}, {Basri},
+  {Charbonneau}, {Christiansen}, {Clarke}, {Dupree}, {Fabrycky}, {Fischer},
+  {Ford}, {Fortney}, {Tarter}, {Girouard}, {Holman}, {Johnson}, {Klaus},
+  {Machalek}, {Moorhead}, {Morehead}, {Ragozzine}, {Tenenbaum}, {Twicken},
+  {Quinn}, {Isaacson}, {Shporer}, {Lucas}, {Walkowicz}, {Welsh}, {Boss},
+  {Devore}, {Gould}, {Smith}, {Morris}, {Prsa}, {Morton}, {Still}, {Thompson},
+  {Mullally}, {Endl}, \& {MacQueen}}]{Howard2012}
+{Howard}, A.~W., {Marcy}, G.~W., {Bryson}, S.~T., {et~al.} 2012, \apjs, 201, 15
+
+\bibitem[{{Jenkins} {et~al.}(2010){Jenkins}, {Borucki}, {Koch}, {Marcy},
+  {Cochran}, {Welsh}, {Basri}, {Batalha}, {Buchhave}, {Brown}, {Caldwell},
+  {Dunham}, {Endl}, {Fischer}, {Gautier}, {Geary}, {Gilliland}, {Howell},
+  {Isaacson}, {Johnson}, {Latham}, {Lissauer}, {Monet}, {Rowe}, {Sasselov},
+  {Howard}, {MacQueen}, {Orosz}, {Chandrasekaran}, {Twicken}, {Bryson},
+  {Quintana}, {Clarke}, {Li}, {Allen}, {Tenenbaum}, {Wu}, {Meibom}, {Klaus},
+  {Middour}, {Cote}, {McCauliff}, {Girouard}, {Gunter}, {Wohler}, {Hall},
+  {Ibrahim}, {Kamal Uddin}, {Wu}, {Bhavsar}, {Van Cleve}, {Pletcher}, {Dotson},
+  \& {Haas}}]{Jenkins2010}
+{Jenkins}, J.~M., {Borucki}, W.~J., {Koch}, D.~G., {et~al.} 2010, \apj, 724,
+  1108
+
+\bibitem[{{Johns-Krull} {et~al.}(2008){Johns-Krull}, {McCullough}, {Burke},
+  {Valenti}, {Janes}, {Heasley}, {Prato}, {Bissinger}, {Fleenor}, {Foote},
+  {Garcia-Melendo}, {Gary}, {Howell}, {Mallia}, {Masi}, \&
+  {Vanmunster}}]{Johns-Krull2008}
+{Johns-Krull}, C.~M., {McCullough}, P.~R., {Burke}, C.~J., {et~al.} 2008, \apj,
+  677, 657
+
+\bibitem[{{Johnson} {et~al.}(2011){Johnson}, {Winn}, {Bakos}, {Hartman},
+  {Morton}, {Torres}, {Kov{\'a}cs}, {Latham}, {Noyes}, {Sato}, {Esquerdo},
+  {Fischer}, {Marcy}, {Howard}, {Buchhave}, {F{\H u}r{\'e}sz}, {Quinn},
+  {B{\'e}ky}, {Sasselov}, {Stefanik}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Johnson2011}
+{Johnson}, J.~A., {Winn}, J.~N., {Bakos}, G.~{\'A}., {et~al.} 2011, \apj, 735,
+  24
+
+\bibitem[{{Johnson} {et~al.}(2012){Johnson}, {Gazak}, {Apps}, {Muirhead},
+  {Crepp}, {Crossfield}, {Boyajian}, {von Braun}, {Rojas-Ayala}, {Howard},
+  {Covey}, {Schlawin}, {Hamren}, {Morton}, {Marcy}, \& {Lloyd}}]{Johnson2012}
+{Johnson}, J.~A., {Gazak}, J.~Z., {Apps}, K., {et~al.} 2012, \aj, 143, 111
+
+\bibitem[{{Joshi} {et~al.}(2009){Joshi}, {Pollacco}, {Collier Cameron},
+  {Skillen}, {Simpson}, {Steele}, {Street}, {Stempels}, {Christian}, {Hebb},
+  {Bouchy}, {Gibson}, {H{\'e}brard}, {Keenan}, {Loeillet}, {Meaburn}, {Moutou},
+  {Smalley}, {Todd}, {West}, {Anderson}, {Bentley}, {Enoch}, {Haswell},
+  {Hellier}, {Horne}, {Irwin}, {Lister}, {McDonald}, {Maxted}, {Mayor},
+  {Norton}, {Parley}, {Perrier}, {Pont}, {Queloz}, {Ryans}, {Smith}, {Udry},
+  {Wheatley}, \& {Wilson}}]{Joshi2009}
+{Joshi}, Y.~C., {Pollacco}, D., {Collier Cameron}, A., {et~al.} 2009, \mnras,
+  392, 1532
+
+\bibitem[{{Kipping} {et~al.}(2010){Kipping}, {Bakos}, {Hartman}, {Torres},
+  {Shporer}, {Latham}, {Kov{\'a}cs}, {Noyes}, {Howard}, {Fischer}, {Johnson},
+  {Marcy}, {B{\'e}ky}, {Perumpilly}, {Esquerdo}, {Sasselov}, {Stefanik},
+  {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Kipping2010}
+{Kipping}, D.~M., {Bakos}, G.~{\'A}., {Hartman}, J., {et~al.} 2010, \apj, 725,
+  2017
+
+\bibitem[{{Kipping} {et~al.}(2011){Kipping}, {Hartman}, {Bakos}, {Torres},
+  {Latham}, {Bayliss}, {Kiss}, {Sato}, {B{\'e}ky}, {Kov{\'a}cs}, {Quinn},
+  {Buchhave}, {Andersen}, {Marcy}, {Howard}, {Fischer}, {Johnson}, {Noyes},
+  {Sasselov}, {Stefanik}, {L{\'a}z{\'a}r}, {Papp}, {S{\'a}ri}, \& {F{\H
+  u}r{\'e}sz}}]{Kipping2011}
+{Kipping}, D.~M., {Hartman}, J., {Bakos}, G.~{\'A}., {et~al.} 2011, \aj, 142,
+  95
+
+\bibitem[{{Koch} {et~al.}(2010){Koch}, {Borucki}, {Rowe}, {Batalha}, {Brown},
+  {Caldwell}, {Caldwell}, {Cochran}, {DeVore}, {Dunham}, {Dupree}, {Gautier},
+  {Geary}, {Gilliland}, {Howell}, {Jenkins}, {Latham}, {Lissauer}, {Marcy},
+  {Morrison}, \& {Tarter}}]{Koch2010}
+{Koch}, D.~G., {Borucki}, W.~J., {Rowe}, J.~F., {et~al.} 2010, \apjl, 713, L131
+
+\bibitem[{{Kov{\'a}cs} {et~al.}(2007){Kov{\'a}cs}, {Bakos}, {Torres},
+  {Sozzetti}, {Latham}, {Noyes}, {Butler}, {Marcy}, {Fischer}, {Fern{\'a}ndez},
+  {Esquerdo}, {Sasselov}, {Stefanik}, {P{\'a}l}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Kovacs2007}
+{Kov{\'a}cs}, G., {Bakos}, G.~{\'A}., {Torres}, G., {et~al.} 2007, \apjl, 670,
+  L41
+
+\bibitem[{{Kov{\'a}cs} {et~al.}(2010){Kov{\'a}cs}, {Bakos}, {Hartman},
+  {Torres}, {Noyes}, {Latham}, {Howard}, {Fischer}, {Johnson}, {Marcy},
+  {Isaacson}, {Sasselov}, {Stefanik}, {Esquerdo}, {Fernandez}, {L{\'a}z{\'a}r},
+  {Papp}, \& {S{\'a}ri}}]{Kovacs2010}
+{Kov{\'a}cs}, G., {Bakos}, G.~{\'A}., {Hartman}, J.~D., {et~al.} 2010, \apj,
+  724, 866
+
+\bibitem[{{Latham} {et~al.}(2009){Latham}, {Bakos}, {Torres}, {Stefanik},
+  {Noyes}, {Kov{\'a}cs}, {P{\'a}l}, {Marcy}, {Fischer}, {Butler}, {Sip{\H
+  o}cz}, {Sasselov}, {Esquerdo}, {Vogt}, {Hartman}, {Kov{\'a}cs},
+  {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Latham2009}
+{Latham}, D.~W., {Bakos}, G.~{\'A}., {Torres}, G., {et~al.} 2009, \apj, 704,
+  1107
+
+\bibitem[{{Latham} {et~al.}(2010){Latham}, {Borucki}, {Koch}, {Brown},
+  {Buchhave}, {Basri}, {Batalha}, {Caldwell}, {Cochran}, {Dunham}, {F{\H
+  u}r{\'e}sz}, {Gautier}, {Geary}, {Gilliland}, {Howell}, {Jenkins},
+  {Lissauer}, {Marcy}, {Monet}, {Rowe}, \& {Sasselov}}]{Latham2010}
+{Latham}, D.~W., {Borucki}, W.~J., {Koch}, D.~G., {et~al.} 2010, \apjl, 713,
+  L140
+
+\bibitem[{{L{\'e}ger} {et~al.}(2009){L{\'e}ger}, {Rouan}, {Schneider}, {Barge},
+  {Fridlund}, {Samuel}, {Ollivier}, {Guenther}, {Deleuil}, {Deeg}, {Auvergne},
+  {Alonso}, {Aigrain}, {Alapini}, {Almenara}, {Baglin}, {Barbieri}, {Bruntt},
+  {Bord{\'e}}, {Bouchy}, {Cabrera}, {Catala}, {Carone}, {Carpano}, {Csizmadia},
+  {Dvorak}, {Erikson}, {Ferraz-Mello}, {Foing}, {Fressin}, {Gandolfi},
+  {Gillon}, {Gondoin}, {Grasset}, {Guillot}, {Hatzes}, {H{\'e}brard}, {Jorda},
+  {Lammer}, {Llebaria}, {Loeillet}, {Mayor}, {Mazeh}, {Moutou}, {P{\"a}tzold},
+  {Pont}, {Queloz}, {Rauer}, {Renner}, {Samadi}, {Shporer}, {Sotin}, {Tingley},
+  {Wuchterl}, {Adda}, {Agogu}, {Appourchaux}, {Ballans}, {Baron}, {Beaufort},
+  {Bellenger}, {Berlin}, {Bernardi}, {Blouin}, {Baudin}, {Bodin}, {Boisnard},
+  {Boit}, {Bonneau}, {Borzeix}, {Briet}, {Buey}, {Butler}, {Cailleau},
+  {Cautain}, {Chabaud}, {Chaintreuil}, {Chiavassa}, {Costes}, {Cuna Parrho},
+  {de Oliveira Fialho}, {Decaudin}, {Defise}, {Djalal}, {Epstein}, {Exil},
+  {Faur{\'e}}, {Fenouillet}, {Gaboriaud}, {Gallic}, {Gamet}, {Gavalda},
+  {Grolleau}, {Gruneisen}, {Gueguen}, {Guis}, {Guivarc'h}, {Guterman},
+  {Hallouard}, {Hasiba}, {Heuripeau}, {Huntzinger}, {Hustaix}, {Imad},
+  {Imbert}, {Johlander}, {Jouret}, {Journoud}, {Karioty}, {Kerjean},
+  {Lafaille}, {Lafond}, {Lam-Trong}, {Landiech}, {Lapeyrere}, {Larqu{\'e}},
+  {Laudet}, {Lautier}, {Lecann}, {Lefevre}, {Leruyet}, {Levacher}, {Magnan},
+  {Mazy}, {Mertens}, {Mesnager}, {Meunier}, {Michel}, {Monjoin}, {Naudet},
+  {Nguyen-Kim}, {Orcesi}, {Ottacher}, {Perez}, {Peter}, {Plasson}, {Plesseria},
+  {Pontet}, {Pradines}, {Quentin}, {Reynaud}, {Rolland}, {Rollenhagen},
+  {Romagnan}, {Russ}, {Schmidt}, {Schwartz}, {Sebbag}, {Sedes}, {Smit},
+  {Steller}, {Sunter}, {Surace}, {Tello}, {Tiph{\`e}ne}, {Toulouse}, {Ulmer},
+  {Vandermarcq}, {Vergnault}, {Vuillemin}, \& {Zanatta}}]{Leger2009}
+{L{\'e}ger}, A., {Rouan}, D., {Schneider}, J., {et~al.} 2009, \aap, 506, 287
+
+\bibitem[{{Lissauer} {et~al.}(2011){Lissauer}, {Fabrycky}, {Ford}, {Borucki},
+  {Fressin}, {Marcy}, {Orosz}, {Rowe}, {Torres}, {Welsh}, {Batalha}, {Bryson},
+  {Buchhave}, {Caldwell}, {Carter}, {Charbonneau}, {Christiansen}, {Cochran},
+  {Desert}, {Dunham}, {Fanelli}, {Fortney}, {Gautier}, {Geary}, {Gilliland},
+  {Haas}, {Hall}, {Holman}, {Koch}, {Latham}, {Lopez}, {McCauliff}, {Miller},
+  {Morehead}, {Quintana}, {Ragozzine}, {Sasselov}, {Short}, \&
+  {Steffen}}]{Lissauer2011}
+{Lissauer}, J.~J., {Fabrycky}, D.~C., {Ford}, E.~B., {et~al.} 2011, \nat, 470,
+  53
+
+\bibitem[{{Lister} {et~al.}(2009){Lister}, {Anderson}, {Gillon}, {Hebb},
+  {Smalley}, {Triaud}, {Collier Cameron}, {Wilson}, {West}, {Bentley},
+  {Christian}, {Enoch}, {Haswell}, {Hellier}, {Horne}, {Irwin}, {Joshi},
+  {Kane}, {Mayor}, {Maxted}, {Norton}, {Parley}, {Pepe}, {Pollacco}, {Queloz},
+  {Ryans}, {Segransan}, {Skillen}, {Street}, {Todd}, {Udry}, \&
+  {Wheatley}}]{Lister2009}
+{Lister}, T.~A., {Anderson}, D.~R., {Gillon}, M., {et~al.} 2009, \apj, 703, 752
+
+\bibitem[{{Maciejewski} {et~al.}(2011){Maciejewski}, {Errmann}, {Raetz},
+  {Seeliger}, {Spaleniak}, \& {Neuh{\"a}user}}]{Maciejewski2011}
+{Maciejewski}, G., {Errmann}, R., {Raetz}, S., {et~al.} 2011, \aap, 528, A65
+
+\bibitem[{{Mandushev} {et~al.}(2007){Mandushev}, {O'Donovan}, {Charbonneau},
+  {Torres}, {Latham}, {Bakos}, {Dunham}, {Sozzetti}, {Fern{\'a}ndez},
+  {Esquerdo}, {Everett}, {Brown}, {Rabus}, {Belmonte}, \&
+  {Hillenbrand}}]{Mandushev2007}
+{Mandushev}, G., {O'Donovan}, F.~T., {Charbonneau}, D., {et~al.} 2007, \apjl,
+  667, L195
+
+\bibitem[{{Mandushev} {et~al.}(2011){Mandushev}, {Quinn}, {Buchhave}, {Dunham},
+  {Rabus}, {Oetiker}, {Latham}, {Charbonneau}, {Brown}, {Belmonte}, \&
+  {O'Donovan}}]{Mandushev2011}
+{Mandushev}, G., {Quinn}, S.~N., {Buchhave}, L.~A., {et~al.} 2011, \apj, 741,
+  114
+
+\bibitem[{{Maness} {et~al.}(2007){Maness}, {Marcy}, {Ford}, {Hauschildt},
+  {Shreve}, {Basri}, {Butler}, \& {Vogt}}]{Maness2007}
+{Maness}, H.~L., {Marcy}, G.~W., {Ford}, E.~B., {et~al.} 2007, \pasp, 119, 90
+
+\bibitem[{{Maxted} {et~al.}(2010{\natexlab{a}}){Maxted}, {Anderson}, {Gillon},
+  {Hellier}, {Queloz}, {Smalley}, {Triaud}, {West}, {Wilson}, {Bentley},
+  {Cegla}, {Collier Cameron}, {Enoch}, {Hebb}, {Horne}, {Irwin}, {Lister},
+  {Mayor}, {Parley}, {Pepe}, {Pollacco}, {Segransan}, {Udry}, \&
+  {Wheatley}}]{Maxted2010a}
+{Maxted}, P.~F.~L., {Anderson}, D.~R., {Gillon}, M., {et~al.}
+  2010{\natexlab{a}}, \aj, 140, 2007
+
+\bibitem[{{Maxted} {et~al.}(2010{\natexlab{b}}){Maxted}, {Anderson}, {Collier
+  Cameron}, {Gillon}, {Hellier}, {Queloz}, {Smalley}, {Triaud}, {West},
+  {Enoch}, {Lister}, {Pepe}, {Pollacco}, {S{\'e}gransan}, {Skillen}, \&
+  {Udry}}]{Maxted2010b}
+{Maxted}, P.~F.~L., {Anderson}, D.~R., {Collier Cameron}, A., {et~al.}
+  2010{\natexlab{b}}, \pasp, 122, 1465
+
+\bibitem[{{Maxted} {et~al.}(2011){Maxted}, {Anderson}, {Collier Cameron},
+  {Hellier}, {Queloz}, {Smalley}, {Street}, {Triaud}, {West}, {Gillon},
+  {Lister}, {Pepe}, {Pollacco}, {S{\'e}gransan}, {Smith}, \&
+  {Udry}}]{Maxted2011}
+---. 2011, \pasp, 123, 547
+
+\bibitem[{{Maxted} {et~al.}(2013){Maxted}, {Anderson}, {Collier Cameron},
+  {Doyle}, {Fumel}, {Gillon}, {Hellier}, {Jehin}, {Lendl}, {Pepe}, {Pollacco},
+  {Queloz}, {S{\'e}gransan}, {Smalley}, {Southworth}, {Smith}, {Triaud},
+  {Udry}, \& {West}}]{Maxted2013}
+---. 2013, \pasp, 125, 48
+
+\bibitem[{{McArthur} {et~al.}(2004){McArthur}, {Endl}, {Cochran}, {Benedict},
+  {Fischer}, {Marcy}, {Butler}, {Naef}, {Mayor}, {Queloz}, {Udry}, \&
+  {Harrison}}]{McArthur2004}
+{McArthur}, B.~E., {Endl}, M., {Cochran}, W.~D., {et~al.} 2004, \apjl, 614, L81
+
+\bibitem[{{McCullough} {et~al.}(2006){McCullough}, {Stys}, {Valenti},
+  {Johns-Krull}, {Janes}, {Heasley}, {Bye}, {Dodd}, {Fleming}, {Pinnick},
+  {Bissinger}, {Gary}, {Howell}, \& {Vanmunster}}]{McCullough2006}
+{McCullough}, P.~R., {Stys}, J.~E., {Valenti}, J.~A., {et~al.} 2006, \apj, 648,
+  1228
+
+\bibitem[{{Moutou} {et~al.}(2008){Moutou}, {Bruntt}, {Guillot}, {Shporer},
+  {Guenther}, {Aigrain}, {Almenara}, {Alonso}, {Auvergne}, {Baglin},
+  {Barbieri}, {Barge}, {Benz}, {Bord{\'e}}, {Bouchy}, {Deeg}, {de La Reza},
+  {Deleuil}, {Dvorak}, {Erikson}, {Fridlund}, {Gillon}, {Gondoin}, {Hatzes},
+  {H{\'e}brard}, {Jorda}, {Kabath}, {Lammer}, {L{\'e}ger}, {Llebaria},
+  {Loeillet}, {Magain}, {Mayor}, {Mazeh}, {Ollivier}, {P{\"a}tzold}, {Pepe},
+  {Pont}, {Queloz}, {Rabus}, {Rauer}, {Rouan}, {Schneider}, {Udry}, \&
+  {Wuchterl}}]{Moutou2008}
+{Moutou}, C., {Bruntt}, H., {Guillot}, T., {et~al.} 2008, \aap, 488, L47
+
+\bibitem[{{Moutou} {et~al.}(2009){Moutou}, {H{\'e}brard}, {Bouchy},
+  {Eggenberger}, {Boisse}, {Bonfils}, {Gravallon}, {Ehrenreich}, {Forveille},
+  {Delfosse}, {Desort}, {Lagrange}, {Lovis}, {Mayor}, {Pepe}, {Perrier},
+  {Pont}, {Queloz}, {Santos}, {S{\'e}gransan}, {Udry}, \&
+  {Vidal-Madjar}}]{Moutou2009}
+{Moutou}, C., {H{\'e}brard}, G., {Bouchy}, F., {et~al.} 2009, \aap, 498, L5
+
+\bibitem[{{Naef} {et~al.}(2001){Naef}, {Latham}, {Mayor}, {Mazeh}, {Beuzit},
+  {Drukier}, {Perrier-Bellet}, {Queloz}, {Sivan}, {Torres}, {Udry}, \&
+  {Zucker}}]{Naef2001}
+{Naef}, D., {Latham}, D.~W., {Mayor}, M., {et~al.} 2001, \aap, 375, L27
+
+\bibitem[{{Noyes} {et~al.}(2008){Noyes}, {Bakos}, {Torres}, {P{\'a}l},
+  {Kov{\'a}cs}, {Latham}, {Fern{\'a}ndez}, {Fischer}, {Butler}, {Marcy},
+  {Sip{\H o}cz}, {Esquerdo}, {Kov{\'a}cs}, {Sasselov}, {Sato}, {Stefanik},
+  {Holman}, {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Noyes2008}
+{Noyes}, R.~W., {Bakos}, G.~{\'A}., {Torres}, G., {et~al.} 2008, \apjl, 673,
+  L79
+
+\bibitem[{{O'Donovan} {et~al.}(2006){O'Donovan}, {Charbonneau}, {Mandushev},
+  {Dunham}, {Latham}, {Torres}, {Sozzetti}, {Brown}, {Trauger}, {Belmonte},
+  {Rabus}, {Almenara}, {Alonso}, {Deeg}, {Esquerdo}, {Falco}, {Hillenbrand},
+  {Roussanova}, {Stefanik}, \& {Winn}}]{O'Donovan2006}
+{O'Donovan}, F.~T., {Charbonneau}, D., {Mandushev}, G., {et~al.} 2006, \apjl,
+  651, L61
+
+\bibitem[{{Ollivier} {et~al.}(2012){Ollivier}, {Gillon}, {Santerne},
+  {Wuchterl}, {Havel}, {Bruntt}, {Bord{\'e}}, {Pasternacki}, {Endl},
+  {Gandolfi}, {Aigrain}, {Almenara}, {Alonso}, {Auvergne}, {Baglin}, {Barge},
+  {Bonomo}, {Bouchy}, {Cabrera}, {Carone}, {Carpano}, {Cavarroc}, {Cochran},
+  {Csizmadia}, {Deeg}, {Deleuil}, {Diaz}, {Dvorak}, {Erikson}, {Ferraz-Mello},
+  {Fridlund}, {Gazzano}, {Grziwa}, {Guenther}, {Guillot}, {Guterman}, {Hatzes},
+  {H{\'e}brard}, {Lammer}, {L{\'e}ger}, {Lovis}, {MacQueen}, {Mayor}, {Mazeh},
+  {Moutou}, {Ofir}, {P{\"a}tzold}, {Queloz}, {Rauer}, {Rouan}, {Samuel},
+  {Schneider}, {Tadeu dos Santos}, {Tal-Or}, {Tingley}, \&
+  {Weingrill}}]{Ollivier2012}
+{Ollivier}, M., {Gillon}, M., {Santerne}, A., {et~al.} 2012, \aap, 541, A149
+
+\bibitem[{{P{\'a}l} {et~al.}(2008){P{\'a}l}, {Bakos}, {Torres}, {Noyes},
+  {Latham}, {Kov{\'a}cs}, {Marcy}, {Fischer}, {Butler}, {Sasselov}, {Sip{\H
+  o}cz}, {Esquerdo}, {Kov{\'a}cs}, {Stefanik}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Pal2008}
+{P{\'a}l}, A., {Bakos}, G.~{\'A}., {Torres}, G., {et~al.} 2008, \apj, 680, 1450
+
+\bibitem[{{P{\'a}l} {et~al.}(2010){P{\'a}l}, {Bakos}, {Torres}, {Noyes},
+  {Fischer}, {Johnson}, {Henry}, {Butler}, {Marcy}, {Howard}, {Sip{\H o}cz},
+  {Latham}, \& {Esquerdo}}]{Pal2010}
+---. 2010, \mnras, 401, 2665
+
+\bibitem[{{Penev} {et~al.}(2013){Penev}, {Bakos}, {Bayliss}, {Jord{\'a}n},
+  {Mohler}, {Zhou}, {Suc}, {Rabus}, {Hartman}, {Mancini}, {B{\'e}ky}, {Csubry},
+  {Buchhave}, {Henning}, {Nikolov}, {Cs{\'a}k}, {Brahm}, {Espinoza}, {Conroy},
+  {Noyes}, {Sasselov}, {Schmidt}, {Wright}, {Tinney}, {Addison},
+  {L{\'a}z{\'a}r}, {Papp}, \& {S{\'a}ri}}]{Penev2013}
+{Penev}, K., {Bakos}, G.~{\'A}., {Bayliss}, D., {et~al.} 2013, \aj, 145, 5
+
+\bibitem[{{Pollacco} {et~al.}(2008){Pollacco}, {Skillen}, {Collier Cameron},
+  {Loeillet}, {Stempels}, {Bouchy}, {Gibson}, {Hebb}, {H{\'e}brard}, {Joshi},
+  {McDonald}, {Smalley}, {Smith}, {Street}, {Udry}, {West}, {Wilson},
+  {Wheatley}, {Aigrain}, {Alsubai}, {Benn}, {Bruce}, {Christian}, {Clarkson},
+  {Enoch}, {Evans}, {Fitzsimmons}, {Haswell}, {Hellier}, {Hickey}, {Hodgkin},
+  {Horne}, {Hrudkov{\'a}}, {Irwin}, {Kane}, {Keenan}, {Lister}, {Maxted},
+  {Mayor}, {Moutou}, {Norton}, {Osborne}, {Parley}, {Pont}, {Queloz}, {Ryans},
+  \& {Simpson}}]{Pollacco2008}
+{Pollacco}, D., {Skillen}, I., {Collier Cameron}, A., {et~al.} 2008, \mnras,
+  385, 1576
+
+\bibitem[{{Pont} {et~al.}(2008){Pont}, {Tamuz}, {Udalski}, {Mazeh}, {Bouchy},
+  {Melo}, {Naef}, {Santos}, {Moutou}, {Diaz}, {Gieren}, {Gillon}, {Hoyer},
+  {Kubiak}, {Mayor}, {Minniti}, {Pietrzynski}, {Queloz}, {Ramirez}, {Ruiz},
+  {Shporer}, {Soszy{\'n}ski}, {Szewczyk}, {Szyma{\'n}ski}, {Udry}, {Ulaczyk},
+  {Wyrzykowski}, \& {Zoccali}}]{Pont2008}
+{Pont}, F., {Tamuz}, O., {Udalski}, A., {et~al.} 2008, \aap, 487, 749
+
+\bibitem[{{Queloz} {et~al.}(2009){Queloz}, {Bouchy}, {Moutou}, {Hatzes},
+  {H{\'e}brard}, {Alonso}, {Auvergne}, {Baglin}, {Barbieri}, {Barge}, {Benz},
+  {Bord{\'e}}, {Deeg}, {Deleuil}, {Dvorak}, {Erikson}, {Ferraz Mello},
+  {Fridlund}, {Gandolfi}, {Gillon}, {Guenther}, {Guillot}, {Jorda}, {Hartmann},
+  {Lammer}, {L{\'e}ger}, {Llebaria}, {Lovis}, {Magain}, {Mayor}, {Mazeh},
+  {Ollivier}, {P{\"a}tzold}, {Pepe}, {Rauer}, {Rouan}, {Schneider},
+  {Segransan}, {Udry}, \& {Wuchterl}}]{Queloz2009}
+{Queloz}, D., {Bouchy}, F., {Moutou}, C., {et~al.} 2009, \aap, 506, 303
+
+\bibitem[{{Queloz} {et~al.}(2010){Queloz}, {Anderson}, {Collier Cameron},
+  {Gillon}, {Hebb}, {Hellier}, {Maxted}, {Pepe}, {Pollacco}, {S{\'e}gransan},
+  {Smalley}, {Triaud}, {Udry}, \& {West}}]{Queloz2010}
+{Queloz}, D., {Anderson}, D., {Collier Cameron}, A., {et~al.} 2010, \aap, 517,
+  L1
+
+\bibitem[{{Rauer} {et~al.}(2009){Rauer}, {Queloz}, {Csizmadia}, {Deleuil},
+  {Alonso}, {Aigrain}, {Almenara}, {Auvergne}, {Baglin}, {Barge}, {Bord{\'e}},
+  {Bouchy}, {Bruntt}, {Cabrera}, {Carone}, {Carpano}, {de La Reza}, {Deeg},
+  {Dvorak}, {Erikson}, {Fridlund}, {Gandolfi}, {Gillon}, {Guillot}, {Guenther},
+  {Hatzes}, {H{\'e}brard}, {Kabath}, {Jorda}, {Lammer}, {L{\'e}ger},
+  {Llebaria}, {Magain}, {Mazeh}, {Moutou}, {Ollivier}, {P{\"a}tzold}, {Pont},
+  {Rabus}, {Renner}, {Rouan}, {Shporer}, {Samuel}, {Schneider}, {Triaud}, \&
+  {Wuchterl}}]{Rauer2009}
+{Rauer}, H., {Queloz}, D., {Csizmadia}, S., {et~al.} 2009, \aap, 506, 281
+
+\bibitem[{{Rouan} {et~al.}(2012){Rouan}, {Parviainen}, {Moutou}, {Deleuil},
+  {Fridlund}, {Ofir}, {Havel}, {Aigrain}, {Alonso}, {Auvergne}, {Baglin},
+  {Barge}, {Bonomo}, {Bord{\'e}}, {Bouchy}, {Cabrera}, {Cavarroc}, {Csizmadia},
+  {Deeg}, {Diaz}, {Dvorak}, {Erikson}, {Ferraz-Mello}, {Gandolfi}, {Gillon},
+  {Guillot}, {Hatzes}, {H{\'e}brard}, {Jorda}, {L{\'e}ger}, {Llebaria},
+  {Lammer}, {Lovis}, {Mazeh}, {Ollivier}, {P{\"a}tzold}, {Queloz}, {Rauer},
+  {Samuel}, {Santerne}, {Schneider}, {Tingley}, \& {Wuchterl}}]{Rouan2012}
+{Rouan}, D., {Parviainen}, H., {Moutou}, C., {et~al.} 2012, \aap, 537, A54
+
+\bibitem[{{Santerne} {et~al.}(2011){Santerne}, {Bonomo}, {H{\'e}brard},
+  {Deleuil}, {Moutou}, {Almenara}, {Bouchy}, \& {D{\'{\i}}az}}]{Santerne2011}
+{Santerne}, A., {Bonomo}, A.~S., {H{\'e}brard}, G., {et~al.} 2011, \aap, 536,
+  A70
+
+\bibitem[{{Sato} {et~al.}(2005){Sato}, {Fischer}, {Henry}, {Laughlin},
+  {Butler}, {Marcy}, {Vogt}, {Bodenheimer}, {Ida}, {Toyota}, {Wolf}, {Valenti},
+  {Boyd}, {Johnson}, {Wright}, {Ammons}, {Robinson}, {Strader}, {McCarthy},
+  {Tah}, \& {Minniti}}]{Sato2005}
+{Sato}, B., {Fischer}, D.~A., {Henry}, G.~W., {et~al.} 2005, \apj, 633, 465
+
+\bibitem[{{Sato} {et~al.}(2012){Sato}, {Hartman}, {Bakos}, {B{\'e}ky},
+  {Torres}, {Latham}, {Kov{\'a}cs}, {Csubry}, {Penev}, {Noyes}, {Buchhave},
+  {Quinn}, {Everett}, {Esquerdo}, {Fischer}, {Howard}, {Johnson}, {Marcy},
+  {Sasselov}, {Szklen{\'a}r}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Sato2012}
+{Sato}, B., {Hartman}, J.~D., {Bakos}, G.~{\'A}., {et~al.} 2012, \pasj, 64, 97
+
+\bibitem[{{Shporer} {et~al.}(2009){Shporer}, {Bakos}, {Bouchy}, {Pont},
+  {Kov{\'a}cs}, {Latham}, {Sip{\"o}cz}, {Torres}, {Mazeh}, {Esquerdo},
+  {P{\'a}l}, {Noyes}, {Sasselov}, {L{\'a}z{\'a}r}, {Papp}, {S{\'a}ri}, \&
+  {Kov{\'a}cs}}]{Shporer2009}
+{Shporer}, A., {Bakos}, G.~{\'A}., {Bouchy}, F., {et~al.} 2009, \apj, 690, 1393
+
+\bibitem[{{Simpson} {et~al.}(2011{\natexlab{a}}){Simpson}, {Pollacco},
+  {Cameron}, {H{\'e}brard}, {Anderson}, {Barros}, {Boisse}, {Bouchy}, {Faedi},
+  {Gillon}, {Hebb}, {Keenan}, {Miller}, {Moutou}, {Queloz}, {Skillen},
+  {Sorensen}, {Stempels}, {Triaud}, {Watson}, \& {Wilson}}]{Simpson2011b}
+{Simpson}, E.~K., {Pollacco}, D., {Cameron}, A.~C., {et~al.}
+  2011{\natexlab{a}}, \mnras, 414, 3023
+
+\bibitem[{{Simpson} {et~al.}(2011{\natexlab{b}}){Simpson}, {Faedi}, {Barros},
+  {Brown}, {Collier Cameron}, {Hebb}, {Pollacco}, {Smalley}, {Todd}, {Butters},
+  {H{\'e}brard}, {McCormac}, {Miller}, {Santerne}, {Street}, {Skillen},
+  {Triaud}, {Anderson}, {Bento}, {Boisse}, {Bouchy}, {Enoch}, {Haswell},
+  {Hellier}, {Holmes}, {Horne}, {Keenan}, {Lister}, {Maxted}, {Moulds},
+  {Moutou}, {Norton}, {Parley}, {Pepe}, {Queloz}, {Segransan}, {Smith},
+  {Stempels}, {Udry}, {Watson}, {West}, \& {Wheatley}}]{Simpson2011a}
+{Simpson}, E.~K., {Faedi}, F., {Barros}, S.~C.~C., {et~al.} 2011{\natexlab{b}},
+  \aj, 141, 8
+
+\bibitem[{{Skillen} {et~al.}(2009){Skillen}, {Pollacco}, {Collier Cameron},
+  {Hebb}, {Simpson}, {Bouchy}, {Christian}, {Gibson}, {H{\'e}brard}, {Joshi},
+  {Loeillet}, {Smalley}, {Stempels}, {Street}, {Udry}, {West}, {Anderson},
+  {Barros}, {Enoch}, {Haswell}, {Hellier}, {Horne}, {Irwin}, {Keenan},
+  {Lister}, {Maxted}, {Mayor}, {Moutou}, {Norton}, {Parley}, {Queloz}, {Ryans},
+  {Todd}, {Wheatley}, \& {Wilson}}]{Skillen2009}
+{Skillen}, I., {Pollacco}, D., {Collier Cameron}, A., {et~al.} 2009, \aap, 502,
+  391
+
+\bibitem[{{Smalley} {et~al.}(2010){Smalley}, {Anderson}, {Collier Cameron},
+  {Gillon}, {Hellier}, {Lister}, {Maxted}, {Queloz}, {Triaud}, {West},
+  {Bentley}, {Enoch}, {Pepe}, {Pollacco}, {Segransan}, {Smith}, {Southworth},
+  {Udry}, {Wheatley}, {Wood}, \& {Bento}}]{Smalley2010}
+{Smalley}, B., {Anderson}, D.~R., {Collier Cameron}, A., {et~al.} 2010, \aap,
+  520, A56
+
+\bibitem[{{Smalley} {et~al.}(2011){Smalley}, {Anderson}, {Collier Cameron},
+  {Hellier}, {Lendl}, {Maxted}, {Queloz}, {Triaud}, {West}, {Bentley}, {Enoch},
+  {Gillon}, {Lister}, {Pepe}, {Pollacco}, {Segransan}, {Smith}, {Southworth},
+  {Udry}, {Wheatley}, {Wood}, \& {Bento}}]{Smalley2011}
+---. 2011, \aap, 526, A130
+
+\bibitem[{{Smalley} {et~al.}(2012){Smalley}, {Anderson}, {Collier-Cameron},
+  {Doyle}, {Fumel}, {Gillon}, {Hellier}, {Jehin}, {Lendl}, {Maxted}, {Pepe},
+  {Pollacco}, {Queloz}, {S{\'e}gransan}, {Smith}, {Southworth}, {Triaud},
+  {Udry}, \& {West}}]{Smalley2012}
+{Smalley}, B., {Anderson}, D.~R., {Collier-Cameron}, A., {et~al.} 2012, \aap,
+  547, A61
+
+\bibitem[{{Smith} {et~al.}(2012){Smith}, {Anderson}, {Collier Cameron},
+  {Gillon}, {Hellier}, {Lendl}, {Maxted}, {Queloz}, {Smalley}, {Triaud},
+  {West}, {Barros}, {Jehin}, {Pepe}, {Pollacco}, {Segransan}, {Southworth},
+  {Street}, \& {Udry}}]{Smith2012}
+{Smith}, A.~M.~S., {Anderson}, D.~R., {Collier Cameron}, A., {et~al.} 2012,
+  \aj, 143, 81
+
+\bibitem[{{Snellen} {et~al.}(2009){Snellen}, {Koppenhoefer}, {van der Burg},
+  {Dreizler}, {Greiner}, {de Hoon}, {Husser}, {Kr{\"u}hler}, {Saglia}, \&
+  {Vuijsje}}]{Snellen2009}
+{Snellen}, I.~A.~G., {Koppenhoefer}, J., {van der Burg}, R.~F.~J., {et~al.}
+  2009, \aap, 497, 545
+
+\bibitem[{{Street} {et~al.}(2010){Street}, {Simpson}, {Barros}, {Pollacco},
+  {Joshi}, {Todd}, {Collier Cameron}, {Enoch}, {Parley}, {Stempels}, {Hebb},
+  {Triaud}, {Queloz}, {Segransan}, {Pepe}, {Udry}, {Lister}, {Depagne}, {West},
+  {Norton}, {Smalley}, {Hellier}, {Anderson}, {Maxted}, {Bentley}, {Skillen},
+  {Gillon}, {Wheatley}, {Bento}, {Cathaway-Kjontvedt}, \&
+  {Christian}}]{Street2010}
+{Street}, R.~A., {Simpson}, E., {Barros}, S.~C.~C., {et~al.} 2010, \apj, 720,
+  337
+
+\bibitem[{{Tingley} {et~al.}(2011){Tingley}, {Endl}, {Gazzano}, {Alonso},
+  {Mazeh}, {Jorda}, {Aigrain}, {Almenara}, {Auvergne}, {Baglin}, {Barge},
+  {Bonomo}, {Bord{\'e}}, {Bouchy}, {Bruntt}, {Cabrera}, {Carpano}, {Carone},
+  {Cochran}, {Csizmadia}, {Deleuil}, {Deeg}, {Dvorak}, {Erikson},
+  {Ferraz-Mello}, {Fridlund}, {Gandolfi}, {Gillon}, {Guenther}, {Guillot},
+  {Hatzes}, {H{\'e}brard}, {L{\'e}ger}, {Llebaria}, {Lammer}, {Lovis},
+  {MacQueen}, {Moutou}, {Ollivier}, {Ofir}, {P{\"a}tzold}, {Pepe}, {Queloz},
+  {Rauer}, {Rouan}, {Samuel}, {Schneider}, {Shporer}, \&
+  {Wuchterl}}]{Tingley2011}
+{Tingley}, B., {Endl}, M., {Gazzano}, J.-C., {et~al.} 2011, \aap, 528, A97
+
+\bibitem[{{Torres} {et~al.}(2008){Torres}, {Winn}, \& {Holman}}]{Torres2008}
+{Torres}, G., {Winn}, J.~N., \& {Holman}, M.~J. 2008, \apj, 677, 1324
+
+\bibitem[{{Torres} {et~al.}(2007){Torres}, {Bakos}, {Kov{\'a}cs}, {Latham},
+  {Fern{\'a}ndez}, {Noyes}, {Esquerdo}, {Sozzetti}, {Fischer}, {Butler},
+  {Marcy}, {Stefanik}, {Sasselov}, {L{\'a}z{\'a}r}, {Papp}, \&
+  {S{\'a}ri}}]{Torres2007}
+{Torres}, G., {Bakos}, G.~{\'A}., {Kov{\'a}cs}, G., {et~al.} 2007, \apjl, 666,
+  L121
+
+\bibitem[{{Torres} {et~al.}(2010){Torres}, {Bakos}, {Hartman}, {Kov{\'a}cs},
+  {Noyes}, {Latham}, {Fischer}, {Johnson}, {Marcy}, {Howard}, {Sasselov},
+  {Kipping}, {Sip{\H o}cz}, {Stefanik}, {Esquerdo}, {Everett}, {L{\'a}z{\'a}r},
+  {Papp}, \& {S{\'a}ri}}]{Torres2010}
+{Torres}, G., {Bakos}, G.~{\'A}., {Hartman}, J., {et~al.} 2010, \apj, 715, 458
+
+\bibitem[{{Triaud} {et~al.}(2011){Triaud}, {Queloz}, {Hellier}, {Gillon},
+  {Smalley}, {Hebb}, {Collier Cameron}, {Anderson}, {Boisse}, {H{\'e}brard},
+  {Jehin}, {Lister}, {Lovis}, {Maxted}, {Pepe}, {Pollacco}, {S{\'e}gransan},
+  {Simpson}, {Udry}, \& {West}}]{Triaud2011}
+{Triaud}, A.~H.~M.~J., {Queloz}, D., {Hellier}, C., {et~al.} 2011, \aap, 531,
+  A24
+
+\bibitem[{{Triaud} {et~al.}(2013){Triaud}, {Anderson}, {Collier Cameron},
+  {Doyle}, {Fumel}, {Gillon}, {Hellier}, {Jehin}, {Lendl}, {Lovis}, {Maxted},
+  {Pepe}, {Pollacco}, {Queloz}, {S{\'e}gransan}, {Smalley}, {Smith}, {Udry},
+  {West}, \& {Wheatley}}]{Triaud2013}
+{Triaud}, A.~H.~M.~J., {Anderson}, D.~R., {Collier Cameron}, A., {et~al.} 2013,
+  \aap, 551, A80
+
+\bibitem[{{Tripathi} {et~al.}(2010){Tripathi}, {Winn}, {Johnson}, {Howard},
+  {Halverson}, {Marcy}, {Holman}, {de Kleer}, {Carter}, {Esquerdo}, {Everett},
+  \& {Cabrera}}]{Tripathi2010}
+{Tripathi}, A., {Winn}, J.~N., {Johnson}, J.~A., {et~al.} 2010, \apj, 715, 421
+
+\bibitem[{{Udalski} {et~al.}(2008){Udalski}, {Pont}, {Naef}, {Melo}, {Bouchy},
+  {Santos}, {Moutou}, {D{\'{\i}}az}, {Gieren}, {Gillon}, {Hoyer}, {Mayor},
+  {Mazeh}, {Minniti}, {Pietrzy{\'n}ski}, {Queloz}, {Ramirez}, {Ruiz},
+  {Shporer}, {Tamuz}, {Udry}, {Zoccali}, {Kubiak}, {Szyma{\'n}ski},
+  {Soszy{\'n}ski}, {Szewczyk}, {Ulaczyk}, \& {Wyrzykowski}}]{Udalski2008}
+{Udalski}, A., {Pont}, F., {Naef}, D., {et~al.} 2008, \aap, 482, 299
+
+\bibitem[{{Weiss} {et~al.}(2013){Weiss}, {Marcy}, {Rowe}, {Howard}, {Isaacson},
+  {Fortney}, {Miller}, {Demory}, {Fischer}, {Adams}, {Dupree}, {Howell},
+  {Kolbl}, {Johnson}, {Horch}, {Everett}, {Fabrycky}, \& {Seager}}]{Weiss2013}
+{Weiss}, L.~M., {Marcy}, G.~W., {Rowe}, J.~F., {et~al.} 2013, \apj, 768, 14
+
+\bibitem[{{West} {et~al.}(2009{\natexlab{a}}){West}, {Anderson}, {Gillon},
+  {Hebb}, {Hellier}, {Maxted}, {Queloz}, {Smalley}, {Triaud}, {Wilson},
+  {Bentley}, {Collier Cameron}, {Enoch}, {Horne}, {Irwin}, {Lister}, {Mayor},
+  {Parley}, {Pepe}, {Pollacco}, {Segransan}, {Spano}, {Udry}, \&
+  {Wheatley}}]{West2009b}
+{West}, R.~G., {Anderson}, D.~R., {Gillon}, M., {et~al.} 2009{\natexlab{a}},
+  \aj, 137, 4834
+
+\bibitem[{{West} {et~al.}(2009{\natexlab{b}}){West}, {Collier Cameron}, {Hebb},
+  {Joshi}, {Pollacco}, {Simpson}, {Skillen}, {Stempels}, {Wheatley}, {Wilson},
+  {Anderson}, {Bentley}, {Bouchy}, {Christian}, {Enoch}, {Gibson},
+  {H{\'e}brard}, {Hellier}, {Loeillet}, {Mayor}, {Maxted}, {McDonald},
+  {Moutou}, {Pont}, {Queloz}, {Smith}, {Smalley}, {Street}, \&
+  {Udry}}]{West2009a}
+{West}, R.~G., {Collier Cameron}, A., {Hebb}, L., {et~al.} 2009{\natexlab{b}},
+  \aap, 502, 395
+
+\bibitem[{{Wilson} {et~al.}(2008){Wilson}, {Gillon}, {Hellier}, {Maxted},
+  {Pepe}, {Queloz}, {Anderson}, {Collier Cameron}, {Smalley}, {Lister},
+  {Bentley}, {Blecha}, {Christian}, {Enoch}, {Haswell}, {Hebb}, {Horne},
+  {Irwin}, {Joshi}, {Kane}, {Marmier}, {Mayor}, {Parley}, {Pollacco}, {Pont},
+  {Ryans}, {Segransan}, {Skillen}, {Street}, {Udry}, {West}, \&
+  {Wheatley}}]{Wilson2008}
+{Wilson}, D.~M., {Gillon}, M., {Hellier}, C., {et~al.} 2008, \apjl, 675, L113
+
+\bibitem[{{Winn} {et~al.}(2009){Winn}, {Johnson}, {Albrecht}, {Howard},
+  {Marcy}, {Crossfield}, \& {Holman}}]{Winn2009}
+{Winn}, J.~N., {Johnson}, J.~A., {Albrecht}, S., {et~al.} 2009, \apjl, 703, L99
+
+\bibitem[{{Winn} {et~al.}(2010){Winn}, {Johnson}, {Howard}, {Marcy}, {Bakos},
+  {Hartman}, {Torres}, {Albrecht}, \& {Narita}}]{Winn2010}
+{Winn}, J.~N., {Johnson}, J.~A., {Howard}, A.~W., {et~al.} 2010, \apj, 718, 575
+
+\end{thebibliography}

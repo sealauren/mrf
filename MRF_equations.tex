@@ -1,0 +1,47 @@
+%%%%%%%%%%%%Density Radius Mass%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{aastex}
+\usepackage{amssymb}
+\usepackage{parskip}
+
+
+\input{/Users/lweiss/Dropbox/research/physical_quantities.tex}
+
+\newcommand{\rcoeffs}{\ensuremath{1.09~}}
+%\newcommand{\rcoeffs}{\ensuremath{0.25~}}
+\newcommand{\mcoeffs}{\ensuremath{0.56~}}
+\newcommand{\fcoeffs}{\ensuremath{-0.04~}}
+
+\newcommand{\rcoeffg}{\ensuremath{7.29~}}
+%\newcommand{\rcoeffg}{\ensuremath{0.39~}}
+\newcommand{\mcoeffg}{\ensuremath{-0.06~}}
+\newcommand{\fcoeffg}{\ensuremath{0.15~}}
+
+\newcommand{\dcoeffs}{\ensuremath{5.49~}}
+%\newcommand{\rcoeffs}{\ensuremath{0.25~}}
+\newcommand{\mdcoeffs}{\ensuremath{-0.67~}}
+\newcommand{\fdcoeffs}{\ensuremath{0.11~}}
+
+\newcommand{\dcoeffg}{\ensuremath{0.02~}}
+%\newcommand{\rcoeffg}{\ensuremath{0.39~}}
+\newcommand{\mdcoeffg}{\ensuremath{1.18~}}
+\newcommand{\fdcoeffg}{\ensuremath{-0.46~}}
+
+
+\begin{document}
+\begin{equation}
+\frac{\rpl}{\rearth} = \rcoeffs \left(\frac{\mpl}{\mearth}\right)^{\mcoeffs} \left(\frac{F}{F_\earth}\right)^{\fcoeffs}
+\end{equation}
+
+\begin{equation}
+\frac{\rpl}{\rearth} = \rcoeffg \left(\frac{\mpl}{\mearth}\right)^{\mcoeffg} \left(\frac{F}{F_\earth}\right)^{\fcoeffg}
+\end{equation}
+
+\begin{equation}
+\frac{\rhopl}{\gcc} = \dcoeffs \left(\frac{\mpl}{\mearth}\right)^{\mdcoeffs} \left(\frac{F}{F_\earth}\right)^{\fdcoeffs}
+\end{equation}
+
+\begin{equation}
+\frac{\rhopl}{\gcc} = \dcoeffg \left(\frac{\mpl}{\mearth}\right)^{\mdcoeffg}\left(\frac{F}{F_\earth}\right)^{\fdcoeffg}
+\end{equation}
+
+\end{document}
