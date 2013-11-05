@@ -1,15 +1,14 @@
-\documentclass[11pt]{aastex}
-\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
-%\geometry{landscape}                % Activate for for rotated page geometry
-%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\documentclass[iop]{emulateapj}
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{epstopdf}
-\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\usepackage{amsmath}
+\usepackage[breaklinks]{hyperref}
+\usepackage{ulem}
 
-\title{A Relation between Mass and Radius for 59 Exoplanets Smaller than 4 Earth Radii}
-\author{L. M. Weiss \& G. W. Marcy}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\citestyle{aa}
+
 %\date{}                                           % Activate to display a given date or no date
 
 \input{/Users/lweiss/Dropbox/research/physical_quantities.tex}
@@ -17,43 +16,45 @@
 \newcommand{\nhires}{42~} % The number of transiting planets in the HIRES paper
 \newcommand{\nlm}{59~}
 \newcommand{\rspecial}{4 \rearth}
-\newcommand{\chisquared}{3.4~}
+\newcommand{\chisquared}{2.2~}
 \newcommand{\chiquad}{6.5~}
 \newcommand{\rms}{3.8 \mearth}
 
 \begin{document}
-\maketitle
-%\begin{abstract}
-We study the masses and radii of 59 exoplanets smaller than 4\rearth.  We find a linear relation $\mpl/\mearth = 1.08 + 2.16\rpl/\rearth$.  The RMS of planet masses to the linear fit is \rms, and our best fit has reduced $\chi^2=\chisquared$, indicating a large diversity in planet compositions below 4\rearth.  The exoplanets in our sample have orbital periods between 0 and 100 days.  \citet{WL2013} also find $\mpl = 3\rpl$ in 22 pairs of planets exhibiting transit timing variations, of which only 10 planets overlap with our sample.  The linear mass-radius relation translates to a decrease in planet density with increasing radius ($\mpl \propto \rhopl^{-2}$).  We find that exoplanets have densities comparable to that of Earth at 1.6\rearth; exoplanets smaller than 1.6\rearth\ are denser than Earth, indicating likely rocky compositions, whereas exoplanets larger than 1.6\rearth\ are less dense than Earth, indicating a significant fraction of H/He or water in their compositions. \citet{WL2013} note that the linear scaling between planet mass and radius is consistent with a constant escape velocity, which might result from photo-evaporation of the atmospheres of small planets near their stars.
-%\end{abstract}
+\title{A Relation between Mass and Radius for 59 Exoplanets Smaller than 4 Earth Radii}
+\author{Lauren~M.~Weiss$^{1,\dagger}$ \& Geoffrey~W.~Marcy$^1$}
+\affil{$^1$B-20 Hearst Field Annex, Astronomy Department, University of California, Berkeley, CA 94720}
+\altaffiltext{$\dagger$}{\small Supported by the NSF Graduate Student Fellowship, Grant DGE 1106400.}
+
+\begin{abstract}
+We study the masses and radii of 59 exoplanets smaller than 4\rearth.  We find a linear relation $\mpl/\mearth = 0.21 + 2.78\rpl/\rearth$.  The RMS of planet masses to the linear fit is \rms, and our best fit has reduced $\chi^2=\chisquared$, indicating a large diversity in planet compositions below 4\rearth.  The exoplanets in our sample have orbital periods between 0 and 100 days.  \citet{WL2013} find $\mpl = 3\rpl$ in 22 pairs of planets exhibiting transit timing variations, of which only 10 planets overlap with our sample.  The linear mass-radius relation translates to a decrease in planet density with increasing radius ($\mpl \propto \rhopl^{-2}$).  We find that exoplanets have densities comparable to that of Earth at 1.6\rearth; exoplanets smaller than 1.6\rearth\ are typically denser than Earth, indicating likely rocky compositions, whereas exoplanets larger than 1.6\rearth\ are typically less dense than Earth, indicating a significant fraction of H/He or water in their compositions.
+\end{abstract}
 
 \section{Introduction}
 %\subsection{}
 
-The Kepler Mission has found an abundance of planets with  $R < 4\rearth$ \citep{Batalha2013}.  However, in many systems, it is difficult to measure the masses of such small planets because the gravitational acceleration these planets induce on their host stars or neighboring planets is too small to detect with current telescopes and instruments.  How can we determine the composition of these planets?
+The Kepler Mission has found an abundance of planets with  $R < 4\rearth$ \citep{Batalha2013, Burke2013}.  However, in many systems, it is difficult to measure the masses of such small planets because the gravitational acceleration these planets induce on their host stars or neighboring planets is too small to detect with current telescopes and instruments.  Obtaining measurements of the masses of these planets and characterizing their compositions is vital to understanding the formation and evolution of these planets.
 
-Many scientists have explored the relation between planet mass and radius in the Solar system and beyond as a means for understanding exoplanet compositions \citep{Lissauer2011, Enoch2012, Kane2012, Seager2007}.  \citet{Weiss2013} have shown that for planets between a few and 150 of Earth masses, we can predict the radius of a planet from its mass and incident stellar flux.  However, below 4\rearth, the large apparent scatter in planet mass impedes accurate predictions of planet mass.  At 2\rearth, planets are observed to span a decade in density, from less dense than water to densities suggesting a solid iron composition.
+Many scientists have explored the relation between planet mass and radius in the Solar system and beyond as a means for understanding exoplanet compositions \citep{Lissauer2011, Enoch2012, Kane2012, Seager2007}.  \citet{Weiss2013} have shown that for planets between a few and 150 of Earth masses, we can predict the radius of a planet from its mass and incident stellar flux.  However, below 4\rearth, the large apparent scatter in planet mass impedes accurate predictions of planet mass.  At 2\rearth, planets are observed to span a decade in density, from less dense than water to densities suggesting a solid iron composition.  One way to probe the scatter in planet mass is to attempt to measure the masses of more small planets.  
 
-One way to probe the scatter in planet mass is to attempt to measure the masses of more small planets.  Although uncertainties in the mass measurements for individual planets might be of order the planet mass, observing many small planets allows us to study the statistical distribution of planet masses for small planets.  \citet{Marcy2013} measured the masses of 42 small, transiting planets.  The planets were selected for their small size, and not based on predictions of their masses.  Therefore, these 42 new transiting planets offer an unbiased survey of the masses of small planets.  In this paper, we examine the relation between exoplanet mass and radius for the 40 exoplanets smaller than 4\rearth\ from \citet{Marcy2013}, plus 19 exoplanets smaller than 4\rearth\ from the literature, for a total of 59 exoplanets.  We also investigate how orbital parameters and stellar physical properties, including the planet's orbital period and semi-major axis, the incident flux from the star on the planet, and the stellar mass, radius, temperature, metallicity, and rotation, correlate with the residuals of the mass-radius relation.
+\section{Selecting Exoplanets with Measured Mass and Radius}
+Although uncertainties in the mass measurements for individual planets might be of order the planet mass, weak constraints on the masses of many small planets allow us to study the statistical distribution of planet masses for small planets.  \citet{Marcy2013} measured the masses of 42 small, transiting planets.  The planets were selected for their small size, and not based on predictions of their masses.  Therefore, these 42 new transiting planets offer an unbiased survey of the masses of small planets.  In this paper, we examine the relation between exoplanet mass and radius for the 40 exoplanets smaller than 4\rearth\ from \citet{Marcy2013}, plus 19 exoplanets smaller than 4\rearth\ from the literature, for a total of 59 exoplanets.  We also investigate how orbital parameters and stellar physical properties, including the planet's orbital period and semi-major axis, the incident flux from the star on the planet, and the stellar mass, radius, temperature, metallicity, and rotation, correlate with the residuals of the mass-radius relation.
 
-\section{Using Negative Planet Masses for Statistical Soundness}
-\citet{Marcy2013} allow ``negative" planet masses as Keplerian orbital solutions to avoid a bias toward larger planet masses.  The typical uncertainty in RVs of a few meters per second that results from activity on the photosphere of the star is the same size or larger than the expected RV semi-amplitude induced by the planet's orbit.  Although there is no physical reason that the photospheric variability should phase with the orbit of a planet, occasionally the RVs appear to do so, in cases where there are only 10s of RVs of a star.  Fifty percent of the time, the RVs are correlated with the expected planet signature (i.e. the RVs are high when they should be high, and low when they should be low), and the other fifty percent of the time the RVs are anti-correlated with the expected planet signature (low when they should be high, and high when they should be low).  Because RVs from stellar activity that correlate with the expected planet signal will result in an over-estimate of planet mass, we must also include the RVs that are anti-correlated with the expected planet signal.  The use of a negative semi-amplitude for the RVs results in a ``negative" planet mass.  
+\subsection{Including Mass Non-Detections for Statistical Soundness}
+At a given radius, if we only include detections exceeding a certain confidence, we will preferentially include high-mass planets and will fail to include the low-mass planets that have comparable errors.  This is especially true for small planets, for which the planet-induced RV signal ($\sim1\ms$) can be small compared to the noise from stellar activity ($\sim5\ms$).  Although there is no physical reason that the stellar activity should phase with the orbit of a planet, random statistical fluctuations in the RVs can produce RVs that are high when they should be high, and low when they should be low, or the converse (RVs that are low when they should be high, and high when they should be low).  Because RVs from stellar activity that phase with the expected planet signal will result in an over-estimate of planet mass, we must also include the RVs that are anti-phased with the expected planet signal.  When \citet{Marcy2013} phase the RV measurements to the transit-determined planet ephemeris, they allow  a negative semi-amplitude in the Keplerian fit to the RVs that results in a ``negative" planet mass determination.  Classically, these planets are considered non-detections, but we include them in the mass-radius relation to avoid statistical bias toward large planet masses at a given radius.  Since there is no bias toward large or small planet masses in our sample, we can take the weighted mean mass of planets of a given radius and get a value representative of the planet population.
 
-Although no transiting planet really has a negative mass, the inclusion of these artificial negative planet masses allows us to treat the population of small planets statistically.  Since there is no bias toward large or small planet masses in our sample, we can take the weighted mean mass of planets of a given radius and get a value representative of the planet population.  If we did not include the negative masses, the weighted mean mass at a given radius would be too high.
-
-\section{Justification for a Mass-Radius Relation for Small Exoplanets}
+\section{The Mass-Radius Relation for 59 Small Exoplanets}
 On average, exoplanet mass increases with increasing radius, indicating an underlying correlation in the individual exoplanet masses and radii.  The individual measurements of planet mass and radius are shown in Figure \ref{fig:rm_4} and listed in Table \ref{tab:mrf}.  In Figure \ref{fig:rm_4}, we show the weighted mean exoplanet mass in bins of width 1 \rearth\ to highlight the correlation between planet mass and radius.
 
 We calculate the probability that mass and radius are uncorrelated for planets smaller than 4\rearth.  We calculate the correlation coefficient (Pearson R test) $r=0.61$.  In our sample of 59 exoplanets, the probability that these data are uncorrelated given $r = 0.61$ is $1.3 \times 10^{-6}$.  Thus, the masses and radii of planets between the sizes of Earth and Neptune are correlated.
 
-\section{The Updated Mass-Radius Relation for Small Exoplanets}
 The individual masses and radii shown in Figure \ref{fig:rm_4} suggest that exoplanet masses can be fit with a line.  We verify this with a traditional power-law fit and obtain $\mpl \propto \rpl$ as the best result.
 
-The best linear fit to the data for $\rpl < \rspecial$ is:
+The weighted linear fit to the data for $\rpl < \rspecial$ is:
 $$
-\mpl/\mearth = 1.08 +     2.16~\rpl/\rearth
+\mpl/\mearth = -0.7 +     3.0~\rpl/\rearth
 $$
-There are 59 exoplanets in this sample.  The reduced $\chi^2=\chisquared$, and the RMS $=\rms$.
+There are 59 exoplanets in this sample.  The reduced $\chi^2=\chisquared$, and the RMS $=\rms$.  The standard errors for the weighted linear fit are $slope = 3.0 \pm 0.6$, $intercept=-0.7\pm1.2$.
 
 To illustrate how this population of exoplanets compares to our Solar System, we indicate the Solar System planets in Figure \ref{fig:rm_4}.  A quadratic fit to the exoplanet population happens to line up with the Solar System planets, but has a reduced $\chi^2$ that is twice as large as the linear fit to the exoplanets.  Since most of the exoplanets in this sample have $P < 50$ days, we do not expect them to behave the same way as Uranus and Neptune, which have orbital periods of tens of thousands of days.  Therefore, the hefty masses of Uranus and Neptune compared to planets of similar size that are closer to their stars is not unreasonable.
 
@@ -74,28 +75,17 @@ Previous work, including \citet{Lissauer2011} and \citet{Weiss2013}, suggest tha
 
 In a study of planets with $\mpl < 20\mearth$, \citet{WL2013} found $\mpl/\mearth = 3 \rpl/\rearth$ in a sample of 22 pairs of planets that exhibited strong anti-correlated transit timing variations (TTVs).  Our independent assessment of 59 planets, 49 of which are not analyzed in \citet{WL2013}, agrees with this result.
 
-\citet{WL2013} noted that a linear relation between planet mass and radius is dimensionally consistent with a constant escape velocity from the planet (i.e. $v_{\mathrm{esc}}^2 \sim \mpl/\rpl$).  While this is one interpretation of the linear mass-radius relation for small exoplanets, there are perhaps other valid physical interpretations.  For instance, a constant $\mpl/\rpl$ implies that the gravitational potential energy $U \propto \mpl/\rpl$ of exoplanets is constant.  This could be due to atmospheric particles escaping, but perhaps some other physical mechanism sets this energy level for exoplanets.
+\citet{WL2013} noted that a linear relation between planet mass and radius is dimensionally consistent with a constant escape velocity from the planet (i.e. $v_{\mathrm{esc}}^2 \sim \mpl/\rpl$).  The linear mass-radius relation might result from photo-evaporation of the atmospheres of small planets near their stars.
 
 \subsection{Interpretation of Planet Compositions}
 For detailed models of the compositions of the 42 new transiting planets presented in \citet{Marcy2013} and analyzed here, see \citet{Rogers2013}.  Here, we consider the statistical properties of planet densities.
 
 The densities of exoplanets with $\rpl < \rspecial$ and the densities binned by 1 \rearth\ are shown in Figure \ref{fig:rm_4}.  These data show that smaller planets have higher densities, and planets have an Earth-density at 1.6 \rearth.  Planets smaller than 1.6 \rearth\ tend to be denser than Earth, whereas planets larger than 1.6 \rearth\ tend to be less dense than Earth.  However, since rock and other materials are compressible, planets that are as dense as Earth but have larger radii are not necessarily solid rock; they need some lighter materials, such as water or a H/He envelope, to achieve the density of Earth.
 
-\begin{comment}
-\subsection{The Possible Role of Photoevaporation in Sculpting Small Planets}
-Strong stellar irradiation can either inflate a planet, as with hot Jupiters \citep{Seager2007}, or it can photoionize and strip the planet's atmosphere, leaving a dense core \citep{Lopez2012}.  Possible evidence for these processes can be seen in Figure \ref{fig:flux_radius}, which shows that for massive planets ($\mpl > 60 \mearth $ or $\rpl > \rspecial$), high incident flux correlates with larger radius, whereas for low-mass planets ($\mpl < 60 \mearth $ or $\rpl < \rspecial$), high incident flux correlates with smaller radius.
-
-Another way to describe how incident flux relates to exoplanet size is that for low levels of incident stellar flux (less than 100 times what Earth receives), planets range in size from Earth to Jupiter.  However, at higher incident flux, there are only hot Earths (which might have been photo-evaporated) and hot Jupiters (which have been inflated).  In other words, there are no hot Neptunes.  Given the detection of hot and cold Earths, hot and cold Jupiters, and cold Neptunes, it seems unlikely that a detection bias causes the dearth of hot Neptunes; rather, their absence is likely astrophysical.
-
-\subsection{A Correlation between Planet Mass and Stellar Metallicity for Small Planets}
-The stellar metallicities of the stars in our sample are determined by spectroscopy and/or asteroseismology, yielding values accurate to 0.1 dex.  We find a correlation between planet mass and stellar metallicity for planets smaller than 4\rearth.  The Pearson R-value of the correlation is 0.32, resulting in a probability of 2\% that planet mass and stellar metallicity are not correlated.  In other words, we find a correlation between planet mass and metallicity with $2\sigma$ confidence in exoplanets smaller than 4\rearth.  In Figure \ref{fig:m_fe}, we plot planet mass and planet radius against stellar metallicity for the planets in our sample.
-
-\citet{Buchhave2012} note that planets smaller than 4\rearth\ form around stars with a large range of metallicities.  Their study includes 226 Kepler exoplanet candidates smaller than 4\rearth, for which they obtained spectroscopic measurements of [m/H] in the host stars.  Our work uses [Fe/H] as a metallicity indicator, and we are only considering validated exoplanets.  Although \citet{Buchhave2012} find no relation between exoplanet occurrence and host star metallicity for $\rpl < 4\rearth$, they do not comment on the relation between exoplanet size and host star metallicity for small planets.  Therefore, our finding that planet mass correlates with stellar metallicity for $\rpl < 4\rearth$ does not contradict their result.
-\end{comment}
-
 \subsection{Absence of Correlations with Mass and Radius Residuals}
 We examine the possibility that the residuals to the mass-radius relation correlate with some other parameters.  We consider how the residual mass (exoplanet mass minus predicted mass), or, where more intuitive, residual radius (exoplanet radius minus predicted radius given the mass) correlates with various orbital properties and physical properties of the star.  The quantities we consider are: planet orbital period, planet semi-major axis, the incident flux from the star on the planet, stellar mass, stellar radius, stellar temperature, stellar metallicity, stellar age, .  The residual mass does not correlate with any of these properties; the highest Pearson-R coefficient is $0.1$.  While we cannot rule out correlation between the mass residuals and other orbital and physical properties, we do not find evidence for any correlation to the residuals.
-\subsubsection{A Possible Correlation between Planet Mass and Stellar Metallicity for Small Planets}
+
+\subsubsection{A Weak Correlation between Residual Planet Mass and Stellar Metallicity}
 The stellar metallicities of the stars in our sample are determined by spectroscopy and/or asteroseismology, yielding values accurate to 0.1 dex.  We find a correlation between residual planet mass and stellar metallicity for planets smaller than 4\rearth.  The Pearson R-value of the correlation is 0.25, resulting in a probability of 5.8\% that the residual planet mass and stellar metallicity are not correlated.  In other words, we find a correlation between residual planet mass and metallicity with $2\sigma$ confidence in exoplanets smaller than 4\rearth.  In Figure \ref{fig:resids}, we plot residual planet mass and against stellar metallicity for the planets in our sample.
 
 \citet{Buchhave2012} note that planets smaller than 4\rearth\ form around stars with a large range of metallicities.  Their study includes 226 Kepler exoplanet candidates smaller than 4\rearth, for which they obtained spectroscopic measurements of [m/H] in the host stars.  Our work uses [Fe/H] as a metallicity indicator, and we are only considering validated exoplanets.  Although \citet{Buchhave2012} find no relation between exoplanet occurrence and host star metallicity for $\rpl < 4\rearth$, they do not comment on the relation between exoplanet size and host star metallicity for small planets.  Therefore, our finding that planet mass correlates with stellar metallicity for $\rpl < 4\rearth$ does not contradict their result.
@@ -109,7 +99,7 @@ One reason Uranus and Neptune might be more massive than closer-in planets of th
 %% The values (usually only l,r and c) in the last part of
 %% \begin{deluxetable}{} command tell LaTeX how many columns
 %% there are and how to align them.
-\begin{deluxetable}{lllllll}
+\begin{deluxetable*}{lllllll}
 
 %% Keep a portrait orientation
 
@@ -139,7 +129,7 @@ One reason Uranus and Neptune might be more massive than closer-in planets of th
 %% extra information be sure to include a \colhead{text} command
 %% and remember to end any extra lines with \\ and include the 
 %% correct number of &s.
-\tablehead{\colhead{Name} & \colhead{Per} & \colhead{Mass} & \colhead{Radius} & \colhead{Flux} & \colhead{First Ref.} & \colhead{Orbit Ref.} \\ 
+\tablehead{\colhead{Name} & \colhead{Per} & \colhead{Mass} & \colhead{Radius} & \colhead{Flux} & \colhead{First Ref.} & \colhead{Mass Ref.} \\ 
 \colhead{} & \colhead{(d)} & \colhead{($\mearth$)} & \colhead{($\rearth$)} & \colhead{($\fearth$)} & \colhead{} & \colhead{} } 
 
 %% All data must appear between the \startdata and \enddata commands
@@ -213,52 +203,36 @@ One reason Uranus and Neptune might be more massive than closer-in planets of th
 
 %% No \tablerefs indicated
 
-\end{deluxetable}
+\end{deluxetable*}
 
 \clearpage
-\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+\begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=6in]{mrf.png} 
    \caption{\small \textbf{Left:} Radius vs. mass for 243 exoplanets with measured masses and radii.  Below $150 \mearth$, planet radius increases with planet mass; above $150 \mearth$, planet radius slightly decreases with planet mass.  The solar system planets are shown as black triangles for comparison.  Planets receiving lower than the median incident flux in this sample (462 times the incident flux at Earth) are blue; those receiving higher than the median incident flux are red.    For giant planets (above about $150 \mearth$), planet radius increases with increasing incident flux, whereas for the smaller planets, the relation between radius and incident flux is uncertain.  \textbf{Right:} Density vs. mass for 243 exoplanets with measured masses and radii.  The break at $150 \mearth$ separates the low-mass planets, for which density decreases with increasing mass, from the high-mass planets, for which density increases with increasing mass.  The flux coloration is the same as the left figure.}
 \label{fig:mrf}
-\end{figure}
+\end{figure*}
 
-\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+\begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
     \includegraphics[width=6in]{mr_small.png} 
    \caption{\small Planet mass vs. radius (left) and density vs. radius (right) for 59 exoplanets with measured mass and radius.  The small gray points are mass-radius measurements and 1$\sigma$ error bars.  The black dashed line is the weighted linear fit to the data: $\frac{\mpl}{\mearth} = 1.08 + 2.16 \frac{\rpl}{\rearth}$.  The large blue points are the weighted mean exoplanet mass and density in bins of 1 Earth radius, with error bars representing the uncertainty in the means.  The magenta squares are solar system planets Mercury, Venus, Earth, Mars, Uranus, and Neptune. The weighted means and the solar system planets are to guide the eye only; they were not used in calculating the linear fit.  In the right plot, Earth's density (5.5 \gcc) is demarcated with a dotted green line.  Note that all of the planets smaller than Earth have $\mpl < 10 \mearth$, and most of them have masses in the range $0 < \mpl/\mearth < 5$.  Although none of these planets constitutes a $2\sigma$ mass detection individually, as an ensemble, they offer information about the typical mass for planets between 0 and 1 Earth radii.}
    \label{fig:rm_4}
-\end{figure}
+\end{figure*}
 
-\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+\begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
     \includegraphics[width=6in]{mr_small_1sig.png} 
    \caption{\small Planet mass vs. radius (left) and density vs. radius (right) for 42 exoplanets with measured radius and mass such that $\mpl > 1\sigma$.  The small gray points are mass-radius measurements for $\mpl > 1\sigma$ and 1$\sigma$ error bars.  The black dashed line is the weighted linear fit to the data: $\frac{\mpl}{\mearth} = 1.17 + 2.12 \frac{\rpl}{\rearth}$.  Note that this fit is different from the best fit derived from all the data (see Figure \ref{fig:rm_4}).  By only considering masses determined to better than $1\sigma$, we are systematically excluding the low-mass planets at small radii (especially in the 0-1 \rearth\ bin), thereby biasing our data toward larger planet masses.  The linear fit reveals this bias: the y-intercept is higher and the slope is lower, indicating that we have removed the low-mass, small planets from our sample.}
    \label{fig:rm_4_1sig}
-\end{figure}
+\end{figure*}
 
-\begin{comment}
-\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
-   \centering
-      \includegraphics[width=6in]{flux_dependence.eps} 
-   \caption{Radius vs. flux and $1\sigma$ uncertainties for exoplanets with measured masses and radii.  Giant planets are orange; low-mass planets are green.  For giant planets, radius increases with increasing incident flux from the star; for small planets, radius slightly decreases with increasing flux, especially above a few hundred Earth fluxes.  There are no hot Neptunes.  Note that all the planets with $\rpl < 4 \rearth$ are in the low-mass population.}
-   \label{fig:flux_radius}
-\end{figure}
-
-
-\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
-   \centering
-      \includegraphics[width=6in]{m_fe.png} 
-   \caption{Planet mass vs. stellar metallicity (left) and planet radius vs. stellar metallicity (right), with $1\sigma$ errors.  The absence of points in the upper left and lower right corners of each plot indicates a weak correlation between planet mass (or radius) and stellar metallicity.  The Pearson R-value of the correlation is 0.32, and the probability that these parameters are uncorrelated is 2\%.}
-\end{figure}
-\end{comment}
-
-\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+\begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
     \includegraphics[width=6in]{mr_resids.png} 
    \caption{\small Mass and radius residuals (measured minus predicted mass or radius) versus various orbital and stellar properties for planets with $\rpl  < \rspecial$ and 1$\sigma$ uncertainties.  There is a weak correlation (R=0.25, 2$\sigma$ confidence) between residual mass and stellar metallicity (bottom left); none of the other residuals show correlation.  The spread of the residuals is higher at long orbital periods and orbital distances than at short orbital periods and orbital distances (top row), indicating a possibly larger diversity of exoplanet compositions at large orbital distances than close-in.}
    \label{fig:resids}
-\end{figure}
+\end{figure*}
 
 %%%%%%%%%%%%% Discussion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage

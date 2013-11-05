@@ -1,8 +1,9 @@
 This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: small_mr_relation_v4.aux
+The top-level auxiliary file: small_mr_relation_v5.aux
 The style file: apj.bst
-Database file #1: exoplanet_papers.bib
+Database file #1: small_mr_relation_v5Notes.bib
+Database file #2: exoplanet_papers.bib
 Repeated entry---line 4757 of file exoplanet_papers.bib
  : @article{Batalha2013
  :                     ,
@@ -14,7 +15,7 @@ I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 26 entries,
             3010 wiz_defined-function locations,
-            815 strings with 22051 characters,
+            816 strings with 22076 characters,
 and the built_in function-call counts, 20265 in all, are:
 = -- 998
 > -- 2792
