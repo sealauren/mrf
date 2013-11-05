@@ -51,9 +51,10 @@ We calculate the probability that mass and radius are uncorrelated for planets s
 The individual masses and radii shown in Figure \ref{fig:rm_4} suggest that exoplanet masses can be fit with a line.  We verify this with a traditional power-law fit and obtain $\mpl \propto \rpl$ as the best result.
 
 The weighted linear fit to the data for $\rpl < \rspecial$ is:
-$$
+\begin{equation}
 \mpl/\mearth = -0.7 +     3.0~\rpl/\rearth
-$$
+\label{eqn:mr_relation}
+\end{equation}
 There are 59 exoplanets in this sample.  The reduced $\chi^2=\chisquared$, and the RMS $=\rms$.  The standard errors for the weighted linear fit are $slope = 3.0 \pm 0.6$, $intercept=-0.7\pm1.2$.
 
 To illustrate how this population of exoplanets compares to our Solar System, we indicate the Solar System planets in Figure \ref{fig:rm_4}.  A quadratic fit to the exoplanet population happens to line up with the Solar System planets, but has a reduced $\chi^2$ that is twice as large as the linear fit to the exoplanets.  Since most of the exoplanets in this sample have $P < 50$ days, we do not expect them to behave the same way as Uranus and Neptune, which have orbital periods of tens of thousands of days.  Therefore, the hefty masses of Uranus and Neptune compared to planets of similar size that are closer to their stars is not unreasonable.
@@ -82,7 +83,7 @@ For detailed models of the compositions of the 42 new transiting planets present
 
 The densities of exoplanets with $\rpl < \rspecial$ and the densities binned by 1 \rearth\ are shown in Figure \ref{fig:rm_4}.  These data show that smaller planets have higher densities, and planets have an Earth-density at 1.6 \rearth.  Planets smaller than 1.6 \rearth\ tend to be denser than Earth, whereas planets larger than 1.6 \rearth\ tend to be less dense than Earth.  However, since rock and other materials are compressible, planets that are as dense as Earth but have larger radii are not necessarily solid rock; they need some lighter materials, such as water or a H/He envelope, to achieve the density of Earth.
 
-\subsection{Absence of Correlations with Mass and Radius Residuals}
+\subsection{Absence of Correlations to Planet Mass Residuals}
 We examine the possibility that the residuals to the mass-radius relation correlate with some other parameters.  We consider how the residual mass (exoplanet mass minus predicted mass), or, where more intuitive, residual radius (exoplanet radius minus predicted radius given the mass) correlates with various orbital properties and physical properties of the star.  The quantities we consider are: planet orbital period, planet semi-major axis, the incident flux from the star on the planet, stellar mass, stellar radius, stellar temperature, stellar metallicity, stellar age, .  The residual mass does not correlate with any of these properties; the highest Pearson-R coefficient is $0.1$.  While we cannot rule out correlation between the mass residuals and other orbital and physical properties, we do not find evidence for any correlation to the residuals.
 
 \subsubsection{A Weak Correlation between Residual Planet Mass and Stellar Metallicity}
@@ -216,16 +217,10 @@ One reason Uranus and Neptune might be more massive than closer-in planets of th
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
     \includegraphics[width=6in]{mr_small.png} 
-   \caption{\small Planet mass vs. radius (left) and density vs. radius (right) for 59 exoplanets with measured mass and radius.  The small gray points are mass-radius measurements and 1$\sigma$ error bars.  The black dashed line is the weighted linear fit to the data: $\frac{\mpl}{\mearth} = 1.08 + 2.16 \frac{\rpl}{\rearth}$.  The large blue points are the weighted mean exoplanet mass and density in bins of 1 Earth radius, with error bars representing the uncertainty in the means.  The magenta squares are solar system planets Mercury, Venus, Earth, Mars, Uranus, and Neptune. The weighted means and the solar system planets are to guide the eye only; they were not used in calculating the linear fit.  In the right plot, Earth's density (5.5 \gcc) is demarcated with a dotted green line.  Note that all of the planets smaller than Earth have $\mpl < 10 \mearth$, and most of them have masses in the range $0 < \mpl/\mearth < 5$.  Although none of these planets constitutes a $2\sigma$ mass detection individually, as an ensemble, they offer information about the typical mass for planets between 0 and 1 Earth radii.}
+   \caption{\small \textbf{Left:} Mass vs. radius for 59 exoplanets and 1$\sigma$ error bars (errors were not allowed to go below 10\% of the mass or 5\% of the radius).  The black dashed line is the weighted linear fit given in equation \ref{eqn:mr_relation}.  The blue points are the weighted mean exoplanet mass in bins of $1\rearth$, with error bars representing the uncertainty in the means.  The magenta letters indicate solar system planets.  The weighted means and solar system planets are to guide the eye only; they were not used in calculating the linear fit. \textbf{Right:} Density vs. radius for planets with $\sigma_\rho < 6.5 \gcc$.  Note that no exoplanets smaller than $1\rearth$ have densities determined to better than 6.5 \gcc.  The black dashed line represents the same linear mass-radius relation as left.  The blue points are the weighted mean densities in bins of $1\rearth$.  EarthÕs density is shown as the green dotted line.}
    \label{fig:rm_4}
 \end{figure*}
 
-\begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
-   \centering
-    \includegraphics[width=6in]{mr_small_1sig.png} 
-   \caption{\small Planet mass vs. radius (left) and density vs. radius (right) for 42 exoplanets with measured radius and mass such that $\mpl > 1\sigma$.  The small gray points are mass-radius measurements for $\mpl > 1\sigma$ and 1$\sigma$ error bars.  The black dashed line is the weighted linear fit to the data: $\frac{\mpl}{\mearth} = 1.17 + 2.12 \frac{\rpl}{\rearth}$.  Note that this fit is different from the best fit derived from all the data (see Figure \ref{fig:rm_4}).  By only considering masses determined to better than $1\sigma$, we are systematically excluding the low-mass planets at small radii (especially in the 0-1 \rearth\ bin), thereby biasing our data toward larger planet masses.  The linear fit reveals this bias: the y-intercept is higher and the slope is lower, indicating that we have removed the low-mass, small planets from our sample.}
-   \label{fig:rm_4_1sig}
-\end{figure*}
 
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
