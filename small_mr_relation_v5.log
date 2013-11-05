@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  4 NOV 2013 22:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  4 NOV 2013 23:02
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -533,8 +533,58 @@ al-ues for the lin-ear and
  []
 
 [2]
-Overfull \hbox (4.9419pt too wide) in paragraph at lines 102--206
- []$[]$ 
+Overfull \hbox (5.0pt too wide) in alignment at lines 102--133
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 133--133
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 133--133
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 133--133
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 133--136
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 136--136
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 136--136
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 136--157
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 157--177
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 177--196
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.0pt too wide) in alignment at lines 196--206
+ [] [] [] [] [] [] [] 
  []
 
 <mrf.png, id=366, 867.24pt x 433.62pt>
@@ -655,7 +705,7 @@ cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti9.pfb>
-Output written on small_mr_relation_v5.pdf (9 pages, 1260732 bytes).
+Output written on small_mr_relation_v5.pdf (9 pages, 1644071 bytes).
 PDF statistics:
  521 PDF objects out of 1000 (max. 8388607)
  475 compressed objects within 5 object streams
