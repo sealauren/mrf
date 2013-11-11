@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  4 NOV 2013 23:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  9 NOV 2013 14:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -512,35 +512,23 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-
-Package natbib Warning: Citation `Burke2013' on page 1 undefined on input line 
-36.
-
+) [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Runaway argument?
 {\@firstoffive }\fi . In Figure \ref {fig:rm_4}, we show the weighted\ETC.
-./small_mr_relation_v5.tex:48: Paragraph ended before \Hy@setref@link was compl
+./small_mr_relation_v5.tex:52: Paragraph ended before \Hy@setref@link was compl
 ete.
 <to be read again> 
                    \par 
-l.48 
+l.52 
      
 ? 
-[1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1603) in paragraph at lines 67--68
+
+Underfull \hbox (badness 1603) in paragraph at lines 71--72
 []\OT1/cmr/m/n/10 The large re-duced $\OML/cmm/m/it/10 ^^_[]$ \OT1/cmr/m/n/10 v
 al-ues for the lin-ear and
  []
 
-
-LaTeX Warning: Reference `fig:rm_4_1sig' on page 2 undefined on input line 73.
-
-[2]
-Overfull \hbox (4.9419pt too wide) in paragraph at lines 103--207
- []$[]$ 
- []
-
-<mrf.png, id=365, 867.24pt x 433.62pt>
+[2] <mrf.png, id=369, 867.24pt x 433.62pt>
 File: mrf.png Graphic file (type png)
  <use mrf.png>
 Package pdftex.def Info: mrf.png used on input line 212.
@@ -555,101 +543,116 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--213
 
  []
 
-[3] [4] <mr_small.png, id=403, 867.24pt x 433.62pt>
+<histograms.png, id=371, 867.24pt x 433.62pt>
+File: histograms.png Graphic file (type png)
+ <use histograms.png>
+Package pdftex.def Info: histograms.png used on input line 219.
+(pdftex.def)             Requested size: 433.62pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+
+ []
+
+<mr_small.png, id=372, 867.24pt x 433.62pt>
 File: mr_small.png Graphic file (type png)
  <use mr_small.png>
-Package pdftex.def Info: mr_small.png used on input line 219.
+Package pdftex.def Info: mr_small.png used on input line 226.
 (pdftex.def)             Requested size: 433.62pt x 216.80946pt.
 Missing character: There is no Õ in font cmr9!
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
 
  []
 
-<mr_resids.png, id=405, 1011.78pt x 1011.78pt>
+<mr_resids.png, id=374, 867.24pt x 867.24pt>
 File: mr_resids.png Graphic file (type png)
  <use mr_resids.png>
-Package pdftex.def Info: mr_resids.png used on input line 227.
-(pdftex.def)             Requested size: 433.62pt x 433.62114pt.
+Package pdftex.def Info: mr_resids.png used on input line 234.
+(pdftex.def)             Requested size: 433.62pt x 433.61894pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 
  []
 
-[5] [6 <./mrf.png> <./mr_small.png>]
+[3] [4]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 234.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 241.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[7 <./mr_resids.png>] (./small_mr_relation_v5.bbl)
+[5 <./mrf.png> <./histograms.png>]
 
-Package natbib Warning: There were undefined citations.
-
-[8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
- (./small_mr_relation_v5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 241.
 
 
-Package rerunfilecheck Warning: File `small_mr_relation_v5.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-Package rerunfilecheck Info: Checksums for `small_mr_relation_v5.out':
-(rerunfilecheck)             Before: 0CF725AEF0A5A94EA645923F67E597D8;876
-(rerunfilecheck)             After:  B49FDBAC514DCF376095B0C24E7804A6;870.
+[6 <./mr_small.png>]
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 241.
 
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[7 <./mr_resids.png>] (./small_mr_relation_v5.bbl) [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
+
+(./small_mr_relation_v5.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
+Package rerunfilecheck Info: File `small_mr_relation_v5.out' has not changed.
+(rerunfilecheck)             Checksum: C9641834E4C3ADBCC41D3B6E3525A3C1;870.
  )
-(\end occurred when \ifx on line 47 was incomplete) 
+(\end occurred when \ifx on line 51 was incomplete) 
 Here is how much of TeX's memory you used:
- 8479 strings out of 493633
- 119031 string characters out of 3143378
- 279459 words of memory out of 3000000
- 11598 multiletter control sequences out of 15000+200000
- 13190 words of font info for 54 fonts, out of 3000000 for 9000
+ 8501 strings out of 493633
+ 119479 string characters out of 3143378
+ 283790 words of memory out of 3000000
+ 11615 multiletter control sequences out of 15000+200000
+ 12882 words of font info for 53 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 42i,12n,28p,1904b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,13n,28p,1904b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2011/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2011/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2011/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2011/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2011/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2011/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2011/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2011/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2011/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmti8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti9.pfb>
-Output written on small_mr_relation_v5.pdf (8 pages, 1398229 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2011/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2011/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2011/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2011/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti9.pfb>
+Output written on small_mr_relation_v5.pdf (8 pages, 827788 bytes).
 PDF statistics:
- 510 PDF objects out of 1000 (max. 8388607)
- 468 compressed objects within 5 object streams
- 52 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 518 PDF objects out of 1000 (max. 8388607)
+ 475 compressed objects within 5 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

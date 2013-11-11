@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{30}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Batalha} {et~al.}(2011){Batalha}, {Borucki}, {Bryson}, {Buchhave},
@@ -112,10 +112,36 @@
   {Howard}, {Howell}, {Ragozzine}, \& {Thompson}}]{Gilliland2013}
 {Gilliland}, R.~L., {Marcy}, G.~W., {Rowe}, J.~F., {et~al.} 2013, \apj, 766, 40
 
+\bibitem[{{Hatzes} {et~al.}(2011){Hatzes}, {Fridlund}, {Nachmani}, {Mazeh},
+  {Valencia}, {H{\'e}brard}, {Carone}, {P{\"a}tzold}, {Udry}, {Bouchy},
+  {Deleuil}, {Moutou}, {Barge}, {Bord{\'e}}, {Deeg}, {Tingley}, {Dvorak},
+  {Gandolfi}, {Ferraz-Mello}, {Wuchterl}, {Guenther}, {Guillot}, {Rauer},
+  {Erikson}, {Cabrera}, {Csizmadia}, {L{\'e}ger}, {Lammer}, {Weingrill},
+  {Queloz}, {Alonso}, {Rouan}, \& {Schneider}}]{Hatzes2011}
+{Hatzes}, A.~P., {Fridlund}, M., {Nachmani}, G., {et~al.} 2011, \apj, 743, 75
+
 \bibitem[{Howard {et~al.}(2011)Howard, Johnson, Marcy, Fischer, Wright, Henry,
   Isaacson, Valenti, Anderson, \& Piskunov}]{Howard2011}
 Howard, A.~W., Johnson, J.~A., Marcy, G.~W., {et~al.} 2011, The Astrophysical
   Journal, 726, 73
+
+\bibitem[{{Howard} {et~al.}(2012){Howard}, {Marcy}, {Bryson}, {Jenkins},
+  {Rowe}, {Batalha}, {Borucki}, {Koch}, {Dunham}, {Gautier}, {Van Cleve},
+  {Cochran}, {Latham}, {Lissauer}, {Torres}, {Brown}, {Gilliland}, {Buchhave},
+  {Caldwell}, {Christensen-Dalsgaard}, {Ciardi}, {Fressin}, {Haas}, {Howell},
+  {Kjeldsen}, {Seager}, {Rogers}, {Sasselov}, {Steffen}, {Basri},
+  {Charbonneau}, {Christiansen}, {Clarke}, {Dupree}, {Fabrycky}, {Fischer},
+  {Ford}, {Fortney}, {Tarter}, {Girouard}, {Holman}, {Johnson}, {Klaus},
+  {Machalek}, {Moorhead}, {Morehead}, {Ragozzine}, {Tenenbaum}, {Twicken},
+  {Quinn}, {Isaacson}, {Shporer}, {Lucas}, {Walkowicz}, {Welsh}, {Boss},
+  {Devore}, {Gould}, {Smith}, {Morris}, {Prsa}, {Morton}, {Still}, {Thompson},
+  {Mullally}, {Endl}, \& {MacQueen}}]{Howard2012}
+{Howard}, A.~W., {Marcy}, G.~W., {Bryson}, S.~T., {et~al.} 2012, \apjs, 201, 15
+
+\bibitem[{{Howard} {et~al.}(2013){Howard}, {Sanchis-Ojeda}, {Marcy}, {Johnson},
+  {Winn}, {Isaacson}, {Fischer}, {Fulton}, {Sinukoff}, \&
+  {Fortney}}]{Howard2013Nature}
+{Howard}, A.~W., {Sanchis-Ojeda}, R., {Marcy}, G.~W., {et~al.} 2013, \nat
 
 \bibitem[{{Kane} \& {Gelino}(2012)}]{Kane2012}
 {Kane}, S.~R., \& {Gelino}, D.~M. 2012, \pasp, 124, 323
@@ -171,6 +197,10 @@ Howard, A.~W., Johnson, J.~A., Marcy, G.~W., {et~al.} 2011, The Astrophysical
   {Fischer}, {Marcy}, {Butler}, {Naef}, {Mayor}, {Queloz}, {Udry}, \&
   {Harrison}}]{McArthur2004}
 {McArthur}, B.~E., {Endl}, M., {Cochran}, W.~D., {et~al.} 2004, \apjl, 614, L81
+
+\bibitem[{{Petigura} {et~al.}(2013){Petigura}, {Marcy}, \&
+  {Howard}}]{Petigura2013a}
+{Petigura}, E.~A., {Marcy}, G.~W., \& {Howard}, A.~W. 2013, \apj, 770, 69
 
 \bibitem[{{Queloz} {et~al.}(2009){Queloz}, {Bouchy}, {Moutou}, {Hatzes},
   {H{\'e}brard}, {Alonso}, {Auvergne}, {Baglin}, {Barbieri}, {Barge}, {Benz},
