@@ -2,10 +2,18 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 2
 \BOOKMARK [1][-]{section.2}{Selecting Exoplanets with Measured Mass and Radius}{}% 3
 \BOOKMARK [2][-]{subsection.2.1}{Including Mass Non-Detections for Statistical Soundness}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{The Mass-Radius Relation for 60 Small Exoplanets}{}% 5
-\BOOKMARK [1][-]{section.4}{Discussion}{}% 6
-\BOOKMARK [2][-]{subsection.4.1}{Interpretation of the Mass-Radius Relation}{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.2}{Interpretation of Planet Compositions}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.3}{Absence of Correlations to Planet Mass Residuals}{section.4}% 9
-\BOOKMARK [3][-]{subsubsection.4.3.1}{A Weak Correlation between Residual Planet Mass and Stellar Metallicity}{subsection.4.3}% 10
-\BOOKMARK [1][-]{section.5}{Conclusions}{}% 11
+\BOOKMARK [2][-]{subsection.2.2}{Inclusion of TTV-discovered planets}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Adopted Errors}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{The Mass-Radius Relation for 60 Small Exoplanets}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{The Mass-Radius Relation for RP< 4 R}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.1}{A Linear Mass-Radius Relation}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.2}{A Power-Law Mass-Radius Relation}{subsection.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.2}{The Density Radius Relation for RP< 4 R}{section.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.2.1}{A Polynomial Density-Radius Relation}{subsection.3.2}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.2}{A Power-Law Density-Radius Relation}{subsection.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.3}{A Power-Law Fit to Terrestrial Planets \(RP< 1.5 R\)}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Discussion}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Interpretation of the Mass-Radius Relation}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Absence of Correlations to Planet Mass Residuals}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.2.1}{A Weak Correlation between Residual Planet Mass and Stellar Metallicity}{subsection.4.2}% 18
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 19

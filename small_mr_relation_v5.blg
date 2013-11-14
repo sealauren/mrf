@@ -13,45 +13,45 @@ Repeated entry---line 4924 of file exoplanet_papers.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 30 entries,
+You've used 29 entries,
             3010 wiz_defined-function locations,
-            836 strings with 24562 characters,
-and the built_in function-call counts, 23245 in all, are:
-= -- 1145
-> -- 3203
-< -- 3
-+ -- 1058
-- -- 1106
-* -- 2676
-:= -- 4859
-add.period$ -- 30
-call.type$ -- 30
-change.case$ -- 175
-chr.to.int$ -- 30
-cite$ -- 30
-duplicate$ -- 565
-empty$ -- 777
-format.name$ -- 1139
-if$ -- 4152
+            834 strings with 23604 characters,
+and the built_in function-call counts, 22338 in all, are:
+= -- 1118
+> -- 3047
+< -- 2
++ -- 1006
+- -- 1055
+* -- 2564
+:= -- 4656
+add.period$ -- 29
+call.type$ -- 29
+change.case$ -- 169
+chr.to.int$ -- 29
+cite$ -- 29
+duplicate$ -- 549
+empty$ -- 757
+format.name$ -- 1087
+if$ -- 4003
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 28
-newline$ -- 94
-num.names$ -- 120
-pop$ -- 188
+newline$ -- 91
+num.names$ -- 116
+pop$ -- 183
 preamble$ -- 1
-purify$ -- 173
+purify$ -- 168
 quote$ -- 0
-skip$ -- 440
+skip$ -- 430
 stack$ -- 0
-substring$ -- 555
+substring$ -- 545
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 270
+type$ -- 261
 warning$ -- 0
-while$ -- 96
+while$ -- 93
 width$ -- 0
-write$ -- 300
+write$ -- 291
 (There were 2 error messages)
