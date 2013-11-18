@@ -27,20 +27,27 @@
 \altaffiltext{$\dagger$}{\small Supported by the NSF Graduate Student Fellowship, Grant DGE 1106400.}
 
 \begin{abstract}
-We study the masses and radii of 60 exoplanets smaller than 4\rearth.  We find and adopt a power-law relation $\mpl/\mearth = 2.6 \left(\rpl/\rearth\right)^{1.1}$.  The RMS of planet masses to this fit is 3.8 \mearth, and our best fit has reduced $\chi^2=2.2$, indicating a large diversity in planet compositions below 4\rearth.  The exoplanets in our sample have orbital periods between 0 and 100 days.  \citet{WL2013} find $\mpl = 3\rpl$ in 22 pairs of planet candidates exhibiting transit timing variations, of which only 10 planets overlap with our sample.  The linear mass-radius relation translates to a decrease in planet density with increasing radius.  Fitting density vs. radius with a polynomial, we find $\rho = 10.3 -5.0\rpl + 0.7\rpl^2$.  Exoplanets have densities comparable to that of Earth at about 1.5\rearth; exoplanets smaller than 1.5\rearth\ are typically denser than Earth, indicating likely rocky compositions, whereas exoplanets larger than 1.5\rearth\ are typically less dense than Earth, indicating a significant fraction of H/He or water in their compositions.  Including the Solar system, we find a tentative mass-radius relationship for terrestrial planets: $\mpl/\mearth = 1.1 \left(\rpl/\rearth\right)^{3.4}$.
+We study the masses and radii of 60 exoplanets smaller than 4\rearth with orbital periods shorter than 100 days.  We find a power-law relation $\mpl/\mearth = 2.6 \left(\rpl/\rearth\right)^{1.1}$.  The RMS of planet masses to this fit is 3.8 \mearth, and our best fit has reduced $\chi^2=2.2$, indicating a diversity in planet compositions below 4\rearth.  \citet{WL2013} find $\mpl/\mearth = 3\rpl/\rearth$ in 22 pairs of planet candidates exhibiting transit timing variations, of which only 10 planets overlap with our sample.  The nearly linear mass-radius relation translates to a decrease in planet density with increasing radius.  Fitting density vs. radius with a polynomial, we find $\rho = 10.3 -5.0\rpl + 0.7\rpl^2$.  Exoplanets have densities comparable to that of Earth at radii of $\sim1.5\rearth$; exoplanets smaller than 1.5\rearth\ are typically denser than Earth, indicating likely rocky compositions, whereas exoplanets larger than 1.5\rearth\ are typically less dense than Earth, indicating a significant fraction of H/He or water in their compositions.  Including the Solar System terrestrial planets, we find a tentative mass-radius relationship for terrestrial planets: $\mpl/\mearth = 1.1 \left(\rpl/\rearth\right)^{3.4}$.
 \end{abstract}
+
+%%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
 %\subsection{}
 
-The Kepler Mission has found an abundance of planets with  $R < 4\rearth$ \citep{Batalha2013}.  Although there are no planets between the size of Earth and Neptune in the solar system, occurrence calculations that de-bias the orbital geometry and completeness of the Kepler survey find that planets between the size of Earth and Neptune are common in our galaxy, occurring around at least 24\% of stars \citep{Petigura2013a}.  However, in many systems, it is difficult to measure the masses of such small planets because the gravitational acceleration these planets induce on their host stars or neighboring planets is too small to detect with current telescopes and instruments.  Obtaining measurements of the masses of these planets and characterizing their compositions is vital to understanding the formation and evolution of these planets.
+The Kepler Mission has found an abundance of planets with  $R < 4\rearth$ \citep{Batalha2013}.  Although there are no planets between the size of Earth and Neptune in the solar system, occurrence calculations that de-bias the orbital geometry and completeness of the Kepler survey find that planets between the size of Earth and Neptune are common in our galaxy, occurring with orbital periods between 5 and 50 days around 24\% of stars \citep{Petigura2013a}.  However, in many systems, it is difficult to measure the masses of such small planets because the gravitational acceleration these planets induce on their host stars or neighboring planets is too small to detect with current telescopes and instruments.  Obtaining measurements of the masses of these planets and characterizing their compositions is vital to understanding the formation and evolution of these planets.
 
-Many scientists have explored the relation between planet mass and radius in the Solar system and beyond as a means for understanding exoplanet compositions \citep{Lissauer2011, Enoch2012, Kane2012, Seager2007, Weiss2013}.  Figure \ref{fig:mrf} shows the masses and radii of 147 exoplanets from which such relations can be derived.  Below 4\rearth, the large apparent scatter in planet mass impedes accurate predictions of planet mass.  At 2\rearth, planets are observed to span a decade in density, from less dense than water to densities suggesting a solid iron composition.  This scatter could result from a gross underestimate of errors, but is more likely the result of compositional variety among low-mass exoplanets.
+Many authors have explored the relation between planet mass and radius in the Solar system and beyond as a means for understanding exoplanet compositions \citep{Lissauer2011, Enoch2012, Kane2012, Seager2007, Weiss2013}.  Below 4\rearth, the large scatter in planet mass impedes the determination of a precise mass-radius relation.  At 2\rearth, planets are observed to span a decade in density, from less dense than water to densities suggesting a solid iron composition.  This scatter could result from measurement uncertainty or compositional variety among low-mass exoplanets.
 
 In this paper, we investigate mass-radius relationships for planets smaller than 4 Earth radii and explore a tentative mass-radius relationship for terrestrial planets smaller than 1.5 \rearth.  We also investigate how system properties contribute to the scatter in the mass-radius relation by examining how these properties correlate with the residuals of the mass-radius relation.
 
+%%%%%%%%%%%%% Selection %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Selecting Exoplanets with Measured Mass and Radius}
-We choose planets with masses that are (1) well-determined by radial velocities (RVs), (2) well-determined by transit timing variations (TTVs), and (3) marginally determined by RVs.  \citet{Marcy2013} measure the masses of 42 small, transiting planets.  The planets were selected for their small size, and not based on predictions of their masses.  Therefore, these 42 new transiting planets offer an unbiased survey of the masses of small planets.  In this paper, we examine the relation between exoplanet mass and radius for the 40 exoplanets smaller than 4\rearth\ from \citet{Marcy2013}, plus 19 exoplanets smaller than 4\rearth\ from the literature, for a total of 60 exoplanets.  Histograms of the distributions of planet radius, mass, and density are shown in Figure \ref{fig:histograms}, and the individual measurements of planet mass and radius are shown in Figure \ref{fig:rm_4} and listed in Table \ref{tab:mrf}.
+We include all 19 planets smaller than 4\rearth with masses vetted on exoplanets.org, as of October 22, 2013.  Twelve of these planet masses are determined by radial velocities (RVs), but the masses of the four Kepler-11 planets, Kepler-30 b, and the two Kepler-36 planets are determined by transit timing variations (TTVs) \citep{Lissauer2013, Sanchis-Ojeda2012, Carter2012}. We also include all 40 transiting planets with RV follow-up in \citet{Marcy2013} that are smaller than 4\rearth, and one planet (KOI-94 b, R=1.7 \rearth) from\citet{Weiss2013}.  Many of the planet masses reported in \citet{Marcy2013} have less than $2\sigma$ confidence.  55 Cnc e, Corot-7 b, and GJ 1214 b have been studied extensively, and we had to choose from the masses and radii reported in various studies.  For 55 Cnc e, we use $\mpl = 8.38\pm0.39$, $\rpl = 2.21\pm0.15$ \citep{Endl2012}; for Corot-7 b, we use $\mpl =7.42\pm1.21$, $\rpl= 1.58\pm 0.1$ \citep{Hatzes2011}, and for GJ 1214 b, we use $\mpl =6.45\pm0.91 $, $\rpl= 2.65\pm0.09$ \citep{Carter2011}.  Histograms of the distributions of planet radius, mass, and density are shown in Figure \ref{fig:histograms}, and the individual measurements of planet mass and radius are listed in Table \ref{tab:mrf}.
+
+The only selection criterion was that the exoplanets have $\rpl < 4 \rearth$ and either a mass determination, a marginal mass determination, or a mass upper limit.  There were no limits on stellar type, orbital period, or other system properties.  The exoplanets all have $P < 100$ days.  This is partly because the transit probability is very low for planets at long orbital periods, and partly because short-period planets are often favored for mass follow-up (especially RV follow-up).
+
 
 %% The values (usually only l,r and c) in the last part of
 %% \begin{deluxetable}{} command tell LaTeX how many columns
@@ -74,7 +81,7 @@ We choose planets with masses that are (1) well-determined by radial velocities 
 %% extra information be sure to include a \colhead{text} command
 %% and remember to end any extra lines with \\ and include the 
 %% correct number of &s.
-\tablehead{\colhead{Name} & \colhead{Per} & \colhead{Mass$^a$} & \colhead{Radius} & \colhead{Flux} & \colhead{First Ref.} & \colhead{Mass Ref.} \\ 
+\tablehead{\colhead{Name} & \colhead{Per} & \colhead{Mass$^a$} & \colhead{Radius} & \colhead{Flux} & \colhead{First Ref.} & \colhead{Mass, Radius Ref.} \\ 
 \colhead{} & \colhead{(d)} & \colhead{($\mearth$)} & \colhead{($\rearth$)} & \colhead{($\fearth$)} & \colhead{} & \colhead{} } 
 
 %% All data must appear between the \startdata and \enddata commands
@@ -155,10 +162,10 @@ We choose planets with masses that are (1) well-determined by radial velocities 
 
 \end{deluxetable*}
 
-\subsection{Including Mass Non-Detections for Statistical Soundness}
-For small exoplanets, uncertainties in the mass measurements for individual planets can be of order the planet mass.  Although one might advocate for only studying planets with well-determined ($>3\sigma$) masses, imposing a significance criterion will bias the sample toward more massive planets at a given radius.  This is especially true for small planets, for which the planet-induced RV signal ($\sim1\ms$) can be small compared to the noise from stellar activity ($\sim5\ms$).  We must include the mass non-detections in order to consider a statistically unbiased sample of planet masses.  
+\subsection{Inclusion of Mass Non-Detections}
+For small exoplanets, uncertainties in the mass measurements for individual planets can be of order the planet mass.  Although one might advocate for only studying planets with well-determined ($>3\sigma$) masses, imposing a significance criterion will bias the sample toward more massive planets at a given radius.  This bias is especially pernicious for small planets, for which the planet-induced RV signal can be small ($\sim1\ms$) compared to the noise from stellar activity ($\sim2\ms$) and Poisson photon noise ($\sim2\ms$).  We must include the marginal mass detections and non-detections in order to minimize bias in planet masses at a given radius.  
 
-Although there is no physical reason that the stellar activity should phase with the orbit of a planet, random statistical fluctuations in tens of RVs can produce RVs that are high when they should be high, and low when they should be low, or the converse (RVs that are low when they should be high, and high when they should be low).  Because RVs from stellar activity that phase with the expected planet signal will result in an over-estimate of planet mass, we must also include the RVs that are anti-phased with the expected planet signal.  When \citet{Marcy2013} phase the RV measurements to the transit-determined planet ephemeris, they allow  a negative semi-amplitude in the Keplerian fit to the RVs that results in a ``negative" planet mass determination.  Classically, these planets are considered non-detections, but we include them in the mass-radius relation to avoid statistical bias toward large planet masses at a given radius.  Since there is no bias toward large or small planet masses in our sample, we can take the weighted mean mass of planets of a given radius and get a value representative of the planet population.
+\citet{Marcy2013} fix the orbital period and orbital phase of the planets at the transit ephemeris, allowing only the RV semi-amplitude induced by the planets to vary.  Neither the stellar activity nor the Poisson photon noise is expected to phase with the orbit of a small planet.  However, if the semi-amplitude of the planet-induced RV signal is small, random fluctuations due to the stellar activity and photon noise in tens of RVs can produce RVs that are low when they should be high, and high when they should be low.  The converse can also occur: the RVs can be high when they should be high, and low when they should be low, as the result of random noise rather than a planet-induced motion of the star.  Random noise in the RVs that phase with the expected planet signal will result in an over-estimate of planet mass.  To minimize this bias from noise, we must include the RVs that, due to random noise, are anti-phased with the expected planet signal.  When \citet{Marcy2013} phase the RV measurements to the transit-determined planet ephemeris, they allow  a negative semi-amplitude in the Keplerian fit to the RVs.  A negative semi-amplitude results in a ``negative" planet mass determination.  Classically, these planets are considered non-detections.  We include them in the mass-radius relation to avoid statistical bias toward large planet masses at a given radius.  Therefore, we can take the weighted mean mass of planets within a bin of radii, yielding a representative mass that accounts for the low-mass non-detections as well as the high-mass detections in that bin.
 
 \subsection{Inclusion of TTV-discovered planets}
 Planets discovered by the TTVs they induce on neighboring planets are shown in Figure \ref{fig:rm_4} as orange points.  They are systematically less massive than the RV-discovered planets of the same radii.  Considering our care to include RV non-detections (i.e. low masses) at all radii in this sample, we cannot attribute this systematic difference between the TTV and RV masses to a bias in the RVs.  Either the TTVs are systematically underestimating planet masses (possibly because other planets in the system damp the TTVs), or compact systems amenable to detection through TTVs have lower-density planets than non-compact systems.  Detailed comparisons of RV versus TTV masses in a variety of systems will distinguish between these possibilities.
@@ -166,6 +173,7 @@ Planets discovered by the TTVs they induce on neighboring planets are shown in F
 \subsection{Adopted Errors}
 We impose a floor of 10\% in the planet mass uncertainty, and 5\% in the planet radius uncertainty, to compensate in cases where errors might have been underestimated.  This is in part because stellar masses and radii, which contribute to the uncertainties in planet masses and radii, are typically known to 10\% and 5\%, respectively.  Also, a conservative estimate of the errors  allows us to ascertain whether the scatter about the mass-radius relationship is due to compositional variation among the exoplanets.
 
+%%%%%%%%%%%%% Results %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{The Mass-Radius Relation for 60 Small Exoplanets}
 On average, exoplanet mass increases with increasing radius, indicating an underlying correlation in the individual exoplanet masses and radii.  In Figure \ref{fig:rm_4}, we show the weighted mean exoplanet mass in bins of width 0.5 \rearth\ to highlight the correlation between planet mass and radius.  
@@ -256,6 +264,7 @@ $^{b}\rpl < 1.5 \rearth$ & $\frac{\mpl}{\mearth} = 1.1\left(\frac{\rpl}{\rearth}
 
 \end{deluxetable*}
 
+%%%%%%%%%%%%% Discussion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \section{Discussion}
@@ -279,6 +288,8 @@ The stellar metallicities of the stars in our sample are determined by spectrosc
 
 \citet{Buchhave2012} note that planets smaller than 4\rearth\ form around stars with a large range of metallicities.  Their study includes 226 Kepler exoplanet candidates smaller than 4\rearth, for which they obtained spectroscopic measurements of [m/H] in the host stars.  Our work uses [Fe/H] as a metallicity indicator, and we are only considering validated exoplanets.  Although \citet{Buchhave2012} find no relation between exoplanet occurrence and host star metallicity for $\rpl < 4\rearth$, they do not comment on the relation between exoplanet size and host star metallicity for small planets.  Therefore, a correlation between residual planet mass and stellar metallicity for $\rpl < 4\rearth$ would not contradict their result.
 
+%%%%%%%%%%%%% Conclusions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Conclusions}
 For exoplanets with $\rpl < \rspecial$ and $P < 100$ days, planet radius correlates with planet mass with approximately linear scaling, indicating that larger planets have substantially more volatiles than smaller planets.  Uranus and Neptune are more massive than the exoplanets of their size in this sample, and they are also at much larger orbital distances than any of the exoplanets in our sample.  A study of exoplanets of 3-4 \rearth\ with orbital periods of dozens of years would better contextualize the mass and radius of Uranus and Neptune.
 
@@ -286,18 +297,13 @@ For exoplanets with $\rpl < \rspecial$ and $P < 100$ days, planet radius correla
 
 Planets satisfying $\rpl < 1.5 \rearth$ typically have higher densities than Earth, and therefore are likely terrestrial.  A power law of $\mpl/\mearth = 1.1 \left(\rpl/\rearth\right)^{3.4}$ describes these planets marginally better than the linear scaling that describes sub-Neptunian exoplanets.  However, including the Solar system planets and the theoretical consideration that rocky planets should increase in density as they grow due to compression both favor the higher power law index.  More mass measurements of planets like Kepler-78 b and Kepler-10 b are necessary to elucidate an empirical mass-radius relationship for terrestrial planets.
 
+%%%%%%%%%%%%% Figures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
-   \centering
-   \includegraphics[width=6in]{mrf.png} 
-   \caption{\small \textbf{Left:} Radius vs. mass for 247 exoplanets with measured masses and radii.  Below $150 \mearth$, planet radius increases with planet mass; above $150 \mearth$, planet radius slightly decreases with planet mass.  The solar system planets are shown as black triangles for comparison.  Planets receiving lower than the median incident flux in this sample (462 times the incident flux at Earth) are blue; those receiving higher than the median incident flux are red.    For giant planets (above about $150 \mearth$), planet radius increases with increasing incident flux, whereas for the smaller planets, the relation between radius and incident flux is uncertain.  \textbf{Right:} Density vs. mass for 243 exoplanets with measured masses and radii.  The break at $150 \mearth$ separates the low-mass planets, for which density decreases with increasing mass, from the high-mass planets, for which density increases with increasing mass.  The flux coloration is the same as the left figure.}
-\label{fig:mrf}
-\end{figure*}
 
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=6in]{histograms.png} 
-   \caption{\small Histograms of exoplanet radii, masses, and densities for 60 exoplanets smaller then 4 Earth radii.}
+   \caption{\small Histograms of exoplanet radii, masses, and densities for the 60 exoplanets smaller then 4 Earth radii with measured masses or mass upper-limits.}
 \label{fig:histograms}
 \end{figure*}
 
@@ -316,7 +322,7 @@ Planets satisfying $\rpl < 1.5 \rearth$ typically have higher densities than Ear
    \label{fig:resids}
 \end{figure*}
 
-%%%%%%%%%%%%% Discussion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% Bibliograpy %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 
 \bibliography{exoplanet_papers}{}
