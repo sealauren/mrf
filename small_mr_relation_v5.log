@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  19 NOV 2013 21:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  20 NOV 2013 14:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -520,9 +520,6 @@ Overfull \hbox (52.95291pt too wide) in paragraph at lines 55--165
 [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
 
-LaTeX Warning: Reference `rm_4' on page 3 undefined on input line 178.
-
-
 LaTeX Warning: Reference `rm_4' on page 3 undefined on input line 184.
 
 
@@ -640,7 +637,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
                    \relax 
 l.243 \begin{deluxetable*}{llcc}
                                  [4] [5]
-<histograms.png, id=507, 867.24pt x 433.62pt>
+<histograms.png, id=514, 867.24pt x 433.62pt>
 File: histograms.png Graphic file (type png)
  <use histograms.png>
 Package pdftex.def Info: histograms.png used on input line 313.
@@ -655,7 +652,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 314--314
 
  []
 
-<mr_small.png, id=509, 867.24pt x 433.62pt>
+<mr_small.png, id=516, 867.24pt x 433.62pt>
 File: mr_small.png Graphic file (type png)
  <use mr_small.png>
 Package pdftex.def Info: mr_small.png used on input line 320.
@@ -671,7 +668,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--321
 
  []
 
-<mr_resids.png, id=515, 867.24pt x 867.24pt>
+<mr_resids.png, id=522, 867.24pt x 867.24pt>
 File: mr_resids.png Graphic file (type png)
  <use mr_resids.png>
 Package pdftex.def Info: mr_resids.png used on input line 328.
@@ -707,10 +704,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8541 strings out of 493633
- 120162 string characters out of 3143378
- 293771 words of memory out of 3000000
- 11638 multiletter control sequences out of 15000+200000
+ 8542 strings out of 493633
+ 120172 string characters out of 3143378
+ 294829 words of memory out of 3000000
+ 11639 multiletter control sequences out of 15000+200000
  13190 words of font info for 54 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  42i,12n,31p,2421b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -741,10 +738,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2011/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on small_mr_relation_v5.pdf (9 pages, 572041 bytes).
+Output written on small_mr_relation_v5.pdf (9 pages, 572521 bytes).
 PDF statistics:
- 643 PDF objects out of 1000 (max. 8388607)
- 593 compressed objects within 6 object streams
+ 650 PDF objects out of 1000 (max. 8388607)
+ 600 compressed objects within 6 object streams
  74 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
