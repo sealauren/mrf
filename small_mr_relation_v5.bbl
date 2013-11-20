@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{32}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Batalha} {et~al.}(2011){Batalha}, {Borucki}, {Bryson}, {Buchhave},
@@ -79,11 +79,16 @@
   \& {Batalha}}]{Cochran2011}
 {Cochran}, W.~D., {Fabrycky}, D.~C., {Torres}, G., {et~al.} 2011, \apjs, 197, 7
 
-\bibitem[{{Dragomir} {et~al.}(2013){Dragomir}, {Matthews}, {Eastman},
-  {Cameron}, {Howard}, {Guenther}, {Kuschnig}, {Moffat}, {Rowe}, {Rucinski},
-  {Sasselov}, \& {Weiss}}]{Dragomir2013}
-{Dragomir}, D., {Matthews}, J.~M., {Eastman}, J.~D., {et~al.} 2013, \apjl, 772,
-  L2
+\bibitem[{{Dragomir} {et~al.}(2013{\natexlab{a}}){Dragomir}, {Matthews},
+  {Winn}, {Rowe}, \& {MOST Science Team}}]{Dragomir2013b}
+{Dragomir}, D., {Matthews}, J.~M., {Winn}, J.~N., {Rowe}, J.~F., \& {MOST
+  Science Team}. 2013{\natexlab{a}}, ArXiv e-prints
+
+\bibitem[{{Dragomir} {et~al.}(2013{\natexlab{b}}){Dragomir}, {Matthews},
+  {Eastman}, {Cameron}, {Howard}, {Guenther}, {Kuschnig}, {Moffat}, {Rowe},
+  {Rucinski}, {Sasselov}, \& {Weiss}}]{Dragomir2013}
+{Dragomir}, D., {Matthews}, J.~M., {Eastman}, J.~D., {et~al.}
+  2013{\natexlab{b}}, \apjl, 772, L2
 
 \bibitem[{{Endl} {et~al.}(2012){Endl}, {Robertson}, {Cochran}, {MacQueen},
   {Brugamyer}, {Caldwell}, {Wittenmyer}, {Barnes}, \& {Gullikson}}]{Endl2012}
@@ -177,6 +182,9 @@ Howard, A.~W., Johnson, J.~A., Marcy, G.~W., {et~al.} 2011, The Astrophysical
 {Lissauer}, J.~J., {Jontof-Hutter}, D., {Rowe}, J.~F., {et~al.} 2013, \apj,
   770, 131
 
+\bibitem[{{Lopez} {et~al.}(2012){Lopez}, {Fortney}, \& {Miller}}]{Lopez2012}
+{Lopez}, E.~D., {Fortney}, J.~J., \& {Miller}, N.~K. 2012, ArXiv e-prints
+
 \bibitem[{{Marcy} {et~al.}(2013){Marcy}, {Isaacson}, \& {Rowe}}]{Marcy2013}
 {Marcy}, G.~W., {Isaacson}, H., \& {Rowe}, J.~F. 2013, in prep.
 
@@ -214,6 +222,10 @@ Howard, A.~W., Johnson, J.~A., Marcy, G.~W., {et~al.} 2011, The Astrophysical
   {Militzer}}]{Seager2007}
 {Seager}, S., {Kuchner}, M., {Hier-Majumder}, C.~A., \& {Militzer}, B. 2007,
   \apj, 669, 1279
+
+\bibitem[{{Torres} {et~al.}(2012){Torres}, {Fischer}, {Sozzetti}, {Buchhave},
+  {Winn}, {Holman}, \& {Carter}}]{Torres2012}
+{Torres}, G., {Fischer}, D.~A., {Sozzetti}, A., {et~al.} 2012, \apj, 757, 161
 
 \bibitem[{{Weiss} {et~al.}(2013){Weiss}, {Marcy}, {Rowe}, {Howard}, {Isaacson},
   {Fortney}, {Miller}, {Demory}, {Fischer}, {Adams}, {Dupree}, {Howell},
