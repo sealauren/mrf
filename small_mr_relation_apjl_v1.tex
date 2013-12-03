@@ -137,8 +137,10 @@ The only selection criterion was that the exoplanets have $\rpl < 4 \rearth$ and
 
 %% All data must appear between the \startdata and \enddata commands
 \startdata
-           $^b$55 Cnc e &      0.737 &       8.38$\pm$0.39       &       1.990$\pm$0.084       &   2439.690 &                     \citet{McArthur2004} &               \citet{Endl2012,Dragomir2013b}\\ 
-           CoRoT-7 b &      0.854 &       7.42$\pm$1.21       &       1.58$\pm$0.1       &   1779.433 &             \citet{Queloz2009,Leger2009} &                       \citet{Hatzes2011}\\ 
+           $^b$55 Cnc e &      0.737 &       8.38$\pm$0.39       &       1.990$\pm$0.084       &   2439.690 &                     \citet{McArthur2004} &               \citet{Endl2012},\\ 
+           & & & & & & \citet{Dragomir2013b} \\
+           CoRoT-7 b &      0.854 &       7.42$\pm$1.21       &       1.58$\pm$0.1       &   1779.433 &             \citet{Queloz2009}, &                       \citet{Hatzes2011}\\ 
+            & & & & & \citet{Leger2009} & \\
            GJ 1214 b &      1.580 &       6.45$\pm$0.91       &       2.65$\pm$0.09       &     16.631 &                  \citet{Charbonneau2009} &                       \citet{Carter2011}\\ 
           HD 97658 b &      9.491 &       7.87$\pm$0.73       &       2.34$\pm$0.16       &     48.106 &                       \citet{Howard2011} &                     \citet{Dragomir2013}\\ 
          Kepler-10 b &      0.837 &       4.60$\pm$1.26       &       1.46$\pm$0.02       &   3675 &                      \citet{Batalha2011} &                      \citet{Batalha2011}\\ 
@@ -354,14 +356,14 @@ We recommend the following mass-radius relations for predictive purposes:  $$\mp
 
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=6in]{histograms.png} 
+   \includegraphics[width=6in]{histograms.eps} 
    \caption{\small Histograms of exoplanet radii, masses, and densities for the 60 exoplanets smaller then 4 Earth radii with measured masses or mass upper-limits.  Some mass and density outliers were excluded from these plots, but are included in Table 1 and the fits.}
 \label{fig:histograms}
 \end{figure*}
 
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-    \includegraphics[width=6in]{mr_small.png} 
+    \includegraphics[width=6in]{mr_small.eps} 
    \caption{\small \textbf{Left:} Mass vs. radius for 60 exoplanets and 1$\sigma$ error bars.  Gray points  have RV-determined masses; orange points have TTV-determined masses.  The dashed lines correspond to the various empirical fits between planet mass and radius; see equations \ref{eqn:mr_plaw}, \ref{eqn:mr_linear}, and \ref{eqn:mr_rocky}.  The blue points are the weighted mean exoplanet mass in bins of $0.5 \rearth$, with error bars representing the uncertainty in the means.  The weighted means are to guide the eye only; they were not used in calculating the fits.  The magenta letters indicate solar system planets, which were used only in the cyan fit (equation \ref{eqn:mr_rocky}).  \textbf{Right:} Density vs. radius for 60 exoplanets and $1\sigma$ error bars.  Gray points  have RV-determined masses; orange points have TTV-determined masses.  Note that no exoplanets smaller than $1\rearth$ have densities determined to better than 6.5 \gcc.  The blue points are the weighted mean densities in bins of $0.5 \rearth$; these points are to guide the eye only and were not used in any of the fits.  The \citet{Seager2007} density-radius solution for Earth's composition (67.5\% Fe, 32.5\% MgSiO$_3$) is shown as the solid green line.  The dashed line corresponds to the polynomial empirical fit between planet density and radius; see equation \ref{eqn:dr_poly}.  Planets larger than 1.5 \rearth are less dense than Earth and much less dense than an Earth composition at that radius, indicating that planets satisfying $\rpl > 1.5 \rearth$ probably contain a significant fraction of volatiles by volume.  Some mass and density outliers were excluded from these plots, but are included in the fits.}
    \label{fig:rm_4}
 \end{figure*}
@@ -369,7 +371,7 @@ We recommend the following mass-radius relations for predictive purposes:  $$\mp
 
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-    \includegraphics[width=6in]{mr_resids.png} 
+    \includegraphics[width=6in]{mr_resids.eps} 
    \caption{\small Mass residuals (measured minus the mass predicted from equation \ref{eqn:mr_plaw}) versus (top left to bottom right): planet orbital period, planet semi-major axis, incident flux from the star on the planet, stellar mass, stellar radius, log surface gravity, log iron fraction (compared to solar), stellar age, and stellar velocity times the sine of the projected stellar inclination. Error bars are 1$\sigma$ uncertainties in mass measurements, and the orange points are residuals of the TTV-determined masses.  None of the residuals show a significant correlation.}
    \label{fig:resids}
 \end{figure*}
