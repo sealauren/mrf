@@ -1,0 +1,792 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  1 NOV 2013 05:52
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**small_mr_relation_v4.tex
+(./small_mr_relation_v4.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/emulateapj/emulateapj.cls
+Document Class: emulateapj 
+\bibbaselineskip=\skip41
+(/usr/local/texlive/2011/texmf-dist/tex/latex/revtex/revtex4-1.cls
+Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
+ex4/ for documentation)
+ Copyright (c) 2009 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip42
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
+\c@affil=\count81
+\c@collab=\count82
+\absbox=\box27
+ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count83
+\output@latex=\toks14
+\box@size@1=\box28
+\box@size@2=\box29
+\@protection@box=\box30
+\@topmark@saved=\toks15
+\footins@saved=\box31
+\footins@recovered=\box32
+\column@recovered=\box33
+\pagesofar=\box34
+\footsofar=\box35
+\pagegrid@col=\count84
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5578.
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\abovecaptionskip=\skip43
+\belowcaptionskip=\skip44
+\c@figure=\count91
+\fbox@1=\box36
+\c@table=\count92
+\fbox@2=\box37
+\c@video=\count93
+\fbox@4=\box38
+\@bibdataout=\write3
+\widetext@top=\box39
+\widetext@bot=\box40
+
+Class revtex4-1 Warning: No Society specified, using default society aps.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/revtex/aps4-1.rtx
+File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
+mentation)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+
+Class revtex4-1 Warning: No journal specified, using default pra.
+
+Class revtex4-1 Info: APS journal PRA selected on input line 7545.
+
+Class revtex4-1 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+documentation)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
+or documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+LaTeX Info: Redefining \frak on input line 99.
+LaTeX Info: Redefining \Bbb on input line 101.
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip47
+\LTright=\skip48
+\LTpre=\skip49
+\LTpost=\skip50
+\LTchunksize=\count96
+\LTcapwidth=\dimen104
+\LT@head=\box41
+\LT@firsthead=\box42
+\LT@foot=\box43
+\LT@lastfoot=\box44
+\LT@cols=\count97
+\LT@rows=\count98
+\c@LT@tables=\count99
+\c@LT@chunks=\count100
+\LT@p@ftn=\toks18
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen105
+\epsfframethickness=\dimen106
+\epsfrsize=\dimen107
+\epsftmp=\dimen108
+\epsftsize=\dimen109
+\epsfxsize=\dimen110
+\epsfysize=\dimen111
+\pspoints=\dimen112
+)
+\c@front@matter@foot@note=\count101
+\alt@affil@toks=\toks19
+\alt@affil@toks@count=\toks20
+\keys@width=\skip51
+\c@lastfootnote=\count102
+\c@remember@figure@num=\count103
+\c@remember@table@num=\count104
+\bibindent=\dimen113
+\plot@width=\skip52
+\c@table@save=\count105
+\table@note@skip=\skip53
+\deluxe@table@width=\skip54
+\@d@t@a=\skip55
+\c@deluxe@table@num=\count106
+\abovedeluxetableskip=\skip56
+\belowdeluxetableskip=\skip57
+\lastrowheight=\dimen114
+\DT@p@ftn=\toks21
+\pt@column=\count107
+\pt@ncol=\count108
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks22
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+./small_mr_relation_v4.tex:12: Undefined control sequence.
+<argument> \collaboration@sw 
+                             {\advance \c@collab \@ne \@argswap {\CO@grp \CO...
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+./small_mr_relation_v4.tex:12: Argument of \@argswap has an extra }.
+<inserted text> 
+                \par 
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+Runaway argument?
+./small_mr_relation_v4.tex:12: Paragraph ended before \@argswap was complete.
+<to be read again> 
+                   \par 
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+./small_mr_relation_v4.tex:12: Argument of \@argswap has an extra }.
+<inserted text> 
+                \par 
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+Runaway argument?
+./small_mr_relation_v4.tex:12: Paragraph ended before \@argswap was complete.
+<to be read again> 
+                   \par 
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+./small_mr_relation_v4.tex:12: Argument of \add@AUCO@grp has an extra }.
+<inserted text> 
+                \par 
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+Runaway argument?
+./small_mr_relation_v4.tex:12: Paragraph ended before \add@AUCO@grp was complet
+e.
+<to be read again> 
+                   \par 
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+./small_mr_relation_v4.tex:12: Undefined control sequence.
+<argument> ...\@argswap@val \expandafter {\@affil 
+                                                  }{\add@list@val@val@val \@...
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+./small_mr_relation_v4.tex:12: Undefined control sequence.
+<argument> \AU@grp 
+                   
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+./small_mr_relation_v4.tex:12: Undefined control sequence.
+<argument> ... \CO@opr \@author@gobble \@AFG@list 
+                                                  \temp@sw {}{\appdef \@AFG@...
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+./small_mr_relation_v4.tex:12: Undefined control sequence.
+<argument> \CO@grp 
+                   
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+./small_mr_relation_v4.tex:12: Undefined control sequence.
+<argument> \CO@grp 
+                   
+l.12 \author{L. M. Weiss \& G. W. Marcy}
+                                        
+? 
+(/Users/lweiss/Dropbox/research/physical_quantities.tex)
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 24.
+Class revtex4-1 Info: Patching longtable package on input line 24.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 24.
+
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 24.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 24.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 24.
+
+(./small_mr_relation_v4.aux)
+\openout1 = `small_mr_relation_v4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen123
+\scratchbox=\box45
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen124
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks24
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=1.44614pt
+* \topmargin=-23.84767pt
+* \headheight=10.84006pt
+* \headsep=36.135pt
+* \topskip=10.56pt
+* \footskip=30.0pt
+* \marginparwidth=107.0pt
+* \marginparsep=6.0pt
+* \columnsep=22.58437pt
+* \skip\footins=12.80373pt plus 2.84526pt minus 2.84526pt
+* \hoffset=-21.33955pt
+* \voffset=-56.9055pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\openout3 = `small_mr_relation_v4Notes.bib'.
+
+LaTeX Font Info:    Try loading font information for U+lasy on input line 25.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+
+Class revtex4-1 Warning: No title.
+
+[1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \vbox (10.5297pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (10.5297pt too high) has occurred while \output is active []
+
+
+[2] [3]
+Underfull \hbox (badness 1509) in paragraph at lines 73--74
+[]\OT1/cmr/m/n/10 Previous work, in-clud-ing Lis-sauer et al.
+ []
+
+[4]
+
+./small_mr_relation_v4.tex:84: LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \begin{comment}
+                    
+? 
+
+Package natbib Warning: Citation `Lopez2012' on page 5 undefined on input line 
+86.
+
+
+LaTeX Warning: Reference `fig:flux_radius' on page 5 undefined on input line 86
+.
+
+
+LaTeX Warning: Reference `fig:m_fe' on page 5 undefined on input line 91.
+
+
+./small_mr_relation_v4.tex:94: LaTeX Error: \begin{document} ended by \end{comm
+ent}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 \end{comment}
+                  
+? 
+[5]
+Overfull \hbox (41.27995pt too wide) in alignment at lines 143--143
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (41.27995pt too wide) in alignment at lines 143--143
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (41.27995pt too wide) in alignment at lines 143--143
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (41.27995pt too wide) in alignment at lines 143--146
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (41.27995pt too wide) in alignment at lines 146--146
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (41.27995pt too wide) in alignment at lines 146--146
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (307.31543pt too wide) in alignment at lines 146--167
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (307.31543pt too wide) in alignment at lines 167--187
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (309.55435pt too wide) in alignment at lines 187--206
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (309.55435pt too wide) in alignment at lines 206--216
+ [] [] [] [] [] [] [] 
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 0 on input line 216.
+
+
+LaTeX Warning: Float too large for page by 21.48386pt on input line 216.
+
+<mrf.png, id=29, 867.24pt x 433.62pt>
+File: mrf.png Graphic file (type png)
+ <use mrf.png>
+Package pdftex.def Info: mrf.png used on input line 221.
+(pdftex.def)             Requested size: 433.62pt x 216.80946pt.
+
+Overfull \hbox (229.90987pt too wide) in paragraph at lines 221--222
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+
+ []
+
+[6]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 225.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[7] <mr_small.png, id=44, 867.24pt x 433.62pt>
+File: mr_small.png Graphic file (type png)
+ <use mr_small.png>
+Package pdftex.def Info: mr_small.png used on input line 228.
+(pdftex.def)             Requested size: 433.62pt x 216.80946pt.
+
+Overfull \hbox (229.90987pt too wide) in paragraph at lines 228--229
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+
+ []
+
+<mr_small_1sig.png, id=45, 867.24pt x 433.62pt>
+File: mr_small_1sig.png Graphic file (type png)
+ <use mr_small_1sig.png>
+Package pdftex.def Info: mr_small_1sig.png used on input line 235.
+(pdftex.def)             Requested size: 433.62pt x 216.80946pt.
+
+Overfull \hbox (229.90987pt too wide) in paragraph at lines 235--236
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
+
+ []
+
+
+./small_mr_relation_v4.tex:240: LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 \begin{comment}
+                     
+? 
+Package epstopdf Info: Source file: <flux_dependence.eps>
+(epstopdf)                    date: 2013-09-17 22:18:59
+(epstopdf)                    size: 121535 bytes
+(epstopdf)             Output file: <flux_dependence-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-09-17 22:21:30
+(epstopdf)                    size: 71049 bytes
+(epstopdf)             Command: <epstopdf --outfile=flux_dependence-eps-convert
+ed-to.pdf flux_dependence.eps>
+(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Output file is already uptodate.
+<flux_dependence-eps-converted-to.pdf, id=46, 433.62pt x 289.08pt>
+File: flux_dependence-eps-converted-to.pdf Graphic file (type pdf)
+
+<use flux_dependence-eps-converted-to.pdf>
+Package pdftex.def Info: flux_dependence-eps-converted-to.pdf used on input lin
+e 243.
+(pdftex.def)             Requested size: 433.62pt x 289.09251pt.
+
+Overfull \hbox (229.90987pt too wide) in paragraph at lines 243--244
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+
+ []
+
+<m_fe.png, id=47, 722.7pt x 289.08pt>
+File: m_fe.png Graphic file (type png)
+ <use m_fe.png>
+Package pdftex.def Info: m_fe.png used on input line 251.
+(pdftex.def)             Requested size: 433.62pt x 173.44933pt.
+
+Overfull \hbox (229.90987pt too wide) in paragraph at lines 251--252
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+
+ []
+
+
+./small_mr_relation_v4.tex:254: LaTeX Error: \begin{document} ended by \end{com
+ment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 \end{comment}
+                   
+? 
+<mr_resids.png, id=48, 1011.78pt x 1011.78pt>
+File: mr_resids.png Graphic file (type png)
+ <use mr_resids.png>
+Package pdftex.def Info: mr_resids.png used on input line 258.
+(pdftex.def)             Requested size: 433.62pt x 433.62114pt.
+
+Overfull \hbox (229.90987pt too wide) in paragraph at lines 258--259
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+
+ []
+
+[8 <./mrf.png> <./mr_small.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 265.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[9 <./mr_small_1sig.png> <./flux_dependence-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 265.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[10 <./m_fe.png> <./mr_resids.png>] (./small_mr_relation_v4.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+[11] (./small_mr_relation_v4.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4914 strings out of 493633
+ 66708 string characters out of 3143378
+ 191115 words of memory out of 3000000
+ 8127 multiletter control sequences out of 15000+200000
+ 13190 words of font info for 54 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 42i,11n,26p,1904b,493s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loca
+l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2011/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on small_mr_relation_v4.pdf (11 pages, 1325161 bytes).
+PDF statistics:
+ 141 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
