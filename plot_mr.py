@@ -314,14 +314,15 @@ def mr_bootstrap(ntrial=100):
 
 # calculated predict masses, densities
 #rpred = (sp.m - best_pars[0])/best_pars[1]
-mpred = powerlaw(mpars,sp_vol.r)
+vol_mpred = powerlaw(mpars,sp_vol.r)
 #dpred = mpred*mearth/(4./3.*(rpred*rearth)**3.)
 #r_resid = sp.r - rpred
-m_resid = sp_vol.m - mpred
+vol_m_resid = sp_vol.m - vol_mpred
 #d_resid = sp.rho - dpred
-rms = np.sqrt(np.mean(m_resid**2))
-print rms
-sp_vol['m_resid'] = m_resid
+sp_vol['m_resid'] = vol_m_resid
+rocky_mpred = powerlaw(rocky_pars,sp_rocky.r)
+rocky_m_resid = sp_rocky.m - rocky_mpred
+sp_rocky['m_resid'] = rocky_m_resid
 
 # <codecell>
 
@@ -407,24 +408,23 @@ def plot_mr():
 
 # <codecell>
 
-#%matplotlib osx
-fig = plt.figure(figsize=(8,8));
-ax = fig.add_subplot(111,xscale='log');
-rho_resid = sp.rho - rho_pred
-#notnan = numpy.logical_not(numpy.isnan(sp.flux))
-ax.errorbar(sp_clean.flux, sp_clean.rho, 
+def plot_flux_density():
+    fig = plt.figure(figsize=(8,8));
+    ax = fig.add_subplot(111,xscale='log');
+    rho_resid = sp.rho - rho_pred
+    #notnan = numpy.logical_not(numpy.isnan(sp.flux))
+    ax.errorbar(sp_clean.flux, sp_clean.rho, 
             xerr=sp_clean.uflux, yerr=sp_clean.urho, 
             fmt='o', alpha = 0.5, capsize=0);
-ax.set_xlabel('Flux (Earth flux)', fontsize=18);
-ax.set_ylabel('Planet Density (g/cc)', fontsize=18);
-plt.axis([0,4000,-5,15])
-fig.show();
-pearsonr(sp_clean.flux, sp_clean.rho)  
-
-
+    ax.set_xlabel('Flux (Earth flux)', fontsize=18);
+    ax.set_ylabel('Planet Density (g/cc)', fontsize=18);
+    plt.axis([0,4000,-5,15])
+    fig.show();
 
 #plot residuals
-def plot_residuals():
+sp_conglom = sp_conglom = sp_rocky.append(sp_vol)
+def plot_residuals(sp=sp_conglom):
+    '''Plot M-R residuals vs. other physical parameters'''
     fig = plt.figure(figsize=(14,14));
     xarr = [sp.per, sp.a, sp.flux, sp.mstar, sp.rstar, sp.logg, sp.fe, sp.age, sp.vsini]
     xarr_err = [None, sp.ua, sp.uflux, sp.umstar, sp.urstar, 
@@ -473,4 +473,4 @@ def test_fe_correlation():
     print "r = ",fe_r[0], "p =",1-fe_r[1]
     print "Prob. Fe and resid correlation is real:",(1.-fe_r[1])**9.
 
-plot_mr()
+plot_residuals()
