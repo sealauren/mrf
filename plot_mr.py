@@ -207,7 +207,7 @@ rocky_plaw = leastsq(errfunc_plaw,  [1.,3.],
               args=(sp_rocky.r, sp_rocky.m, sp_rocky.um),full_output=1)
 rocky_pars = rocky_plaw[0]
 rocky_pars_no_ss = rocky_plaw_no_ss[0]
-rocky_r = np.arange(0.01,1.5,0.01)
+rocky_r = np.arange(0.01,1.51,0.01)
 rockplaw = powerlaw(rocky_pars,rocky_r)
 print "********************************"
 print "Rocky Mass Power Law Solution:"
@@ -472,5 +472,6 @@ def test_fe_correlation():
     pearsonr(sp[notnan].fe, m_resid[notnan])
     print "r = ",fe_r[0], "p =",1-fe_r[1]
     print "Prob. Fe and resid correlation is real:",(1.-fe_r[1])**9.
-
+plot_histograms()
+plot_mr()
 plot_residuals()

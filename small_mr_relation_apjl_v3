@@ -71,7 +71,7 @@
 \submitted{Submitted to ApJ Letters on 3 December, 2013.} 
 
 \begin{abstract}
-We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  We find a nearly linear mass-radius relation: $\mpl/\mearth = 3.24 \left(\rpl/\rearth\right)^{0.80}$, which is a shallower power-law index than in many previous mass-radius relations.  The RMS of planet masses to this fit is 3.9 \mearth, and our best fit has reduced $\chi^2=3.5$, indicating a diversity in planet compositions below 4\rearth.  Fitting density vs. radius with a polynomial, we find $\rho = 12.98 -7.10(\rpl/\rearth) + 1.04(\rpl/\rearth)^2$.  The mass-radius and mass-density relations reflect that planet density decreases as radius increases, indicating that larger exoplanets have a significant fraction of volatiles by volume (such as H/He envelopes).  Exoplanets have densities comparable to that of Earth at  $\rpl \sim1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5 \rearth. The scaling of the mass-radius relationship for exoplanets with $\rpl < 1.5 \rearth$ is not well-constrained but if we include the solar system terrestrial planets, we find that a relationship of $\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45}$ is a significant improvement over the nearly linear relationship.
+We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  We find a nearly linear mass-radius relation: $\mpl/\mearth = 3.24 \left(\rpl/\rearth\right)^{0.80}$, which is a shallower power-law index than in many previous mass-radius relations.  The RMS of planet masses to this fit is 3.9 \mearth, and our best fit has reduced $\chi^2=3.5$, indicating a diversity in planet compositions below 4\rearth.  The mass-radius relation reflects that planet density decreases as radius increases, indicating that larger exoplanets have a significant fraction of volatiles by volume (such as H/He envelopes).  Exoplanets have densities comparable to that of Earth at  $\rpl \sim1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5 \rearth.  The scaling of the mass-radius relationship for exoplanets with $\rpl < 1.5 \rearth$ is not well-constrained but if we include the solar system terrestrial planets, we find that a relationship of $\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45}$ is a significant improvement over the nearly linear relationship.  Analyzing just the exoplanets with $1.5 \le \rpl/\rearth < 4$, we find that they are well described by a nearly flat relation: $\mpl/\mearth = 5.6 + 0.71 \rpl/\rearth$ with reduced $\chi^2 = 3.5$, indicating that differences in masses in this size range are due to compositional variety.
 \end{abstract}
 
 %%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -155,50 +155,50 @@ The only selection criterion was that the exoplanets have $\rpl < 4 \rearth$ and
          Kepler-68 b &      5.399 &       8.30$\pm$2.30       &       2.31$\pm$0.03       &    409.092 &                      \citet{Borucki2011} &                    \citet{Gilliland2013}\\ 
          Kepler-68 c &      9.605 &       4.38$\pm$2.80       &       0.95$\pm$0.04       &    189.764 &                      \citet{Batalha2013} &                    \citet{Gilliland2013}\\ 
            Kepler-78 b &      0.354 &       1.69$\pm$0.41       &       1.20$\pm$0.09       &   3093.388 &              \citet{Sanchis-Ojeda2013} &              \citet{Howard2013arxiv}\\ 
-           KOI-41.01 &     12.816 &       0.85$\pm$4.00       &       2.20$\pm$0.05       &    213.371 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-41.02 &      6.887 &       7.34$\pm$3.20       &       1.32$\pm$0.04       &    472.831 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-41.03 &     35.333 &      -4.36$\pm$4.10       &       1.61$\pm$0.05       &     55.812 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-69.01 &      4.727 &       2.59$\pm$2.00       &       1.50$\pm$0.03       &    220.120 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-82.01 &     16.146 &       8.93$\pm$2.00       &       2.22$\pm$0.07       &     17.278 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-82.02 &     10.312 &       3.80$\pm$1.80       &       1.18$\pm$0.04       &     31.184 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-82.03 &     27.454 &       0.62$\pm$3.30       &       0.88$\pm$0.03       &      8.250 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-82.04 &      7.071 &      -1.58$\pm$2.00       &       0.58$\pm$0.02       &     51.315 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-82.05 &      5.287 &       0.41$\pm$1.60       &       0.47$\pm$0.02       &     78.407 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-100 c &     12.816 &       0.85$\pm$4.00       &       2.20$\pm$0.05       &    213.371 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-100 b &      6.887 &       7.34$\pm$3.20       &       1.32$\pm$0.04       &    472.831 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-100 d &     35.333 &      -4.36$\pm$4.10       &       1.61$\pm$0.05       &     55.812 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-93 b &      4.727 &       2.59$\pm$2.00       &       1.50$\pm$0.03       &    220.120 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 e &     16.146 &       8.93$\pm$2.00       &       2.22$\pm$0.07       &     17.278 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 d &     10.312 &       3.80$\pm$1.80       &       1.18$\pm$0.04       &     31.184 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 f &     27.454 &       0.62$\pm$3.30       &       0.88$\pm$0.03       &      8.250 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 c &      7.071 &      -1.58$\pm$2.00       &       0.58$\pm$0.02       &     51.315 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 b &      5.287 &       0.41$\pm$1.60       &       0.47$\pm$0.02       &     78.407 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
            KOI-94 b &      3.743 &       10.50$\pm$4.60       &       1.71$\pm$0.16       &   1155.374 &                        \citet{Batalha2013} &                        \citet{Weiss2013}\\ 
-          KOI-104.01 &      2.508 &      10.84$\pm$1.40       &       3.51$\pm$0.15       &    214.674 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-108.01 &     15.965 &      14.11$\pm$4.70       &       3.37$\pm$0.09       &    124.197 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-116.01 &     13.571 &      10.44$\pm$3.20       &       2.50$\pm$0.32       &     84.462 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-116.02 &     43.844 &      11.17$\pm$5.80       &       2.56$\pm$0.33       &     15.645 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-116.03 &      6.165 &       0.15$\pm$2.80       &       0.82$\pm$0.11       &    239.077 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-116.04 &     23.980 &      -6.39$\pm$7.00       &       0.95$\pm$0.13       &     43.146 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-122.01 &     11.523 &      13.00$\pm$2.90       &       3.42$\pm$0.09       &    182.708 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-123.01 &      6.482 &       1.30$\pm$5.40       &       2.37$\pm$0.07       &    444.879 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-123.02 &     21.223 &       2.22$\pm$7.80       &       2.52$\pm$0.07       &     94.934 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-148.01 &      4.778 &       3.94$\pm$2.10       &       1.88$\pm$0.10       &    168.932 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-148.02 &      9.674 &      14.61$\pm$2.30       &       2.71$\pm$0.14       &    225.109 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-148.03 &     42.896 &       7.93$\pm$4.60       &       2.04$\pm$0.11       &     13.545 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-	KOI-152 b	   & 	13.4845 &	 	10.9$\pm$6.70	  &	3.47$\pm$0.07 &	161.456472 &	 		\citet{Borucki2011}	& 			\citet{Jontof-Hutter2013}\\
-	KOI-152 c	   & 	27.4029 &	 	5.9$\pm$2.10	 & 	3.72$\pm$0.08	 &	 63.225260 &			 \citet{Borucki2011}	 &			 \citet{Jontof-Hutter2013}\\
-	KOI-152 e	   & 	81.0659 &	 	4.1$\pm$1.15	 & 	3.49$\pm$0.14	 &	 14.833204 &	 		\citet{Borucki2011}	 &			 \citet{Jontof-Hutter2013}\\
-          KOI-153.01 &      8.925 &      -4.60$\pm$6.20       &       2.19$\pm$0.06       &     50.981 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-153.02 &      4.754 &       7.10$\pm$3.30       &       1.82$\pm$0.05       &     63.986 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-244.02 &      6.239 &       9.60$\pm$4.20       &       2.71$\pm$0.05       &    667.269 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-245.01 &     39.792 &       1.87$\pm$9.08       &       1.94$\pm$0.06       &      7.710 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-245.02 &     21.302 &       3.35$\pm$4.00       &       0.75$\pm$0.03       &     16.291 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-245.03 &     13.367 &       2.78$\pm$3.70       &       0.32$\pm$0.02       &     37.373 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-246.01 &      5.399 &       5.97$\pm$1.70       &       2.33$\pm$0.02       &    375.530 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-246.02 &      9.605 &       2.18$\pm$3.50       &       1.00$\pm$0.02       &    220.199 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-261.01 &     16.238 &       8.46$\pm$3.40       &       2.67$\pm$0.22       &     73.950 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-283.01 &     16.092 &      16.13$\pm$3.50       &       2.41$\pm$0.20       &     71.656 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-283.02 &     25.517 &       8.25$\pm$5.90       &       0.84$\pm$0.07       &     28.891 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-292.01 &      2.587 &       3.51$\pm$1.90       &       1.48$\pm$0.13       &    851.551 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-299.01 &      1.542 &       3.55$\pm$1.60       &       1.99$\pm$0.22       &   1581.816 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-305.01 &      4.604 &       6.15$\pm$1.30       &       1.48$\pm$0.08       &     90.372 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-321.01 &      2.426 &       6.35$\pm$1.40       &       1.43$\pm$0.03       &    713.204 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          KOI-321.02 &      4.623 &       2.71$\pm$1.80       &       0.85$\pm$0.03       &    291.503 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-         KOI-1442.01 &      0.669 &       0.06$\pm$1.20       &       1.07$\pm$0.02       &   3645.770 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-94 b &      2.508 &      10.84$\pm$1.40       &       3.51$\pm$0.15       &    214.674 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-103 b &     15.965 &      14.11$\pm$4.70       &       3.37$\pm$0.09       &    124.197 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-106 c &     13.571 &      10.44$\pm$3.20       &       2.50$\pm$0.32       &     84.462 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-106 e &     43.844 &      11.17$\pm$5.80       &       2.56$\pm$0.33       &     15.645 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-106 b &      6.165 &       0.15$\pm$2.80       &       0.82$\pm$0.11       &    239.077 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         Kepler-106 d &     23.980 &      -6.39$\pm$7.00       &       0.95$\pm$0.13       &     43.146 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-95 b &     11.523 &      13.00$\pm$2.90       &       3.42$\pm$0.09       &    182.708 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-109 b &      6.482 &       1.30$\pm$5.40       &       2.37$\pm$0.07       &    444.879 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-109 c &     21.223 &       2.22$\pm$7.80       &       2.52$\pm$0.07       &     94.934 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-48 b &      4.778 &       3.94$\pm$2.10       &       1.88$\pm$0.10       &    168.932 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-48 c &      9.674 &      14.61$\pm$2.30       &       2.71$\pm$0.14       &    225.109 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         Kepler-48 d &     42.896 &       7.93$\pm$4.60       &       2.04$\pm$0.11       &     13.545 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+	Kepler-79 b	   & 	13.4845 &	 	10.9$\pm$6.70	  &	3.47$\pm$0.07 &	161.456472 &	 		\citet{Borucki2011}	& 			\citet{Jontof-Hutter2013}\\
+	Kepler-79 c	   & 	27.4029 &	 	5.9$\pm$2.10	 & 	3.72$\pm$0.08	 &	 63.225260 &			 \citet{Borucki2011}	 &			 \citet{Jontof-Hutter2013}\\
+	Kepler-79 e	   & 	81.0659 &	 	4.1$\pm$1.15	 & 	3.49$\pm$0.14	 &	 14.833204 &	 		\citet{Borucki2011}	 &			 \citet{Jontof-Hutter2013}\\
+          Kepler-113 c &      8.925 &      -4.60$\pm$6.20       &       2.19$\pm$0.06       &     50.981 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-113 b &      4.754 &       7.10$\pm$3.30       &       1.82$\pm$0.05       &     63.986 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-25 b &      6.239 &       9.60$\pm$4.20       &       2.71$\pm$0.05       &    667.269 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-37 d &     39.792 &       1.87$\pm$9.08       &       1.94$\pm$0.06       &      7.710 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-37 c &     21.302 &       3.35$\pm$4.00       &       0.75$\pm$0.03       &     16.291 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-37 b &     13.367 &       2.78$\pm$3.70       &       0.32$\pm$0.02       &     37.373 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-68 b &      5.399 &       5.97$\pm$1.70       &       2.33$\pm$0.02       &    375.530 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-68 c &      9.605 &       2.18$\pm$3.50       &       1.00$\pm$0.02       &    220.199 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-96 b &     16.238 &       8.46$\pm$3.40       &       2.67$\pm$0.22       &     73.950 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-131 b &     16.092 &      16.13$\pm$3.50       &       2.41$\pm$0.20       &     71.656 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-131 c &     25.517 &       8.25$\pm$5.90       &       0.84$\pm$0.07       &     28.891 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+	Kepler-97 b &      2.587 &       3.51$\pm$1.90       &       1.48$\pm$0.13       &    851.551 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-98 b &      1.542 &       3.55$\pm$1.60       &       1.99$\pm$0.22       &   1581.816 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-99 b &      4.604 &       6.15$\pm$1.30       &       1.48$\pm$0.08       &     90.372 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-406 b &      2.426 &       6.35$\pm$1.40       &       1.43$\pm$0.03       &    713.204 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-406 c &      4.623 &       2.71$\pm$1.80       &       0.85$\pm$0.03       &    291.503 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         Kepler-407 b &      0.669 &       0.06$\pm$1.20       &       1.07$\pm$0.02       &   3645.770 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
          KOI-1612.01 &      2.465 &       0.48$\pm$3.20       &       0.82$\pm$0.03       &   1691.964 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-         KOI-1925.01 &     68.958 &       2.69$\pm$6.20       &       1.19$\pm$0.03       &      6.165 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         Kepler-409 b &     68.958 &       2.69$\pm$6.20       &       1.19$\pm$0.03       &      6.165 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
 \enddata
 
 \tablenotetext{$^a$}{Incident stellar flux is calculated as $F/\fearth = (\rstar/\rsun)^2 (\teff/5778 \mathrm{K})^4 a^{-2} \sqrt{1/(1-e)^2}$, where $a$ is the semi-major axis in A.U. and $e$ is the eccentricity.}
@@ -219,7 +219,7 @@ The only selection criterion was that the exoplanets have $\rpl < 4 \rearth$ and
 \subsection{Inclusion of Mass Non-Detections}
 For small exoplanets, uncertainties in the mass measurements can be of order the planet mass.  Although one might advocate for only studying planets with well-determined ($>3\sigma$) masses, imposing a significance criterion will bias the sample toward more massive planets at a given radius.  This bias is especially pernicious for small planets, for which the planet-induced RV signal can be small ($\sim1\ms$) compared to the noise from stellar activity ($\sim2\ms$) and Poisson photon noise ($\sim2\ms$).  We must include the marginal mass detections and non-detections in order to minimize bias in planet masses at a given radius.  
 
-\citet{Marcy2013} fix the orbital period and orbital phase of the planets at the transit ephemeris, allowing only the RV semi-amplitude induced by the planets to vary.  Neither the stellar activity nor the Poisson photon noise is expected to phase with the orbit of a small planet.  However, random fluctuations due to the stellar activity and photon noise can produce RVs that are low when they should be high and high when they should be low, or vice versa.  Random noise in the RVs that phases with the expected planet signal will result in an over-estimate of planet mass.  To minimize this bias from noise, we must include the solutions that, due to random noise, are anti-phased with the expected planet signal.  \citet{Marcy2013} allow  a negative semi-amplitude in the Keplerian fit to the RVs, resulting in a ``negative" planet mass determination.  We include these non-detections to avoid statistical bias toward large planet masses at a given radius.  Therefore, we can take the weighted mean planet mass in a radius bin, yielding a representative mass that accounts for the low-mass non-detections as well as the high-mass detections in that bin.
+\citet{Marcy2013} fix the orbital period and orbital phase of the planets at the transit ephemeris, allowing only the RV semi-amplitude induced by the planets to vary.  Neither the stellar activity nor the Poisson photon noise is expected to phase with the orbit of a small planet.  However, random fluctuations due to the stellar activity and photon noise can produce RVs that are low when they should be high and high when they should be low, or vice versa.  Random noise in the RVs that phases with the expected planet signal will result in an over-estimate of planet mass.  To minimize this bias from noise, we must include the solutions that, due to random noise, are anti-phased with the expected planet signal.  \citet{Marcy2013} allow  a negative semi-amplitude in the Keplerian fit to the RVs and report the peak and 68$^{th}$ percentiles of the posterior distribution of the semi-amplitude; the peak often corresponds to a ``negative" planet mass.  We include non-detections to avoid statistical bias toward large planet masses at a given radius.
 
 Including literature values, which typically only report planet mass if the planet mass is detected with high confidence, slightly biases our sample toward higher masses at a given radius.  We include the literature values to provide a larger sample of exoplanets.
 
@@ -228,7 +228,7 @@ Including literature values, which typically only report planet mass if the plan
 \section{The Mass-Radius Relation for 63 Small Exoplanets}
 The mass-radius plot for planets smaller than 4 \rearth\ shown in Figure \ref{fig:rm_4} (left) shows that, on average, exoplanet mass increases with increasing radius, indicating an underlying correlation in the individual exoplanet masses and radii.  We calculate the probability that mass and radius are uncorrelated for planets smaller than 4\rearth\ by calculating the Pearson R correlation coefficient: $r=0.61$.  In our sample of 63 exoplanets, the probability that these data are uncorrelated given $r = 0.61$ is $2 \times 10^{-7}$.  Thus, the masses and radii of planets between the sizes of Earth and Neptune are correlated.
 
-Figure \ref{fig:rm_4} shows the mass vs. radius and density vs. radius of the 63 exoplanets in this sample (although some extreme outliers are excluded).  To guide the eye, we show the weighted mean exoplanet mass and density in bins of width 0.5 \rearth.  The weighted mean mass and density were not used in calculating the fits.
+Figure \ref{fig:rm_4} shows the mass vs. radius and density vs. radius of 63 exoplanets examined here (although some outliers are excluded).  To guide the eye, we show the weighted mean exoplanet mass and density in bins of width 0.5 \rearth.  The weighted mean mass and density were not used in calculating the fits.
 
 To illustrate how this population of exoplanets compares to our solar system, we indicate the solar system planets in Figure \ref{fig:rm_4}.  A quadratic fit to the exoplanet population happens to line up with the solar system planets \citep{Lissauer2011}, but has a reduced $\chi^2$ that is twice as large as the linear fit to the exoplanets.  Since most of the exoplanets in this sample have $P < 50$ days, we do not expect them to behave the same way as Uranus and Neptune, which have orbital periods of tens of thousands of days.
 
@@ -251,16 +251,8 @@ The weighted linear fit to the data for $\rpl < \rspecial$ yields:
 \end{equation}
 with reduced $\chi^2=3.6$ and RMS= 3.9\mearth.  The standard errors for the weighted linear fit are $slope = 2.36 \pm 0.59$, $intercept= 0.81\pm1.25$.  We allow the intercept to float to accommodate the possibility of a different mass-radius relation for small bodies.  As evidenced by their comparable $\chi^2$ and RMS, the power law solution and the weighted linear fit describe the masses and radii equally well with equally few parameters, and therefore either is an appropriate description of the data. Both represent a nearly linear relation between planet mass and radius for planets smaller than 4 \rearth.
 
-\subsection{The Density Radius Relation for $\rpl < \rspecial$}
-A weighted polynomial fit to the densities and radii for $\rpl < \rspecial$ gives:
-\begin{equation}
-\rhopl = 12.98 - 7.10 \frac{\rpl}{\rearth} + 1.04 \left(\frac{\rpl}{\rearth}\right)^{2} \gcc
-\label{eqn:dr_poly}
-\end{equation}
-with reduced $\chi^2=2.5$, and RMS = 69 \gcc\ due to very large uncertainties in density below 1 \rearth\ and one outlier.  For $\rpl > 1.5 \rearth$, the RMS is 2.7 \gcc.  A parametric bootstrap error analysis of 1000 trials gives these uncertainties in the coefficients: $c_0 =12.98 \pm 32.1$, $c_1 = 7.10 \pm 20.4$, $c_2 = 1.04\pm3.14$.   The polynomial solution has the nice analytic property of a finite density at small radii that is only slightly denser than uncompressed iron (8.3 \gcc).
-
-\subsection{A Power-Law Fit to Planets Satisfying ($\rpl < 1.5 \rearth$)}
-To investigate the possibility of a different relationship between the masses and radii of the likely rocky exoplanets, for which we expect little to no volatile envelope and low bulk compressibility, we do an independent analysis for planets smaller than 1.5 \rearth.  We choose 1.5\rearth\ because this is where the weighted mean exoplanet density crosses the Earth-composition density curve from \citet[][see Figure \ref{fig:rm_4}]{Seager2007}.  Exoplanets smaller than 1.5 \rearth mostly have mass uncertainties of order the planet mass, except for CoRoT-7 b, Kepler-10 b, and Kepler-78 b.  Therefore, this mass-radius relation is poorly determined.  The best power-law fit to these likely rocky exoplanets gives:
+\subsection{A Break in the Mass-Radius Relation at 1.5 \rearth}
+To investigate the possibility of a different relationship between the masses and radii of the likely rocky exoplanets, for which we expect little to no volatile envelope and low bulk compressibility, we do an independent analysis for planets smaller than 1.5 \rearth.  We choose 1.5\rearth\ because this is where the weighted mean exoplanet density crosses the Earth-composition density curve from \citet[][see Figure \ref{fig:rm_4}]{Seager2007}.  Exoplanets smaller than 1.5 \rearth mostly have mass uncertainties of order the planet mass, except for CoRoT-7 b, Kepler-10 b, and Kepler-78 b.  Therefore, this mass-radius relation is poorly determined.  The best power-law fit to exoplanets smaller that 1.5 \rearth gives:
 \begin{equation}
 \frac{\mpl}{\mearth} = 0.94 \left(\frac{\rpl}{\rearth}\right)^{4.02}
 \label{eqn:mr_rocky_exo}
@@ -273,6 +265,13 @@ Because the equation of state for rocky planets should not depend on the orbital
 \label{eqn:mr_rocky}
 \end{equation}
 with reduced $\chi^2 = 1.3$ and RMS = 2.7\mearth.  A parametric bootstrap error analysis of 1000 trials gives these uncertainties in the coefficients: $c_0 =1.08 \pm 1.09$, $c_1 = 3.45\pm 8.44$.  The large uncertainties in the masses and small number of planets allow a variety of fits to the masses and radii if the data are perturbed.  
+
+For planets satisfying $1.5 \le \rpl/\rearth < 4$, we find:
+\begin{equation}
+\frac{\mpl}{\mearth} = 5.6 + 0.71 \frac{\rpl}{\rearth}
+\label{eqn:mr_rocky}
+\end{equation}
+with reduced $\chi^2=3.5$ and RMS=4.7 \mearth.
 
 The similarity between equations \ref{eqn:mr_rocky_exo} and \ref{eqn:mr_rocky} demonstrates that the solar system planets are not significantly changing the result.  However, the solar system planets disfavor the nearly linear power law fit in equation \ref{eqn:mr_plaw}, as applied to planets smaller than 1.5\rearth.  Including the solar system planets and their artificial errors raises the \textit{reduced} $\chi^2$ minimization to 3500, favoring the higher power law index of equation \ref{eqn:mr_rocky} over the shallower relation for the sub-Neptunes described in equation \ref{eqn:mr_plaw}.
 
@@ -289,12 +288,12 @@ These empirical relations are summarized in Table \ref{tab:mr_relations}.
 \startdata
 $\rpl < 4 \rearth$ &  $\frac{\mpl}{\mearth} = 3.24 \left(\frac{\rpl}{\rearth}\right)^{0.80}$ & 3.5 & 3.9 \mearth \\
 $\rpl < 4 \rearth$ &  $\mpl/\mearth = 0.81 + 2.36~\rpl/\rearth$ & 3.6 & 3.9 \mearth \\
-$\rpl < 4 \rearth$ &  $\rhopl = 12.98 - 7.10 \frac{\rpl}{\rearth} + 1.04 \left(\frac{\rpl}{\rearth}\right)^{2} \gcc$ & 2.5 & 2.7$^a$ \gcc \\
+\hline
+$1.5 \le \rpl/\rearth< 4$ &  $\frac{\mpl}{\mearth} = 5.6 + 0.71~\frac{\rpl}{\rearth}$ & 3.5 & 4.7 \mearth \\
 $\rpl < 1.5 \rearth$ & $\frac{\mpl}{\mearth} = 0.94 \left(\frac{\rpl}{\rearth}\right)^{4.02}$ & 0.88 & 3.0 \mearth \\
-$^{b}\rpl < 1.5 \rearth$ & $\frac{\mpl}{\mearth} = 1.08 \left(\frac{\rpl}{\rearth}\right)^{3.45}$  & 1.3 & 2.7 \mearth \\
+$^{a}\rpl < 1.5 \rearth$ & $\frac{\mpl}{\mearth} = 1.08 \left(\frac{\rpl}{\rearth}\right)^{3.45}$  & 1.3 & 2.7 \mearth \\
 \enddata
-\tablenotetext{a}{For $\rpl > 1.5 \rearth$.}
-\tablenotetext{b}{Including terrestrial solar system planets Mercury, Venus, Earth, and Mars.}
+\tablenotetext{a}{Including terrestrial solar system planets Mercury, Venus, Earth, and Mars.}
 %, \tablerefs{ref list},
 %% or \tablecomments{text} between the \enddata and 
 %% \end{deluxetable} commands
@@ -322,7 +321,7 @@ The \citet{Seager2007} density-radius relation for Earth composition predicts th
 In a study of planets with $\mpl < 20\mearth$, \citet{WL2013} find $\mpl/\mearth = 3 \rpl/\rearth$ in a sample of 22 pairs of planets that exhibit strong anti-correlated TTVs in the \textit{Kepler} data.  Our independent assessment of 63 exoplanets, 51 of which are not analyzed in \citet{WL2013}, is consistent with this result.  \citet{WL2013} note that a linear relation between planet mass and radius is dimensionally consistent with a constant escape velocity from the planet (i.e. $v_{\mathrm{esc}}^2 \sim \mpl/\rpl$).  The linear mass-radius relation might result from photo-evaporation of the atmospheres of small planets near their stars \citep{Lopez2012}.
 
 \subsection{Masses from TTVs are Lower than Masses from RVs}
-We have included planets with masses determined by the TTVs observed in a neighboring planet in Table \ref{tab:mrf}, Figure \ref{fig:rm_4}, and the mass-radius relations in equations \ref{eqn:mr_plaw}-\ref{eqn:mr_rocky}.  The TTV masses included in this work are the result of dynamical modeling that reproduces the observed TTV signatures in the Kepler light curve.  Planets with TTV-determined masses are marked with superscript $c$ in Table \ref{tab:mrf}.  In Figure \ref{fig:rm_4}, the TTV planets are shown as orange points; they are systematically less massive than the RV-discovered planets of the same radii.  A T-test comparing the residual masses from the RVs to the TTVs for planets larger than 1.0 \rearth results in a two-tailed P-value of 0.06, indicating a 9\% probability that these densities were drawn from the same distribution and a 94\% probability that they come from different parent distributions.
+We have included planets with masses determined by the TTVs observed in a neighboring planet in Table \ref{tab:mrf}, Figure \ref{fig:rm_4}, and the mass-radius relations in equations \ref{eqn:mr_plaw}-\ref{eqn:mr_rocky}.  The TTV masses included in this work are the result of dynamical modeling that reproduces the observed TTV signatures in the Kepler light curve.  Planets with TTV-determined masses are marked with superscript $c$ in Table \ref{tab:mrf}.  In Figure \ref{fig:rm_4}, the TTV planets are shown as orange points; they are systematically less massive than the RV-discovered planets of the same radii (also see \citet{Jontof-Hutter2013}).  A T-test comparing the residual masses from the RVs to the TTVs for planets larger than 1.0 \rearth results in a two-tailed P-value of 0.06, indicating the two samples, if drawn from the same distribution, would be this discrepant 9\% of the time.
 
 The systematic difference between the TTV and RV masses is unlikely to stem from a bias in the RVs.  Either the TTVs are systematically underestimating planet masses (possibly because other planets in the system damp the TTVs), or compact systems amenable to detection through TTVs have lower-density planets than non-compact systems \citep[e.g. the Kepler-11 system,][]{Lissauer2013}.  That \citet{WL2013} also find $\mpl/\mearth \approx 3 \left(\rpl/\rearth\right)$ suggests that the TTV masses might be reliably systematically lower.
 
@@ -353,7 +352,7 @@ We recommend the following mass-radius relations for predictive purposes:  $$\mp
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
     \includegraphics[width=6in]{mr_small.eps} 
-   \caption{\small \textbf{Left:} Mass vs. radius for 63 exoplanets and 1$\sigma$ error bars.  Gray points  have RV-determined masses; orange points have TTV-determined masses.  The dashed lines are empirical fits mass-radius relations; see equations \ref{eqn:mr_plaw}, \ref{eqn:mr_linear}, and \ref{eqn:mr_rocky}.  The blue points are the weighted mean exoplanet mass in bins of $0.5 \rearth$, with error bars representing the uncertainty in the means.  The weighted means were not used in calculating the fits.  The magenta letters indicate solar system planets, which were used only in the cyan fit (equation \ref{eqn:mr_rocky}).  \textbf{Right:} Density vs. radius for 63 exoplanets and $1\sigma$ error bars.  Note that no exoplanets smaller than $1\rearth$ have densities determined to better than 6.5 \gcc.  The blue points are the weighted mean densities in bins of $0.5 \rearth$.  The \citet{Seager2007} density-radius solution for Earth's composition (67.5\% Fe, 32.5\% MgSiO$_3$) is the solid green line.  The dashed line is the empirical fit between planet density and radius; see equation \ref{eqn:dr_poly}.  Planets larger than 1.5 \rearth are less dense than Earth composition, indicating that they probably contain a significant fraction of volatiles.  Some mass and density outliers are excluded from these plots, but are included in the fits.}
+   \caption{\small \textbf{Left:} Mass vs. radius for 63 exoplanets and 1$\sigma$ error bars.  Gray points  have RV-determined masses; orange points have TTV-determined masses.  The dashed lines are empirical fits mass-radius relations; see equations \ref{eqn:mr_plaw}, \ref{eqn:mr_linear}, and \ref{eqn:mr_rocky}.  The blue points are the weighted mean exoplanet mass in bins of $0.5 \rearth$, with error bars representing the uncertainty in the means.  The weighted means were not used in calculating the fits.  The magenta letters indicate solar system planets, which were used only in the cyan fit (equation \ref{eqn:mr_rocky}).  \textbf{Right:} Density vs. radius for 63 exoplanets and $1\sigma$ error bars.  Note that no exoplanets smaller than $1\rearth$ have densities determined to better than 6.5 \gcc.  The blue points are the weighted mean densities in bins of $0.5 \rearth$.  The \citet{Seager2007} density-radius solution for Earth's composition (32.5\% Fe, 67.5\% MgSiO$_3$) is the solid green line.  The dashed line is the empirical fit between planet density and radius; see equation \ref{eqn:dr_poly}.  Planets larger than 1.5 \rearth are less dense than Earth composition, indicating that they probably contain a significant fraction of volatiles.  Some mass and density outliers are excluded from these plots, but are included in the fits.}
    \label{fig:rm_4}
 \end{figure*}
 
