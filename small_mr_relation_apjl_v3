@@ -71,7 +71,7 @@
 \submitted{Submitted to ApJ Letters on 3 December, 2013.} 
 
 \begin{abstract}
-We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  We find a nearly linear mass-radius relation: $\mpl/\mearth = 3.24 \left(\rpl/\rearth\right)^{0.80}$, which is a shallower power-law index than in many previous mass-radius relations.  The RMS of planet masses to this fit is 3.9 \mearth, and our best fit has reduced $\chi^2=3.5$, indicating a diversity in planet compositions below 4\rearth.  Above 1.5 \rearth, planet density decreases as radius increases, indicating that larger exoplanets have a significant fraction of volatiles by volume (such as H/He envelopes).  Exoplanets have densities comparable to that of Earth at  $\rpl \sim1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5 \rearth.  The low densities of planets larger than 1.5 \rearth\ indicate that these planets have a large fractions of volatiles by volume and are almost certainly not rocky planets.  Accommodating the compositional break at 1.5 \rearth, we find $\mpl/\mearth = 5.60 + 0.71 \rpl/\rearth$ for $1.5 \le \rpl/\rearth < 4$, and $\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45}$ for $\rpl < 1.5 \rearth$.
+We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  In our initial analysis, we find a nearly linear mass-radius relation which has a shallower power-law index than many previous mass-radius relations explored in the literature.  The RMS of planet masses to this fit is 3.9 \mearth, and our best fit has reduced $\chi^2=3.5$, indicating a diversity in planet compositions below 4\rearth.  Above 1.5 \rearth, planet density decreases as radius increases, indicating that larger exoplanets have a significant fraction of volatiles by volume (such as H/He envelopes).  Exoplanets have densities comparable to that of Earth at  $\rpl=1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5\rearth.  The low densities of planets larger than 1.5\rearth\ indicate that these planets have a large fraction of volatiles by volume and are almost certainly not rocky planets.  Accommodating the compositional break at 1.5\rearth, we find $\mpl/\mearth = 5.60 + 0.71 \rpl/\rearth$ for $1.5 \le \rpl/\rearth < 4$, and $\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45}$ for $\rpl < 1.5 \rearth$.
 \end{abstract}
 
 %%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,7 +79,7 @@ We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbit
 \section{Introduction}
 %\subsection{}
 
-The Kepler Mission has found an abundance of planets with radii $\rpl < 4\rearth$ \citep{Batalha2013}.  Although there are no planets between the size of Earth and Neptune in the solar system, occurrence calculations that de-bias the orbital geometry and completeness of the Kepler survey find that planets between the size of Earth and Neptune are common in our galaxy, occurring with orbital periods between 5 and 50 days around 24\% of stars \citep{Petigura2013a}.  However, in many systems, it is difficult to measure the masses of such small planets because the gravitational acceleration these planets induce on their host stars or neighboring planets is challenging to detect with current telescopes and instruments.  Obtaining measurements of the masses of these planets and characterizing their compositions is vital to understanding the formation and evolution of these planets.
+The Kepler Mission has found an abundance of planets with radii $\rpl < 4\rearth$ \citep{Batalha2013}; the most recent head-count indicates [number] planet candidates in this size range, most of which are real.  Although there are no planets between the size of Earth and Neptune in the solar system, occurrence calculations that de-bias the orbital geometry and completeness of the Kepler survey find that planets between the size of Earth and Neptune are common in our galaxy, occurring with orbital periods between 5 and 50 days around 24\% of stars \citep{Petigura2013a}.  However, in many systems, it is difficult to measure the masses of such small planets because the gravitational acceleration these planets induce on their host stars or neighboring planets is challenging to detect with current telescopes and instruments; we cannot hope to measure the masses of all [number] planets in this size range discovered by Kepler.  Obtaining measurements of the masses of a subset of these planets and characterizing their compositions is vital to understanding the formation and evolution of this population of planets.
 
 Many authors have explored the relation between planet mass and radius as a means for understanding exoplanet compositions and as a predictive tool.  \citet{Seager2007} predict the mass-radius relationship for  planets of various compositions.  The mass-radius relation in \citet{Lissauer2011}, which is commonly used in literature to translate between planet masses and radii, is based on fitting a power law relation to Earth and Saturn only.  Other works, such as \citet{Enoch2012, Kane2012, Weiss2013}, determine empirical relations between mass and radius based on the exoplanet population.  
 
@@ -203,7 +203,7 @@ The exoplanets all have $P < 100$ days.  This is because the transit probability
          Kepler-409 b &     68.958 &       2.69$\pm$6.20       &       1.19$\pm$0.03       &      6.165 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
 \enddata
 
-\tablenotetext{$^a$}{Incident stellar flux is calculated as $F/\fearth = (\rstar/\rsun)^2 (\teff/5778 \mathrm{K})^4 a^{-2} \sqrt{1/(1-e)^2}$, where $a$ is the semi-major axis in A.U. and $e$ is the eccentricity.}
+\tablenotetext{$^a$}{Incident stellar flux is calculated as $F/\fearth = (\rstar/\rsun)^2 (\teff/5778 \mathrm{K})^4 a^{-2} \sqrt{1/(1-e^2)}$, where $a$ is the semi-major axis in A.U. and $e$ is the eccentricity.}
 \tablenotetext{$^b$}{Mass is from \citet{Endl2012}, radius is from \citet{Dragomir2013b}.  The density is calculated from these values.}
 \tablenotetext{$^c$}{Planet mass determined by TTVs of a neighboring planet}
 
@@ -296,7 +296,7 @@ $^{a}\rpl < 1.5 \rearth$ & $\frac{\mpl}{\mearth} = 1.08 \left(\frac{\rpl}{\reart
 \subsection{Interpretation of the Mass-Radius Relation}
 The correlation between exoplanet mass and radius for $\rpl < 4 \rearth$ for close-in planets indicates that Earth-size planets are less massive than Neptune-size planets.  The moderate reduced $\chi^2$ values for the mass-radius relations ($\chi^2 \approx 3.5$) presented here indicate that measurement errors do not explain the variation in planet mass at a given radius.  A diversity of planet compositions better explains the large scatter in planet mass.
 
-Although most of the planets smaller than 1.5 \rearth\ do not have mass detections better than 2$\sigma$, their ensemble provides weak constraints on the expected mass of planets smaller than Earth.  None of the planets smaller than Earth has a mass larger than 10\mearth, and most have $\mpl < 5\mearth$.  CoRoT-7 b, Kepler-78 b and Kepler-10 b provide significant mass measurements in this range.  However, these three exoplanets are not sufficient to constrain the power law relation that best fits exoplanets smaller than 1.5\rearth.  The inclusion of solar system planets favors equation \ref{eqn:mr_rocky} for planets smaller than 1.5\rearth, but more discoveries of rocky exoplanets are necessary to hone this relation.
+Although most of the planets smaller than 1.5 \rearth\ do not have mass detections better than 2$\sigma$, their ensemble provides weak constraints on the expected mass of planets smaller than Earth.  None of the planets smaller than Earth has a mass larger than 10\mearth, and most have $\mpl < 5\mearth$.  Kepler-36 b, Kepler-10 b, and Kepler-78 b provide significant mass measurements in this range.  However, these three exoplanets are not sufficient to constrain the power law relation that best fits exoplanets smaller than 1.5\rearth.  The inclusion of solar system planets favors equation \ref{eqn:mr_rocky} for planets smaller than 1.5\rearth, but more discoveries of rocky exoplanets are necessary to hone this relation.
 
 The \citet{Seager2007} density-radius relation for Earth composition predicts that density increases with planet radius due to the compression of solids, and equation \ref{eqn:mr_rocky} is consistent with this interpretation.  However, for planets larger than 1.5\rearth, density decreases with increasing planet radius due to an increasing fraction of volatiles.  Therefore, there is a transition between the small, rocky exoplanets, and the large exoplanets with large volatile atmospheres.  At 1.5\rearth, the weighted mean density is equal to the density of an Earth-composition planet determined from \citet{Seager2007}, indicating 1.5\rearth\ as a likely transition radius.
 
@@ -319,9 +319,9 @@ We find possible evidence of a correlation between residual planet mass and stel
 \section{Conclusions}
 For exoplanets with $\rpl < \rspecial$ and $P < 100$ days, planet mass increases with radius nearly linearly, indicating that larger planets have substantially more volatiles than smaller planets.
 
-The mass-radius relation achieves the density of an Earth-composition planet at approximately 1.5 \rearth.   Planets smaller than 1.5\rearth\ are typically denser than Earth-composition and likely rocky, whereas exoplanets larger than 1.5\rearth\ are usually less dense than Earth-composition and likely contain a substantial fraction (by volume) of volatiles.
+The mass-radius relation achieves the density of an Earth-composition planet at approximately 1.5 \rearth.   Planets smaller than 1.5\rearth\ are typically denser than Earth-composition and likely rocky, whereas exoplanets larger than 1.5\rearth\ are usually less dense than Earth-composition and likely contain a substantial fraction (by volume) of volatiles.  Planet hunters seeking rocky exoplanets should turn their attention to planets smaller than 1.5\rearth.  Those wishing to characterize the masses and compositions of sub-Neptune sized exoplanets based on their radii should use the empirical equations herein which reflect the compositional change at 1.5 \rearth.
 
-We recommend the following mass-radius relations for predictive purposes:  $$\mpl/\mearth = 3.24 \left(\rpl/\rearth \right)^{0.80} ~~~~~(\rpl > 1.5\rearth),$$ $$\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45} ~~~~~(\rpl < 1.5\rearth).$$
+%We recommend the following mass-radius relations for predictive purposes:  $$\mpl/\mearth = 5.60 + 0.71 \rpl/\rearth ~~~~~(1.5\rearth < \rpl < 4\rearth),$$ $$\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45} ~~~~~(\rpl < 1.5\rearth).$$
 
 %%%%%%%%%%%%% Figures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -584,7 +584,7 @@ Howard, A.~W., Johnson, J.~A., Marcy, G.~W., {et~al.} 2011, The Astrophysical
 
 \end{thebibliography}
 
-%\bibliography{exoplanet_papers}{}
+\bibliography{exoplanet_papers}{}
 \bibliographystyle{apj}
 
 \end{document}  

@@ -364,7 +364,7 @@ def plot_mr():
     ax1.errorbar(sp.r, sp.m, xerr=sp.ur, yerr=sp.um, fmt='o', markersize=5, 
              alpha =0.3, color='gray', capsize=0, elinewidth=2); # black option
     ax1.plot(rarr, mplaw, '--k', linewidth=4, label=("M = %.2f * R^ %.2f"% (mpars[0], mpars[1])));
-    ax1.plot(rarr, marr, '--r', linewidth=4, label=("M = %.2f + %.2f R" % (best_pars[0], best_pars[1])));
+#    ax1.plot(rarr, marr, '--r', linewidth=4, label=("M = %.2f + %.2f R" % (best_pars[0], best_pars[1])));
     ax1.plot(rocky_r, rockplaw, '--c', linewidth=4, label=("M = %.2f R^ %.2f"% (rocky_pars[0], rocky_pars[1])));
     #ax1.plot(rocky_r, m_ptrope, '--g', linewidth=4, label=("polytrope n= %.1f"% ptrope));
     ax1.errorbar(means.r_m,means.m, xerr=means.ur, yerr=means.um, 
@@ -383,8 +383,8 @@ def plot_mr():
     ax2.errorbar(sp.r, sp.rho, xerr=sp.ur, yerr=sp.urho, fmt='o', markersize=5, 
              alpha=0.3, color='gray',capsize=0, elinewidth=2);
     #ax2.plot(rarr, poly_d, '--k', linewidth=4, label=("Rho = %.2f + %.2f R + %.2f R^2" % (best_q[0], best_q[1], best_q[2])));
-    ax2.plot(rarr, dplaw, '--k', linewidth=4, label=("Rho = %.2f * R^ %.2f"% (dpars[0], dpars[1])));
-    ax2.plot(rocky_r, rockdlaw, '--c', linewidth=4, label=("Rho = %.2f * R^ %.2f"% (rocky_d[0], rocky_d[1])));
+#    ax2.plot(rarr, dplaw, '--k', linewidth=4, label=("Rho = %.2f * R^ %.2f"% (dpars[0], dpars[1])));
+#    ax2.plot(rocky_r, rockdlaw, '--c', linewidth=4, label=("Rho = %.2f * R^ %.2f"% (rocky_d[0], rocky_d[1])));
     ax2.set_xlabel('Planet Radius ($\mathrm{R_E}$)',fontsize=24);
     ax2.set_ylabel('Planet Density ($\mathrm{g/cm^{3}}$)',fontsize=24);
     ax2.errorbar(means.r_d,means.rho, xerr=means.ur, yerr=means.urho, 
@@ -422,7 +422,6 @@ def plot_flux_density():
     fig.show();
 
 #plot residuals
-sp_conglom = sp_conglom = sp_rocky.append(sp_vol)
 def plot_residuals(sp=sp_conglom):
     '''Plot M-R residuals vs. other physical parameters'''
     fig = plt.figure(figsize=(14,14));
@@ -443,22 +442,22 @@ def plot_residuals(sp=sp_conglom):
             xs = xarr[3*i + j]
             xttv = xs[sp.ttv==1]
             xerr = xarr_err[3*i + j]
-            axarr[i,j].errorbar(xs,ys, xerr=xerr, yerr=yerr, alpha = 0.5, marker='o', fmt='o')
+            axarr[i,j].errorbar(xs,ys, xerr=xerr, yerr=yerr, alpha = 0.5, marker='o', fmt='o');
             if len(xttv) > 0:
                 if xerr is not None: xerrttv = xerr[sp.ttv==1] 
                 else: xerrttv=None
             axarr[i,j].errorbar(xttv,yttv,xerr=xerrttv,yerr=yerrttv, 
-                            alpha = 0.5, marker='o', fmt='o', c='orange')
+                            alpha = 0.5, marker='o', fmt='o', c='orange');
             if xscale[3*i + j]=='log': axarr[i,j].set_xscale('log')
-            if j==0: axarr[i,j].set_ylabel('Residual Mass ($\mathrm{M_E}$)', fontsize=16)
-            axarr[i,j].set_xlabel(xtit[3*i+j], fontsize=16)
+            if j==0: axarr[i,j].set_ylabel('Residual Mass ($\mathrm{M_E}$)', fontsize=16);
+            axarr[i,j].set_xlabel(xtit[3*i+j], fontsize=16);
     fig.set_size_inches(12,12);
-    subplots_adjust(wspace=0.1)
-    subplots_adjust(hspace=0.5)
+    subplots_adjust(wspace=0.1);
+    subplots_adjust(hspace=0.5);
     #fig.ylabel('Residual Mass')
-    fig.show();
-    plt.savefig('mr_resids.png',dpi=100)
-    plt.savefig('mr_resids.eps', format='eps', dpi=100)
+    fig.show()
+    plt.savefig('mr_resids.png',dpi=100);
+    plt.savefig('mr_resids.eps', format='eps', dpi=100);
 
 # <codecell>
 
@@ -474,4 +473,5 @@ def test_fe_correlation():
     print "Prob. Fe and resid correlation is real:",(1.-fe_r[1])**9.
 plot_histograms()
 plot_mr()
-plot_residuals()
+sp_conglom = sp[sp.r < 1.5].append(sp_vol)
+plot_residuals(sp=sp_conglom)
