@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{32}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Batalha} {et~al.}(2011){Batalha}, {Borucki}, {Bryson}, {Buchhave},
@@ -179,6 +179,9 @@ Howard, A.~W., Johnson, J.~A., Marcy, G.~W., {et~al.} 2011, The Astrophysical
   {Welsh}}]{Lissauer2013}
 {Lissauer}, J.~J., {Jontof-Hutter}, D., {Rowe}, J.~F., {et~al.} 2013, \apj,
   770, 131
+
+\bibitem[{{Lopez} \& {Fortney}(2013)}]{Lopez2013}
+{Lopez}, E.~D., \& {Fortney}, J.~J. 2013, ArXiv e-prints
 
 \bibitem[{{Lopez} {et~al.}(2012){Lopez}, {Fortney}, \& {Miller}}]{Lopez2012}
 {Lopez}, E.~D., {Fortney}, J.~J., \& {Miller}, N. 2012, \apj, 761, 59

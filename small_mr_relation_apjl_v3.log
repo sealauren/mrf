@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  4 JAN 2014 01:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  8 JAN 2014 09:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -444,104 +444,7 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 65.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 65.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 65.
 
-(./small_mr_relation_apjl_v3.aux
-
-LaTeX Warning: Label `eqn:mr_rocky' multiply defined.
-
-
-Package natbib Warning: Citation `Batalha2011' multiply defined.
-
-
-Package natbib Warning: Citation `Batalha2013' multiply defined.
-
-
-Package natbib Warning: Citation `Borucki2011' multiply defined.
-
-
-Package natbib Warning: Citation `Carter2011' multiply defined.
-
-
-Package natbib Warning: Citation `Carter2012' multiply defined.
-
-
-Package natbib Warning: Citation `Charbonneau2009' multiply defined.
-
-
-Package natbib Warning: Citation `Cochran2011' multiply defined.
-
-
-Package natbib Warning: Citation `Dragomir2013b' multiply defined.
-
-
-Package natbib Warning: Citation `Dragomir2013' multiply defined.
-
-
-Package natbib Warning: Citation `Endl2012' multiply defined.
-
-
-Package natbib Warning: Citation `Enoch2012' multiply defined.
-
-
-Package natbib Warning: Citation `Gautier2012' multiply defined.
-
-
-Package natbib Warning: Citation `Gilliland2013' multiply defined.
-
-
-Package natbib Warning: Citation `Hatzes2011' multiply defined.
-
-
-Package natbib Warning: Citation `Howard2011' multiply defined.
-
-
-Package natbib Warning: Citation `Howard2013arxiv' multiply defined.
-
-
-Package natbib Warning: Citation `Jontof-Hutter2013' multiply defined.
-
-
-Package natbib Warning: Citation `Kane2012' multiply defined.
-
-
-Package natbib Warning: Citation `Leger2009' multiply defined.
-
-
-Package natbib Warning: Citation `Lissauer2011' multiply defined.
-
-
-Package natbib Warning: Citation `Lissauer2013' multiply defined.
-
-
-Package natbib Warning: Citation `Lopez2012' multiply defined.
-
-
-Package natbib Warning: Citation `Marcy2013' multiply defined.
-
-
-Package natbib Warning: Citation `McArthur2004' multiply defined.
-
-
-Package natbib Warning: Citation `Petigura2013a' multiply defined.
-
-
-Package natbib Warning: Citation `Queloz2009' multiply defined.
-
-
-Package natbib Warning: Citation `Sanchis-Ojeda2013' multiply defined.
-
-
-Package natbib Warning: Citation `Sanchis-Ojeda2012' multiply defined.
-
-
-Package natbib Warning: Citation `Seager2007' multiply defined.
-
-
-Package natbib Warning: Citation `Weiss2013' multiply defined.
-
-
-Package natbib Warning: Citation `WL2013' multiply defined.
-
-)
+(./small_mr_relation_apjl_v3.aux)
 \openout1 = `small_mr_relation_apjl_v3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -558,7 +461,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
- (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count132
 \scratchdimen=\dimen130
@@ -614,22 +518,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 239.
 
 
@@ -640,129 +528,95 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 239.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 248.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 248.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\oplus' on input line 248.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 248.
-
 [2] [3]
 
 Package natbib Warning: Citation `Lopez2013' on page 4 undefined on input line 
-262.
+253.
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.266 \begin{deluxetable*}{llll}
+l.257 \begin{deluxetable*}{llll}
                                  [4]
-Underfull \hbox (badness 1184) in paragraph at lines 320--321
+Underfull \hbox (badness 1184) in paragraph at lines 311--312
 \OT1/cmr/m/n/10 Earth-composition planet at ap-prox-i-mately 1.5 $\OML/cmm/m/it
 /10 R[]$\OT1/cmr/m/n/10 .
  []
 
 Package epstopdf Info: Source file: <histograms.eps>
-(epstopdf)                    date: 2014-01-03 12:52:05
+(epstopdf)                    date: 2014-01-05 10:04:34
 (epstopdf)                    size: 58922 bytes
 (epstopdf)             Output file: <histograms-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-03 16:35:26
+(epstopdf)                    date: 2014-01-05 10:04:55
 (epstopdf)                    size: 22405 bytes
 (epstopdf)             Command: <epstopdf --outfile=histograms-eps-converted-to
 .pdf histograms.eps>
-(epstopdf)             \includegraphics on input line 327.
+(epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
-<histograms-eps-converted-to.pdf, id=498, 867.24pt x 433.62pt>
+<histograms-eps-converted-to.pdf, id=488, 867.24pt x 433.62pt>
 File: histograms-eps-converted-to.pdf Graphic file (type pdf)
 
 <use histograms-eps-converted-to.pdf>
-Package pdftex.def Info: histograms-eps-converted-to.pdf used on input line 327
+Package pdftex.def Info: histograms-eps-converted-to.pdf used on input line 318
 .
 (pdftex.def)             Requested size: 433.62pt x 216.80946pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 
  []
 
-Package epstopdf Info: Source file: <mr_small.eps>
-(epstopdf)                    date: 2014-01-03 20:41:00
-(epstopdf)                    size: 140286 bytes
-(epstopdf)             Output file: <mr_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-03 23:37:44
-(epstopdf)                    size: 50675 bytes
-(epstopdf)             Command: <epstopdf --outfile=mr_small-eps-converted-to.p
-df mr_small.eps>
-(epstopdf)             \includegraphics on input line 334.
-Package epstopdf Info: Output file is already uptodate.
-<mr_small-eps-converted-to.pdf, id=499, 867.24pt x 433.62pt>
+<mr_small-eps-converted-to.pdf, id=489, 867.24pt x 433.62pt>
 File: mr_small-eps-converted-to.pdf Graphic file (type pdf)
 
 <use mr_small-eps-converted-to.pdf>
-Package pdftex.def Info: mr_small-eps-converted-to.pdf used on input line 334.
+Package pdftex.def Info: mr_small-eps-converted-to.pdf used on input line 325.
 (pdftex.def)             Requested size: 433.62pt x 216.80946pt.
 
-
-LaTeX Warning: Reference `eqn:dr_plaw' on page 5 undefined on input line 335.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 
  []
 
 Package epstopdf Info: Source file: <mr_resids.eps>
-(epstopdf)                    date: 2014-01-02 11:52:03
-(epstopdf)                    size: 307083 bytes
+(epstopdf)                    date: 2014-01-05 10:11:54
+(epstopdf)                    size: 306246 bytes
 (epstopdf)             Output file: <mr_resids-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-02 11:53:42
-(epstopdf)                    size: 106096 bytes
+(epstopdf)                    date: 2014-01-05 10:12:03
+(epstopdf)                    size: 106141 bytes
 (epstopdf)             Command: <epstopdf --outfile=mr_resids-eps-converted-to.
 pdf mr_resids.eps>
-(epstopdf)             \includegraphics on input line 342.
+(epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
-<mr_resids-eps-converted-to.pdf, id=505, 867.24pt x 867.24pt>
+<mr_resids-eps-converted-to.pdf, id=493, 867.24pt x 867.24pt>
 File: mr_resids-eps-converted-to.pdf Graphic file (type pdf)
 
 <use mr_resids-eps-converted-to.pdf>
-Package pdftex.def Info: mr_resids-eps-converted-to.pdf used on input line 342.
+Package pdftex.def Info: mr_resids-eps-converted-to.pdf used on input line 333.
 
 (pdftex.def)             Requested size: 433.62pt x 433.61894pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 
  []
 
 [5] [6 <./histograms-eps-converted-to.pdf> <./mr_small-eps-converted-to.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 349.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 340.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -771,224 +625,23 @@ Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 Package natbib Warning: There were undefined citations.
 
-
-Package natbib Warning: There were multiply defined citations.
-
-[8pdfTeX warning (ext4): destination with the same identifier (name{cite.Batalh
-a2011}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Batalha2013}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Borucki2011}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Carter2011}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Carter2012}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Charbonneau2009}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Cochran2011}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Dragomir2013b}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Dragomir2013}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Endl2012}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Enoch2012}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Gautier2012}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Gilliland2013}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Hatzes2011}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Howard2011}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Howard2013arxiv}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Jontof-Hutter2013}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Kane2012}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Leger2009}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Lissauer2011}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Lissauer2013}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Lopez2012}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Marcy2013}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.McArthur2004}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Petigura2013a}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Queloz2009}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Sanchis-Ojeda2013}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Sanchis-Ojeda2012}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Seager2007}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.Weiss2013}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.WL2013}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.586 \end{document}
-                    ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 586.
- (./small_mr_relation_apjl_v3.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 586.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 586.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 577.
+ (./small_mr_relation_apjl_v3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 577.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 577.
 Package rerunfilecheck Info: File `small_mr_relation_apjl_v3.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 8D48DB83FE9AA24C6EE24C284C0EB00D;993.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: 6615BCC46A769D485C0C27769C47C8C1;815.
  ) 
 Here is how much of TeX's memory you used:
- 8508 strings out of 493633
- 119865 string characters out of 3143378
- 296004 words of memory out of 3000000
- 11621 multiletter control sequences out of 15000+200000
+ 8501 strings out of 493633
+ 119779 string characters out of 3143378
+ 293870 words of memory out of 3000000
+ 11617 multiletter control sequences out of 15000+200000
  13190 words of font info for 54 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 42i,12n,31p,2079b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,31p,2070b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -1015,12 +668,11 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2011/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2011/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on small_mr_relation_apjl_v3.pdf (8 pages, 512863 bytes).
+nts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on small_mr_relation_apjl_v3.pdf (8 pages, 503679 bytes).
 PDF statistics:
- 801 PDF objects out of 1000 (max. 8388607)
- 611 compressed objects within 7 object streams
- 62 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 786 PDF objects out of 1000 (max. 8388607)
+ 596 compressed objects within 6 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 

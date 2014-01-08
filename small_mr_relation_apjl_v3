@@ -71,7 +71,7 @@
 \submitted{Submitted to ApJ Letters on 3 December, 2013.} 
 
 \begin{abstract}
-We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  In our initial analysis, we find a nearly linear mass-radius relation which has a shallower power-law index than many previous mass-radius relations explored in the literature.  The RMS of planet masses to this fit is 3.9 \mearth, and our best fit has reduced $\chi^2=3.5$, indicating a diversity in planet compositions below 4\rearth.  Above 1.5 \rearth, planet density decreases as radius increases, indicating that larger exoplanets have a significant fraction of volatiles by volume (such as H/He envelopes).  Exoplanets have densities comparable to that of Earth at  $\rpl=1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5\rearth.  The low densities of planets larger than 1.5\rearth\ indicate that these planets have a large fraction of volatiles by volume and are almost certainly not rocky planets.  Accommodating the compositional break at 1.5\rearth, we find $\mpl/\mearth = 5.60 + 0.71 \rpl/\rearth$ for $1.5 \le \rpl/\rearth < 4$, and $\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45}$ for $\rpl < 1.5 \rearth$.
+We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  In our initial analysis, we find a nearly linear mass-radius relation which has a shallower power-law index than many previous mass-radius relations explored in the literature.  The low densities of planets larger than 1.5\rearth\ indicate that these planets have a large fraction of volatiles by volume and are almost certainly not rocky planets.  Above 1.5 \rearth, planet density decreases as radius increases: $\rhopl = 13 \left(\rpl/\rearth\right)^{-2.11} \gcc$; the steep decrease in density indicates the presence of light volatiles such as H/He envelopes.  Exoplanets have densities consistent with Earth's composition at  $\rpl=1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5\rearth.   Accommodating the compositional break at 1.5\rearth, we find $\mpl/\mearth = 5.89 \left(\rpl/\rearth\right)^{0.25}$ for $1.5 \le \rpl/\rearth < 4$, and $\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45}$ for $\rpl < 1.5 \rearth$.  The RMS of planet masses to the fit between 1.5 and 4 \rearth is 4.7 \mearth with reduced $\chi^2=3.5$, indicating a diversity in their compositions.
 \end{abstract}
 
 %%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,7 +79,7 @@ We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbit
 \section{Introduction}
 %\subsection{}
 
-The Kepler Mission has found an abundance of planets with radii $\rpl < 4\rearth$ \citep{Batalha2013}; the most recent head-count indicates [number] planet candidates in this size range, most of which are real.  Although there are no planets between the size of Earth and Neptune in the solar system, occurrence calculations that de-bias the orbital geometry and completeness of the Kepler survey find that planets between the size of Earth and Neptune are common in our galaxy, occurring with orbital periods between 5 and 50 days around 24\% of stars \citep{Petigura2013a}.  However, in many systems, it is difficult to measure the masses of such small planets because the gravitational acceleration these planets induce on their host stars or neighboring planets is challenging to detect with current telescopes and instruments; we cannot hope to measure the masses of all [number] planets in this size range discovered by Kepler.  Obtaining measurements of the masses of a subset of these planets and characterizing their compositions is vital to understanding the formation and evolution of this population of planets.
+The Kepler Mission has found an abundance of planets with radii $\rpl < 4\rearth$ \citep{Batalha2013}; the most recent head-count indicates [number] planet candidates in this size range, most of which are real.  Although there are no planets between the size of Earth and Neptune in the solar system, occurrence calculations that de-bias the orbital geometry and completeness of the Kepler survey find that planets between the size of Earth and Neptune are common in our galaxy, occurring with orbital periods between 5 and 50 days around 24\% of stars \citep{Petigura2013a}.  However, in many systems, it is difficult to measure the masses of such small planets because the gravitational acceleration these planets induce on their host stars or neighboring planets is challenging to detect with current telescopes and instruments.  We cannot hope to measure the masses of all planets in this size range discovered by Kepler.  Obtaining measurements of the masses of a subset of these planets and characterizing their compositions is vital to understanding the formation and evolution of this population of planets.
 
 Many authors have explored the relation between planet mass and radius as a means for understanding exoplanet compositions and as a predictive tool.  \citet{Seager2007} predict the mass-radius relationship for  planets of various compositions.  The mass-radius relation in \citet{Lissauer2011}, which is commonly used in literature to translate between planet masses and radii, is based on fitting a power law relation to Earth and Saturn only.  Other works, such as \citet{Enoch2012, Kane2012, Weiss2013}, determine empirical relations between mass and radius based on the exoplanet population.  
 
@@ -247,8 +247,8 @@ Including the solar system planets and their artificial errors raises the \texti
 
 For planets satisfying $1.5 \le \rpl/\rearth < 4$, we find:
 \begin{equation}
-\frac{\mpl}{\mearth} = 5.6 + 0.71 \frac{\rpl}{\rearth}
-\label{eqn:mr_rocky}
+\frac{\mpl}{\mearth} = 5.89 \left(\frac{\rpl}{\rearth}\right)^{0.25}
+\label{eqn:mr_plaw}
 \end{equation}
 with reduced $\chi^2=3.5$ and RMS=4.7 \mearth.  The large RMS (of order the planet mass) indicates significant compositional variety among the exoplanets containing volatiles.  The compositional variation at a given radius is likely due to slight differences in the size of the rocky core \citep{Lopez2013}
 
@@ -322,8 +322,8 @@ The mass-radius relation achieves the density of an Earth-composition planet at 
 
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-    \includegraphics[width=6in]{mr_small.eps} 
-   \caption{\small \textbf{Left:} Mass vs. radius for 63 exoplanets.  Gray points  have RV-determined masses; orange points have TTV-determined masses.  The point size corresponds to $1/\sigma(\mpl)$.  The black line is an empirical fit to the masses and radii above 1.5 \rearth; see equations \ref{eqn:mr_plaw}.  The green line is the mass-radius relation from \citet{Seager2007} for planets of Earth composition (67.5\% MgSiO$_3$, 32.5\% Fe).  The blue points are the weighted mean exoplanet mass in bins of $0.5 \rearth$, with error bars representing the uncertainty in the means.  The weighted mean masses were not used in calculating the fit.  The blue diamonds indicate solar system planets, which were not used in calculating the empirical fit.  \textbf{Right:} Density vs. radius for 63 exoplanets.  The point size corresponds to $1/\sigma(\rhopl)$.  The blue points are the weighted mean densities in bins of $0.5 \rearth$.  The \citet{Seager2007} density-radius solution for Earth's composition is the green line.  Planets larger than 1.5 \rearth are less dense than Earth composition, indicating that they probably contain a significant fraction of volatiles.  The black line is the empirical fit between planet density and radius for $ 1.5 \le \rpl/\rearth < 4$; see equation \ref{eqn:dr_plaw}.  Some mass and density outliers are excluded from these plots, but are included in the fits.}
+    \includegraphics[width=6in]{mr_small-eps-converted-to.pdf} 
+   \caption{\small \textbf{Left:} Mass vs. radius for 63 exoplanets.  Gray points  have RV-determined masses; orange points have TTV-determined masses.  The point size corresponds to $1/\sigma(\mpl)$.  The black line is an empirical fit to the masses and radii above 1.5 \rearth; see equation \ref{eqn:mr_plaw}.  The green line is the mass-radius relation from \citet{Seager2007} for planets of Earth composition (67.5\% MgSiO$_3$, 32.5\% Fe).  The blue squares are the weighted mean exoplanet mass in bins of $0.5 \rearth$, with error bars representing $\sigma_i/\sqrt{N_i}$, where $\sigma_i$ is the standard deviation of the masses and $N_i$ is the number of exoplanets in bin $i$.  The weighted mean masses were not used in calculating the fit.  The blue diamonds indicate solar system planets, which were not used in calculating the empirical fit.  \textbf{Right:} Density vs. radius for 63 exoplanets.  Same as left, but the point size corresponds to $1/\sigma(\rhopl)$, and the blue squares are the weighted mean densities in bins of $0.5 \rearth$.  Planets larger than 1.5 \rearth are less dense than Earth composition, indicating that they contain a significant fraction of volatiles.  The black line is an empirical fit between planet density and radius for $ 1.5 \le \rpl/\rearth < 4$.  Some mass and density outliers are excluded from these plots, but are included in the fits.}
    \label{fig:rm_4}
 \end{figure*}
 
@@ -331,13 +331,12 @@ The mass-radius relation achieves the density of an Earth-composition planet at 
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
     \includegraphics[width=6in]{mr_resids.eps} 
-   \caption{\small Mass residuals (measured minus the mass predicted from equation \ref{eqn:mr_plaw}) versus (top left to bottom right): planet orbital period, planet semi-major axis, incident stellar flux, stellar mass, stellar radius, surface gravity, metallicity (compared to solar), stellar age, and stellar $v\mathrm{sin}i$. Error bars are 1$\sigma$ uncertainties, and the orange points are residuals of the TTV-determined masses.  None of the residuals show a significant correlation.}
+   \caption{\small Mass residuals (measured minus the mass predicted from equation \ref{eqn:mr_plaw}) versus (top left to bottom right): planet orbital period, planet semi-major axis, incident stellar flux, stellar mass, stellar radius, surface gravity, metallicity (compared to solar), stellar age, and stellar $v\mathrm{sin}i$. Error bars are 1$\sigma$ uncertainties, and the orange points are residuals of the TTV-determined masses.  None of the residuals show a significant correlation, although more mass measurements might elucidate a correlation with metallicity.}
    \label{fig:resids}
 \end{figure*}
 
 %%%%%%%%%%%%% Bibliograpy %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-
 \begin{thebibliography}{31}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
@@ -571,7 +570,8 @@ Howard, A.~W., Johnson, J.~A., Marcy, G.~W., {et~al.} 2011, The Astrophysical
 
 \end{thebibliography}
 
-\bibliography{exoplanet_papers}{}
-\bibliographystyle{apj}
+
+%\bibliography{exoplanet_papers}{}
+%\bibliographystyle{apj}
 
 \end{document}  
