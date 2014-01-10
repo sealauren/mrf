@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  8 JAN 2014 09:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  10 JAN 2014 12:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -538,23 +538,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
 <to be read again> 
                    \relax 
 l.257 \begin{deluxetable*}{llll}
-                                 [4]
+                                
 Underfull \hbox (badness 1184) in paragraph at lines 311--312
 \OT1/cmr/m/n/10 Earth-composition planet at ap-prox-i-mately 1.5 $\OML/cmm/m/it
 /10 R[]$\OT1/cmr/m/n/10 .
  []
 
+[4]
 Package epstopdf Info: Source file: <histograms.eps>
-(epstopdf)                    date: 2014-01-05 10:04:34
+(epstopdf)                    date: 2014-01-10 12:06:27
 (epstopdf)                    size: 58922 bytes
 (epstopdf)             Output file: <histograms-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-05 10:04:55
+(epstopdf)                    date: 2014-01-05 07:04:55
 (epstopdf)                    size: 22405 bytes
 (epstopdf)             Command: <epstopdf --outfile=histograms-eps-converted-to
 .pdf histograms.eps>
 (epstopdf)             \includegraphics on input line 318.
-Package epstopdf Info: Output file is already uptodate.
-<histograms-eps-converted-to.pdf, id=488, 867.24pt x 433.62pt>
+runsystem(epstopdf --outfile=histograms-eps-converted-to.pdf histograms.eps)...
+executed.
+
+Package epstopdf Info: Result file: <histograms-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-10 12:09:10
+(epstopdf)                    size: 22405 bytes.
+ <histograms-eps-converted-to.pdf, id=488, 867.24pt x 433.62pt>
 File: histograms-eps-converted-to.pdf Graphic file (type pdf)
 
 <use histograms-eps-converted-to.pdf>
@@ -588,10 +594,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--326
  []
 
 Package epstopdf Info: Source file: <mr_resids.eps>
-(epstopdf)                    date: 2014-01-05 10:11:54
+(epstopdf)                    date: 2014-01-05 07:11:54
 (epstopdf)                    size: 306246 bytes
 (epstopdf)             Output file: <mr_resids-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-05 10:12:03
+(epstopdf)                    date: 2014-01-05 07:12:03
 (epstopdf)                    size: 106141 bytes
 (epstopdf)             Command: <epstopdf --outfile=mr_resids-eps-converted-to.
 pdf mr_resids.eps>
@@ -635,10 +641,10 @@ ed.
 (rerunfilecheck)             Checksum: 6615BCC46A769D485C0C27769C47C8C1;815.
  ) 
 Here is how much of TeX's memory you used:
- 8501 strings out of 493633
- 119779 string characters out of 3143378
- 293870 words of memory out of 3000000
- 11617 multiletter control sequences out of 15000+200000
+ 8502 strings out of 493633
+ 119787 string characters out of 3143378
+ 293553 words of memory out of 3000000
+ 11618 multiletter control sequences out of 15000+200000
  13190 words of font info for 54 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  42i,12n,31p,2070b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -669,7 +675,7 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2011/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on small_mr_relation_apjl_v3.pdf (8 pages, 503679 bytes).
+Output written on small_mr_relation_apjl_v3.pdf (8 pages, 503278 bytes).
 PDF statistics:
  786 PDF objects out of 1000 (max. 8388607)
  596 compressed objects within 6 object streams

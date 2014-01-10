@@ -71,7 +71,7 @@
 \submitted{Submitted to ApJ Letters on 3 December, 2013.} 
 
 \begin{abstract}
-We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  In our initial analysis, we find a nearly linear mass-radius relation which has a shallower power-law index than many previous mass-radius relations explored in the literature.  The low densities of planets larger than 1.5\rearth\ indicate that these planets have a large fraction of volatiles by volume and are almost certainly not rocky planets.  Above 1.5 \rearth, planet density decreases as radius increases: $\rhopl = 13 \left(\rpl/\rearth\right)^{-2.11} \gcc$; the steep decrease in density indicates the presence of light volatiles such as H/He envelopes.  Exoplanets have densities consistent with Earth's composition at  $\rpl=1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5\rearth.   Accommodating the compositional break at 1.5\rearth, we find $\mpl/\mearth = 5.89 \left(\rpl/\rearth\right)^{0.25}$ for $1.5 \le \rpl/\rearth < 4$, and $\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45}$ for $\rpl < 1.5 \rearth$.  The RMS of planet masses to the fit between 1.5 and 4 \rearth is 4.7 \mearth with reduced $\chi^2=3.5$, indicating a diversity in their compositions.
+We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  Exoplanets have densities consistent with Earth's composition at  $\rpl=1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5\rearth.   Above 1.5 \rearth, planet density rapidly decreases, indicating that these planets have a large fraction of volatiles by volume and are almost certainly not rocky planets.  Accommodating the compositional break at 1.5\rearth, we find $\mpl/\mearth = 5.89 \left(\rpl/\rearth\right)^{0.25}$ for $1.5 \le \rpl/\rearth < 4$, and $\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45}$ for $\rpl < 1.5 \rearth$.  The RMS of planet masses to the fit between 1.5 and 4 \rearth is 4.7 \mearth with reduced $\chi^2=3.5$, indicating a diversity in their compositions which is perhaps due to a variety of planet core masses or the presence of water layers in some planets.
 \end{abstract}
 
 %%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -136,74 +136,74 @@ The exoplanets all have $P < 100$ days.  This is because the transit probability
 
 %% All data must appear between the \startdata and \enddata commands
 \startdata
-           $^b$55 Cnc e &      0.737 &       8.38$\pm$0.39       &       1.990$\pm$0.084       &   2439.690 &                     \citet{McArthur2004} &               \citet{Endl2012},\\ 
+           $^b$55 Cnc e &      0.737 &       8.38$\pm$0.39       &       1.990$\pm$0.084       &   2400 &                     \citet{McArthur2004} &               \citet{Endl2012},\\ 
            & & & & & & \citet{Dragomir2013b} \\
-           CoRoT-7 b &      0.854 &       7.42$\pm$1.21       &       1.58$\pm$0.1       &   1779.433 &             \citet{Queloz2009}, &                       \citet{Hatzes2011}\\ 
+           CoRoT-7 b &      0.854 &       7.42$\pm$1.21       &       1.58$\pm$0.1       &   1800 &             \citet{Queloz2009}, &                       \citet{Hatzes2011}\\ 
             & & & & & \citet{Leger2009} & \\
-           GJ 1214 b &      1.580 &       6.45$\pm$0.91       &       2.65$\pm$0.09       &     16.631 &                  \citet{Charbonneau2009} &                       \citet{Carter2011}\\ 
-          HD 97658 b &      9.491 &       7.87$\pm$0.73       &       2.34$\pm$0.16       &     48.106 &                       \citet{Howard2011} &                     \citet{Dragomir2013}\\ 
-         Kepler-10 b &      0.837 &       4.60$\pm$1.26       &       1.46$\pm$0.02       &   3675 &                      \citet{Batalha2011} &                      \citet{Batalha2011}\\ 
-         $^c$Kepler-11 b &     10.304 &       1.90$\pm$1.20       &       1.80$\pm$0.04       &    126.512 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
-         $^c$Kepler-11 c &     13.024 &       2.90$\pm$2.20       &       2.87$\pm$0.06       &     91.443 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
-         $^c$Kepler-11 d &     22.684 &       7.30$\pm$1.10       &       3.12$\pm$0.07       &     43.563 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
-         $^c$Kepler-11 f &     46.689 &       2.00$\pm$0.80       &       2.49$\pm$0.06       &     16.747 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
-         Kepler-18 b &      3.505 &       6.90$\pm$3.48       &       2.00$\pm$0.10       &    462.244 &                      \citet{Borucki2011} &                      \citet{Cochran2011}\\ 
-         Kepler-20 b &      3.696 &       8.47$\pm$2.12       &       1.91$\pm$0.16       &    346.711 &                      \citet{Borucki2011} &                      \citet{Gautier2012}\\ 
-         Kepler-20 c &     10.854 &      15.73$\pm$3.31       &       3.07$\pm$0.25       &     82.445 &                      \citet{Borucki2011} &                      \citet{Gautier2012}\\ 
-         Kepler-20 d &     77.612 &       7.53$\pm$7.22       &       2.75$\pm$0.23       &      5.985 &                      \citet{Borucki2011} &                      \citet{Gautier2012}\\ 
-         $^c$Kepler-30 b &	 29.334 &  	 11.3$\pm$1.4   &	 3.90	$\pm$0.20	&  21.496 &	 		\citet{Borucki2011} &		 \cite{Sanchis-Ojeda2012}\\
-         $^c$Kepler-36 b &     13.840 &       4.46$\pm$0.30       &       1.48$\pm$0.03       &    217.365 &                      \citet{Borucki2011} &                       \citet{Carter2012}\\ 
-         $^c$Kepler-36 c &     16.239 &       8.10$\pm$0.53       &       3.68$\pm$0.05       &    175.646 &                       \citet{Carter2012} &                       \citet{Carter2012}\\ 
-         Kepler-68 b &      5.399 &       8.30$\pm$2.30       &       2.31$\pm$0.03       &    409.092 &                      \citet{Borucki2011} &                    \citet{Gilliland2013}\\ 
-         Kepler-68 c &      9.605 &       4.38$\pm$2.80       &       0.95$\pm$0.04       &    189.764 &                      \citet{Batalha2013} &                    \citet{Gilliland2013}\\ 
-           Kepler-78 b &      0.354 &       1.69$\pm$0.41       &       1.20$\pm$0.09       &   3093.388 &              \citet{Sanchis-Ojeda2013} &              \citet{Howard2013arxiv}\\ 
-           Kepler-100 c &     12.816 &       0.85$\pm$4.00       &       2.20$\pm$0.05       &    213.371 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           Kepler-100 b &      6.887 &       7.34$\pm$3.20       &       1.32$\pm$0.04       &    472.831 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           Kepler-100 d &     35.333 &      -4.36$\pm$4.10       &       1.61$\pm$0.05       &     55.812 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           Kepler-93 b &      4.727 &       2.59$\pm$2.00       &       1.50$\pm$0.03       &    220.120 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           Kepler-102 e &     16.146 &       8.93$\pm$2.00       &       2.22$\pm$0.07       &     17.278 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           Kepler-102 d &     10.312 &       3.80$\pm$1.80       &       1.18$\pm$0.04       &     31.184 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           Kepler-102 f &     27.454 &       0.62$\pm$3.30       &       0.88$\pm$0.03       &      8.250 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           Kepler-102 c &      7.071 &      -1.58$\pm$2.00       &       0.58$\pm$0.02       &     51.315 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           Kepler-102 b &      5.287 &       0.41$\pm$1.60       &       0.47$\pm$0.02       &     78.407 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-94 b &      3.743 &       10.50$\pm$4.60       &       1.71$\pm$0.16       &   1155.374 &                        \citet{Batalha2013} &                        \citet{Weiss2013}\\ 
-          Kepler-94 b &      2.508 &      10.84$\pm$1.40       &       3.51$\pm$0.15       &    214.674 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-103 b &     15.965 &      14.11$\pm$4.70       &       3.37$\pm$0.09       &    124.197 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-106 c &     13.571 &      10.44$\pm$3.20       &       2.50$\pm$0.32       &     84.462 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-106 e &     43.844 &      11.17$\pm$5.80       &       2.56$\pm$0.33       &     15.645 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-106 b &      6.165 &       0.15$\pm$2.80       &       0.82$\pm$0.11       &    239.077 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-         Kepler-106 d &     23.980 &      -6.39$\pm$7.00       &       0.95$\pm$0.13       &     43.146 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-95 b &     11.523 &      13.00$\pm$2.90       &       3.42$\pm$0.09       &    182.708 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-109 b &      6.482 &       1.30$\pm$5.40       &       2.37$\pm$0.07       &    444.879 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-109 c &     21.223 &       2.22$\pm$7.80       &       2.52$\pm$0.07       &     94.934 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-48 b &      4.778 &       3.94$\pm$2.10       &       1.88$\pm$0.10       &    168.932 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-48 c &      9.674 &      14.61$\pm$2.30       &       2.71$\pm$0.14       &    225.109 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-         Kepler-48 d &     42.896 &       7.93$\pm$4.60       &       2.04$\pm$0.11       &     13.545 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-	Kepler-79 b	   & 	13.4845 &	 	10.9$\pm$6.70	  &	3.47$\pm$0.07 &	161.456472 &	 		\citet{Borucki2011}	& 			\citet{Jontof-Hutter2013}\\
-	Kepler-79 c	   & 	27.4029 &	 	5.9$\pm$2.10	 & 	3.72$\pm$0.08	 &	 63.225260 &			 \citet{Borucki2011}	 &			 \citet{Jontof-Hutter2013}\\
-	Kepler-79 e	   & 	81.0659 &	 	4.1$\pm$1.15	 & 	3.49$\pm$0.14	 &	 14.833204 &	 		\citet{Borucki2011}	 &			 \citet{Jontof-Hutter2013}\\
-          Kepler-113 c &      8.925 &      -4.60$\pm$6.20       &       2.19$\pm$0.06       &     50.981 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-113 b &      4.754 &       7.10$\pm$3.30       &       1.82$\pm$0.05       &     63.986 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-25 b &      6.239 &       9.60$\pm$4.20       &       2.71$\pm$0.05       &    667.269 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-37 d &     39.792 &       1.87$\pm$9.08       &       1.94$\pm$0.06       &      7.710 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-37 c &     21.302 &       3.35$\pm$4.00       &       0.75$\pm$0.03       &     16.291 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-37 b &     13.367 &       2.78$\pm$3.70       &       0.32$\pm$0.02       &     37.373 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-68 b &      5.399 &       5.97$\pm$1.70       &       2.33$\pm$0.02       &    375.530 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-68 c &      9.605 &       2.18$\pm$3.50       &       1.00$\pm$0.02       &    220.199 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-96 b &     16.238 &       8.46$\pm$3.40       &       2.67$\pm$0.22       &     73.950 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-131 b &     16.092 &      16.13$\pm$3.50       &       2.41$\pm$0.20       &     71.656 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-131 c &     25.517 &       8.25$\pm$5.90       &       0.84$\pm$0.07       &     28.891 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-	Kepler-97 b &      2.587 &       3.51$\pm$1.90       &       1.48$\pm$0.13       &    851.551 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-98 b &      1.542 &       3.55$\pm$1.60       &       1.99$\pm$0.22       &   1581.816 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-99 b &      4.604 &       6.15$\pm$1.30       &       1.48$\pm$0.08       &     90.372 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-406 b &      2.426 &       6.35$\pm$1.40       &       1.43$\pm$0.03       &    713.204 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-          Kepler-406 c &      4.623 &       2.71$\pm$1.80       &       0.85$\pm$0.03       &    291.503 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-         Kepler-407 b &      0.669 &       0.06$\pm$1.20       &       1.07$\pm$0.02       &   3645.770 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-         KOI-1612.01 &      2.465 &       0.48$\pm$3.20       &       0.82$\pm$0.03       &   1691.964 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-         Kepler-409 b &     68.958 &       2.69$\pm$6.20       &       1.19$\pm$0.03       &      6.165 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           GJ 1214 b &      1.580 &       6.45$\pm$0.91       &       2.65$\pm$0.09       &     17 &                  \citet{Charbonneau2009} &                       \citet{Carter2011}\\ 
+          HD 97658 b &      9.491 &       7.87$\pm$0.73       &       2.34$\pm$0.16       &     48 &                       \citet{Howard2011} &                     \citet{Dragomir2013}\\ 
+         Kepler-10 b &      0.837 &       4.60$\pm$1.26       &       1.46$\pm$0.02       &   3700 &                      \citet{Batalha2011} &                      \citet{Batalha2011}\\ 
+         $^c$Kepler-11 b &     10.304 &       1.90$\pm$1.20       &       1.80$\pm$0.04       &    130 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
+         $^c$Kepler-11 c &     13.024 &       2.90$\pm$2.20       &       2.87$\pm$0.06       &     91 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
+         $^c$Kepler-11 d &     22.684 &       7.30$\pm$1.10       &       3.12$\pm$0.07       &     44 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
+         $^c$Kepler-11 f &     46.689 &       2.00$\pm$0.80       &       2.49$\pm$0.06       &     17 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
+         Kepler-18 b &      3.505 &       6.90$\pm$3.48       &       2.00$\pm$0.10       &    460 &                      \citet{Borucki2011} &                      \citet{Cochran2011}\\ 
+         Kepler-20 b &      3.696 &       8.47$\pm$2.12       &       1.91$\pm$0.16       &    350 &                      \citet{Borucki2011} &                      \citet{Gautier2012}\\ 
+         Kepler-20 c &     10.854 &      15.73$\pm$3.31       &       3.07$\pm$0.25       &     82 &                      \citet{Borucki2011} &                      \citet{Gautier2012}\\ 
+         Kepler-20 d &     77.612 &       7.53$\pm$7.22       &       2.75$\pm$0.23       &      6.0 &                      \citet{Borucki2011} &                      \citet{Gautier2012}\\ 
+         $^c$Kepler-30 b &	 29.334 &  	 11.3$\pm$1.4   &	 3.90	$\pm$0.20	&  21 &	 		\citet{Borucki2011} &		 \cite{Sanchis-Ojeda2012}\\
+         $^c$Kepler-36 b &     13.840 &       4.46$\pm$0.30       &       1.48$\pm$0.03       &    220 &                      \citet{Borucki2011} &                       \citet{Carter2012}\\ 
+         $^c$Kepler-36 c &     16.239 &       8.10$\pm$0.53       &       3.68$\pm$0.05       &    180 &                       \citet{Carter2012} &                       \citet{Carter2012}\\ 
+         Kepler-68 b &      5.399 &       8.30$\pm$2.30       &       2.31$\pm$0.03       &    410 &                      \citet{Borucki2011} &                    \citet{Gilliland2013}\\ 
+         Kepler-68 c &      9.605 &       4.38$\pm$2.80       &       0.95$\pm$0.04       &    190 &                      \citet{Batalha2013} &                    \citet{Gilliland2013}\\ 
+           Kepler-78 b &      0.354 &       1.69$\pm$0.41       &       1.20$\pm$0.09       &   3100 &              \citet{Sanchis-Ojeda2013} &              \citet{Howard2013arxiv}\\ 
+           Kepler-100 c &     12.816 &       0.85$\pm$4.00       &       2.20$\pm$0.05       &    210 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-100 b &      6.887 &       7.34$\pm$3.20       &       1.32$\pm$0.04       &    470 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-100 d &     35.333 &      -4.36$\pm$4.10       &       1.61$\pm$0.05       &     56 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-93 b &      4.727 &       2.59$\pm$2.00       &       1.50$\pm$0.03       &    220 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 e &     16.146 &       8.93$\pm$2.00       &       2.22$\pm$0.07       &     17 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 d &     10.312 &       3.80$\pm$1.80       &       1.18$\pm$0.04       &     31 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 f &     27.454 &       0.62$\pm$3.30       &       0.88$\pm$0.03       &      8.3 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 c &      7.071 &      -1.58$\pm$2.00       &       0.58$\pm$0.02       &     51 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           Kepler-102 b &      5.287 &       0.41$\pm$1.60       &       0.47$\pm$0.02       &     78 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+           KOI-94 b &      3.743 &       10.50$\pm$4.60       &       1.71$\pm$0.16       &   1200 &                        \citet{Batalha2013} &                        \citet{Weiss2013}\\ 
+          Kepler-94 b &      2.508 &      10.84$\pm$1.40       &       3.51$\pm$0.15       &    210 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-103 b &     15.965 &      14.11$\pm$4.70       &       3.37$\pm$0.09       &    120 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-106 c &     13.571 &      10.44$\pm$3.20       &       2.50$\pm$0.32       &     84 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-106 e &     43.844 &      11.17$\pm$5.80       &       2.56$\pm$0.33       &     16 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-106 b &      6.165 &       0.15$\pm$2.80       &       0.82$\pm$0.11       &    240 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         Kepler-106 d &     23.980 &      -6.39$\pm$7.00       &       0.95$\pm$0.13       &     43 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-95 b &     11.523 &      13.00$\pm$2.90       &       3.42$\pm$0.09       &    180 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-109 b &      6.482 &       1.30$\pm$5.40       &       2.37$\pm$0.07       &    440 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-109 c &     21.223 &       2.22$\pm$7.80       &       2.52$\pm$0.07       &     95 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-48 b &      4.778 &       3.94$\pm$2.10       &       1.88$\pm$0.10       &    170 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-48 c &      9.674 &      14.61$\pm$2.30       &       2.71$\pm$0.14       &    230 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         Kepler-48 d &     42.896 &       7.93$\pm$4.60       &       2.04$\pm$0.11       &     14 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+	Kepler-79 b	   & 	13.4845 &	 	10.9$\pm$6.70	  &	3.47$\pm$0.07 &	160 &	 		\citet{Borucki2011}	& 			\citet{Jontof-Hutter2013}\\
+	Kepler-79 c	   & 	27.4029 &	 	5.9$\pm$2.10	 & 	3.72$\pm$0.08	 &	 63 &			 \citet{Borucki2011}	 &			 \citet{Jontof-Hutter2013}\\
+	Kepler-79 e	   & 	81.0659 &	 	4.1$\pm$1.15	 & 	3.49$\pm$0.14	 &	 15 &	 		\citet{Borucki2011}	 &			 \citet{Jontof-Hutter2013}\\
+          Kepler-113 c &      8.925 &      -4.60$\pm$6.20       &       2.19$\pm$0.06       &     51 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-113 b &      4.754 &       7.10$\pm$3.30       &       1.82$\pm$0.05       &     64 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-25 b &      6.239 &       9.60$\pm$4.20       &       2.71$\pm$0.05       &    670 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-37 d &     39.792 &       1.87$\pm$9.08       &       1.94$\pm$0.06       &      7.7 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-37 c &     21.302 &       3.35$\pm$4.00       &       0.75$\pm$0.03       &     16 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-37 b &     13.367 &       2.78$\pm$3.70       &       0.32$\pm$0.02       &     37 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-68 b &      5.399 &       5.97$\pm$1.70       &       2.33$\pm$0.02       &    380 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-68 c &      9.605 &       2.18$\pm$3.50       &       1.00$\pm$0.02       &    220 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-96 b &     16.238 &       8.46$\pm$3.40       &       2.67$\pm$0.22       &     74 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-131 b &     16.092 &      16.13$\pm$3.50       &       2.41$\pm$0.20       &     72 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-131 c &     25.517 &       8.25$\pm$5.90       &       0.84$\pm$0.07       &     29 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+	Kepler-97 b &      2.587 &       3.51$\pm$1.90       &       1.48$\pm$0.13       &    850 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-98 b &      1.542 &       3.55$\pm$1.60       &       1.99$\pm$0.22       &   1600 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-99 b &      4.604 &       6.15$\pm$1.30       &       1.48$\pm$0.08       &     90&                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-406 b &      2.426 &       6.35$\pm$1.40       &       1.43$\pm$0.03       &    710 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+          Kepler-406 c &      4.623 &       2.71$\pm$1.80       &       0.85$\pm$0.03       &    290 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         Kepler-407 b &      0.669 &       0.06$\pm$1.20       &       1.07$\pm$0.02       &   3600 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         KOI-1612.01 &      2.465 &       0.48$\pm$3.20       &       0.82$\pm$0.03       &   1700 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         Kepler-409 b &     68.958 &       2.69$\pm$6.20       &       1.19$\pm$0.03       &      6.2 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
 \enddata
 
-\tablenotetext{$^a$}{Incident stellar flux is calculated as $F/\fearth = (\rstar/\rsun)^2 (\teff/5778 \mathrm{K})^4 a^{-2} \sqrt{1/(1-e^2)}$, where $a$ is the semi-major axis in A.U. and $e$ is the eccentricity.}
+\tablenotetext{$^a$}{Incident stellar flux is calculated as $F/\fearth = (\rstar/\rsun)^2 (\teff/5778 \mathrm{K})^4 a^{-2} \sqrt{1/(1-e^2)}$, where $a$ is the semi-major axis in A.U. and $e$ is the eccentricity.  Typical errors are 10\%.}
 \tablenotetext{$^b$}{Mass is from \citet{Endl2012}, radius is from \citet{Dragomir2013b}.  The density is calculated from these values.}
 \tablenotetext{$^c$}{Planet mass determined by TTVs of a neighboring planet}
 
