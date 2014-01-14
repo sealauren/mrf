@@ -59,11 +59,11 @@
 
 \newcommand{\npl}{243~} % The number of exoplanets used to determine the MRF relation
 \newcommand{\nhires}{42~} % The number of transiting planets in the HIRES paper
-\newcommand{\nlm}{63~}
+\newcommand{\nlm}{64~}
 \newcommand{\rspecial}{4 \rearth}
 
 \begin{document}
-\title{The Mass-Radius Relation between 63 Exoplanets Smaller than 4 Earth Radii}
+\title{The Mass-Radius Relation between 64 Exoplanets Smaller than 4 Earth Radii}
 \author{Lauren~M.~Weiss$^{1,\dagger}$ \& Geoffrey~W.~Marcy$^1$}
 \affil{$^1$B-20 Hearst Field Annex, Astronomy Department, University of California, Berkeley, CA 94720}
 \altaffiltext{$\dagger$}{\small Supported by the NSF Graduate Student Fellowship, Grant DGE 1106400.}
@@ -71,7 +71,7 @@
 \submitted{Submitted to ApJ Letters on 3 December, 2013.} 
 
 \begin{abstract}
-We study the masses and radii of 63 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  Exoplanets have densities consistent with Earth's composition at  $\rpl=1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5\rearth.   Above 1.5 \rearth, planet density rapidly decreases, indicating that these planets have a large fraction of volatiles by volume and are almost certainly not rocky planets.  Accommodating the compositional break at 1.5\rearth, we find $\mpl/\mearth = 5.89 \left(\rpl/\rearth\right)^{0.25}$ for $1.5 \le \rpl/\rearth < 4$, and $\mpl/\mearth = 1.08 \left(\rpl/\rearth\right)^{3.45}$ for $\rpl < 1.5 \rearth$.  The RMS of planet masses to the fit between 1.5 and 4 \rearth is 4.7 \mearth with reduced $\chi^2=3.5$, indicating a diversity in their compositions which is perhaps due to a variety of planet core masses or the presence of water layers in some planets.
+We study the masses and radii of 64 exoplanets smaller than 4\rearth\ with orbital periods shorter than 100 days.  Exoplanets have densities consistent with Earth's composition at  $\rpl=1.5\rearth$, indicating likely rocky compositions among planets smaller than 1.5\rearth.   Above 1.5 \rearth, planet density rapidly decreases, indicating that these planets have a large fraction of volatiles by volume and are almost certainly not rocky planets.  Accommodating the compositional break at 1.5\rearth, we find $\mpl/\mearth = 2.69 \left(\rpl/\rearth\right)^{0.93}$ for $1.5 \le \rpl/\rearth < 4$, and $\rhopl = 2.62 + 3.19 \left(\rpl/\rearth\right) \gcc$ for $\rpl < 1.5 \rearth$.  The RMS of planet masses to the fit between 1.5 and 4 \rearth is 4.3 \mearth\ with reduced $\chi^2=6.2$, indicating a diversity in their compositions which is perhaps due to a variety of planet core masses or the presence of water layers.
 \end{abstract}
 
 %%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -94,7 +94,7 @@ In this paper, we investigate mass-radius relationships for planets smaller than
 \section{Selecting Exoplanets with Measured Mass and Radius}
 We present a judicious identification of small transiting planets with measured masses or mass upper limits.  The only selection criterion was that the exoplanets have $\rpl < 4 \rearth$ and either a mass determination, a marginal mass determination, or a mass upper limit.  There were no limits on stellar type, orbital period, or other system properties.
 
-We include all 19 planets smaller than 4\rearth\ with masses vetted on exoplanets.org, as of December 6, 2013.  Twelve of these masses are determined by radial velocities (RVs), but the masses of the four Kepler-11 planets, Kepler-30 b, the two Kepler-36 planets, and the three KOI-152 (Kepler-79) planets are determined by transit timing variations (TTVs) \citep{Lissauer2013, Sanchis-Ojeda2012, Carter2012,Jontof-Hutter2013}. We include all 40 transiting planets with RV follow-up in \citet{Marcy2013} that are smaller than 4\rearth, and one planet (KOI-94 b, R=1.7 \rearth) from \citet{Weiss2013}.  55 Cnc e, Corot-7 b, and GJ 1214 b have been studied extensively, and we had to choose from the masses and radii reported in various studies.  For 55 Cnc e, we use $\mpl = 8.38\pm0.39$, $\rpl = 1.990\pm0.084$ \citep{Endl2012,Dragomir2013}; for Corot-7 b, we use $\mpl =7.42\pm1.21$, $\rpl= 1.58\pm 0.1$ \citep{Hatzes2011}, and for GJ 1214 b, we use $\mpl =6.45\pm0.91 $, $\rpl= 2.65\pm0.09$ \citep{Carter2011}.  Histograms of the distributions of planet radius, mass, and density are shown in Figure \ref{fig:histograms}, and the individual measurements of planet mass and radius are listed in Table \ref{tab:mrf}.
+We include all 19 planets smaller than 4\rearth\ with masses vetted on exoplanets.org, as of January 13, 2013.  Twelve of these masses are determined by radial velocities (RVs), but the masses of four Kepler-11 planets, Kepler-30 b, and two Kepler-36 planets are determined by transit timing variations (TTVs) \citep{Lissauer2013, Sanchis-Ojeda2012, Carter2012}.  We include five numerically-determined planet masses from TTVs not yet on exoplanets.org: three KOI-152 (Kepler-79) planets \citep{Jontof-Hutter2013}, and two KOI-314 planets\citep{Kipping2014}.  We also include all 40 transiting planets with RV follow-up in \citet{Marcy2013} that are smaller than 4\rearth, and the RV-determined mass of KOI-94 b \citep{Weiss2013}, none of which yet appear on exoplanets.org.  55 Cnc e, Corot-7 b, and GJ 1214 b have been studied extensively, and we had to choose from the masses and radii reported in various studies.  For 55 Cnc e, we use $\mpl = 8.38\pm0.39$, $\rpl = 1.990\pm0.084$ \citep{Endl2012,Dragomir2013a}; for Corot-7 b, we use $\mpl =7.42\pm1.21$, $\rpl= 1.58\pm 0.1$ \citep{Hatzes2011}, and for GJ 1214 b, we use $\mpl =6.45\pm0.91 $, $\rpl= 2.65\pm0.09$ \citep{Carter2011}.  Histograms of the distributions of planet radius, mass, and density are shown in Figure \ref{fig:histograms}, and the individual measurements of planet mass and radius are listed in Table \ref{tab:mrf}.
 
 The exoplanets all have $P < 100$ days.  This is because the transit probability is very low for planets at long orbital periods and because short-period planets are often favored for RV and TTV studies.
 
@@ -137,11 +137,11 @@ The exoplanets all have $P < 100$ days.  This is because the transit probability
 %% All data must appear between the \startdata and \enddata commands
 \startdata
            $^b$55 Cnc e &      0.737 &       8.38$\pm$0.39       &       1.990$\pm$0.084       &   2400 &                     \citet{McArthur2004} &               \citet{Endl2012},\\ 
-           & & & & & & \citet{Dragomir2013b} \\
+           & & & & & & \citet{Dragomir2013a} \\
            CoRoT-7 b &      0.854 &       7.42$\pm$1.21       &       1.58$\pm$0.1       &   1800 &             \citet{Queloz2009}, &                       \citet{Hatzes2011}\\ 
             & & & & & \citet{Leger2009} & \\
            GJ 1214 b &      1.580 &       6.45$\pm$0.91       &       2.65$\pm$0.09       &     17 &                  \citet{Charbonneau2009} &                       \citet{Carter2011}\\ 
-          HD 97658 b &      9.491 &       7.87$\pm$0.73       &       2.34$\pm$0.16       &     48 &                       \citet{Howard2011} &                     \citet{Dragomir2013}\\ 
+          HD 97658 b &      9.491 &       7.87$\pm$0.73       &       2.34$\pm$0.16       &     48 &                       \citet{Howard2011} &                     \citet{Dragomir2013b}\\ 
          Kepler-10 b &      0.837 &       4.60$\pm$1.26       &       1.46$\pm$0.02       &   3700 &                      \citet{Batalha2011} &                      \citet{Batalha2011}\\ 
          $^c$Kepler-11 b &     10.304 &       1.90$\pm$1.20       &       1.80$\pm$0.04       &    130 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
          $^c$Kepler-11 c &     13.024 &       2.90$\pm$2.20       &       2.87$\pm$0.06       &     91 &                     \citet{Lissauer2011} &                     \citet{Lissauer2013}\\ 
@@ -156,7 +156,7 @@ The exoplanets all have $P < 100$ days.  This is because the transit probability
          $^c$Kepler-36 c &     16.239 &       8.10$\pm$0.53       &       3.68$\pm$0.05       &    180 &                       \citet{Carter2012} &                       \citet{Carter2012}\\ 
          Kepler-68 b &      5.399 &       8.30$\pm$2.30       &       2.31$\pm$0.03       &    410 &                      \citet{Borucki2011} &                    \citet{Gilliland2013}\\ 
          Kepler-68 c &      9.605 &       4.38$\pm$2.80       &       0.95$\pm$0.04       &    190 &                      \citet{Batalha2013} &                    \citet{Gilliland2013}\\ 
-           Kepler-78 b &      0.354 &       1.69$\pm$0.41       &       1.20$\pm$0.09       &   3100 &              \citet{Sanchis-Ojeda2013} &              \citet{Howard2013arxiv}\\ 
+           Kepler-78 b &      0.354 &       1.69$\pm$0.41       &       1.20$\pm$0.09       &   3100 &              \citet{Sanchis-Ojeda2013} &              \citet{Howard2013Nature}\\ 
            Kepler-100 c &     12.816 &       0.85$\pm$4.00       &       2.20$\pm$0.05       &    210 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
            Kepler-100 b &      6.887 &       7.34$\pm$3.20       &       1.32$\pm$0.04       &    470 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
            Kepler-100 d &     35.333 &      -4.36$\pm$4.10       &       1.61$\pm$0.05       &     56 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
@@ -166,7 +166,6 @@ The exoplanets all have $P < 100$ days.  This is because the transit probability
            Kepler-102 f &     27.454 &       0.62$\pm$3.30       &       0.88$\pm$0.03       &      8.3 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
            Kepler-102 c &      7.071 &      -1.58$\pm$2.00       &       0.58$\pm$0.02       &     51 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
            Kepler-102 b &      5.287 &       0.41$\pm$1.60       &       0.47$\pm$0.02       &     78 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-           KOI-94 b &      3.743 &       10.50$\pm$4.60       &       1.71$\pm$0.16       &   1200 &                        \citet{Batalha2013} &                        \citet{Weiss2013}\\ 
           Kepler-94 b &      2.508 &      10.84$\pm$1.40       &       3.51$\pm$0.15       &    210 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
           Kepler-103 b &     15.965 &      14.11$\pm$4.70       &       3.37$\pm$0.09       &    120 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
           Kepler-106 c &     13.571 &      10.44$\pm$3.20       &       2.50$\pm$0.32       &     84 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
@@ -199,12 +198,15 @@ The exoplanets all have $P < 100$ days.  This is because the transit probability
           Kepler-406 b &      2.426 &       6.35$\pm$1.40       &       1.43$\pm$0.03       &    710 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
           Kepler-406 c &      4.623 &       2.71$\pm$1.80       &       0.85$\pm$0.03       &    290 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
          Kepler-407 b &      0.669 &       0.06$\pm$1.20       &       1.07$\pm$0.02       &   3600 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
-         KOI-1612.01 &      2.465 &       0.48$\pm$3.20       &       0.82$\pm$0.03       &   1700 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
          Kepler-409 b &     68.958 &       2.69$\pm$6.20       &       1.19$\pm$0.03       &      6.2 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         KOI-94 b &      3.743 &       10.50$\pm$4.60       &       1.71$\pm$0.16       &   1200 &                        \citet{Batalha2013} &                        \citet{Weiss2013}\\ 
+         KOI-1612.01 &      2.465 &       0.48$\pm$3.20       &       0.82$\pm$0.03       &   1700 &                      \citet{Borucki2011} &                        \citet{Marcy2013}\\ 
+         KOI-314 b &      0.669 &       0.06$\pm$1.20       &       1.07$\pm$0.02       &   3600 &                      \citet{Borucki2011} &                        \citet{Kipping2014}\\ 
+         KOI-314 c &      0.669 &       0.06$\pm$1.20       &       1.07$\pm$0.02       &   3600 &                      \citet{Borucki2011} &                        \citet{Kipping2014}\\ 
 \enddata
 
 \tablenotetext{$^a$}{Incident stellar flux is calculated as $F/\fearth = (\rstar/\rsun)^2 (\teff/5778 \mathrm{K})^4 a^{-2} \sqrt{1/(1-e^2)}$, where $a$ is the semi-major axis in A.U. and $e$ is the eccentricity.  Typical errors are 10\%.}
-\tablenotetext{$^b$}{Mass is from \citet{Endl2012}, radius is from \citet{Dragomir2013b}.  The density is calculated from these values.}
+\tablenotetext{$^b$}{Mass is from \citet{Endl2012}, radius is from \citet{Dragomir2013a}.  The density is calculated from these values.}
 \tablenotetext{$^c$}{Planet mass determined by TTVs of a neighboring planet}
 
 %, \tablerefs{ref list},
@@ -227,23 +229,26 @@ Including literature values, which typically only report planet mass if the plan
 
 %%%%%%%%%%%%% Results %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{The Mass-Radius Relation for 63 Small Exoplanets}
-The mass-radius plot for planets smaller than 4 \rearth\ shown in Figure \ref{fig:rm_4} (left) shows that, on average, exoplanet mass increases with increasing radius, indicating an underlying correlation in the individual exoplanet masses and radii.  We calculate the probability that mass and radius are uncorrelated for planets smaller than 4\rearth\ by calculating the Pearson R correlation coefficient: $r=0.61$.  In our sample of 63 exoplanets, the probability that these data are uncorrelated given $r = 0.61$ is $2 \times 10^{-7}$.  Thus, the masses and radii of planets between the sizes of Earth and Neptune are correlated.
+\section{The Mass-Radius Relation for 64 Small Exoplanets}
+The mass-radius plot for planets smaller than 4 \rearth\ shown in Figure \ref{fig:rm_4} (left) shows that, on average, exoplanet mass increases with increasing radius, indicating an underlying correlation in the individual exoplanet masses and radii.  We calculate the probability that mass and radius are uncorrelated for planets smaller than 4\rearth\ by calculating the Pearson R correlation coefficient: $r=0.61$.  In our sample of 64 exoplanets, the probability that these data are uncorrelated given $r = 0.61$ is $2 \times 10^{-7}$.  Thus, the masses and radii of planets between the sizes of Earth and Neptune are correlated.
 
-Figure \ref{fig:rm_4} shows the mass vs. radius and density vs. radius of 63 exoplanets examined here (although some outliers are excluded).  To guide the eye, we show the weighted mean exoplanet mass and density in bins of width 0.5 \rearth.  The weighted mean mass and density were not used in calculating the fits.
+Figure \ref{fig:rm_4} shows the mass vs. radius and density vs. radius of 64 exoplanets examined here (although some outliers are excluded).  To guide the eye, we show the weighted mean exoplanet mass and density in bins of width 0.5 \rearth.  The weighted mean mass and density were not used in calculating the fits.
 
 To illustrate how this population of exoplanets compares to our solar system, we include the solar system planets in Figure \ref{fig:rm_4}.  A quadratic fit to the exoplanet population happens to line up with the solar system planets \citep{Lissauer2011}, but has a reduced $\chi^2$ that is twice as large as the linear fit to the exoplanets.  Since most of the exoplanets in this sample have $P < 50$ days, we do not expect them to behave the same way as Uranus and Neptune, which have orbital periods of tens of thousands of days.
 
 We present several empirical relations between planet mass and radius, and between density and radius, which are illustrated in Figure \ref{fig:rm_4}.  The right panel in Figure \ref{fig:rm_4} shows that planets achieve an Earth-density at about 1.5 \rearth.  Rocky planets smaller than 1.5\rearth\ might be better described with a different functional form.  We consider independent relations for planets satisfying $\rpl < 1.5 \rearth$ to determine if relations consistent with rocky compositions better describe those planets.
 
 \subsection{A Break in the Mass-Radius Relation at 1.5 \rearth}
-To investigate the possibility of a different relationship between the masses and radii of the likely rocky exoplanets, for which we expect little to no volatile envelope and low bulk compressibility, we do an independent analysis for planets smaller than 1.5 \rearth.  We choose 1.5\rearth\ because this is where the weighted mean exoplanet density crosses the Earth-composition density curve from \citet[][see Figure \ref{fig:rm_4}]{Seager2007}.  Exoplanets smaller than 1.5 \rearth mostly have mass uncertainties of order the planet mass, except for CoRoT-7 b, Kepler-10 b, and Kepler-78 b.  Because the equation of state for rocky planets should not depend on the orbital period of the planet or incident flux on the planet, we can include the terrestrial solar system planets (Mercury, Venus, Earth, Mars) in a power law fit to the terrestrial planets.  We impose uncertainties of 10\% in their masses and 5\% in their radii so that the solar system planets will contribute to, but not dominate, the fit to the terrestrial planets.  The best power-law fit for exoplanets and solar system planets with $\rpl < 1.5 \rearth$ gives:
+To investigate the possibility of a different relationship between the masses and radii of the likely rocky exoplanets, for which we expect little to no volatile envelope and low bulk compressibility, we do an independent analysis for planets smaller than 1.5 \rearth.  We choose 1.5\rearth\ because this is where the weighted mean exoplanet density crosses the Earth-composition density curve from \citet[][see Figure \ref{fig:rm_4}]{Seager2007}.  Exoplanets smaller than 1.5 \rearth mostly have mass uncertainties of order the planet mass, except for Kepler-10 b, Kepler-36 b, and Kepler-78 b.  Because the equation of state for rocky planets should not depend on the orbital period of the planet or incident flux on the planet, we can include the terrestrial solar system planets (Mercury, Venus, Earth, Mars) in a power law fit to the terrestrial planets.  We impose uncertainties of 10\% in their masses and 5\% in their radii so that the solar system planets will contribute to, but not dominate, the fit to the terrestrial planets.  Because we expect slight compressibility for rocky planets, we can approximate the density of a rocky planet as linearly increasing with planet radius.  This is a first-order Taylor expansion of the equation of state for a rocky planet.  We find:
 \begin{equation}
-\frac{\mpl}{\mearth} = 1.08 \left(\frac{\rpl}{\rearth}\right)^{3.45}
-\label{eqn:mr_rocky}
+\rhopl = 2.62 + 3.19 \left(\frac{\rpl}{\rearth}\right) \gcc.
+\label{eqn:dr_lin_rocky}
 \end{equation}
-with reduced $\chi^2 = 1.3$ and RMS = 2.7\mearth.  A parametric bootstrap error analysis of 1000 trials gives these uncertainties in the coefficients: $c_0 =1.08 \pm 1.09$, $c_1 = 3.45\pm 8.44$.  The large uncertainties in the masses and small number of planets allow a variety of fits to the masses and radii if the data are perturbed.  Excluding the solar system planets yields and fitting a power law to the exoplanets smaller than 1.5\rearth\ yields $\mpl/\mearth = 0.94 \left(\rpl/\rearth\right)^{4.02}$, validating our decision to add the solar system terrestrial planets to our analysis of planets with $\rpl<1.5 \rearth$.  The solar system planets disfavor the nearly linear power law fit in equation \ref{eqn:mr_plaw}, as applied to planets smaller than 1.5\rearth.  
-Including the solar system planets and their artificial errors raises the \textit{reduced} $\chi^2$ minimization to 3500, favoring the higher power law index of equation \ref{eqn:mr_rocky} over the shallower relation for the sub-Neptunes described in equation \ref{eqn:mr_plaw}.
+Transforming the predicted densities to masses via 
+\begin{equation}
+\frac{\mpl}{\mearth} = \left(\frac{\rhopl}{5.22 \gcc}\right) \left(\frac{\rpl}{\rearth}\right)^3
+\end{equation}
+and calculating the residuals with respect to the measured planet masses, we obtain reduced $\chi^2 = 1.3$, RMS$=$2.7 \mearth.
 
 For planets satisfying $1.5 \le \rpl/\rearth < 4$, we find:
 \begin{equation}
@@ -263,10 +268,10 @@ The empirical mass-radius relations are summarized in Table \ref{tab:mr_relation
 
 %% All data must appear between the \startdata and \enddata commands
 \startdata
-$\rpl < 4 \rearth$ &  $\frac{\mpl}{\mearth} = 3.24 \left(\frac{\rpl}{\rearth}\right)^{0.80}$ & 3.5 & 3.9 \mearth \\
-\hline
-$1.5 \le \rpl/\rearth< 4$ &  $\frac{\mpl}{\mearth} = 5.6 + 0.71~\frac{\rpl}{\rearth}$ & 3.5 & 4.7 \mearth \\
-$^{a}\rpl < 1.5 \rearth$ & $\frac{\mpl}{\mearth} = 1.08 \left(\frac{\rpl}{\rearth}\right)^{3.45}$  & 1.3 & 2.7 \mearth \\
+%$^{a}\rpl < 1.5 \rearth$ & $\frac{\mpl}{\mearth} = 1.08 \left(\frac{\rpl}{\rearth}\right)^{3.45}$  & 1.3 & 2.7 \mearth \\
+$^{a}\rpl < 1.5 \rearth$ &  ${\rhopl} = 2.62 + 3.19 \left(\frac{\rpl}{\rearth}\right) \gcc$ & 1.3 & 2.7 \mearth \\
+$1.5 \le \rpl/\rearth< 4$ &  $\frac{\mpl}{\mearth} = 5.89\left(\frac{\rpl}{\rearth}\right)^{0.25}$ & 3.5 & 4.7 \mearth \\
+%$1.5 \le \rpl/\rearth< 4$ &  ${\rhopl} = 13.78\left(\frac{\rpl}{\rearth}\right)^{-2.11} ~\gcc $& 2.6 & 2.7 \gcc \\
 \enddata
 \tablenotetext{a}{Including terrestrial solar system planets Mercury, Venus, Earth, and Mars.}
 %, \tablerefs{ref list},
@@ -293,7 +298,7 @@ The \citet{Seager2007} density-radius relation for Earth composition predicts th
 
 \citet{Lissauer2011}, \citet{Enoch2012}, \citet{Kane2012}, and \citet{Weiss2013} suggest that the mass-radius relation is more like $\mpl \propto \rpl^2$ for small exoplanets.  However, these studies include Saturn or Saturn-like planets at the high-mass end of their ``small planet" populations.  Such planets are better described as part of the giant planet population and are not useful in determining an empirical mass-radius relation of predictive power for small exoplanets.  Excluding Saturn-like planets gives a near-linear mass-radius relation for small planets.
 
-In a study of planets with $\mpl < 20\mearth$, \citet{WL2013} find $\mpl/\mearth = 3 \rpl/\rearth$ in a sample of 22 pairs of planets that exhibit strong anti-correlated TTVs in the \textit{Kepler} data.  Our independent assessment of 63 exoplanets, 51 of which are not analyzed in \citet{WL2013}, is consistent with this result.  \citet{WL2013} note that a linear relation between planet mass and radius is dimensionally consistent with a constant escape velocity from the planet (i.e. $v_{\mathrm{esc}}^2 \sim \mpl/\rpl$).  The linear mass-radius relation might result from photo-evaporation of the atmospheres of small planets near their stars \citep{Lopez2012}.
+In a study of planets with $\mpl < 20\mearth$, \citet{WL2013} find $\mpl/\mearth = 3 \rpl/\rearth$ in a sample of 22 pairs of planets that exhibit strong anti-correlated TTVs in the \textit{Kepler} data.  Our independent assessment of 64 exoplanets, 51 of which are not analyzed in \citet{WL2013}, is consistent with this result.  \citet{WL2013} note that a linear relation between planet mass and radius is dimensionally consistent with a constant escape velocity from the planet (i.e. $v_{\mathrm{esc}}^2 \sim \mpl/\rpl$).  The linear mass-radius relation might result from photo-evaporation of the atmospheres of small planets near their stars \citep{Lopez2012}.
 
 \subsection{Masses from TTVs are Lower than Masses from RVs}
 We have included planets with masses determined by the TTVs observed in a neighboring planet in Table \ref{tab:mrf}, Figure \ref{fig:rm_4}, and the mass-radius relations in equations \ref{eqn:mr_plaw}-\ref{eqn:mr_rocky}.  The TTV masses included in this work are the result of dynamical modeling that reproduces the observed TTV signatures in the Kepler light curve.  Planets with TTV-determined masses are marked with superscript $c$ in Table \ref{tab:mrf}.  In Figure \ref{fig:rm_4}, the TTV planets are shown as orange points; they are systematically less massive than the RV-discovered planets of the same radii (also see \citet{Jontof-Hutter2013}).  A T-test comparing the residual masses from the RVs to the TTVs for planets larger than 1.0 \rearth results in a two-tailed P-value of 0.06, indicating the two samples, if drawn from the same distribution, would be this discrepant 9\% of the time.
@@ -316,14 +321,14 @@ The mass-radius relation achieves the density of an Earth-composition planet at 
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=6in]{histograms.eps} 
-   \caption{\small Histograms of exoplanet radii, masses, and densities for the 63 exoplanets smaller then 4 Earth radii with measured masses or mass upper-limits.  Some mass and density outliers are excluded from these plots, but are included in Table 1 and the fits.}
+   \caption{\small Histograms of exoplanet radii, masses, and densities for the 64 exoplanets smaller then 4 Earth radii with measured masses or mass upper-limits.  Some mass and density outliers are excluded from these plots, but are included in Table 1 and the fits.}
 \label{fig:histograms}
 \end{figure*}
 
 \begin{figure*}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-    \includegraphics[width=6in]{mr_small-eps-converted-to.pdf} 
-   \caption{\small \textbf{Left:} Mass vs. radius for 63 exoplanets.  Gray points  have RV-determined masses; orange points have TTV-determined masses.  The point size corresponds to $1/\sigma(\mpl)$.  The black line is an empirical fit to the masses and radii above 1.5 \rearth; see equation \ref{eqn:mr_plaw}.  The green line is the mass-radius relation from \citet{Seager2007} for planets of Earth composition (67.5\% MgSiO$_3$, 32.5\% Fe).  The blue squares are the weighted mean exoplanet mass in bins of $0.5 \rearth$, with error bars representing $\sigma_i/\sqrt{N_i}$, where $\sigma_i$ is the standard deviation of the masses and $N_i$ is the number of exoplanets in bin $i$.  The weighted mean masses were not used in calculating the fit.  The blue diamonds indicate solar system planets, which were not used in calculating the empirical fit.  \textbf{Right:} Density vs. radius for 63 exoplanets.  Same as left, but the point size corresponds to $1/\sigma(\rhopl)$, and the blue squares are the weighted mean densities in bins of $0.5 \rearth$.  Planets larger than 1.5 \rearth are less dense than Earth composition, indicating that they contain a significant fraction of volatiles.  The black line is an empirical fit between planet density and radius for $ 1.5 \le \rpl/\rearth < 4$.  Some mass and density outliers are excluded from these plots, but are included in the fits.}
+    \includegraphics[width=6in]{mr_small.eps} 
+   \caption{\small \textbf{Left:} Mass vs. radius for 64 exoplanets.  Gray points  have RV-determined masses; orange points have TTV-determined masses.  The point size corresponds to $1/\sigma(\mpl)$.  The black line is an empirical fit to the masses and radii above 1.5 \rearth; see equation \ref{eqn:mr_plaw}.  The green line is the mass-radius relation from \citet{Seager2007} for planets of Earth composition (67.5\% MgSiO$_3$, 32.5\% Fe).  The blue squares are the weighted mean exoplanet mass in bins of $0.5 \rearth$, with error bars representing $\sigma_i/\sqrt{N_i}$, where $\sigma_i$ is the standard deviation of the masses and $N_i$ is the number of exoplanets in bin $i$.  The weighted mean masses were not used in calculating the fit.  The blue diamonds indicate solar system planets, which were not used in calculating the empirical fit.  \textbf{Right:} Density vs. radius for 64 exoplanets.  Same as left, but the point size corresponds to $1/\sigma(\rhopl)$, and the blue squares are the weighted mean densities in bins of $0.5 \rearth$.  Planets larger than 1.5 \rearth are less dense than Earth composition, indicating that they contain a significant fraction of volatiles.  The black line is an empirical fit between planet density and radius for $ 1.5 \le \rpl/\rearth < 4$.  Some mass and density outliers are excluded from these plots, but are included in the fits.}
    \label{fig:rm_4}
 \end{figure*}
 
@@ -337,241 +342,9 @@ The mass-radius relation achieves the density of an Earth-composition planet at 
 
 %%%%%%%%%%%%% Bibliograpy %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\begin{thebibliography}{31}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-
-\bibitem[{{Batalha} {et~al.}(2011){Batalha}, {Borucki}, {Bryson}, {Buchhave},
-  {Caldwell}, {Christensen-Dalsgaard}, {Ciardi}, {Dunham}, {Fressin},
-  {Gautier}, {Gilliland}, {Haas}, {Howell}, {Jenkins}, {Kjeldsen}, {Koch},
-  {Latham}, {Lissauer}, {Marcy}, {Rowe}, {Sasselov}, {Seager}, {Steffen},
-  {Torres}, {Basri}, {Brown}, {Charbonneau}, {Christiansen}, {Clarke},
-  {Cochran}, {Dupree}, {Fabrycky}, {Fischer}, {Ford}, {Fortney}, {Girouard},
-  {Holman}, {Johnson}, {Isaacson}, {Klaus}, {Machalek}, {Moorehead},
-  {Morehead}, {Ragozzine}, {Tenenbaum}, {Twicken}, {Quinn}, {VanCleve},
-  {Walkowicz}, {Welsh}, {Devore}, \& {Gould}}]{Batalha2011}
-{Batalha}, N.~M., {Borucki}, W.~J., {Bryson}, S.~T., {et~al.} 2011, \apj, 729,
-  27
-
-\bibitem[{{Batalha} {et~al.}(2013){Batalha}, {Rowe}, {Bryson}, {Barclay},
-  {Burke}, {Caldwell}, {Christiansen}, {Mullally}, {Thompson}, {Brown},
-  {Dupree}, {Fabrycky}, {Ford}, {Fortney}, {Gilliland}, {Isaacson}, {Latham},
-  {Marcy}, {Quinn}, {Ragozzine}, {Shporer}, {Borucki}, {Ciardi}, {Gautier},
-  {Haas}, {Jenkins}, {Koch}, {Lissauer}, {Rapin}, {Basri}, {Boss}, {Buchhave},
-  {Carter}, {Charbonneau}, {Christensen-Dalsgaard}, {Clarke}, {Cochran},
-  {Demory}, {Desert}, {Devore}, {Doyle}, {Esquerdo}, {Everett}, {Fressin},
-  {Geary}, {Girouard}, {Gould}, {Hall}, {Holman}, {Howard}, {Howell},
-  {Ibrahim}, {Kinemuchi}, {Kjeldsen}, {Klaus}, {Li}, {Lucas}, {Meibom},
-  {Morris}, {Pr{\v s}a}, {Quintana}, {Sanderfer}, {Sasselov}, {Seader},
-  {Smith}, {Steffen}, {Still}, {Stumpe}, {Tarter}, {Tenenbaum}, {Torres},
-  {Twicken}, {Uddin}, {Van Cleve}, {Walkowicz}, \& {Welsh}}]{Batalha2013}
-{Batalha}, N.~M., {Rowe}, J.~F., {Bryson}, S.~T., {et~al.} 2013, \apjs, 204, 24
-
-\bibitem[{{Borucki} {et~al.}(2011){Borucki}, {Koch}, {Basri}, {Batalha},
-  {Brown}, {Bryson}, {Caldwell}, {Christensen-Dalsgaard}, {Cochran}, {DeVore},
-  {Dunham}, {Gautier}, {Geary}, {Gilliland}, {Gould}, {Howell}, {Jenkins},
-  {Latham}, {Lissauer}, {Marcy}, {Rowe}, {Sasselov}, {Boss}, {Charbonneau},
-  {Ciardi}, {Doyle}, {Dupree}, {Ford}, {Fortney}, {Holman}, {Seager},
-  {Steffen}, {Tarter}, {Welsh}, {Allen}, {Buchhave}, {Christiansen}, {Clarke},
-  {Das}, {D{\'e}sert}, {Endl}, {Fabrycky}, {Fressin}, {Haas}, {Horch},
-  {Howard}, {Isaacson}, {Kjeldsen}, {Kolodziejczak}, {Kulesa}, {Li}, {Lucas},
-  {Machalek}, {McCarthy}, {MacQueen}, {Meibom}, {Miquel}, {Prsa}, {Quinn},
-  {Quintana}, {Ragozzine}, {Sherry}, {Shporer}, {Tenenbaum}, {Torres},
-  {Twicken}, {Van Cleve}, {Walkowicz}, {Witteborn}, \& {Still}}]{Borucki2011}
-{Borucki}, W.~J., {Koch}, D.~G., {Basri}, G., {et~al.} 2011, \apj, 736, 19
-
-\bibitem[{{Carter} {et~al.}(2011){Carter}, {Winn}, {Holman}, {Fabrycky},
-  {Berta}, {Burke}, \& {Nutzman}}]{Carter2011}
-{Carter}, J.~A., {Winn}, J.~N., {Holman}, M.~J., {et~al.} 2011, \apj, 730, 82
-
-\bibitem[{{Carter} {et~al.}(2012){Carter}, {Agol}, {Chaplin}, {Basu},
-  {Bedding}, {Buchhave}, {Christensen-Dalsgaard}, {Deck}, {Elsworth},
-  {Fabrycky}, {Ford}, {Fortney}, {Hale}, {Handberg}, {Hekker}, {Holman},
-  {Huber}, {Karoff}, {Kawaler}, {Kjeldsen}, {Lissauer}, {Lopez}, {Lund},
-  {Lundkvist}, {Metcalfe}, {Miglio}, {Rogers}, {Stello}, {Borucki}, {Bryson},
-  {Christiansen}, {Cochran}, {Geary}, {Gilliland}, {Haas}, {Hall}, {Howard},
-  {Jenkins}, {Klaus}, {Koch}, {Latham}, {MacQueen}, {Sasselov}, {Steffen},
-  {Twicken}, \& {Winn}}]{Carter2012}
-{Carter}, J.~A., {Agol}, E., {Chaplin}, W.~J., {et~al.} 2012, Science, 337, 556
-
-\bibitem[{{Charbonneau} {et~al.}(2009){Charbonneau}, {Berta}, {Irwin}, {Burke},
-  {Nutzman}, {Buchhave}, {Lovis}, {Bonfils}, {Latham}, {Udry}, {Murray-Clay},
-  {Holman}, {Falco}, {Winn}, {Queloz}, {Pepe}, {Mayor}, {Delfosse}, \&
-  {Forveille}}]{Charbonneau2009}
-{Charbonneau}, D., {Berta}, Z.~K., {Irwin}, J., {et~al.} 2009, \nat, 462, 891
-
-\bibitem[{{Cochran} {et~al.}(2011){Cochran}, {Fabrycky}, {Torres}, {Fressin},
-  {D{\'e}sert}, {Ragozzine}, {Sasselov}, {Fortney}, {Rowe}, {Brugamyer},
-  {Bryson}, {Carter}, {Ciardi}, {Howell}, {Steffen}, {Borucki}, {Koch}, {Winn},
-  {Welsh}, {Uddin}, {Tenenbaum}, {Still}, {Seager}, {Quinn}, {Mullally},
-  {Miller}, {Marcy}, {MacQueen}, {Lucas}, {Lissauer}, {Latham}, {Knutson},
-  {Kinemuchi}, {Johnson}, {Jenkins}, {Isaacson}, {Howard}, {Horch}, {Holman},
-  {Henze}, {Haas}, {Gilliland}, {Gautier}, {Ford}, {Fischer}, {Everett},
-  {Endl}, {Demory}, {Deming}, {Charbonneau}, {Caldwell}, {Buchhave}, {Brown},
-  \& {Batalha}}]{Cochran2011}
-{Cochran}, W.~D., {Fabrycky}, D.~C., {Torres}, G., {et~al.} 2011, \apjs, 197, 7
-
-\bibitem[{{Dragomir} {et~al.}(2013{\natexlab{a}}){Dragomir}, {Matthews},
-  {Winn}, {Rowe}, \& {MOST Science Team}}]{Dragomir2013b}
-{Dragomir}, D., {Matthews}, J.~M., {Winn}, J.~N., {Rowe}, J.~F., \& {MOST
-  Science Team}. 2013{\natexlab{a}}, ArXiv e-prints
-
-\bibitem[{{Dragomir} {et~al.}(2013{\natexlab{b}}){Dragomir}, {Matthews},
-  {Eastman}, {Cameron}, {Howard}, {Guenther}, {Kuschnig}, {Moffat}, {Rowe},
-  {Rucinski}, {Sasselov}, \& {Weiss}}]{Dragomir2013}
-{Dragomir}, D., {Matthews}, J.~M., {Eastman}, J.~D., {et~al.}
-  2013{\natexlab{b}}, \apjl, 772, L2
-
-\bibitem[{{Endl} {et~al.}(2012){Endl}, {Robertson}, {Cochran}, {MacQueen},
-  {Brugamyer}, {Caldwell}, {Wittenmyer}, {Barnes}, \& {Gullikson}}]{Endl2012}
-{Endl}, M., {Robertson}, P., {Cochran}, W.~D., {et~al.} 2012, \apj, 759, 19
-
-\bibitem[{{Enoch} {et~al.}(2012){Enoch}, {Collier Cameron}, \&
-  {Horne}}]{Enoch2012}
-{Enoch}, B., {Collier Cameron}, A., \& {Horne}, K. 2012, \aap, 540, A99
-
-\bibitem[{{Gautier} {et~al.}(2012){Gautier}, {Charbonneau}, {Rowe}, {Marcy},
-  {Isaacson}, {Torres}, {Fressin}, {Rogers}, {D{\'e}sert}, {Buchhave},
-  {Latham}, {Quinn}, {Ciardi}, {Fabrycky}, {Ford}, {Gilliland}, {Walkowicz},
-  {Bryson}, {Cochran}, {Endl}, {Fischer}, {Howell}, {Horch}, {Barclay},
-  {Batalha}, {Borucki}, {Christiansen}, {Geary}, {Henze}, {Holman}, {Ibrahim},
-  {Jenkins}, {Kinemuchi}, {Koch}, {Lissauer}, {Sanderfer}, {Sasselov},
-  {Seager}, {Silverio}, {Smith}, {Still}, {Stumpe}, {Tenenbaum}, \& {Van
-  Cleve}}]{Gautier2012}
-{Gautier}, III, T.~N., {Charbonneau}, D., {Rowe}, J.~F., {et~al.} 2012, \apj,
-  749, 15
-
-\bibitem[{{Gilliland} {et~al.}(2013){Gilliland}, {Marcy}, {Rowe}, {Rogers},
-  {Torres}, {Fressin}, {Lopez}, {Buchhave}, {Christensen-Dalsgaard},
-  {D{\'e}sert}, {Henze}, {Isaacson}, {Jenkins}, {Lissauer}, {Chaplin}, {Basu},
-  {Metcalfe}, {Elsworth}, {Handberg}, {Hekker}, {Huber}, {Karoff}, {Kjeldsen},
-  {Lund}, {Lundkvist}, {Miglio}, {Charbonneau}, {Ford}, {Fortney}, {Haas},
-  {Howard}, {Howell}, {Ragozzine}, \& {Thompson}}]{Gilliland2013}
-{Gilliland}, R.~L., {Marcy}, G.~W., {Rowe}, J.~F., {et~al.} 2013, \apj, 766, 40
-
-\bibitem[{{Hatzes} {et~al.}(2011){Hatzes}, {Fridlund}, {Nachmani}, {Mazeh},
-  {Valencia}, {H{\'e}brard}, {Carone}, {P{\"a}tzold}, {Udry}, {Bouchy},
-  {Deleuil}, {Moutou}, {Barge}, {Bord{\'e}}, {Deeg}, {Tingley}, {Dvorak},
-  {Gandolfi}, {Ferraz-Mello}, {Wuchterl}, {Guenther}, {Guillot}, {Rauer},
-  {Erikson}, {Cabrera}, {Csizmadia}, {L{\'e}ger}, {Lammer}, {Weingrill},
-  {Queloz}, {Alonso}, {Rouan}, \& {Schneider}}]{Hatzes2011}
-{Hatzes}, A.~P., {Fridlund}, M., {Nachmani}, G., {et~al.} 2011, \apj, 743, 75
-
-\bibitem[{Howard {et~al.}(2011)Howard, Johnson, Marcy, Fischer, Wright, Henry,
-  Isaacson, Valenti, Anderson, \& Piskunov}]{Howard2011}
-Howard, A.~W., Johnson, J.~A., Marcy, G.~W., {et~al.} 2011, The Astrophysical
-  Journal, 726, 73
-
-\bibitem[{{Howard} {et~al.}(2013){Howard}, {Sanchis-Ojeda}, {Marcy}, {Johnson},
-  {Winn}, {Isaacson}, {Fischer}, {Fulton}, {Sinukoff}, \&
-  {Fortney}}]{Howard2013arxiv}
-{Howard}, A.~W., {Sanchis-Ojeda}, R., {Marcy}, G.~W., {et~al.} 2013, ArXiv
-  e-prints
-
-\bibitem[{{Jontof-Hutter} {et~al.}(2013){Jontof-Hutter}, {Lissauer}, {Rowe}, \&
-  {Fabrycky}}]{Jontof-Hutter2013}
-{Jontof-Hutter}, D., {Lissauer}, J.~J., {Rowe}, J.~F., \& {Fabrycky}, D.~C.
-  2013, ArXiv e-prints
-
-\bibitem[{{Kane} \& {Gelino}(2012)}]{Kane2012}
-{Kane}, S.~R., \& {Gelino}, D.~M. 2012, \pasp, 124, 323
-
-\bibitem[{{L{\'e}ger} {et~al.}(2009){L{\'e}ger}, {Rouan}, {Schneider}, {Barge},
-  {Fridlund}, {Samuel}, {Ollivier}, {Guenther}, {Deleuil}, {Deeg}, {Auvergne},
-  {Alonso}, {Aigrain}, {Alapini}, {Almenara}, {Baglin}, {Barbieri}, {Bruntt},
-  {Bord{\'e}}, {Bouchy}, {Cabrera}, {Catala}, {Carone}, {Carpano}, {Csizmadia},
-  {Dvorak}, {Erikson}, {Ferraz-Mello}, {Foing}, {Fressin}, {Gandolfi},
-  {Gillon}, {Gondoin}, {Grasset}, {Guillot}, {Hatzes}, {H{\'e}brard}, {Jorda},
-  {Lammer}, {Llebaria}, {Loeillet}, {Mayor}, {Mazeh}, {Moutou}, {P{\"a}tzold},
-  {Pont}, {Queloz}, {Rauer}, {Renner}, {Samadi}, {Shporer}, {Sotin}, {Tingley},
-  {Wuchterl}, {Adda}, {Agogu}, {Appourchaux}, {Ballans}, {Baron}, {Beaufort},
-  {Bellenger}, {Berlin}, {Bernardi}, {Blouin}, {Baudin}, {Bodin}, {Boisnard},
-  {Boit}, {Bonneau}, {Borzeix}, {Briet}, {Buey}, {Butler}, {Cailleau},
-  {Cautain}, {Chabaud}, {Chaintreuil}, {Chiavassa}, {Costes}, {Cuna Parrho},
-  {de Oliveira Fialho}, {Decaudin}, {Defise}, {Djalal}, {Epstein}, {Exil},
-  {Faur{\'e}}, {Fenouillet}, {Gaboriaud}, {Gallic}, {Gamet}, {Gavalda},
-  {Grolleau}, {Gruneisen}, {Gueguen}, {Guis}, {Guivarc'h}, {Guterman},
-  {Hallouard}, {Hasiba}, {Heuripeau}, {Huntzinger}, {Hustaix}, {Imad},
-  {Imbert}, {Johlander}, {Jouret}, {Journoud}, {Karioty}, {Kerjean},
-  {Lafaille}, {Lafond}, {Lam-Trong}, {Landiech}, {Lapeyrere}, {Larqu{\'e}},
-  {Laudet}, {Lautier}, {Lecann}, {Lefevre}, {Leruyet}, {Levacher}, {Magnan},
-  {Mazy}, {Mertens}, {Mesnager}, {Meunier}, {Michel}, {Monjoin}, {Naudet},
-  {Nguyen-Kim}, {Orcesi}, {Ottacher}, {Perez}, {Peter}, {Plasson}, {Plesseria},
-  {Pontet}, {Pradines}, {Quentin}, {Reynaud}, {Rolland}, {Rollenhagen},
-  {Romagnan}, {Russ}, {Schmidt}, {Schwartz}, {Sebbag}, {Sedes}, {Smit},
-  {Steller}, {Sunter}, {Surace}, {Tello}, {Tiph{\`e}ne}, {Toulouse}, {Ulmer},
-  {Vandermarcq}, {Vergnault}, {Vuillemin}, \& {Zanatta}}]{Leger2009}
-{L{\'e}ger}, A., {Rouan}, D., {Schneider}, J., {et~al.} 2009, \aap, 506, 287
-
-\bibitem[{{Lissauer} {et~al.}(2011){Lissauer}, {Fabrycky}, {Ford}, {Borucki},
-  {Fressin}, {Marcy}, {Orosz}, {Rowe}, {Torres}, {Welsh}, {Batalha}, {Bryson},
-  {Buchhave}, {Caldwell}, {Carter}, {Charbonneau}, {Christiansen}, {Cochran},
-  {Desert}, {Dunham}, {Fanelli}, {Fortney}, {Gautier}, {Geary}, {Gilliland},
-  {Haas}, {Hall}, {Holman}, {Koch}, {Latham}, {Lopez}, {McCauliff}, {Miller},
-  {Morehead}, {Quintana}, {Ragozzine}, {Sasselov}, {Short}, \&
-  {Steffen}}]{Lissauer2011}
-{Lissauer}, J.~J., {Fabrycky}, D.~C., {Ford}, E.~B., {et~al.} 2011, \nat, 470,
-  53
-
-\bibitem[{{Lissauer} {et~al.}(2013){Lissauer}, {Jontof-Hutter}, {Rowe},
-  {Fabrycky}, {Lopez}, {Agol}, {Marcy}, {Deck}, {Fischer}, {Fortney}, {Howell},
-  {Isaacson}, {Jenkins}, {Kolbl}, {Sasselov}, {Short}, \&
-  {Welsh}}]{Lissauer2013}
-{Lissauer}, J.~J., {Jontof-Hutter}, D., {Rowe}, J.~F., {et~al.} 2013, \apj,
-  770, 131
-
-\bibitem[{{Lopez} {et~al.}(2012){Lopez}, {Fortney}, \& {Miller}}]{Lopez2012}
-{Lopez}, E.~D., {Fortney}, J.~J., \& {Miller}, N. 2012, \apj, 761, 59
-
-\bibitem[{{Marcy} {et~al.}(2013){Marcy}, {Isaacson}, \& {Rowe}}]{Marcy2013}
-{Marcy}, G.~W., {Isaacson}, H., \& {Rowe}, J.~F. 2013, in prep.
-
-\bibitem[{{McArthur} {et~al.}(2004){McArthur}, {Endl}, {Cochran}, {Benedict},
-  {Fischer}, {Marcy}, {Butler}, {Naef}, {Mayor}, {Queloz}, {Udry}, \&
-  {Harrison}}]{McArthur2004}
-{McArthur}, B.~E., {Endl}, M., {Cochran}, W.~D., {et~al.} 2004, \apjl, 614, L81
-
-\bibitem[{{Petigura} {et~al.}(2013){Petigura}, {Marcy}, \&
-  {Howard}}]{Petigura2013a}
-{Petigura}, E.~A., {Marcy}, G.~W., \& {Howard}, A.~W. 2013, \apj, 770, 69
-
-\bibitem[{{Queloz} {et~al.}(2009){Queloz}, {Bouchy}, {Moutou}, {Hatzes},
-  {H{\'e}brard}, {Alonso}, {Auvergne}, {Baglin}, {Barbieri}, {Barge}, {Benz},
-  {Bord{\'e}}, {Deeg}, {Deleuil}, {Dvorak}, {Erikson}, {Ferraz Mello},
-  {Fridlund}, {Gandolfi}, {Gillon}, {Guenther}, {Guillot}, {Jorda}, {Hartmann},
-  {Lammer}, {L{\'e}ger}, {Llebaria}, {Lovis}, {Magain}, {Mayor}, {Mazeh},
-  {Ollivier}, {P{\"a}tzold}, {Pepe}, {Rauer}, {Rouan}, {Schneider},
-  {Segransan}, {Udry}, \& {Wuchterl}}]{Queloz2009}
-{Queloz}, D., {Bouchy}, F., {Moutou}, C., {et~al.} 2009, \aap, 506, 303
-
-\bibitem[{{Sanchis-Ojeda} {et~al.}(2013){Sanchis-Ojeda}, {Rappaport}, {Winn},
-  {Levine}, {Kotson}, {Latham}, \& {Buchhave}}]{Sanchis-Ojeda2013}
-{Sanchis-Ojeda}, R., {Rappaport}, S., {Winn}, J.~N., {et~al.} 2013, \apj, 774,
-  54
-
-\bibitem[{{Sanchis-Ojeda} {et~al.}(2012){Sanchis-Ojeda}, {Fabrycky}, {Winn},
-  {Barclay}, {Clarke}, {Ford}, {Fortney}, {Geary}, {Holman}, {Howard},
-  {Jenkins}, {Koch}, {Lissauer}, {Marcy}, {Mullally}, {Ragozzine}, {Seader},
-  {Still}, \& {Thompson}}]{Sanchis-Ojeda2012}
-{Sanchis-Ojeda}, R., {Fabrycky}, D.~C., {Winn}, J.~N., {et~al.} 2012, \nat,
-  487, 449
-
-\bibitem[{{Seager} {et~al.}(2007){Seager}, {Kuchner}, {Hier-Majumder}, \&
-  {Militzer}}]{Seager2007}
-{Seager}, S., {Kuchner}, M., {Hier-Majumder}, C.~A., \& {Militzer}, B. 2007,
-  \apj, 669, 1279
-
-\bibitem[{{Weiss} {et~al.}(2013){Weiss}, {Marcy}, {Rowe}, {Howard}, {Isaacson},
-  {Fortney}, {Miller}, {Demory}, {Fischer}, {Adams}, {Dupree}, {Howell},
-  {Kolbl}, {Johnson}, {Horch}, {Everett}, {Fabrycky}, \& {Seager}}]{Weiss2013}
-{Weiss}, L.~M., {Marcy}, G.~W., {Rowe}, J.~F., {et~al.} 2013, \apj, 768, 14
-
-\bibitem[{{Wu} \& {Lithwick}(2013)}]{WL2013}
-{Wu}, Y., \& {Lithwick}, Y. 2013, \apj, 772, 74
-
-\end{thebibliography}
 
 
-%\bibliography{exoplanet_papers}{}
-%\bibliographystyle{apj}
+\bibliography{exoplanet_papers}{}
+\bibliographystyle{apj}
 
 \end{document}  

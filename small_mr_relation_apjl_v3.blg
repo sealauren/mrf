@@ -4,54 +4,54 @@ The top-level auxiliary file: small_mr_relation_apjl_v3.aux
 The style file: apj.bst
 Database file #1: small_mr_relation_apjl_v3Notes.bib
 Database file #2: exoplanet_papers.bib
-Repeated entry---line 4763 of file exoplanet_papers.bib
- : @article{Batalha2013
- :                     ,
+Repeated entry---line 5119 of file exoplanet_papers.bib
+ : @article{Petigura2013a
+ :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4930 of file exoplanet_papers.bib
- : @article{Carter2012
- :                    ,
+Repeated entry---line 5137 of file exoplanet_papers.bib
+ : @article{Sanchis-Ojeda2013
+ :                           ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 32 entries,
+You've used 33 entries,
             3010 wiz_defined-function locations,
-            847 strings with 23629 characters,
-and the built_in function-call counts, 23340 in all, are:
-= -- 1235
-> -- 3079
+            855 strings with 25969 characters,
+and the built_in function-call counts, 25182 in all, are:
+= -- 1278
+> -- 3423
 < -- 3
-+ -- 1019
-- -- 1071
-* -- 2623
-:= -- 4838
-add.period$ -- 32
-call.type$ -- 32
-change.case$ -- 194
-chr.to.int$ -- 31
-cite$ -- 32
-duplicate$ -- 603
-empty$ -- 822
-format.name$ -- 1106
-if$ -- 4201
++ -- 1134
+- -- 1189
+* -- 2872
+:= -- 5246
+add.period$ -- 33
+call.type$ -- 33
+change.case$ -- 201
+chr.to.int$ -- 32
+cite$ -- 33
+duplicate$ -- 622
+empty$ -- 850
+format.name$ -- 1224
+if$ -- 4506
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 31
-newline$ -- 100
-num.names$ -- 128
-pop$ -- 213
+missing$ -- 33
+newline$ -- 103
+num.names$ -- 132
+pop$ -- 221
 preamble$ -- 1
-purify$ -- 193
+purify$ -- 201
 quote$ -- 0
-skip$ -- 464
+skip$ -- 482
 stack$ -- 0
-substring$ -- 575
+substring$ -- 594
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 288
+type$ -- 297
 warning$ -- 0
-while$ -- 103
+while$ -- 106
 width$ -- 0
-write$ -- 318
+write$ -- 328
 (There were 2 error messages)
