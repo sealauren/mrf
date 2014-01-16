@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Batalha} {et~al.}(2011){Batalha}, {Borucki}, {Bryson}, {Buchhave},
@@ -204,7 +204,7 @@ Howard, A.~W., Johnson, J.~A., Marcy, G.~W., {et~al.} 2011, The Astrophysical
   Prsa, Agol, Barclay, Coughlin, Brugamyer, Mullally, Quintana, Still,
   Thompson, Morrison, Twicken, D√©sert, Carter, Crepp, H√©brard,
   Santerne, Moutou, Sobeck, Hudgins, Haas, Robertson, Lillo-Box, \&
-  Barrado}]{Marcy2013}
+  Barrado}]{Marcy2014}
 Marcy, G.~W., Isaacson, H., Howard, A.~W., {et~al.} 2014, The Astrophysical
   Journal Supplement Series, 210, 20
 
@@ -212,6 +212,9 @@ Marcy, G.~W., Isaacson, H., Howard, A.~W., {et~al.} 2014, The Astrophysical
   {Fischer}, {Marcy}, {Butler}, {Naef}, {Mayor}, {Queloz}, {Udry}, \&
   {Harrison}}]{McArthur2004}
 {McArthur}, B.~E., {Endl}, M., {Cochran}, W.~D., {et~al.} 2004, \apjl, 614, L81
+
+\bibitem[{{Morton} \& {Johnson}(2011)}]{MortonJohnson2011}
+{Morton}, T.~D., \& {Johnson}, J.~A. 2011, \apj, 738, 170
 
 \bibitem[{{Petigura} {et~al.}(2013){Petigura}, {Marcy}, \&
   {Howard}}]{Petigura2013a}
