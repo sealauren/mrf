@@ -1,0 +1,80 @@
+\section{The Mass-Radius Relation for 65 Small Exoplanets}
+The mass-radius plot for planets smaller than 4 \rearth\ shown in Figure \ref{fig:rm_4} (left) shows that, on average, exoplanet mass increases with increasing radius, indicating an underlying correlation in the individual exoplanet masses and radii.  We calculate the probability that mass and radius are uncorrelated for planets smaller than 4\rearth\ by calculating the Pearson R correlation coefficient: $r=0.61$.  In our sample of 65 exoplanets, the probability that these data are uncorrelated given $r = 0.58$ is $3.8 \times 10^{-7}$.  Thus, the masses and radii of planets between the sizes of Earth and Neptune are correlated.
+
+Figure \ref{fig:rm_4} shows the mass vs. radius and density vs. radius of 65 exoplanets examined here (although some outliers are excluded).  To guide the eye, we show the weighted mean exoplanet mass and density in bins of width 0.5 \rearth.  The weighted mean mass and density were not used in calculating the fits.
+
+To illustrate how this population of exoplanets compares to our solar system, we include the solar system planets in Figure \ref{fig:rm_4}.  A quadratic fit to the exoplanet population happens to line up with the solar system planets \citep{Lissauer2011}, but has a reduced $\chi^2$ that is twice as large as the linear fit to the exoplanets.  Since most of the exoplanets in this sample have $P < 50$ days, we do not expect them to resemble Uranus and Neptune, which have orbital periods of tens of thousands of days.
+
+We present empirical relations between planet mass and radius, and between density and radius, which are illustrated in Figure \ref{fig:rm_4}.  The right panel in Figure \ref{fig:rm_4} shows that planets achieve an Earth-density at about 1.5 \rearth.  Rocky planets smaller than 1.5\rearth\ might be better described with a different functional form.  We consider independent relations for planets satisfying $\rpl < 1.5 \rearth$ to determine if relations consistent with rocky compositions better describe those planets.
+
+\subsection{A Break in the Mass-Radius Relation at 1.5 \rearth}
+We do an independent analysis for planets smaller than 1.5 \rearth, which are likely rocky, to investigate the possibility of a different relationship between the masses and radii of rocky exoplanets.  We choose 1.5\rearth\ because this is where the weighted mean exoplanet density crosses the Earth-composition density curve from \citet[][see Figure \ref{fig:rm_4}]{Seager2007}.  Exoplanets smaller than 1.5 \rearth\ mostly have mass uncertainties of order the planet mass, except for Kepler-10 b, Kepler-36 b, and Kepler-78 b.  Because the equation of state for rocky planets should not depend on the orbital period of the planet or incident flux on the planet, we can include the terrestrial solar system planets (Mercury, Venus, Earth, Mars) in a power law fit to the terrestrial planets.  We impose uncertainties of 10\% in their masses and 5\% in their radii so that the solar system planets will contribute to, but not dominate, the fit to the terrestrial planets.  For rocky planets, we expect little to no volatile envelope and low bulk compressibility.  Because of their slight compressibility, we can approximate the densities of a rocky planet as linearly increasing with planet radius (a first-order Taylor expansion of the equation of state for a rocky planet).  We find:
+\begin{equation}
+\rhopl = 2.62 + 3.19 \left(\frac{\rpl}{\rearth}\right) \gcc.
+\label{eqn:dr_lin_rocky}
+\end{equation}
+Transforming the predicted densities to masses via 
+\begin{equation}
+\frac{\mpl}{\mearth} = \left(\frac{\rhopl}{5.22 \gcc}\right) \left(\frac{\rpl}{\rearth}\right)^3
+\end{equation}
+and calculating the residuals with respect to the measured planet masses, we obtain reduced $\chi^2 = 1.3$, RMS$=$2.7 \mearth.
+
+For planets satisfying $1.5 \le \rpl/\rearth < 4$, we find:
+\begin{equation}
+\frac{\mpl}{\mearth} = 2.69 \left(\frac{\rpl}{\rearth}\right)^{0.93}
+\label{eqn:mr_plaw}
+\end{equation}
+with reduced $\chi^2=3.5$ and RMS=4.7 \mearth.  The large RMS (of order the planet mass) indicates significant compositional variety among the exoplanets containing volatiles.  The compositional variation at a given radius is likely due to slight differences in the size of the rocky core \citep{Lopez2013}
+
+The empirical mass-radius relations are summarized in Table \ref{tab:mr_relations}.
+
+\begin{deluxetable*}{llll}
+%\tabletypesize{\small}
+\tablewidth{0pt} 
+\tablecaption{Empirical Mass-Radius and Density-Radius Relations}
+\tablenum{2}
+\tablehead{\colhead{Planet Size} & \colhead{Equation} & \colhead{Reduced $\chi^2$} & \colhead{RMS}} 
+
+%% All data must appear between the \startdata and \enddata commands
+\startdata
+%$^{a}\rpl < 1.5 \rearth$ & $\frac{\mpl}{\mearth} = 1.08 \left(\frac{\rpl}{\rearth}\right)^{3.45}$  & 1.3 & 2.7 \mearth \\
+$^{a}\rpl < 1.5 \rearth$ &  ${\rhopl} = 2.62 + 3.19 \left(\frac{\rpl}{\rearth}\right) \gcc$ & 1.3 & 2.7 \mearth \\
+$1.5 \le \rpl/\rearth< 4$ &  $\frac{\mpl}{\mearth} = 2.69\left(\frac{\rpl}{\rearth}\right)^{0.93}$ & 6.2 & 4.3 \mearth \\
+%$1.5 \le \rpl/\rearth< 4$ &  ${\rhopl} = 13.78\left(\frac{\rpl}{\rearth}\right)^{-2.11} ~\gcc $& 2.6 & 2.7 \gcc \\
+\enddata
+\tablenotetext{a}{Including terrestrial solar system planets Mercury, Venus, Earth, and Mars.}
+%, \tablerefs{ref list},
+%% or \tablecomments{text} between the \enddata and 
+%% \end{deluxetable} commands
+
+%% No \tablecomments indicated
+
+%% No \tablerefs indicated
+\label{tab:mr_relations}
+
+\end{deluxetable*}
+
+%%%%%%%%%%%%% Discussion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Discussion}
+	
+\subsection{Interpretation of the Mass-Radius Relation}
+At 1.5\rearth, the weighted mean density is equal to the density of an Earth-composition planet determined from \citet{Seager2007}, indicating 1.5\rearth\ as a likely transition radius between rocky planets and sub-Neptunes.  Most of the planets smaller than 1.5 \rearth\ do not have mass detections better than 2$\sigma$; they provide little information on the expected masses of planets comparable to the size of Earth.  On the other hand, Kepler-36 b, Kepler-10 b, and Kepler-78 b provide significant mass measurements in this range.  However, these three exoplanets are barely sufficient to identify a two-parameter relation for exoplanets smaller than 1.5\rearth.  The inclusion of solar system planets helps identify a linear density-radius relation.  Below 1.5 \rearth, planet density increases with increasing radius due to the compression of solids.  Equation \ref{eqn:dr_lin_rocky} and the density-radius relation from \citet{Seager2007} are both consistent with this interpretation, but \ref{eqn:dr_lin_rocky} has advantages in that it (a) is empirical, and (b) passes closer to Earth, Venus, and Mars, which are known to be rich in silicon and magnesium (unlike Mercury, which is iron-rich).  More discoveries of rocky exoplanets are necessary to hone the density-radius relation below 1.5\rearth\ and examine scatter about the relation.
+
+For planets between 1.5 and 4 \rearth, density decreases with increasing planet radius.  The decrease in density must be due to an increasing fraction of volatiles, which we argue must be at least partially in the form of H/He envelopes.  The gentle rise in planet mass with increasing radius indicates a substantial change in volume (from 3.4 to 64 times the volume of Earth) for very little change in mass (from 4 to 10 Earth masses).  A water layer alone cannot explain this enormous change in volume for so little added mass; H/He gas must be present in increasing quantities with increasing planetary radius.  However, the moderate reduced $\chi^2$ (6.3) to the mass-radius relation between 1.5 and 4 \rearth\ indicates that measurement errors do not explain the variation in planet mass at a given radius.  Only a diversity of planet compositions explains the large scatter in planet mass.  Perhaps the diversity at a given radius results from different core masses among planets with similar volumes of volatile envelopes, and perhaps water layers between the rocky cores and gaseous envelopes help account for the diversity.
+
+
+\subsection{Previous Studies of the Mass-Radius Relation}
+\citet{Lissauer2011}, \citet{Enoch2012}, \citet{Kane2012}, and \citet{Weiss2013} suggest that the mass-radius relation is more like $\mpl \propto \rpl^2$ for small exoplanets.  However, these studies include Saturn or Saturn-like planets at the high-mass end of their ``small planet" populations.  Such planets are better described as part of the giant planet population and are not useful in determining an empirical mass-radius relation of predictive power for small exoplanets.  Excluding Saturn-like planets gives a near-linear mass-radius relation for small planets.
+
+In a study of planets with $\mpl < 20\mearth$, \citet{WL2013} find $\mpl/\mearth = 3 \rpl/\rearth$ in a sample of 22 pairs of planets that exhibit strong anti-correlated TTVs in the \textit{Kepler} data.  Our independent assessment of 65 exoplanets, 52 of which are not analyzed in \citet{WL2013}, is consistent with this result for planets larger than 1.5\rearth.  \citet{WL2013} note that a linear relation between planet mass and radius is dimensionally consistent with a constant escape velocity from the planet (i.e. $v_{\mathrm{esc}}^2 \sim \mpl/\rpl$).  The linear mass-radius relation might result from photo-evaporation of the atmospheres of small planets near their stars \citep{Lopez2012}.
+
+\subsection{Masses from TTVs are Lower than Masses from RVs}
+We have included planets with masses determined by the TTVs observed in a neighboring planet in Table \ref{tab:mrf}, Figure \ref{fig:rm_4}, and the mass-radius relations.  The TTV masses included in this work are the result of dynamical modeling that reproduces the observed TTV signatures in the Kepler light curve.  Planets with TTV-determined masses are marked with superscript $c$ in Table \ref{tab:mrf}.  In Figure \ref{fig:rm_4}, the TTV planets are shown as orange points; they are systematically less massive than the RV-discovered planets of the same radii (also see \citet{Jontof-Hutter2013}).  A T-test comparing the residual masses from the RVs to the TTVs results in a two-tailed P-value of 0.03, indicating the two samples, if drawn from the same distribution, would be this discrepant 3\% of the time.
+
+The systematic difference between the TTV and RV masses is unlikely to stem from a bias in the RVs.  Either the TTVs are systematically underestimating planet masses (possibly because other planets in the system damp the TTVs), or compact systems amenable to detection through TTVs have lower-density planets than non-compact systems \citep[e.g. the Kepler-11 system,][]{Lissauer2013}.  That \citet{WL2013} also find $\mpl/\mearth \approx 3 \left(\rpl/\rearth\right)$ suggests that the TTV masses might be reliably systematically lower.
+
+\subsection{Absence of Strong Correlations to Residuals}
+We investigate how the residual mass correlates with various orbital properties and physical properties of the star.  We adopt equation \ref{eqn:mr_plaw}, and the residual mass is the measured minus predicted planet mass at a given radius.  The quantities we correlate against are: planet orbital period, planet semi-major axis, the incident flux from the star on the planet, stellar mass, stellar radius, stellar surface gravity, stellar metallicity, stellar age, and stellar velocity times the sine of the stellar spin axis inclination (which are obtained through exoplanets.org or the papers cited in Table \ref{tab:mrf}).  In these data, the residual mass does not sternly correlate with any of these properties.
+
+We find possible evidence of a correlation between residual planet mass and stellar metallicity for planets smaller than 4\rearth.  The Pearson R-value of the correlation is 0.25, resulting in a probability of 7\% that the residual planet mass and stellar metallicity are not correlated, given the residual masses and metallicites.  However, given that we looked for correlations among 9 pairs of variables, the probability of finding a $93.6\%$ confidence correlation in any of the 9 trials due to random fluctuation is $1 - 0.936^9 = 0.45$, meaning there is only a 55\% chance that the apparent metallicity correlation is real.
