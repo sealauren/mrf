@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  29 JAN 2014 17:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  29 JAN 2014 21:21
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -519,99 +519,99 @@ LaTeX Warning: Float too large for page by 21.28316pt on input line 224.
 ble.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.285 \begin{deluxetable*}{llll}
+l.286 \begin{deluxetable*}{llll}
                                 
 Package epstopdf Info: Source file: <histograms.eps>
-(epstopdf)                    date: 2014-01-29 17:06:25
-(epstopdf)                    size: 56770 bytes
+(epstopdf)                    date: 2014-01-29 21:07:10
+(epstopdf)                    size: 56768 bytes
 (epstopdf)             Output file: <histograms-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-29 17:23:21
-(epstopdf)                    size: 22287 bytes
+(epstopdf)                    date: 2014-01-29 21:07:18
+(epstopdf)                    size: 22293 bytes
 (epstopdf)             Command: <epstopdf --outfile=histograms-eps-converted-to
 .pdf histograms.eps>
-(epstopdf)             \includegraphics on input line 326.
+(epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
 <histograms-eps-converted-to.pdf, id=501, 867.24pt x 433.62pt>
 File: histograms-eps-converted-to.pdf Graphic file (type pdf)
 
 <use histograms-eps-converted-to.pdf>
-Package pdftex.def Info: histograms-eps-converted-to.pdf used on input line 326
+Package pdftex.def Info: histograms-eps-converted-to.pdf used on input line 327
 .
 (pdftex.def)             Requested size: 505.89pt x 252.94879pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 
  []
 
 Package epstopdf Info: Source file: <mr_small.eps>
-(epstopdf)                    date: 2014-01-27 13:30:28
-(epstopdf)                    size: 152759 bytes
+(epstopdf)                    date: 2014-01-29 21:05:24
+(epstopdf)                    size: 152767 bytes
 (epstopdf)             Output file: <mr_small-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-29 16:27:08
-(epstopdf)                    size: 57437 bytes
+(epstopdf)                    date: 2014-01-29 21:05:43
+(epstopdf)                    size: 57587 bytes
 (epstopdf)             Command: <epstopdf --outfile=mr_small-eps-converted-to.p
 df mr_small.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
 <mr_small-eps-converted-to.pdf, id=502, 867.24pt x 433.62pt>
 File: mr_small-eps-converted-to.pdf Graphic file (type pdf)
 
 <use mr_small-eps-converted-to.pdf>
-Package pdftex.def Info: mr_small-eps-converted-to.pdf used on input line 333.
+Package pdftex.def Info: mr_small-eps-converted-to.pdf used on input line 334.
 (pdftex.def)             Requested size: 505.89pt x 252.94879pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 
  []
 
 Package epstopdf Info: Source file: <mr_resids.eps>
-(epstopdf)                    date: 2014-01-25 21:44:04
-(epstopdf)                    size: 339790 bytes
+(epstopdf)                    date: 2014-01-29 21:05:37
+(epstopdf)                    size: 339706 bytes
 (epstopdf)             Output file: <mr_resids-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-29 16:27:09
-(epstopdf)                    size: 144586 bytes
+(epstopdf)                    date: 2014-01-29 21:05:44
+(epstopdf)                    size: 144479 bytes
 (epstopdf)             Command: <epstopdf --outfile=mr_resids-eps-converted-to.
 pdf mr_resids.eps>
-(epstopdf)             \includegraphics on input line 341.
+(epstopdf)             \includegraphics on input line 342.
 Package epstopdf Info: Output file is already uptodate.
 <mr_resids-eps-converted-to.pdf, id=506, 867.24pt x 867.24pt>
 File: mr_resids-eps-converted-to.pdf Graphic file (type pdf)
 
 <use mr_resids-eps-converted-to.pdf>
-Package pdftex.def Info: mr_resids-eps-converted-to.pdf used on input line 341.
+Package pdftex.def Info: mr_resids-eps-converted-to.pdf used on input line 342.
 
 (pdftex.def)             Requested size: 505.89pt x 505.89758pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 
  []
 
 [5] [6 <./histograms-eps-converted-to.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 348.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 349.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 [7 <./mr_small-eps-converted-to.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 348.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 349.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -619,19 +619,19 @@ Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 [8 <./mr_resids-eps-converted-to.pdf>]
 No file small_mr_relation_apjl_v5.bbl.
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
  (./small_mr_relation_apjl_v5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 614.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 615.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
 Package rerunfilecheck Info: File `small_mr_relation_apjl_v5.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 87C6984AC3A5B03EC07B78617D1580B0;915.
  ) 
 Here is how much of TeX's memory you used:
- 8521 strings out of 493633
- 120129 string characters out of 3143378
+ 8522 strings out of 493633
+ 120140 string characters out of 3143378
  300204 words of memory out of 3000000
- 11633 multiletter control sequences out of 15000+200000
+ 11634 multiletter control sequences out of 15000+200000
  12882 words of font info for 53 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  42i,12n,28p,2600b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -661,7 +661,7 @@ ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2011/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on small_mr_relation_apjl_v5.pdf (9 pages, 539148 bytes).
+Output written on small_mr_relation_apjl_v5.pdf (9 pages, 539557 bytes).
 PDF statistics:
  812 PDF objects out of 1000 (max. 8388607)
  614 compressed objects within 7 object streams
