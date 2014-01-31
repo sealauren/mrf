@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  29 JAN 2014 21:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  31 JAN 2014 15:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -444,7 +444,110 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 65.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 65.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 65.
 
-(./small_mr_relation_apjl_v5.aux)
+(./small_mr_relation_apjl_v5.aux
+
+Package natbib Warning: Citation `Batalha2011' multiply defined.
+
+
+Package natbib Warning: Citation `Batalha2013' multiply defined.
+
+
+Package natbib Warning: Citation `Borucki2011' multiply defined.
+
+
+Package natbib Warning: Citation `Carter2011' multiply defined.
+
+
+Package natbib Warning: Citation `Carter2012' multiply defined.
+
+
+Package natbib Warning: Citation `Charbonneau2009' multiply defined.
+
+
+Package natbib Warning: Citation `Cochran2011' multiply defined.
+
+
+Package natbib Warning: Citation `Dragomir2013a' multiply defined.
+
+
+Package natbib Warning: Citation `Dragomir2013b' multiply defined.
+
+
+Package natbib Warning: Citation `Endl2012' multiply defined.
+
+
+Package natbib Warning: Citation `Enoch2012' multiply defined.
+
+
+Package natbib Warning: Citation `Gautier2012' multiply defined.
+
+
+Package natbib Warning: Citation `Gilliland2013' multiply defined.
+
+
+Package natbib Warning: Citation `Hatzes2011' multiply defined.
+
+
+Package natbib Warning: Citation `Howard2011' multiply defined.
+
+
+Package natbib Warning: Citation `Howard2013Nature' multiply defined.
+
+
+Package natbib Warning: Citation `Jontof-Hutter2013' multiply defined.
+
+
+Package natbib Warning: Citation `Kane2012' multiply defined.
+
+
+Package natbib Warning: Citation `Kipping2014' multiply defined.
+
+
+Package natbib Warning: Citation `Leger2009' multiply defined.
+
+
+Package natbib Warning: Citation `Lissauer2011' multiply defined.
+
+
+Package natbib Warning: Citation `Lissauer2013' multiply defined.
+
+
+Package natbib Warning: Citation `Lopez2013' multiply defined.
+
+
+Package natbib Warning: Citation `Lopez2012' multiply defined.
+
+
+Package natbib Warning: Citation `Marcy2014' multiply defined.
+
+
+Package natbib Warning: Citation `McArthur2004' multiply defined.
+
+
+Package natbib Warning: Citation `MortonJohnson2011' multiply defined.
+
+
+Package natbib Warning: Citation `Petigura2013a' multiply defined.
+
+
+Package natbib Warning: Citation `Queloz2009' multiply defined.
+
+
+Package natbib Warning: Citation `Sanchis-Ojeda2013' multiply defined.
+
+
+Package natbib Warning: Citation `Sanchis-Ojeda2012' multiply defined.
+
+
+Package natbib Warning: Citation `Seager2007' multiply defined.
+
+
+Package natbib Warning: Citation `Weiss2013' multiply defined.
+
+
+Package natbib Warning: Citation `WL2013' multiply defined.
+
+)
 \openout1 = `small_mr_relation_apjl_v5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -461,8 +564,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
-
-(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count132
 \scratchdimen=\dimen130
@@ -616,21 +718,28 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 344.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[8 <./mr_resids-eps-converted-to.pdf>]
-No file small_mr_relation_apjl_v5.bbl.
+[8 <./mr_resids-eps-converted-to.pdf>] (./small_mr_relation_apjl_v5.bbl)
+
+Package natbib Warning: There were multiply defined citations.
+
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 610.
- (./small_mr_relation_apjl_v5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 610.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 610.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 613.
+ (./small_mr_relation_apjl_v5.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 613.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 613.
 Package rerunfilecheck Info: File `small_mr_relation_apjl_v5.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 87C6984AC3A5B03EC07B78617D1580B0;915.
  ) 
 Here is how much of TeX's memory you used:
- 8522 strings out of 493633
- 120140 string characters out of 3143378
- 300162 words of memory out of 3000000
+ 8524 strings out of 493633
+ 120200 string characters out of 3143378
+ 300227 words of memory out of 3000000
  11634 multiletter control sequences out of 15000+200000
  12882 words of font info for 53 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -661,7 +770,7 @@ ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2011/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on small_mr_relation_apjl_v5.pdf (9 pages, 540206 bytes).
+Output written on small_mr_relation_apjl_v5.pdf (9 pages, 540283 bytes).
 PDF statistics:
  813 PDF objects out of 1000 (max. 8388607)
  615 compressed objects within 7 object streams

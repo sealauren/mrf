@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: small_mr_relation_apjl_v5.aux
+The style file: apj.bst
+Database file #1: small_mr_relation_apjl_v5Notes.bib
+Database file #2: exoplanet_papers.bib
+Repeated entry---line 5123 of file exoplanet_papers.bib
+ : @article{Petigura2013a
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5141 of file exoplanet_papers.bib
+ : @article{Sanchis-Ojeda2013
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Rogers2014"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 34 entries,
+            3010 wiz_defined-function locations,
+            868 strings with 26182 characters,
+and the built_in function-call counts, 25637 in all, are:
+= -- 1321
+> -- 3445
+< -- 4
++ -- 1141
+- -- 1196
+* -- 2908
+:= -- 5326
+add.period$ -- 34
+call.type$ -- 34
+change.case$ -- 207
+chr.to.int$ -- 33
+cite$ -- 34
+duplicate$ -- 642
+empty$ -- 881
+format.name$ -- 1235
+if$ -- 4602
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 34
+newline$ -- 106
+num.names$ -- 136
+pop$ -- 225
+preamble$ -- 1
+purify$ -- 207
+quote$ -- 0
+skip$ -- 502
+stack$ -- 0
+substring$ -- 622
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 306
+warning$ -- 0
+while$ -- 111
+width$ -- 0
+write$ -- 339
+(There were 2 error messages)
